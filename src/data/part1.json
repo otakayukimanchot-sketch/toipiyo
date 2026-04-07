@@ -1,0 +1,20 @@
+[
+  {
+    "id": "p1-1",
+    "part": 1,
+    "image": "https://picsum.photos/seed/toeic1/600/400",
+    "audioTexts": [
+      "A man is sitting at a desk.",
+      "A woman is standing by the window.",
+      "The office is empty.",
+      "They are having a meeting."
+    ],
+    "subQuestions": [
+      {
+        "id": "p1-1-q1",
+        "options": ["(A)", "(B)", "(C)", "(D)"],
+        "correctIndex": 0
+      }
+    ]
+  }
+]

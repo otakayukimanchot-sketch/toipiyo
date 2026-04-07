@@ -1,0 +1,33 @@
+[
+  {
+    "id": "p6-1",
+    "part": 6,
+    "text": "Dear Employees, We are excited to announce the launch of our new wellness program. This program is designed to help you maintain a healthy lifestyle. [1] _______, we will be offering free gym memberships. Please sign up by Friday if you are [2] _______. We hope many of you will [3] _______ this opportunity. [4] _______.",
+    "subQuestions": [
+      {
+        "id": "p6-1-q1",
+        "questionText": "[1]",
+        "options": ["However", "Furthermore", "Instead", "Consequently"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p6-1-q2",
+        "questionText": "[2]",
+        "options": ["interest", "interested", "interesting", "interestingly"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p6-1-q3",
+        "questionText": "[3]",
+        "options": ["take", "make", "give", "have"],
+        "correctIndex": 0
+      },
+      {
+        "id": "p6-1-q4",
+        "questionText": "[4]",
+        "options": ["Best regards", "Thank you", "Sincerely", "Welcome"],
+        "correctIndex": 0
+      }
+    ]
+  }
+]

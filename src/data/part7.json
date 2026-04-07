@@ -1,0 +1,21 @@
+[
+  {
+    "id": "p7-1",
+    "part": 7,
+    "text": "MEMORANDUM\nTo: All Staff\nFrom: Management\nDate: October 12\nSubject: Office Renovation\n\nPlease be advised that the third-floor office will be undergoing renovations starting next Monday. During this time, staff members usually working on the third floor will be relocated to the second-floor conference room. We expect the work to be completed by Friday. Thank you for your cooperation.",
+    "subQuestions": [
+      {
+        "id": "p7-1-q1",
+        "questionText": "What is the purpose of the memo?",
+        "options": ["To announce a holiday", "To inform about renovations", "To invite staff to a party", "To introduce a new manager"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p7-1-q2",
+        "questionText": "Where will the third-floor staff work next week?",
+        "options": ["At home", "In the lobby", "In the second-floor conference room", "In the cafeteria"],
+        "correctIndex": 2
+      }
+    ]
+  }
+]

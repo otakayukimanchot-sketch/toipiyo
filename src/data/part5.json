@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "p5-1",
+    "part": 5,
+    "text": "The new marketing strategy was _______ received by the board of directors.",
+    "subQuestions": [
+      {
+        "id": "p5-1-q1",
+        "options": ["warm", "warmly", "warmth", "warming"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-2",
+    "part": 5,
+    "text": "_______ the weather was bad, the event continued as planned.",
+    "subQuestions": [
+      {
+        "id": "p5-2-q1",
+        "options": ["Because", "Although", "Despite", "Due to"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-3",
+    "part": 5,
+    "text": "All employees are required to submit _______ timesheets by Friday.",
+    "subQuestions": [
+      {
+        "id": "p5-3-q1",
+        "options": ["they", "them", "their", "theirs"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-4",
+    "part": 5,
+    "text": "The new software is _______ more efficient than the previous version.",
+    "subQuestions": [
+      {
+        "id": "p5-4-q1",
+        "options": ["many", "much", "more", "most"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-5",
+    "part": 5,
+    "text": "Please send the report to Ms. Suzuki or _______ when you finish it.",
+    "subQuestions": [
+      {
+        "id": "p5-5-q1",
+        "options": ["I", "me", "my", "mine"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-6",
+    "part": 5,
+    "text": "The manager had the assistant _______ the documents before the meeting.",
+    "subQuestions": [
+      {
+        "id": "p5-6-q1",
+        "options": ["organize", "organized", "organizing", "to organize"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-7",
+    "part": 5,
+    "text": "Neither the CEO nor the board members _______ agreed on the proposal yet.",
+    "subQuestions": [
+      {
+        "id": "p5-7-q1",
+        "options": ["has", "have", "is", "are"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-8",
+    "part": 5,
+    "text": "The company's profits have increased _______ since the new product launched.",
+    "subQuestions": [
+      {
+        "id": "p5-8-q1",
+        "options": ["dramatic", "dramatically", "dramatize", "drama"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-9",
+    "part": 5,
+    "text": "The conference room is located _______ the third floor, next to the elevator.",
+    "subQuestions": [
+      {
+        "id": "p5-9-q1",
+        "options": ["in", "at", "on", "by"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-10",
+    "part": 5,
+    "text": "_______ you need any further assistance, please do not hesitate to contact us.",
+    "subQuestions": [
+      {
+        "id": "p5-10-q1",
+        "options": ["Should", "Would", "Could", "Might"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-11",
+    "part": 5,
+    "text": "The _______ of the new policy will take effect next month.",
+    "subQuestions": [
+      {
+        "id": "p5-11-q1",
+        "options": ["implement", "implementation", "implementing", "implemented"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-12",
+    "part": 5,
+    "text": "This is the manager _______ responsibility is to oversee the project.",
+    "subQuestions": [
+      {
+        "id": "p5-12-q1",
+        "options": ["who", "whom", "whose", "which"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-13",
+    "part": 5,
+    "text": "The proposal was _______ rejected by the committee after a long debate.",
+    "subQuestions": [
+      {
+        "id": "p5-13-q1",
+        "options": ["ultimate", "ultimately", "ultimatum", "ultimacy"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-14",
+    "part": 5,
+    "text": "The company provides its employees _______ free health insurance.",
+    "subQuestions": [
+      {
+        "id": "p5-14-q1",
+        "options": ["to", "for", "with", "by"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-15",
+    "part": 5,
+    "text": "By the time you arrive, the meeting _______ already started.",
+    "subQuestions": [
+      {
+        "id": "p5-15-q1",
+        "options": ["has", "have", "will have", "had"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-16",
+    "part": 5,
+    "text": "The customer found the service _______ and decided to complain.",
+    "subQuestions": [
+      {
+        "id": "p5-16-q1",
+        "options": ["unsatisfy", "unsatisfied", "unsatisfactory", "unsatisfyingly"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-17",
+    "part": 5,
+    "text": "Please note that all prices are subject to change without prior _______.",
+    "subQuestions": [
+      {
+        "id": "p5-17-q1",
+        "options": ["notify", "notified", "notification", "notifying"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-18",
+    "part": 5,
+    "text": "The new employee works _______ than anyone else in the department.",
+    "subQuestions": [
+      {
+        "id": "p5-18-q1",
+        "options": ["hard", "harder", "hardest", "hardly"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-19",
+    "part": 5,
+    "text": "_______ the budget cuts, the project was completed on time.",
+    "subQuestions": [
+      {
+        "id": "p5-19-q1",
+        "options": ["Despite", "Although", "Because", "Due to"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-20",
+    "part": 5,
+    "text": "The manager asked _______ to leave the meeting immediately.",
+    "subQuestions": [
+      {
+        "id": "p5-20-q1",
+        "options": ["he", "him", "his", "himself"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-21",
+    "part": 5,
+    "text": "This is the first time the company _______ such a high sales record.",
+    "subQuestions": [
+      {
+        "id": "p5-21-q1",
+        "options": ["achieve", "achieved", "has achieved", "was achieving"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-22",
+    "part": 5,
+    "text": "The _______ of the two proposals is more cost-effective.",
+    "subQuestions": [
+      {
+        "id": "p5-22-q1",
+        "options": ["late", "later", "latter", "latest"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-23",
+    "part": 5,
+    "text": "The staff was praised for _______ hard work during the holiday season.",
+    "subQuestions": [
+      {
+        "id": "p5-23-q1",
+        "options": ["they", "them", "their", "theirs"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-24",
+    "part": 5,
+    "text": "The new regulation will have a significant _______ on small businesses.",
+    "subQuestions": [
+      {
+        "id": "p5-24-q1",
+        "options": ["affect", "effect", "effective", "affection"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-25",
+    "part": 5,
+    "text": "The meeting was cancelled _______ the CEO was sick.",
+    "subQuestions": [
+      {
+        "id": "p5-25-q1",
+        "options": ["because of", "due to", "since", "despite"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-26",
+    "part": 5,
+    "text": "The company will _______ a new system for tracking inventory.",
+    "subQuestions": [
+      {
+        "id": "p5-26-q1",
+        "options": ["install", "installed", "installing", "installation"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-27",
+    "part": 5,
+    "text": "The report, along with the attached files, _______ been submitted.",
+    "subQuestions": [
+      {
+        "id": "p5-27-q1",
+        "options": ["has", "have", "is", "are"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-28",
+    "part": 5,
+    "text": "We are looking for someone _______ is fluent in both English and Japanese.",
+    "subQuestions": [
+      {
+        "id": "p5-28-q1",
+        "options": ["which", "whose", "who", "whom"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-29",
+    "part": 5,
+    "text": "The training session was _______ than expected.",
+    "subQuestions": [
+      {
+        "id": "p5-29-q1",
+        "options": ["long", "longer", "longest", "more long"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-30",
+    "part": 5,
+    "text": "Please reply _______ this email by the end of the day.",
+    "subQuestions": [
+      {
+        "id": "p5-30-q1",
+        "options": ["to", "for", "at", "on"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-31",
+    "part": 5,
+    "text": "The company's _______ strategy focuses on customer satisfaction.",
+    "subQuestions": [
+      {
+        "id": "p5-31-q1",
+        "options": ["compete", "competition", "competitive", "competitively"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-32",
+    "part": 5,
+    "text": "If I _______ you, I would accept the job offer.",
+    "subQuestions": [
+      {
+        "id": "p5-32-q1",
+        "options": ["am", "was", "were", "had been"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-33",
+    "part": 5,
+    "text": "The shipment was delayed _______ a strike at the port.",
+    "subQuestions": [
+      {
+        "id": "p5-33-q1",
+        "options": ["because", "due to", "although", "whereas"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-34",
+    "part": 5,
+    "text": "The new employee made a good _______ on her first day.",
+    "subQuestions": [
+      {
+        "id": "p5-34-q1",
+        "options": ["impress", "impressed", "impression", "impressive"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-35",
+    "part": 5,
+    "text": "The CEO herself _______ the award to the winning team.",
+    "subQuestions": [
+      {
+        "id": "p5-35-q1",
+        "options": ["present", "presented", "presenting", "presentation"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-36",
+    "part": 5,
+    "text": "You had better _______ your reservation before the deadline.",
+    "subQuestions": [
+      {
+        "id": "p5-36-q1",
+        "options": ["confirm", "confirmed", "to confirm", "confirming"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-37",
+    "part": 5,
+    "text": "The project is _______ complete; only a few tasks remain.",
+    "subQuestions": [
+      {
+        "id": "p5-37-q1",
+        "options": ["near", "nearly", "close", "closely"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-38",
+    "part": 5,
+    "text": "The office _______ we work is being renovated next week.",
+    "subQuestions": [
+      {
+        "id": "p5-38-q1",
+        "options": ["that", "which", "where", "when"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-39",
+    "part": 5,
+    "text": "The company offers a _______ salary and excellent benefits.",
+    "subQuestions": [
+      {
+        "id": "p5-39-q1",
+        "options": ["compete", "competed", "competitive", "competitively"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-40",
+    "part": 5,
+    "text": "Neither the manager nor his assistants _______ able to solve the issue.",
+    "subQuestions": [
+      {
+        "id": "p5-40-q1",
+        "options": ["was", "were", "is", "are"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-41",
+    "part": 5,
+    "text": "The software update will be installed _______ all company computers.",
+    "subQuestions": [
+      {
+        "id": "p5-41-q1",
+        "options": ["in", "on", "at", "for"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-42",
+    "part": 5,
+    "text": "The new policy applies to everyone, _______ their position in the company.",
+    "subQuestions": [
+      {
+        "id": "p5-42-q1",
+        "options": ["regardless of", "according to", "in spite", "due to"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-43",
+    "part": 5,
+    "text": "The employee was _______ for his 20 years of service.",
+    "subQuestions": [
+      {
+        "id": "p5-43-q1",
+        "options": ["recognize", "recognized", "recognizing", "recognition"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-44",
+    "part": 5,
+    "text": "The more you practice, _______ you will become.",
+    "subQuestions": [
+      {
+        "id": "p5-44-q1",
+        "options": ["better", "the better", "best", "the best"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-45",
+    "part": 5,
+    "text": "The board decided to postpone the decision _______ further notice.",
+    "subQuestions": [
+      {
+        "id": "p5-45-q1",
+        "options": ["until", "by", "since", "for"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-46",
+    "part": 5,
+    "text": "She is the candidate _______ we interviewed last week.",
+    "subQuestions": [
+      {
+        "id": "p5-46-q1",
+        "options": ["who", "which", "whom", "whose"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-47",
+    "part": 5,
+    "text": "The company's financial _______ have improved significantly.",
+    "subQuestions": [
+      {
+        "id": "p5-47-q1",
+        "options": ["perform", "performer", "performance", "performing"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-48",
+    "part": 5,
+    "text": "All flights have been cancelled _______ the heavy snow.",
+    "subQuestions": [
+      {
+        "id": "p5-48-q1",
+        "options": ["because", "due to", "so", "therefore"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-49",
+    "part": 5,
+    "text": "The manager prefers that each employee _______ a weekly report.",
+    "subQuestions": [
+      {
+        "id": "p5-49-q1",
+        "options": ["submits", "submit", "submitted", "submitting"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-50",
+    "part": 5,
+    "text": "The product was _______ expensive for most customers to afford.",
+    "subQuestions": [
+      {
+        "id": "p5-50-q1",
+        "options": ["so", "too", "very", "such"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-51",
+    "part": 5,
+    "text": "The committee members could not reach a _______ after two hours of debate.",
+    "subQuestions": [
+      {
+        "id": "p5-51-q1",
+        "options": ["decide", "decided", "decision", "decisive"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-52",
+    "part": 5,
+    "text": "Please make sure to _______ the documents before sending them.",
+    "subQuestions": [
+      {
+        "id": "p5-52-q1",
+        "options": ["double-check", "double-checked", "double-checking", "double-checks"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-53",
+    "part": 5,
+    "text": "The new office is _______ larger than the previous one.",
+    "subQuestions": [
+      {
+        "id": "p5-53-q1",
+        "options": ["consider", "considerable", "considerably", "consideration"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-54",
+    "part": 5,
+    "text": "The report must be submitted _______ Friday at the latest.",
+    "subQuestions": [
+      {
+        "id": "p5-54-q1",
+        "options": ["by", "until", "on", "in"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-55",
+    "part": 5,
+    "text": "_______ the high cost, many customers still bought the product.",
+    "subQuestions": [
+      {
+        "id": "p5-55-q1",
+        "options": ["Although", "Even though", "Despite", "Because of"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-56",
+    "part": 5,
+    "text": "The training program is designed to help employees improve _______ skills.",
+    "subQuestions": [
+      {
+        "id": "p5-56-q1",
+        "options": ["they", "them", "their", "themselves"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-57",
+    "part": 5,
+    "text": "The company has _______ a new policy regarding remote work.",
+    "subQuestions": [
+      {
+        "id": "p5-57-q1",
+        "options": ["adopt", "adopted", "adopting", "adoption"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-58",
+    "part": 5,
+    "text": "This is the most _______ solution to the problem we have found.",
+    "subQuestions": [
+      {
+        "id": "p5-58-q1",
+        "options": ["practice", "practical", "practically", "practiced"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-59",
+    "part": 5,
+    "text": "The manager was angry because the report was submitted _______.",
+    "subQuestions": [
+      {
+        "id": "p5-59-q1",
+        "options": ["late", "lately", "latent", "lateral"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-60",
+    "part": 5,
+    "text": "Each of the team members _______ responsible for their own tasks.",
+    "subQuestions": [
+      {
+        "id": "p5-60-q1",
+        "options": ["are", "is", "were", "be"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-61",
+    "part": 5,
+    "text": "The CEO will visit the factory, _______ is located in Osaka.",
+    "subQuestions": [
+      {
+        "id": "p5-61-q1",
+        "options": ["who", "whom", "which", "where"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-62",
+    "part": 5,
+    "text": "The price of raw materials has _______ sharply over the past year.",
+    "subQuestions": [
+      {
+        "id": "p5-62-q1",
+        "options": ["risen", "raised", "rose", "arisen"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-63",
+    "part": 5,
+    "text": "The new employee is still _______ training, so please be patient.",
+    "subQuestions": [
+      {
+        "id": "p5-63-q1",
+        "options": ["on", "in", "under", "for"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-64",
+    "part": 5,
+    "text": "The meeting will be held _______ 10:00 AM and noon.",
+    "subQuestions": [
+      {
+        "id": "p5-64-q1",
+        "options": ["among", "between", "during", "from"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-65",
+    "part": 5,
+    "text": "Please note that the office will be closed _______ the holidays.",
+    "subQuestions": [
+      {
+        "id": "p5-65-q1",
+        "options": ["throughout", "through", "although", "thought"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-66",
+    "part": 5,
+    "text": "The company is _______ looking for a new marketing director.",
+    "subQuestions": [
+      {
+        "id": "p5-66-q1",
+        "options": ["current", "currently", "currency", "currence"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-67",
+    "part": 5,
+    "text": "The employee worked overtime _______ finish the project on time.",
+    "subQuestions": [
+      {
+        "id": "p5-67-q1",
+        "options": ["so that", "in order to", "so as", "such that"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-68",
+    "part": 5,
+    "text": "The new software is compatible _______ all major operating systems.",
+    "subQuestions": [
+      {
+        "id": "p5-68-q1",
+        "options": ["to", "for", "with", "by"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-69",
+    "part": 5,
+    "text": "_______ the report was long, it was very informative.",
+    "subQuestions": [
+      {
+        "id": "p5-69-q1",
+        "options": ["Despite", "Although", "Because", "Due to"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-70",
+    "part": 5,
+    "text": "The new policy will have no _______ on our daily operations.",
+    "subQuestions": [
+      {
+        "id": "p5-70-q1",
+        "options": ["affect", "effect", "effective", "affective"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-71",
+    "part": 5,
+    "text": "The manager suggested that the team _______ the meeting until next week.",
+    "subQuestions": [
+      {
+        "id": "p5-71-q1",
+        "options": ["postpone", "postpones", "postponed", "postponing"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-72",
+    "part": 5,
+    "text": "The candidate's _______ was evident during the interview.",
+    "subQuestions": [
+      {
+        "id": "p5-72-q1",
+        "options": ["enthusiast", "enthusiastic", "enthusiasm", "enthusiastically"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-73",
+    "part": 5,
+    "text": "The project was completed _______ schedule, thanks to the team's hard work.",
+    "subQuestions": [
+      {
+        "id": "p5-73-q1",
+        "options": ["before", "ahead of", "in front of", "prior"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-74",
+    "part": 5,
+    "text": "The number of employees working from home _______ increased dramatically.",
+    "subQuestions": [
+      {
+        "id": "p5-74-q1",
+        "options": ["has", "have", "is", "are"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-75",
+    "part": 5,
+    "text": "The new assistant is very _______ and learns quickly.",
+    "subQuestions": [
+      {
+        "id": "p5-75-q1",
+        "options": ["intelligence", "intelligent", "intelligently", "intellect"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-76",
+    "part": 5,
+    "text": "Please send the document to _______ it concerns.",
+    "subQuestions": [
+      {
+        "id": "p5-76-q1",
+        "options": ["who", "whom", "whomever", "whoever"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-77",
+    "part": 5,
+    "text": "The company is committed to _______ its carbon footprint.",
+    "subQuestions": [
+      {
+        "id": "p5-77-q1",
+        "options": ["reduce", "reduced", "reducing", "reduction"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-78",
+    "part": 5,
+    "text": "The new CEO is different _______ the previous one in many ways.",
+    "subQuestions": [
+      {
+        "id": "p5-78-q1",
+        "options": ["than", "to", "from", "with"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-79",
+    "part": 5,
+    "text": "The team worked _______ to meet the deadline.",
+    "subQuestions": [
+      {
+        "id": "p5-79-q1",
+        "options": ["efficient", "efficiently", "efficiency", "efficacious"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-80",
+    "part": 5,
+    "text": "The customer demanded _______ speak to the manager.",
+    "subQuestions": [
+      {
+        "id": "p5-80-q1",
+        "options": ["to", "for", "that", "so"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-81",
+    "part": 5,
+    "text": "The merger had a positive _______ on both companies.",
+    "subQuestions": [
+      {
+        "id": "p5-81-q1",
+        "options": ["impact", "impaction", "impactive", "impacted"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-82",
+    "part": 5,
+    "text": "The new system is _______ superior to the old one.",
+    "subQuestions": [
+      {
+        "id": "p5-82-q1",
+        "options": ["far", "more", "most", "many"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-83",
+    "part": 5,
+    "text": "The manager insisted that the report _______ rewritten.",
+    "subQuestions": [
+      {
+        "id": "p5-83-q1",
+        "options": ["be", "is", "was", "being"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-84",
+    "part": 5,
+    "text": "The seminar will cover topics _______ from marketing to finance.",
+    "subQuestions": [
+      {
+        "id": "p5-84-q1",
+        "options": ["range", "ranged", "ranging", "ranges"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-85",
+    "part": 5,
+    "text": "All employees are expected to _______ by the company's code of conduct.",
+    "subQuestions": [
+      {
+        "id": "p5-85-q1",
+        "options": ["abide", "adhere", "comply", "follow"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-86",
+    "part": 5,
+    "text": "The candidate has _______ experience in project management.",
+    "subQuestions": [
+      {
+        "id": "p5-86-q1",
+        "options": ["extend", "extended", "extensive", "extension"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-87",
+    "part": 5,
+    "text": "The meeting was rescheduled _______ the conflict with another event.",
+    "subQuestions": [
+      {
+        "id": "p5-87-q1",
+        "options": ["because", "due to", "so", "therefore"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-88",
+    "part": 5,
+    "text": "Please feel free to contact _______ if you have any questions.",
+    "subQuestions": [
+      {
+        "id": "p5-88-q1",
+        "options": ["I", "me", "my", "myself"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-89",
+    "part": 5,
+    "text": "The company's _______ grew by 15% last quarter.",
+    "subQuestions": [
+      {
+        "id": "p5-89-q1",
+        "options": ["revenue", "revenu", "revenues", "revenue's"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-90",
+    "part": 5,
+    "text": "The new employee is still learning the ropes, so please be _______ with her.",
+    "subQuestions": [
+      {
+        "id": "p5-90-q1",
+        "options": ["patient", "patience", "impatient", "patiently"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-91",
+    "part": 5,
+    "text": "The report was _______ in three different sections.",
+    "subQuestions": [
+      {
+        "id": "p5-91-q1",
+        "options": ["organize", "organized", "organizing", "organization"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-92",
+    "part": 5,
+    "text": "The CEO will give a speech, after _______ there will be a Q&A session.",
+    "subQuestions": [
+      {
+        "id": "p5-92-q1",
+        "options": ["that", "which", "what", "whom"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-93",
+    "part": 5,
+    "text": "The company offers a wide _______ of products to choose from.",
+    "subQuestions": [
+      {
+        "id": "p5-93-q1",
+        "options": ["vary", "variety", "various", "variation"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-94",
+    "part": 5,
+    "text": "The new manager is known for her _______ attention to detail.",
+    "subQuestions": [
+      {
+        "id": "p5-94-q1",
+        "options": ["meticulous", "meticulously", "meticulousness", "meticulosity"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-95",
+    "part": 5,
+    "text": "The meeting will take place _______ the main conference room.",
+    "subQuestions": [
+      {
+        "id": "p5-95-q1",
+        "options": ["in", "on", "at", "by"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-96",
+    "part": 5,
+    "text": "The team _______ completed the project ahead of schedule.",
+    "subQuestions": [
+      {
+        "id": "p5-96-q1",
+        "options": ["has", "have", "is", "are"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-97",
+    "part": 5,
+    "text": "The new policy is _______ to both full-time and part-time employees.",
+    "subQuestions": [
+      {
+        "id": "p5-97-q1",
+        "options": ["apply", "applied", "applicable", "application"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-98",
+    "part": 5,
+    "text": "The employee was promoted _______ her exceptional performance.",
+    "subQuestions": [
+      {
+        "id": "p5-98-q1",
+        "options": ["because", "due to", "since", "for"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-99",
+    "part": 5,
+    "text": "Please note that all prices are _______ tax.",
+    "subQuestions": [
+      {
+        "id": "p5-99-q1",
+        "options": ["exclude", "excluded", "excluding", "exclusive"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-100",
+    "part": 5,
+    "text": "The manager asked the team to _______ the proposal by Friday.",
+    "subQuestions": [
+      {
+        "id": "p5-100-q1",
+        "options": ["final", "finalize", "finalized", "finalizing"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-101",
+    "part": 5,
+    "text": "The new software is _______ user-friendly than the old version.",
+    "subQuestions": [
+      {
+        "id": "p5-101-q1",
+        "options": ["many", "much", "more", "most"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-102",
+    "part": 5,
+    "text": "The employee was given a raise, _______ made her very happy.",
+    "subQuestions": [
+      {
+        "id": "p5-102-q1",
+        "options": ["that", "which", "who", "whom"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-103",
+    "part": 5,
+    "text": "The company will _______ a press conference next week.",
+    "subQuestions": [
+      {
+        "id": "p5-103-q1",
+        "options": ["hold", "held", "holding", "holds"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-104",
+    "part": 5,
+    "text": "The new policy is _______ to the old one in many respects.",
+    "subQuestions": [
+      {
+        "id": "p5-104-q1",
+        "options": ["similar", "similarly", "similarity", "simulate"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-105",
+    "part": 5,
+    "text": "The CEO insisted on _______ the meeting himself.",
+    "subQuestions": [
+      {
+        "id": "p5-105-q1",
+        "options": ["chair", "chaired", "chairing", "to chair"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-106",
+    "part": 5,
+    "text": "The project was cancelled due to a lack of _______.",
+    "subQuestions": [
+      {
+        "id": "p5-106-q1",
+        "options": ["fund", "funds", "funding", "fundamental"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-107",
+    "part": 5,
+    "text": "The employee worked _______ hard that she forgot to take a break.",
+    "subQuestions": [
+      {
+        "id": "p5-107-q1",
+        "options": ["so", "such", "very", "too"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-108",
+    "part": 5,
+    "text": "The new manager is _______ to the needs of her team.",
+    "subQuestions": [
+      {
+        "id": "p5-108-q1",
+        "options": ["attend", "attentive", "attention", "attending"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-109",
+    "part": 5,
+    "text": "The company's _______ report is published annually.",
+    "subQuestions": [
+      {
+        "id": "p5-109-q1",
+        "options": ["finance", "financial", "financially", "financier"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-110",
+    "part": 5,
+    "text": "The team leader, along with her members, _______ preparing the presentation.",
+    "subQuestions": [
+      {
+        "id": "p5-110-q1",
+        "options": ["is", "are", "were", "be"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-111",
+    "part": 5,
+    "text": "The new product has received _______ reviews from customers.",
+    "subQuestions": [
+      {
+        "id": "p5-111-q1",
+        "options": ["overwhelm", "overwhelmed", "overwhelming", "overwhelmingly"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-112",
+    "part": 5,
+    "text": "The meeting was _______ productive than we had anticipated.",
+    "subQuestions": [
+      {
+        "id": "p5-112-q1",
+        "options": ["less", "fewer", "little", "much"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-113",
+    "part": 5,
+    "text": "The employee was accused of _______ company funds.",
+    "subQuestions": [
+      {
+        "id": "p5-113-q1",
+        "options": ["misuse", "misusing", "misused", "misuses"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-114",
+    "part": 5,
+    "text": "The CEO will be _______ a speech at the annual conference.",
+    "subQuestions": [
+      {
+        "id": "p5-114-q1",
+        "options": ["do", "make", "give", "take"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-115",
+    "part": 5,
+    "text": "The new policy will be _______ starting April 1st.",
+    "subQuestions": [
+      {
+        "id": "p5-115-q1",
+        "options": ["effect", "effective", "effectively", "effectiveness"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-116",
+    "part": 5,
+    "text": "The company is looking for someone _______ can start immediately.",
+    "subQuestions": [
+      {
+        "id": "p5-116-q1",
+        "options": ["which", "whom", "who", "whose"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-117",
+    "part": 5,
+    "text": "The project was completed _______ the help of an external consultant.",
+    "subQuestions": [
+      {
+        "id": "p5-117-q1",
+        "options": ["by", "with", "through", "via"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-118",
+    "part": 5,
+    "text": "The employee's _______ to the company was recognized with an award.",
+    "subQuestions": [
+      {
+        "id": "p5-118-q1",
+        "options": ["dedicate", "dedicated", "dedication", "dedicating"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-119",
+    "part": 5,
+    "text": "The new software is _______ to install than the previous version.",
+    "subQuestions": [
+      {
+        "id": "p5-119-q1",
+        "options": ["easy", "easier", "easiest", "easily"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-120",
+    "part": 5,
+    "text": "Please submit your application _______ later than March 31st.",
+    "subQuestions": [
+      {
+        "id": "p5-120-q1",
+        "options": ["no", "not", "never", "none"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-121",
+    "part": 5,
+    "text": "The manager was impressed _______ the candidate's presentation skills.",
+    "subQuestions": [
+      {
+        "id": "p5-121-q1",
+        "options": ["by", "with", "for", "at"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-122",
+    "part": 5,
+    "text": "The company's _______ in the market has been steadily increasing.",
+    "subQuestions": [
+      {
+        "id": "p5-122-q1",
+        "options": ["present", "presence", "presentation", "presenting"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-123",
+    "part": 5,
+    "text": "The employee was _______ of stealing office supplies.",
+    "subQuestions": [
+      {
+        "id": "p5-123-q1",
+        "options": ["accuse", "accused", "accusing", "accusation"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-124",
+    "part": 5,
+    "text": "The new policy applies to _______ employee in the company.",
+    "subQuestions": [
+      {
+        "id": "p5-124-q1",
+        "options": ["each", "every", "all", "both"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-125",
+    "part": 5,
+    "text": "The meeting was postponed _______ the CEO was unavailable.",
+    "subQuestions": [
+      {
+        "id": "p5-125-q1",
+        "options": ["because", "because of", "due to", "thanks to"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-126",
+    "part": 5,
+    "text": "The new assistant is _______ to learn new things.",
+    "subQuestions": [
+      {
+        "id": "p5-126-q1",
+        "options": ["quick", "quickly", "quicken", "quickness"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-127",
+    "part": 5,
+    "text": "The company will _______ a new branch in Singapore next year.",
+    "subQuestions": [
+      {
+        "id": "p5-127-q1",
+        "options": ["open", "opened", "opening", "opens"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-128",
+    "part": 5,
+    "text": "The report was _______ by the marketing department.",
+    "subQuestions": [
+      {
+        "id": "p5-128-q1",
+        "options": ["prepare", "prepared", "preparing", "preparation"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-129",
+    "part": 5,
+    "text": "The new CEO is known for her _______ leadership style.",
+    "subQuestions": [
+      {
+        "id": "p5-129-q1",
+        "options": ["collaborate", "collaborated", "collaborative", "collaboration"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-130",
+    "part": 5,
+    "text": "The employee called in sick, _______ she was actually on vacation.",
+    "subQuestions": [
+      {
+        "id": "p5-130-q1",
+        "options": ["but", "so", "for", "or"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-131",
+    "part": 5,
+    "text": "The company's _______ have been declining for three quarters.",
+    "subQuestions": [
+      {
+        "id": "p5-131-q1",
+        "options": ["sell", "sold", "sales", "selling"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-132",
+    "part": 5,
+    "text": "The new system is designed to _______ efficiency and reduce costs.",
+    "subQuestions": [
+      {
+        "id": "p5-132-q1",
+        "options": ["increase", "increased", "increasing", "increases"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-133",
+    "part": 5,
+    "text": "The employee was _______ for her years of loyal service.",
+    "subQuestions": [
+      {
+        "id": "p5-133-q1",
+        "options": ["reward", "rewarded", "rewarding", "rewards"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-134",
+    "part": 5,
+    "text": "The meeting was so _______ that everyone fell asleep.",
+    "subQuestions": [
+      {
+        "id": "p5-134-q1",
+        "options": ["bore", "bored", "boring", "boredom"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-135",
+    "part": 5,
+    "text": "The new policy has a _______ impact on employee morale.",
+    "subQuestions": [
+      {
+        "id": "p5-135-q1",
+        "options": ["positive", "positively", "positivity", "positiveness"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-136",
+    "part": 5,
+    "text": "The company is _______ in the process of relocating its headquarters.",
+    "subQuestions": [
+      {
+        "id": "p5-136-q1",
+        "options": ["current", "currently", "currency", "curriculum"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-137",
+    "part": 5,
+    "text": "The employee was unable to attend the meeting _______ a family emergency.",
+    "subQuestions": [
+      {
+        "id": "p5-137-q1",
+        "options": ["because", "due to", "so", "therefore"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-138",
+    "part": 5,
+    "text": "The new software is _______ with our existing systems.",
+    "subQuestions": [
+      {
+        "id": "p5-138-q1",
+        "options": ["compatible", "compatibility", "compatibly", "incompatible"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-139",
+    "part": 5,
+    "text": "The CEO, together with the board members, _______ approved the budget.",
+    "subQuestions": [
+      {
+        "id": "p5-139-q1",
+        "options": ["has", "have", "are", "were"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-140",
+    "part": 5,
+    "text": "The company is looking for a candidate _______ has experience in international sales.",
+    "subQuestions": [
+      {
+        "id": "p5-140-q1",
+        "options": ["which", "whom", "who", "whose"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-141",
+    "part": 5,
+    "text": "The new policy will be implemented _______ a trial basis.",
+    "subQuestions": [
+      {
+        "id": "p5-141-q1",
+        "options": ["in", "on", "at", "for"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-142",
+    "part": 5,
+    "text": "The employee was _______ to finish the report by noon.",
+    "subQuestions": [
+      {
+        "id": "p5-142-q1",
+        "options": ["able", "ability", "enable", "unable"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-143",
+    "part": 5,
+    "text": "The new product is _______ than the previous model.",
+    "subQuestions": [
+      {
+        "id": "p5-143-q1",
+        "options": ["light", "lighter", "lightest", "lightly"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-144",
+    "part": 5,
+    "text": "Please make sure to _______ the attachments before sending the email.",
+    "subQuestions": [
+      {
+        "id": "p5-144-q1",
+        "options": ["include", "included", "including", "includes"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-145",
+    "part": 5,
+    "text": "The company's _______ has increased thanks to the new marketing strategy.",
+    "subQuestions": [
+      {
+        "id": "p5-145-q1",
+        "options": ["visible", "visibility", "visibly", "vision"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-146",
+    "part": 5,
+    "text": "The manager was _______ with the team's progress.",
+    "subQuestions": [
+      {
+        "id": "p5-146-q1",
+        "options": ["satisfy", "satisfied", "satisfying", "satisfaction"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-147",
+    "part": 5,
+    "text": "The new employee is still _______ probation for the first three months.",
+    "subQuestions": [
+      {
+        "id": "p5-147-q1",
+        "options": ["in", "on", "at", "under"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-148",
+    "part": 5,
+    "text": "The meeting will be held _______ the usual time and place.",
+    "subQuestions": [
+      {
+        "id": "p5-148-q1",
+        "options": ["at", "on", "in", "for"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-149",
+    "part": 5,
+    "text": "The CEO's resignation came as a _______ to everyone in the company.",
+    "subQuestions": [
+      {
+        "id": "p5-149-q1",
+        "options": ["shock", "shocked", "shocking", "shockingly"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-150",
+    "part": 5,
+    "text": "The company is committed to _______ a safe working environment.",
+    "subQuestions": [
+      {
+        "id": "p5-150-q1",
+        "options": ["provide", "provided", "providing", "provides"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-151",
+    "part": 5,
+    "text": "The new software is _______ faster than the old version.",
+    "subQuestions": [
+      {
+        "id": "p5-151-q1",
+        "options": ["consider", "considerable", "considerably", "consideration"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-152",
+    "part": 5,
+    "text": "The employee was asked to _______ the customer's complaint.",
+    "subQuestions": [
+      {
+        "id": "p5-152-q1",
+        "options": ["address", "addressed", "addressing", "addresses"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-153",
+    "part": 5,
+    "text": "The company's _______ are expected to grow by 10% this year.",
+    "subQuestions": [
+      {
+        "id": "p5-153-q1",
+        "options": ["earn", "earned", "earnings", "earning"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-154",
+    "part": 5,
+    "text": "The new policy has been met with _______ from some employees.",
+    "subQuestions": [
+      {
+        "id": "p5-154-q1",
+        "options": ["resist", "resisted", "resistance", "resistant"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-155",
+    "part": 5,
+    "text": "The manager suggested _______ the meeting until next week.",
+    "subQuestions": [
+      {
+        "id": "p5-155-q1",
+        "options": ["postpone", "postponed", "postponing", "to postpone"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-156",
+    "part": 5,
+    "text": "The employee was praised for _______ her work on time.",
+    "subQuestions": [
+      {
+        "id": "p5-156-q1",
+        "options": ["finish", "finished", "finishing", "finishes"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-157",
+    "part": 5,
+    "text": "The new product is _______ to be a huge success.",
+    "subQuestions": [
+      {
+        "id": "p5-157-q1",
+        "options": ["expect", "expected", "expecting", "expectation"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-158",
+    "part": 5,
+    "text": "The company is _______ for a new marketing director.",
+    "subQuestions": [
+      {
+        "id": "p5-158-q1",
+        "options": ["look", "looked", "looking", "looks"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-159",
+    "part": 5,
+    "text": "The employee was _______ to work from home twice a week.",
+    "subQuestions": [
+      {
+        "id": "p5-159-q1",
+        "options": ["allow", "allowed", "allowing", "allows"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-160",
+    "part": 5,
+    "text": "The new software is _______ with Windows 11.",
+    "subQuestions": [
+      {
+        "id": "p5-160-q1",
+        "options": ["compatible", "compatibility", "compatibly", "incompatible"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-161",
+    "part": 5,
+    "text": "The CEO will announce the new strategy _______ a press conference.",
+    "subQuestions": [
+      {
+        "id": "p5-161-q1",
+        "options": ["at", "in", "on", "by"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-162",
+    "part": 5,
+    "text": "The employee was _______ from work for three days due to illness.",
+    "subQuestions": [
+      {
+        "id": "p5-162-q1",
+        "options": ["absent", "absence", "absentee", "absently"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-163",
+    "part": 5,
+    "text": "The company's new policy is designed to _______ productivity.",
+    "subQuestions": [
+      {
+        "id": "p5-163-q1",
+        "options": ["maximize", "maximized", "maximizing", "maximization"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-164",
+    "part": 5,
+    "text": "The meeting was _______ due to the snowstorm.",
+    "subQuestions": [
+      {
+        "id": "p5-164-q1",
+        "options": ["cancel", "canceled", "canceling", "cancellation"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-165",
+    "part": 5,
+    "text": "The new employee is _______ to the company's culture.",
+    "subQuestions": [
+      {
+        "id": "p5-165-q1",
+        "options": ["adapt", "adapted", "adapting", "adaptation"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-166",
+    "part": 5,
+    "text": "The CEO's speech was _______ inspiring.",
+    "subQuestions": [
+      {
+        "id": "p5-166-q1",
+        "options": ["true", "truly", "truth", "trueness"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-167",
+    "part": 5,
+    "text": "The company will _______ a new product line next month.",
+    "subQuestions": [
+      {
+        "id": "p5-167-q1",
+        "options": ["launch", "launched", "launching", "launches"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-168",
+    "part": 5,
+    "text": "The employee was _______ for his honesty and integrity.",
+    "subQuestions": [
+      {
+        "id": "p5-168-q1",
+        "options": ["respect", "respected", "respecting", "respectful"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-169",
+    "part": 5,
+    "text": "The new policy is _______ to all employees, regardless of rank.",
+    "subQuestions": [
+      {
+        "id": "p5-169-q1",
+        "options": ["apply", "applied", "applicable", "application"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-170",
+    "part": 5,
+    "text": "The manager asked _______ everyone had finished their reports.",
+    "subQuestions": [
+      {
+        "id": "p5-170-q1",
+        "options": ["that", "if", "whether", "what"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-171",
+    "part": 5,
+    "text": "The company is _______ its operations to Asia.",
+    "subQuestions": [
+      {
+        "id": "p5-171-q1",
+        "options": ["expand", "expanded", "expanding", "expansion"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-172",
+    "part": 5,
+    "text": "The employee's _______ was evident in his work.",
+    "subQuestions": [
+      {
+        "id": "p5-172-q1",
+        "options": ["dedicate", "dedicated", "dedication", "dedicating"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-173",
+    "part": 5,
+    "text": "The new software is _______ to install.",
+    "subQuestions": [
+      {
+        "id": "p5-173-q1",
+        "options": ["easy", "easily", "ease", "easiness"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-174",
+    "part": 5,
+    "text": "The CEO will be _______ the meeting tomorrow.",
+    "subQuestions": [
+      {
+        "id": "p5-174-q1",
+        "options": ["attend", "attended", "attending", "attends"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-175",
+    "part": 5,
+    "text": "The company's _______ are listed on the website.",
+    "subQuestions": [
+      {
+        "id": "p5-175-q1",
+        "options": ["product", "products", "produce", "production"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-176",
+    "part": 5,
+    "text": "The employee was _______ for the promotion due to her performance.",
+    "subQuestions": [
+      {
+        "id": "p5-176-q1",
+        "options": ["consider", "considered", "considering", "consideration"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-177",
+    "part": 5,
+    "text": "The new policy will _______ effect on Monday.",
+    "subQuestions": [
+      {
+        "id": "p5-177-q1",
+        "options": ["take", "make", "do", "have"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-178",
+    "part": 5,
+    "text": "The manager was _______ about the team's progress.",
+    "subQuestions": [
+      {
+        "id": "p5-178-q1",
+        "options": ["optimism", "optimist", "optimistic", "optimistically"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-179",
+    "part": 5,
+    "text": "The company is _______ a new office in Tokyo.",
+    "subQuestions": [
+      {
+        "id": "p5-179-q1",
+        "options": ["open", "opened", "opening", "opens"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-180",
+    "part": 5,
+    "text": "The employee's _______ was unacceptable.",
+    "subQuestions": [
+      {
+        "id": "p5-180-q1",
+        "options": ["behave", "behaved", "behavior", "behaving"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-181",
+    "part": 5,
+    "text": "The new software is _______ than the old version.",
+    "subQuestions": [
+      {
+        "id": "p5-181-q1",
+        "options": ["reliable", "more reliable", "most reliable", "reliably"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-182",
+    "part": 5,
+    "text": "The CEO will _______ a decision by Friday.",
+    "subQuestions": [
+      {
+        "id": "p5-182-q1",
+        "options": ["make", "do", "take", "have"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-183",
+    "part": 5,
+    "text": "The employee was _______ to submit the report by Monday.",
+    "subQuestions": [
+      {
+        "id": "p5-183-q1",
+        "options": ["require", "required", "requiring", "requires"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-184",
+    "part": 5,
+    "text": "The new policy has been _______ implemented across all departments.",
+    "subQuestions": [
+      {
+        "id": "p5-184-q1",
+        "options": ["success", "successful", "successfully", "succeed"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-185",
+    "part": 5,
+    "text": "The company's _______ have increased for five consecutive quarters.",
+    "subQuestions": [
+      {
+        "id": "p5-185-q1",
+        "options": ["profit", "profits", "profitable", "profitability"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-186",
+    "part": 5,
+    "text": "The manager was _______ by the employee's attitude.",
+    "subQuestions": [
+      {
+        "id": "p5-186-q1",
+        "options": ["disappoint", "disappointed", "disappointing", "disappointment"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-187",
+    "part": 5,
+    "text": "The new employee is _______ to learn quickly.",
+    "subQuestions": [
+      {
+        "id": "p5-187-q1",
+        "options": ["ability", "able", "enable", "unable"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-188",
+    "part": 5,
+    "text": "The CEO will _______ a press conference tomorrow.",
+    "subQuestions": [
+      {
+        "id": "p5-188-q1",
+        "options": ["hold", "held", "holding", "holds"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-189",
+    "part": 5,
+    "text": "The company is _______ a new era of growth.",
+    "subQuestions": [
+      {
+        "id": "p5-189-q1",
+        "options": ["enter", "entered", "entering", "enters"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-190",
+    "part": 5,
+    "text": "The employee's _______ was recognized by management.",
+    "subQuestions": [
+      {
+        "id": "p5-190-q1",
+        "options": ["hard", "hardly", "hardness", "hard work"],
+        "correctIndex": 3
+      }
+    ]
+  },
+  {
+    "id": "p5-191",
+    "part": 5,
+    "text": "The new software is _______ with our current hardware.",
+    "subQuestions": [
+      {
+        "id": "p5-191-q1",
+        "options": ["compatible", "compatibility", "compatibly", "incompatible"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-192",
+    "part": 5,
+    "text": "The manager asked the team _______ the project by Friday.",
+    "subQuestions": [
+      {
+        "id": "p5-192-q1",
+        "options": ["complete", "completed", "to complete", "completing"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-193",
+    "part": 5,
+    "text": "The company's _______ has improved significantly.",
+    "subQuestions": [
+      {
+        "id": "p5-193-q1",
+        "options": ["moral", "morale", "mortal", "morsel"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-194",
+    "part": 5,
+    "text": "The employee was _______ for the position.",
+    "subQuestions": [
+      {
+        "id": "p5-194-q1",
+        "options": ["qualify", "qualified", "qualifying", "qualification"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-195",
+    "part": 5,
+    "text": "The new policy will be _______ next quarter.",
+    "subQuestions": [
+      {
+        "id": "p5-195-q1",
+        "options": ["introduce", "introduced", "introducing", "introduction"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-196",
+    "part": 5,
+    "text": "The CEO's _______ was well received by the audience.",
+    "subQuestions": [
+      {
+        "id": "p5-196-q1",
+        "options": ["present", "presented", "presentation", "presenting"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-197",
+    "part": 5,
+    "text": "The company is _______ to providing excellent customer service.",
+    "subQuestions": [
+      {
+        "id": "p5-197-q1",
+        "options": ["commit", "committed", "committing", "commitment"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-198",
+    "part": 5,
+    "text": "The employee was _______ to work overtime.",
+    "subQuestions": [
+      {
+        "id": "p5-198-q1",
+        "options": ["ask", "asked", "asking", "asks"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-199",
+    "part": 5,
+    "text": "The new software is _______ than we expected.",
+    "subQuestions": [
+      {
+        "id": "p5-199-q1",
+        "options": ["good", "better", "best", "well"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-200",
+    "part": 5,
+    "text": "The company will _______ the results of the survey next week.",
+    "subQuestions": [
+      {
+        "id": "p5-200-q1",
+        "options": ["release", "released", "releasing", "releases"],
+        "correctIndex": 0
+      }
+    ]
+  }
+]

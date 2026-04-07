@@ -1,0 +1,752 @@
+[
+  {
+    "id": "p4-1",
+    "part": 4,
+    "audioText": "Good morning. The museum will open at 10 a.m. today instead of 9 a.m. due to maintenance work. We apologize for any inconvenience. The café will open as usual at 9:30. Thank you for your understanding.",
+    "subQuestions": [
+      {
+        "id": "p4-1-q1",
+        "questionText": "Who is this announcement for?",
+        "options": ["Employees", "Visitors", "Drivers", "Students"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-1-q2",
+        "questionText": "What has changed?",
+        "options": ["Ticket price", "Opening time", "Location", "Guide schedule"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-1-q3",
+        "questionText": "Why is the change made?",
+        "options": ["Weather", "Maintenance", "Staff shortage", "Holiday"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-2",
+    "part": 4,
+    "audioText": "Attention passengers on flight 237 to Denver. The flight is delayed by 90 minutes due to severe weather. Please proceed to gate B12 for further updates. We will provide meal vouchers at the gate. Thank you for your patience.",
+    "subQuestions": [
+      {
+        "id": "p4-2-q1",
+        "questionText": "What is the purpose of this announcement?",
+        "options": ["To announce a gate change", "To announce a flight delay", "To announce boarding", "To announce a cancellation"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-2-q2",
+        "questionText": "Why is the flight delayed?",
+        "options": ["Mechanical issue", "Weather", "Crew delay", "Overbooking"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-2-q3",
+        "questionText": "What will be provided at the gate?",
+        "options": ["Blankets", "Meal vouchers", "Hotel rooms", "Headphones"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-3",
+    "part": 4,
+    "audioText": "You have reached the office of Dr. Sarah Chen. Our regular hours are Monday through Friday, 9 AM to 5 PM. If you have a medical emergency, please hang up and call 911. For appointments, press 1. For prescription refills, press 2. For billing, press 3. Thank you.",
+    "subQuestions": [
+      {
+        "id": "p4-3-q1",
+        "questionText": "What type of message is this?",
+        "options": ["A voicemail greeting", "A radio ad", "A museum announcement", "A weather report"],
+        "correctIndex": 0
+      },
+      {
+        "id": "p4-3-q2",
+        "questionText": "What should callers do in an emergency?",
+        "options": ["Press 1", "Press 2", "Call 911", "Wait for a representative"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-3-q3",
+        "questionText": "Which option is for appointments?",
+        "options": ["Press 1", "Press 2", "Press 3", "Press 4"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p4-4",
+    "part": 4,
+    "audioText": "And now for today's weather. Sunny in the morning, but clouds will move in by noon. High of 72 degrees. There's a 60% chance of rain this evening, so keep an umbrella handy. Winds will be light from the south at 5 to 10 miles per hour.",
+    "subQuestions": [
+      {
+        "id": "p4-4-q1",
+        "questionText": "Where would this talk most likely be heard?",
+        "options": ["At an airport", "On the radio", "In a museum", "At a train station"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-4-q2",
+        "questionText": "What is the expected high temperature?",
+        "options": ["68 degrees", "70 degrees", "72 degrees", "75 degrees"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-4-q3",
+        "questionText": "What does the speaker imply about the evening?",
+        "options": ["It will be sunny", "It will rain likely", "It will snow", "It will be windy"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-5",
+    "part": 4,
+    "audioText": "Welcome to the Riverdale Factory Tour. My name is Tom, and I'll be your guide today. Please stay with the group at all times. Safety glasses are required in the production area. The tour will last about 45 minutes. We'll begin in the packaging section. No photography is allowed. Thank you.",
+    "subQuestions": [
+      {
+        "id": "p4-5-q1",
+        "questionText": "Who is the speaker?",
+        "options": ["A factory worker", "A tour guide", "A security guard", "A manager"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-5-q2",
+        "questionText": "What is required in the production area?",
+        "options": ["Hard hats", "Safety glasses", "Gloves", "Earplugs"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-5-q3",
+        "questionText": "What is NOT allowed?",
+        "options": ["Talking", "Walking", "Photography", "Asking questions"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-6",
+    "part": 4,
+    "audioText": "Hi, this is Lisa from the front desk. Your dry cleaning has arrived. You can pick it up anytime before 8 PM today. The office is on the first floor, room 112. Please bring your claim ticket. If I'm not at the desk, just ring the bell. Thanks.",
+    "subQuestions": [
+      {
+        "id": "p4-6-q1",
+        "questionText": "Why is Lisa calling?",
+        "options": ["To remind about a meeting", "To inform about dry cleaning", "To reschedule an appointment", "To confirm a reservation"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-6-q2",
+        "questionText": "What does the listener need to bring?",
+        "options": ["ID", "Claim ticket", "Payment", "Receipt"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-6-q3",
+        "questionText": "What should the listener do if Lisa is not at the desk?",
+        "options": ["Come back later", "Ring the bell", "Call her phone", "Leave a note"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-7",
+    "part": 4,
+    "audioText": "Good afternoon, shoppers. The store will close in 15 minutes at 9 PM. Please bring your final purchases to the checkout counters. The pharmacy will remain open until 9:30 for prescription pickups only. Thank you for shopping with us, and have a good night.",
+    "subQuestions": [
+      {
+        "id": "p4-7-q1",
+        "questionText": "Where is this announcement heard?",
+        "options": ["In a library", "In a store", "In a bank", "In a hospital"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-7-q2",
+        "questionText": "When does the store close?",
+        "options": ["8:30 PM", "8:45 PM", "9:00 PM", "9:30 PM"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-7-q3",
+        "questionText": "What is stated about the pharmacy?",
+        "options": ["It closes at 9 PM", "It closes at 9:30 PM", "It is already closed", "It is open all night"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-8",
+    "part": 4,
+    "audioText": "Hello, this is a message for Mr. Johnson. Your car is ready for pickup at Green's Auto Repair. The total cost is $420 for the brake replacement. We're open until 6 PM today. Please bring your credit card or cash. Call us at 555-0199 if you have any questions.",
+    "subQuestions": [
+      {
+        "id": "p4-8-q1",
+        "questionText": "What is the purpose of this message?",
+        "options": ["To sell a car", "To inform that a car is ready", "To remind about an appointment", "To advertise a service"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-8-q2",
+        "questionText": "How much does Mr. Johnson owe?",
+        "options": ["$320", "$370", "$420", "$470"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-8-q3",
+        "questionText": "What is the deadline to pick up the car today?",
+        "options": ["4 PM", "5 PM", "6 PM", "7 PM"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-9",
+    "part": 4,
+    "audioText": "And now for local traffic. A crash on the I-95 northbound near exit 42 has blocked two lanes. Expect delays of at least 30 minutes. The southbound side is moving normally. Alternate route: take Route 1 to avoid the backup. This traffic update is brought to you by City Tires.",
+    "subQuestions": [
+      {
+        "id": "p4-9-q1",
+        "questionText": "What is being reported?",
+        "options": ["Weather", "Traffic conditions", "Flight delays", "Train schedules"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-9-q2",
+        "questionText": "What happened on I-95 northbound?",
+        "options": ["Construction", "A crash", "A power outage", "A parade"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-9-q3",
+        "questionText": "What alternate route is suggested?",
+        "options": ["Route 1", "Route 20", "Highway 101", "Local streets"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p4-10",
+    "part": 4,
+    "audioText": "Thank you for calling City Power. Your current estimated wait time is 8 minutes. Please have your account number ready. For payment options, press 1. To report an outage, press 2. For new service, press 3. You can also visit our website at citypower.com. Your call is important to us.",
+    "subQuestions": [
+      {
+        "id": "p4-10-q1",
+        "questionText": "What type of message is this?",
+        "options": ["A voicemail greeting", "An automated phone system", "A radio ad", "A safety announcement"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-10-q2",
+        "questionText": "How long is the estimated wait time?",
+        "options": ["5 minutes", "8 minutes", "10 minutes", "12 minutes"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-10-q3",
+        "questionText": "What should callers have ready?",
+        "options": ["Driver's license", "Account number", "Social security number", "Credit card"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-11",
+    "part": 4,
+    "audioText": "Hello everyone, and welcome to the annual staff meeting. I'm your HR director, Maria. First, I'd like to thank you all for your hard work this quarter. We'll start with the safety update, followed by the new vacation policy. Please turn off your phones. The meeting should end by 11:30.",
+    "subQuestions": [
+      {
+        "id": "p4-11-q1",
+        "questionText": "Who is the speaker?",
+        "options": ["The CEO", "The HR director", "A team leader", "An external consultant"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-11-q2",
+        "questionText": "What will be discussed first?",
+        "options": ["Vacation policy", "Safety update", "Quarterly results", "New hires"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-11-q3",
+        "questionText": "What are attendees asked to do?",
+        "options": ["Take notes", "Turn off phones", "Ask questions", "Sign attendance"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-12",
+    "part": 4,
+    "audioText": "Attention: Due to a water main break, the public library will be closed for the rest of the day. All items due today will be extended by three days. The book drop is still open for returns. We expect to reopen tomorrow at 10 AM. We apologize for the inconvenience.",
+    "subQuestions": [
+      {
+        "id": "p4-12-q1",
+        "questionText": "Why is the library closed?",
+        "options": ["Holiday", "Water main break", "Staff training", "Power outage"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-12-q2",
+        "questionText": "What happens to items due today?",
+        "options": ["They are overdue", "They are extended by 3 days", "They must be returned now", "They are free"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-12-q3",
+        "questionText": "When is the library expected to reopen?",
+        "options": ["Today at 5 PM", "Tomorrow at 9 AM", "Tomorrow at 10 AM", "In three days"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-13",
+    "part": 4,
+    "audioText": "Hi Mom, it's me. Just letting you know I landed safely. The flight was smooth. I'll be at the hotel in about an hour. I'll call you tomorrow morning. Love you, bye.",
+    "subQuestions": [
+      {
+        "id": "p4-13-q1",
+        "questionText": "What is the purpose of this message?",
+        "options": ["To ask for money", "To inform of safe arrival", "To cancel a trip", "To complain about a flight"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-13-q2",
+        "questionText": "Who is the message for?",
+        "options": ["A friend", "A coworker", "The speaker's mother", "A hotel clerk"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-13-q3",
+        "questionText": "What will the speaker do tomorrow morning?",
+        "options": ["Take a flight", "Call back", "Check out of hotel", "Go sightseeing"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-14",
+    "part": 4,
+    "audioText": "Are you tired of high electricity bills? Switch to SolarWave today. For a limited time, we're offering free installation for the first 100 customers. Save up to 40% on your monthly bill. Call 1-800-SOLAR now for a free quote. Don't wait – offer ends Friday.",
+    "subQuestions": [
+      {
+        "id": "p4-14-q1",
+        "questionText": "What is being advertised?",
+        "options": ["Electricity plans", "Solar panels", "Wind turbines", "Battery storage"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-14-q2",
+        "questionText": "What is the special offer?",
+        "options": ["20% discount", "Free installation", "One month free", "No contract"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-14-q3",
+        "questionText": "When does the offer end?",
+        "options": ["Monday", "Wednesday", "Friday", "Sunday"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-15",
+    "part": 4,
+    "audioText": "Good morning, students. This is a reminder that the final exam for Math 101 will be held in room 203 on Friday at 9 AM. You must bring a calculator and a photo ID. No cell phones are allowed. The exam is two hours long. Please arrive 10 minutes early.",
+    "subQuestions": [
+      {
+        "id": "p4-15-q1",
+        "questionText": "Who is the intended audience?",
+        "options": ["Teachers", "Students", "Parents", "Staff"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-15-q2",
+        "questionText": "What must students bring?",
+        "options": ["Textbook", "Calculator and ID", "Laptop", "Notebook"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-15-q3",
+        "questionText": "What time should students arrive?",
+        "options": ["8:50 AM", "9:00 AM", "9:10 AM", "9:20 AM"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p4-16",
+    "part": 4,
+    "audioText": "Attention: The 5:30 ferry to Oak Island has been canceled due to engine trouble. The next ferry will depart at 7:00 PM. Passengers with reservations will be automatically moved to the next sailing. Refunds are available at the ticket office. We apologize for the disruption.",
+    "subQuestions": [
+      {
+        "id": "p4-16-q1",
+        "questionText": "What is the problem?",
+        "options": ["Weather", "Engine trouble", "Crew shortage", "Overcrowding"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-16-q2",
+        "questionText": "What time is the next ferry?",
+        "options": ["6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-16-q3",
+        "questionText": "What can passengers get at the ticket office?",
+        "options": ["A meal voucher", "A refund", "A hotel room", "A discount"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-17",
+    "part": 4,
+    "audioText": "Hello, this is your captain speaking. We are now at cruising altitude of 35,000 feet. The weather in Los Angeles is sunny and 78 degrees. We expect to land in about two hours. Please remain seated with your seatbelt fastened. In-flight service will begin shortly.",
+    "subQuestions": [
+      {
+        "id": "p4-17-q1",
+        "questionText": "Where is this announcement made?",
+        "options": ["On a train", "On a plane", "On a bus", "On a ship"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-17-q2",
+        "questionText": "What is the weather in Los Angeles?",
+        "options": ["Rainy", "Sunny", "Cloudy", "Windy"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-17-q3",
+        "questionText": "How long until landing?",
+        "options": ["One hour", "Two hours", "Three hours", "Four hours"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-18",
+    "part": 4,
+    "audioText": "Hi, this is a reminder from Dr. Miller's office. Your appointment is tomorrow at 2:30 PM. Please arrive 15 minutes early to complete paperwork. If you need to cancel, please call us at least 24 hours in advance to avoid a cancellation fee. Thank you.",
+    "subQuestions": [
+      {
+        "id": "p4-18-q1",
+        "questionText": "What is the purpose of this call?",
+        "options": ["To confirm a sale", "To remind about an appointment", "To advertise a service", "To collect payment"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-18-q2",
+        "questionText": "What time is the appointment?",
+        "options": ["1:30 PM", "2:00 PM", "2:30 PM", "3:00 PM"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-18-q3",
+        "questionText": "What happens if the listener cancels late?",
+        "options": ["No penalty", "A cancellation fee", "Loss of appointment", "Higher copay"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-19",
+    "part": 4,
+    "audioText": "This is a safety announcement. In case of a fire alarm, please use the nearest exit. Do not use the elevators. Proceed to the assembly point in the north parking lot. Wait there for further instructions. Thank you for your cooperation.",
+    "subQuestions": [
+      {
+        "id": "p4-19-q1",
+        "questionText": "What is the topic of this announcement?",
+        "options": ["Weather warning", "Fire safety", "Power outage", "Medical emergency"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-19-q2",
+        "questionText": "What should people NOT use?",
+        "options": ["Stairs", "Exits", "Elevators", "Doors"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-19-q3",
+        "questionText": "Where is the assembly point?",
+        "options": ["South parking lot", "North parking lot", "East entrance", "West lobby"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-20",
+    "part": 4,
+    "audioText": "Now presenting the new X-Phone 12. It has a 48-megapixel camera and battery life of up to 48 hours. The screen is 20% brighter than the previous model. Pre-orders start next Monday. The price is $799. Get yours at any authorized retailer.",
+    "subQuestions": [
+      {
+        "id": "p4-20-q1",
+        "questionText": "What is being promoted?",
+        "options": ["A laptop", "A phone", "A tablet", "A camera"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-20-q2",
+        "questionText": "How long does the battery last?",
+        "options": ["24 hours", "36 hours", "48 hours", "60 hours"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-20-q3",
+        "questionText": "When can customers pre-order?",
+        "options": ["Today", "Next Monday", "Next Friday", "Already available"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-21",
+    "part": 4,
+    "audioText": "Good evening. This is the principal speaking. Due to the snowstorm, all schools in the district will be closed tomorrow. Please check our website for updates on after-school activities. Stay warm and safe. Classes will resume on Monday unless otherwise announced.",
+    "subQuestions": [
+      {
+        "id": "p4-21-q1",
+        "questionText": "Who is the speaker?",
+        "options": ["A teacher", "The principal", "A parent", "The mayor"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-21-q2",
+        "questionText": "Why are schools closed?",
+        "options": ["Holiday", "Snowstorm", "Power outage", "Strike"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-21-q3",
+        "questionText": "When will classes resume?",
+        "options": ["Tomorrow", "Friday", "Monday", "Next week"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-22",
+    "part": 4,
+    "audioText": "Welcome to the City Art Museum. The museum is open from 10 AM to 6 PM daily. Admission is $15 for adults, $10 for seniors, and free for children under 12. Today's special exhibition on modern sculpture is on the third floor. Audio guides are available at the front desk for $5.",
+    "subQuestions": [
+      {
+        "id": "p4-22-q1",
+        "questionText": "What is this talk?",
+        "options": ["A guided tour", "A welcome announcement", "A radio ad", "A lecture"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-22-q2",
+        "questionText": "How much is admission for seniors?",
+        "options": ["Free", "$5", "$10", "$15"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-22-q3",
+        "questionText": "Where is the modern sculpture exhibition?",
+        "options": ["First floor", "Second floor", "Third floor", "Basement"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-23",
+    "part": 4,
+    "audioText": "Your call has been forwarded to an automatic voice message system. 1-800-FLOWERS is not available at this time. Our regular business hours are 8 AM to 8 PM Monday through Saturday. Please call back during those hours or visit our website. Thank you.",
+    "subQuestions": [
+      {
+        "id": "p4-23-q1",
+        "questionText": "What does this message indicate?",
+        "options": ["The line is busy", "The business is closed", "The number is wrong", "The call is dropped"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-23-q2",
+        "questionText": "When is the business open?",
+        "options": ["8 AM - 8 PM Mon-Sat", "9 AM - 5 PM Mon-Fri", "24/7", "10 AM - 6 PM Sun-Fri"],
+        "correctIndex": 0
+      },
+      {
+        "id": "p4-23-q3",
+        "questionText": "What alternative does the message suggest?",
+        "options": ["Send an email", "Visit the website", "Call another number", "Leave a voicemail"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-24",
+    "part": 4,
+    "audioText": "Good morning, this is your train conductor. We are currently stopped due to a signal issue ahead. We expect a delay of about 15 minutes. We apologize for the inconvenience. Please remain seated. Once we move, we will update you on the arrival time at Union Station.",
+    "subQuestions": [
+      {
+        "id": "p4-24-q1",
+        "questionText": "Why is the train stopped?",
+        "options": ["Weather", "Signal issue", "Engine problem", "Police activity"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-24-q2",
+        "questionText": "How long is the expected delay?",
+        "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-24-q3",
+        "questionText": "What are passengers asked to do?",
+        "options": ["Get off the train", "Remain seated", "Move to another car", "Call customer service"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-25",
+    "part": 4,
+    "audioText": "Hi, this is Mike from accounting. I need the sales numbers for Q3 by 3 PM today. Please email them to me as a PDF. Also, don't forget to include the regional breakdown. If you have any questions, call my extension 4451. Thanks.",
+    "subQuestions": [
+      {
+        "id": "p4-25-q1",
+        "questionText": "What is the purpose of this voicemail?",
+        "options": ["To request sales numbers", "To cancel a meeting", "To announce a holiday", "To schedule an interview"],
+        "correctIndex": 0
+      },
+      {
+        "id": "p4-25-q2",
+        "questionText": "What is the deadline?",
+        "options": ["12 PM", "1 PM", "3 PM", "5 PM"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-25-q3",
+        "questionText": "What extension should be called?",
+        "options": ["4431", "4451", "4511", "4541"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-26",
+    "part": 4,
+    "audioText": "Attention, all employees. The parking lot will be repaved this weekend. Please move your cars to the overflow lot behind the building by 6 PM Friday. The main lot will reopen Monday at 7 AM. Thank you for your cooperation.",
+    "subQuestions": [
+      {
+        "id": "p4-26-q1",
+        "questionText": "What is happening this weekend?",
+        "options": ["A car sale", "Parking lot repaving", "A security check", "An employee event"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-26-q2",
+        "questionText": "Where should employees park instead?",
+        "options": ["Street parking", "Overflow lot", "Nearby garage", "Visitor lot"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-26-q3",
+        "questionText": "When will the main lot reopen?",
+        "options": ["Friday 6 PM", "Saturday morning", "Monday 7 AM", "Monday 5 PM"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-27",
+    "part": 4,
+    "audioText": "Welcome to the Grand Canyon helicopter tour. My name is Jake, and I'll be your pilot. Please keep your seatbelts fastened at all times. Headsets are provided for narration. The tour lasts 25 minutes. We'll fly over the South Rim first, then the North Rim. No smoking on board.",
+    "subQuestions": [
+      {
+        "id": "p4-27-q1",
+        "questionText": "What is the speaker's job?",
+        "options": ["Tour guide", "Pilot", "Bus driver", "Park ranger"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-27-q2",
+        "questionText": "How long is the tour?",
+        "options": ["15 minutes", "20 minutes", "25 minutes", "30 minutes"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-27-q3",
+        "questionText": "What is provided to passengers?",
+        "options": ["Snacks", "Headsets", "Blankets", "Cameras"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-28",
+    "part": 4,
+    "audioText": "This is a public service announcement. Due to the heatwave, a cooling center has been opened at the community center on 5th Street. It is open from 12 PM to 8 PM today and tomorrow. Water and snacks are available. Please check on elderly neighbors. Stay hydrated.",
+    "subQuestions": [
+      {
+        "id": "p4-28-q1",
+        "questionText": "Why was the cooling center opened?",
+        "options": ["Power outage", "Heatwave", "Flooding", "Snowstorm"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-28-q2",
+        "questionText": "Where is the cooling center?",
+        "options": ["City hall", "Community center", "Public library", "High school"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-28-q3",
+        "questionText": "What is available at the center?",
+        "options": ["Beds", "Water and snacks", "Medical care", "Entertainment"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-29",
+    "part": 4,
+    "audioText": "Hello, this is a courtesy call from your bank. There has been unusual activity on your account. Please call us immediately at 1-888-555-0199. Do not share your PIN with anyone. If this was you, no action is needed. Thank you for banking with us.",
+    "subQuestions": [
+      {
+        "id": "p4-29-q1",
+        "questionText": "Why is the bank calling?",
+        "options": ["To sell a product", "To report unusual activity", "To confirm a deposit", "To announce a rate change"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-29-q2",
+        "questionText": "What should the listener NOT do?",
+        "options": ["Call the bank", "Share PIN", "Check account online", "Ignore the call"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-29-q3",
+        "questionText": "What number should be called?",
+        "options": ["1-800-555-0199", "1-888-555-0199", "1-877-555-0199", "1-866-555-0199"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-30",
+    "part": 4,
+    "audioText": "And that's the latest sports news. The Tigers won 5-2 against the Eagles. Next, we'll have traffic on the 8s. Stay tuned for the weather update at the top of the hour. This is WNYC radio. Thanks for listening.",
+    "subQuestions": [
+      {
+        "id": "p4-30-q1",
+        "questionText": "What type of program is this?",
+        "options": ["Music show", "News radio", "Talk show", "Commercial"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-30-q2",
+        "questionText": "What was the final score of the Tigers game?",
+        "options": ["5-2", "5-3", "4-2", "4-3"],
+        "correctIndex": 0
+      },
+      {
+        "id": "p4-30-q3",
+        "questionText": "What will be announced next?",
+        "options": ["Weather", "Traffic", "Music", "Interviews"],
+        "correctIndex": 1
+      }
+    ]
+  }
+]
