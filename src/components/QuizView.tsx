@@ -270,10 +270,10 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
   if (phase === "result") {
     return (
       <div className="flex flex-col items-center justify-center min-h-[400px] p-6 text-center">
-        <h2 className={`text-4xl font-black mb-2 ${isCorrect ? "text-green-600" : "text-red-600"}`}>
+        <h2 className={`text-5xl font-black mb-2 font-cute ${isCorrect ? "text-green-600" : "text-red-600"}`}>
           {isCorrect ? "正解！" : "不正解..."}
         </h2>
-        <p className="text-gray-500 mb-6">
+        <p className="text-gray-500 mb-6 font-medium">
           {isCorrect ? "素晴らしい！その調子です。" : "残念。次は頑張りましょう。"}
         </p>
 

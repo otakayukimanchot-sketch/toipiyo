@@ -4,30 +4,549 @@
     "part": 6,
     "text": "Dear Employees, We are excited to announce the launch of our new wellness program. This program is designed to help you maintain a healthy lifestyle. [1] _______, we will be offering free gym memberships. Please sign up by Friday if you are [2] _______. We hope many of you will [3] _______ this opportunity. [4] _______.",
     "subQuestions": [
-      {
-        "id": "p6-1-q1",
-        "questionText": "[1]",
-        "options": ["However", "Furthermore", "Instead", "Consequently"],
-        "correctIndex": 1
-      },
-      {
-        "id": "p6-1-q2",
-        "questionText": "[2]",
-        "options": ["interest", "interested", "interesting", "interestingly"],
-        "correctIndex": 1
-      },
-      {
-        "id": "p6-1-q3",
-        "questionText": "[3]",
-        "options": ["take", "make", "give", "have"],
-        "correctIndex": 0
-      },
-      {
-        "id": "p6-1-q4",
-        "questionText": "[4]",
-        "options": ["Best regards", "Thank you", "Sincerely", "Welcome"],
-        "correctIndex": 0
-      }
+      { "id": "p6-1-q1", "questionText": "[1]", "options": ["However", "Furthermore", "Instead", "Consequently"], "correctIndex": 1 },
+      { "id": "p6-1-q2", "questionText": "[2]", "options": ["interest", "interested", "interesting", "interestingly"], "correctIndex": 1 },
+      { "id": "p6-1-q3", "questionText": "[3]", "options": ["take", "make", "give", "have"], "correctIndex": 0 },
+      { "id": "p6-1-q4", "questionText": "[4]", "options": ["Best regards", "Thank you", "Sincerely", "Welcome"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-2",
+    "part": 6,
+    "text": "To all staff: The meeting originally scheduled for Tuesday has been moved to Thursday at 2 PM. [1] _______, the location remains the same. Please [2] _______ your calendars accordingly. If you have any [3] _______, contact HR. We apologize for any [4] _______ this may cause.",
+    "subQuestions": [
+      { "id": "p6-2-q1", "questionText": "[1]", "options": ["Therefore", "However", "Moreover", "For example"], "correctIndex": 1 },
+      { "id": "p6-2-q2", "questionText": "[2]", "options": ["update", "updating", "updated", "updates"], "correctIndex": 0 },
+      { "id": "p6-2-q3", "questionText": "[3]", "options": ["questions", "answers", "solutions", "problems"], "correctIndex": 0 },
+      { "id": "p6-2-q4", "questionText": "[4]", "options": ["inconvenience", "convenience", "satisfaction", "benefit"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-3",
+    "part": 6,
+    "text": "Dear Mr. Johnson, We are writing to [1] _______ you about your recent order #A392. Unfortunately, the item you selected is currently out of stock. [2] _______, we expect to receive more by next Monday. Would you like to [3] _______ for the item or choose a replacement? Please let us know at your [4] _______ convenience.",
+    "subQuestions": [
+      { "id": "p6-3-q1", "questionText": "[1]", "options": ["inform", "informative", "information", "informs"], "correctIndex": 0 },
+      { "id": "p6-3-q2", "questionText": "[2]", "options": ["However", "Therefore", "Meanwhile", "Consequently"], "correctIndex": 0 },
+      { "id": "p6-3-q3", "questionText": "[3]", "options": ["wait", "expect", "hope", "wish"], "correctIndex": 0 },
+      { "id": "p6-3-q4", "questionText": "[4]", "options": ["earliest", "early", "earlier", "most early"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-4",
+    "part": 6,
+    "text": "How to assemble your new desk: First, [1] _______ all parts from the box. Second, attach the legs to the desktop using the included screws. [2] _______, tighten all screws firmly. Finally, [3] _______ that the desk is stable before use. For [4] _______ assistance, call our helpline.",
+    "subQuestions": [
+      { "id": "p6-4-q1", "questionText": "[1]", "options": ["remove", "removing", "removed", "removes"], "correctIndex": 0 },
+      { "id": "p6-4-q2", "questionText": "[2]", "options": ["Initially", "Next", "Finally", "Previously"], "correctIndex": 1 },
+      { "id": "p6-4-q3", "questionText": "[3]", "options": ["check", "checks", "checked", "checking"], "correctIndex": 0 },
+      { "id": "p6-4-q4", "questionText": "[4]", "options": ["further", "far", "farther", "farthest"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-5",
+    "part": 6,
+    "text": "Company Newsletter - March Issue. This month, we are proud to [1] _______ our new sustainability initiative. All departments are encouraged to participate. [2] _______, the marketing team has already reduced paper usage by 30%. Please [3] _______ the full report on the intranet. [4] _______ reading!",
+    "subQuestions": [
+      { "id": "p6-5-q1", "questionText": "[1]", "options": ["announce", "announces", "announced", "announcing"], "correctIndex": 0 },
+      { "id": "p6-5-q2", "questionText": "[2]", "options": ["For example", "In contrast", "As a result", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-5-q3", "questionText": "[3]", "options": ["find", "look", "search", "discover"], "correctIndex": 0 },
+      { "id": "p6-5-q4", "questionText": "[4]", "options": ["Thank you for", "Sorry for", "Please excuse", "Regret"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-6",
+    "part": 6,
+    "text": "Memo: From IT Department. A system update will occur on Friday at 10 PM. [1] _______, the network will be unavailable for approximately two hours. Please save your work [2] _______ the update begins. If you experience any issues [3] _______ the update, restart your computer. We [4] _______ for any disruption.",
+    "subQuestions": [
+      { "id": "p6-6-q1", "questionText": "[1]", "options": ["During this time", "In addition", "On the other hand", "For instance"], "correctIndex": 0 },
+      { "id": "p6-6-q2", "questionText": "[2]", "options": ["before", "after", "during", "while"], "correctIndex": 0 },
+      { "id": "p6-6-q3", "questionText": "[3]", "options": ["after", "before", "until", "since"], "correctIndex": 0 },
+      { "id": "p6-6-q4", "questionText": "[4]", "options": ["apologize", "thank", "appreciate", "welcome"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-7",
+    "part": 6,
+    "text": "Dear Customer, Your invoice #INV-2024-001 is now [1] _______. The total amount due is $450. Please make the payment by March 15th to [2] _______ late fees. You can pay online via credit card or bank transfer. [3] _______ you have already sent the payment, please disregard this notice. Thank you for your [4] _______ business.",
+    "subQuestions": [
+      { "id": "p6-7-q1", "questionText": "[1]", "options": ["available", "avail", "availability", "availing"], "correctIndex": 0 },
+      { "id": "p6-7-q2", "questionText": "[2]", "options": ["avoid", "evade", "escape", "ignore"], "correctIndex": 0 },
+      { "id": "p6-7-q3", "questionText": "[3]", "options": ["If", "Unless", "Although", "Because"], "correctIndex": 0 },
+      { "id": "p6-7-q4", "questionText": "[4]", "options": ["continued", "continuing", "continual", "continuous"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-8",
+    "part": 6,
+    "text": "FAQ: How do I reset my password? First, go to the login page and click 'Forgot password'. [1] _______, enter your registered email address. You will receive a [2] _______ link within five minutes. Click the link and create a new password. [3] _______ you don't receive the email, check your spam folder. For [4] _______ help, contact support.",
+    "subQuestions": [
+      { "id": "p6-8-q1", "questionText": "[1]", "options": ["Next", "However", "Therefore", "Meanwhile"], "correctIndex": 0 },
+      { "id": "p6-8-q2", "questionText": "[2]", "options": ["reset", "resetting", "resetful", "resets"], "correctIndex": 0 },
+      { "id": "p6-8-q3", "questionText": "[3]", "options": ["If", "Unless", "Whether", "Otherwise"], "correctIndex": 0 },
+      { "id": "p6-8-q4", "questionText": "[4]", "options": ["further", "far", "farther", "farthest"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-9",
+    "part": 6,
+    "text": "Press Release: ABC Corp. Announces New Partnership. ABC Corp. is pleased to [1] _______ a strategic partnership with XYZ Ltd. This collaboration will [2] _______ both companies to expand their market reach. [3] _______, the partnership will take effect on April 1st. We look forward to a [4] _______ relationship.",
+    "subQuestions": [
+      { "id": "p6-9-q1", "questionText": "[1]", "options": ["announce", "announces", "announced", "announcing"], "correctIndex": 0 },
+      { "id": "p6-9-q2", "questionText": "[2]", "options": ["enable", "able", "ability", "unable"], "correctIndex": 0 },
+      { "id": "p6-9-q3", "questionText": "[3]", "options": ["Officially", "Official", "Office", "Officer"], "correctIndex": 0 },
+      { "id": "p6-9-q4", "questionText": "[4]", "options": ["successful", "success", "succeed", "successfully"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-10",
+    "part": 6,
+    "text": "Notice: Parking Policy Update. Effective next month, parking permits will be [1] _______ for all employees. Please [2] _______ an application form from HR. The cost is $20 per month. [3] _______, you may use the public lot across the street. Failure to display a permit will [4] _______ in a fine.",
+    "subQuestions": [
+      { "id": "p6-10-q1", "questionText": "[1]", "options": ["required", "require", "requiring", "requirement"], "correctIndex": 0 },
+      { "id": "p6-10-q2", "questionText": "[2]", "options": ["obtain", "get", "receive", "take"], "correctIndex": 0 },
+      { "id": "p6-10-q3", "questionText": "[3]", "options": ["Alternatively", "Therefore", "However", "Moreover"], "correctIndex": 0 },
+      { "id": "p6-10-q4", "questionText": "[4]", "options": ["result", "cause", "lead", "make"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-11",
+    "part": 6,
+    "text": "Dear Team, I would like to [1] _______ everyone for their hard work on the recent project. Your dedication did not go [2] _______. As a token of appreciation, the company will [3] _______ a team lunch next Friday. Please let me know of any dietary [4] _______ by Wednesday.",
+    "subQuestions": [
+      { "id": "p6-11-q1", "questionText": "[1]", "options": ["thank", "thanks", "thankful", "thanking"], "correctIndex": 0 },
+      { "id": "p6-11-q2", "questionText": "[2]", "options": ["unnoticed", "unnoticing", "unnoticedly", "unnoticeable"], "correctIndex": 0 },
+      { "id": "p6-11-q3", "questionText": "[3]", "options": ["sponsor", "sponsors", "sponsored", "sponsoring"], "correctIndex": 0 },
+      { "id": "p6-11-q4", "questionText": "[4]", "options": ["restrictions", "restrict", "restricted", "restricting"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-12",
+    "part": 6,
+    "text": "Instructions for fire drill: When you hear the alarm, [1] _______ the building immediately. Do not use the elevators. [2] _______, proceed to the designated assembly point in the parking lot. Stay there until you receive [3] _______ instructions from safety personnel. Failure to [4] _______ may result in disciplinary action.",
+    "subQuestions": [
+      { "id": "p6-12-q1", "questionText": "[1]", "options": ["evacuate", "evacuating", "evacuated", "evacuates"], "correctIndex": 0 },
+      { "id": "p6-12-q2", "questionText": "[2]", "options": ["Once outside", "Therefore", "However", "For example"], "correctIndex": 0 },
+      { "id": "p6-12-q3", "questionText": "[3]", "options": ["further", "far", "farther", "farthest"], "correctIndex": 0 },
+      { "id": "p6-12-q4", "questionText": "[4]", "options": ["comply", "complying", "complied", "complies"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-13",
+    "part": 6,
+    "text": "To whom it may concern, I am writing to [1] _______ a refund for item #X202. The product arrived damaged despite the packaging being intact. [2] _______, I have attached photos for your reference. Please [3] _______ my request at your earliest convenience. I look forward to your [4] _______.",
+    "subQuestions": [
+      { "id": "p6-13-q1", "questionText": "[1]", "options": ["request", "requests", "requested", "requesting"], "correctIndex": 0 },
+      { "id": "p6-13-q2", "questionText": "[2]", "options": ["Attached", "Attach", "Attaching", "Attachment"], "correctIndex": 0 },
+      { "id": "p6-13-q3", "questionText": "[3]", "options": ["process", "proceed", "produce", "promote"], "correctIndex": 0 },
+      { "id": "p6-13-q4", "questionText": "[4]", "options": ["response", "respond", "responsible", "responsive"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-14",
+    "part": 6,
+    "text": "Product manual - Cleaning your device: Use a soft, dry cloth to wipe the screen. [1] _______, do not use any liquids or sprays. For stubborn [2] _______, slightly dampen the cloth with water only. Avoid getting moisture into any openings. [3] _______ these steps will help extend the life of your device. Thank you for choosing our [4] _______.",
+    "subQuestions": [
+      { "id": "p6-14-q1", "questionText": "[1]", "options": ["Important", "Importantly", "Importance", "Unimportant"], "correctIndex": 1 },
+      { "id": "p6-14-q2", "questionText": "[2]", "options": ["marks", "marks", "spots", "stains"], "correctIndex": 0 },
+      { "id": "p6-14-q3", "questionText": "[3]", "options": ["Following", "Follow", "Followed", "Follows"], "correctIndex": 0 },
+      { "id": "p6-14-q4", "questionText": "[4]", "options": ["product", "produce", "production", "productive"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-15",
+    "part": 6,
+    "text": "Internal memo: Office renovation update. Construction will begin on May 10th and is expected to [1] _______ two weeks. During this time, some areas will be [2] _______. Please use the temporary entrance on the north side. [3] _______, there may be some noise. We appreciate your [4] _______ during this period.",
+    "subQuestions": [
+      { "id": "p6-15-q1", "questionText": "[1]", "options": ["last", "continue", "remain", "stay"], "correctIndex": 0 },
+      { "id": "p6-15-q2", "questionText": "[2]", "options": ["inaccessible", "inaccess", "inaccessibly", "inaccessibility"], "correctIndex": 0 },
+      { "id": "p6-15-q3", "questionText": "[3]", "options": ["Additionally", "However", "Therefore", "Instead"], "correctIndex": 0 },
+      { "id": "p6-15-q4", "questionText": "[4]", "options": ["patience", "patient", "patiently", "patience's"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-16",
+    "part": 6,
+    "text": "News article: Local business wins award. GreenTech Solutions was [1] _______ the 'Eco-Friendly Business of the Year' award yesterday. The company has [2] _______ reduced its carbon emissions by 40% over the past two years. [3] _______, it has implemented a zero-waste policy. The CEO expressed [4] _______ for the recognition.",
+    "subQuestions": [
+      { "id": "p6-16-q1", "questionText": "[1]", "options": ["presented", "presenting", "presents", "present"], "correctIndex": 0 },
+      { "id": "p6-16-q2", "questionText": "[2]", "options": ["significantly", "significant", "significance", "signify"], "correctIndex": 0 },
+      { "id": "p6-16-q3", "questionText": "[3]", "options": ["In addition", "However", "On the other hand", "Consequently"], "correctIndex": 0 },
+      { "id": "p6-16-q4", "questionText": "[4]", "options": ["gratitude", "grateful", "gratefully", "gratefulness"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-17",
+    "part": 6,
+    "text": "Dear Resident, Your monthly rent payment is due by the 5th of each month. [1] _______, a late fee of $50 will be applied after the 10th. You can pay online through our tenant portal or by check at the leasing office. [2] _______, please include your unit number on the check. Thank you for your [3] _______ payment. For any questions, [4] _______ our office.",
+    "subQuestions": [
+      { "id": "p6-17-q1", "questionText": "[1]", "options": ["Otherwise", "Therefore", "Moreover", "However"], "correctIndex": 0 },
+      { "id": "p6-17-q2", "questionText": "[2]", "options": ["If paying by check", "If you pay online", "When using the portal", "After payment"], "correctIndex": 0 },
+      { "id": "p6-17-q3", "questionText": "[3]", "options": ["timely", "time", "timing", "timed"], "correctIndex": 0 },
+      { "id": "p6-17-q4", "questionText": "[4]", "options": ["contact", "contacts", "contacted", "contacting"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-18",
+    "part": 6,
+    "text": "How to apply for a passport: First, complete the application form online. [1] _______, gather the required documents, including proof of identity and citizenship. [2] _______, schedule an appointment at your local passport office. Bring all documents to your appointment. Processing [3] _______ 4-6 weeks. [4] _______ expedited service is available for an additional fee.",
+    "subQuestions": [
+      { "id": "p6-18-q1", "questionText": "[1]", "options": ["Next", "However", "Therefore", "Consequently"], "correctIndex": 0 },
+      { "id": "p6-18-q2", "questionText": "[2]", "options": ["After that", "Before that", "Despite that", "Because of that"], "correctIndex": 0 },
+      { "id": "p6-18-q3", "questionText": "[3]", "options": ["takes", "took", "taken", "taking"], "correctIndex": 0 },
+      { "id": "p6-18-q4", "questionText": "[4]", "options": ["Note that", "Notice that", "Notably", "Noted"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-19",
+    "part": 6,
+    "text": "Memo: New software rollout. Starting next week, all employees will [1] _______ to the new CRM system. Training sessions will be held on Monday and Tuesday. [2] _______, attendance is mandatory for all sales staff. The old system will remain [3] _______ for one month. Please [4] _______ any issues to the IT helpdesk.",
+    "subQuestions": [
+      { "id": "p6-19-q1", "questionText": "[1]", "options": ["migrate", "migrating", "migrated", "migrates"], "correctIndex": 0 },
+      { "id": "p6-19-q2", "questionText": "[2]", "options": ["Please note", "Please notice", "Please notify", "Please known"], "correctIndex": 0 },
+      { "id": "p6-19-q3", "questionText": "[3]", "options": ["accessible", "access", "accessing", "accessibly"], "correctIndex": 0 },
+      { "id": "p6-19-q4", "questionText": "[4]", "options": ["report", "reports", "reported", "reporting"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-20",
+    "part": 6,
+    "text": "Dear Valued Customer, We are writing to let you know about an upcoming [1] _______ to our loyalty program. Starting June 1st, you will earn double points on all purchases. [2] _______, we have added new rewards to the catalog. Your current points will not [3] _______. We thank you for your [4] _______ support.",
+    "subQuestions": [
+      { "id": "p6-20-q1", "questionText": "[1]", "options": ["enhancement", "enhance", "enhancing", "enhanced"], "correctIndex": 0 },
+      { "id": "p6-20-q2", "questionText": "[2]", "options": ["Additionally", "However", "Therefore", "Instead"], "correctIndex": 0 },
+      { "id": "p6-20-q3", "questionText": "[3]", "options": ["expire", "expires", "expired", "expiring"], "correctIndex": 0 },
+      { "id": "p6-20-q4", "questionText": "[4]", "options": ["continued", "continuing", "continual", "continuous"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-21",
+    "part": 6,
+    "text": "Notice: Holiday schedule. The office will be closed on July 4th in [1] _______ of Independence Day. Normal operations will resume on July 5th. [2] _______, any urgent matters can be directed to the on-call manager. Please plan your [3] _______ accordingly. Wishing everyone a safe and [4] _______ holiday.",
+    "subQuestions": [
+      { "id": "p6-21-q1", "questionText": "[1]", "options": ["observance", "observe", "observing", "observed"], "correctIndex": 0 },
+      { "id": "p6-21-q2", "questionText": "[2]", "options": ["During this time", "In addition", "On the other hand", "As a result"], "correctIndex": 0 },
+      { "id": "p6-21-q3", "questionText": "[3]", "options": ["submissions", "submission", "submitting", "submitted"], "correctIndex": 0 },
+      { "id": "p6-21-q4", "questionText": "[4]", "options": ["enjoyable", "enjoy", "enjoying", "enjoyment"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-22",
+    "part": 6,
+    "text": "Safety reminder: All employees must wear [1] _______ gear when entering the warehouse. This includes hard hats, safety glasses, and steel-toed boots. [2] _______, long sleeves are recommended. Anyone found [3] _______ without proper gear will be asked to leave. Your safety is our top [4] _______.",
+    "subQuestions": [
+      { "id": "p6-22-q1", "questionText": "[1]", "options": ["protective", "protect", "protecting", "protection"], "correctIndex": 0 },
+      { "id": "p6-22-q2", "questionText": "[2]", "options": ["Additionally", "However", "Therefore", "Instead"], "correctIndex": 0 },
+      { "id": "p6-22-q3", "questionText": "[3]", "options": ["walking", "walk", "walks", "walked"], "correctIndex": 0 },
+      { "id": "p6-22-q4", "questionText": "[4]", "options": ["priority", "prior", "prioritize", "prioritization"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-23",
+    "part": 6,
+    "text": "Dear Supplier, This letter serves as a [1] _______ of our purchase order #PO-789. Please confirm [2] _______ of the following items by Friday: 100 units of Model X and 50 units of Model Y. [3] _______, please provide an updated delivery schedule. We look forward to your [4] _______ confirmation.",
+    "subQuestions": [
+      { "id": "p6-23-q1", "questionText": "[1]", "options": ["reminder", "remind", "reminded", "reminding"], "correctIndex": 0 },
+      { "id": "p6-23-q2", "questionText": "[2]", "options": ["availability", "available", "avail", "availing"], "correctIndex": 0 },
+      { "id": "p6-23-q3", "questionText": "[3]", "options": ["Additionally", "However", "Therefore", "Instead"], "correctIndex": 0 },
+      { "id": "p6-23-q4", "questionText": "[4]", "options": ["prompt", "promptly", "promptness", "prompting"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-24",
+    "part": 6,
+    "text": "FAQ: What is your return policy? You may return [1] _______ items within 30 days of purchase. Items must be in original condition with all tags attached. [2] _______, clearance items are final sale and cannot be returned. To [3] _______ a return, visit our website or contact customer service. Refunds are [4] _______ within 5-7 business days.",
+    "subQuestions": [
+      { "id": "p6-24-q1", "questionText": "[1]", "options": ["unused", "unusing", "unusably", "unusability"], "correctIndex": 0 },
+      { "id": "p6-24-q2", "questionText": "[2]", "options": ["However", "Therefore", "Moreover", "Consequently"], "correctIndex": 0 },
+      { "id": "p6-24-q3", "questionText": "[3]", "options": ["initiate", "initiates", "initiated", "initiating"], "correctIndex": 0 },
+      { "id": "p6-24-q4", "questionText": "[4]", "options": ["processed", "processing", "processes", "process"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-25",
+    "part": 6,
+    "text": "Internal announcement: Promotion. We are delighted to [1] _______ that Sarah Lin has been promoted to Senior Manager. Sarah has been with the company for eight years and has consistently [2] _______ outstanding performance. [3] _______, she will be leading the new expansion project. Please join us in [4] _______ her.",
+    "subQuestions": [
+      { "id": "p6-25-q1", "questionText": "[1]", "options": ["announce", "announces", "announced", "announcing"], "correctIndex": 0 },
+      { "id": "p6-25-q2", "questionText": "[2]", "options": ["demonstrated", "demonstrates", "demonstrating", "demonstrate"], "correctIndex": 0 },
+      { "id": "p6-25-q3", "questionText": "[3]", "options": ["In her new role", "In her old role", "Despite her role", "Because of her role"], "correctIndex": 0 },
+      { "id": "p6-25-q4", "questionText": "[4]", "options": ["congratulating", "congratulate", "congratulated", "congratulation"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-26",
+    "part": 6,
+    "text": "Instructions for software installation: [1] _______, double-click the setup file. Second, follow the on-screen prompts to complete the installation. [2] _______, restart your computer. Finally, launch the program and [3] _______ your license key. If you encounter any errors, [4] _______ the troubleshooting guide.",
+    "subQuestions": [
+      { "id": "p6-26-q1", "questionText": "[1]", "options": ["First", "Firstly", "Primary", "Primarily"], "correctIndex": 0 },
+      { "id": "p6-26-q2", "questionText": "[2]", "options": ["After installation", "Before installation", "During installation", "Without installation"], "correctIndex": 0 },
+      { "id": "p6-26-q3", "questionText": "[3]", "options": ["enter", "enters", "entered", "entering"], "correctIndex": 0 },
+      { "id": "p6-26-q4", "questionText": "[4]", "options": ["consult", "consults", "consulted", "consulting"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-27",
+    "part": 6,
+    "text": "Dear Patient, This is a reminder of your upcoming appointment with Dr. Smith on March 20th at 10:30 AM. [1] _______, please arrive 15 minutes early to complete any necessary paperwork. If you need to [2] _______ or reschedule, please call us at least 24 hours in advance. [3] _______ a cancellation fee may apply. We look forward to [4] _______ you.",
+    "subQuestions": [
+      { "id": "p6-27-q1", "questionText": "[1]", "options": ["To ensure a smooth visit", "To make it difficult", "To avoid the visit", "To cancel the visit"], "correctIndex": 0 },
+      { "id": "p6-27-q2", "questionText": "[2]", "options": ["cancel", "cancels", "canceled", "canceling"], "correctIndex": 0 },
+      { "id": "p6-27-q3", "questionText": "[3]", "options": ["Otherwise", "Therefore", "Moreover", "However"], "correctIndex": 0 },
+      { "id": "p6-27-q4", "questionText": "[4]", "options": ["seeing", "see", "saw", "seen"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-28",
+    "part": 6,
+    "text": "Company policy update: Remote work policy. Effective immediately, employees may work remotely up to two days per week. [1] _______, approval from your direct supervisor is required. Remote work requests must be [2] _______ at least one day in advance. [3] _______, employees are expected to be available during core hours. Please [4] _______ the full policy on the intranet.",
+    "subQuestions": [
+      { "id": "p6-28-q1", "questionText": "[1]", "options": ["However", "Therefore", "Moreover", "Consequently"], "correctIndex": 0 },
+      { "id": "p6-28-q2", "questionText": "[2]", "options": ["submitted", "submitting", "submits", "submit"], "correctIndex": 0 },
+      { "id": "p6-28-q3", "questionText": "[3]", "options": ["Additionally", "However", "Otherwise", "Instead"], "correctIndex": 0 },
+      { "id": "p6-28-q4", "questionText": "[4]", "options": ["review", "reviews", "reviewed", "reviewing"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-29",
+    "part": 6,
+    "text": "Product launch invitation. You are invited to the launch of our latest smartphone, the X100. The event will take place on April 12th at 7 PM at the Grand Convention Center. [1] _______, there will be a live demo and a Q&A session with the developers. [2] _______ your attendance by April 5th. We look forward to [3] _______ you there. [4] _______ is free but required.",
+    "subQuestions": [
+      { "id": "p6-29-q1", "questionText": "[1]", "options": ["During the event", "Before the event", "After the event", "Instead of the event"], "correctIndex": 0 },
+      { "id": "p6-29-q2", "questionText": "[2]", "options": ["Confirm", "Confirms", "Confirmed", "Confirming"], "correctIndex": 0 },
+      { "id": "p6-29-q3", "questionText": "[3]", "options": ["seeing", "see", "saw", "seen"], "correctIndex": 0 },
+      { "id": "p6-29-q4", "questionText": "[4]", "options": ["Registration", "Register", "Registered", "Registering"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-30",
+    "part": 6,
+    "text": "Memo: Budget cuts. Due to a decrease in quarterly revenue, all departments are required to [1] _______ their expenses by 10%. [2] _______, non-essential travel and training have been suspended. Please [3] _______ your revised budgets by Friday. We understand this is [4] _______ and appreciate your cooperation.",
+    "subQuestions": [
+      { "id": "p6-30-q1", "questionText": "[1]", "options": ["reduce", "reduces", "reduced", "reducing"], "correctIndex": 0 },
+      { "id": "p6-30-q2", "questionText": "[2]", "options": ["Specifically", "However", "Therefore", "Moreover"], "correctIndex": 0 },
+      { "id": "p6-30-q3", "questionText": "[3]", "options": ["submit", "submits", "submitted", "submitting"], "correctIndex": 0 },
+      { "id": "p6-30-q4", "questionText": "[4]", "options": ["challenging", "challenge", "challenged", "challenges"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-31",
+    "part": 6,
+    "text": "Customer satisfaction survey. Thank you for choosing our service. We would [1] _______ appreciate it if you could take a few minutes to complete this survey. Your feedback helps us [2] _______. [3] _______, you will be entered into a drawing to win a $100 gift card. Please click the link below to [4] _______ the survey.",
+    "subQuestions": [
+      { "id": "p6-31-q1", "questionText": "[1]", "options": ["greatly", "great", "grateful", "gratitude"], "correctIndex": 0 },
+      { "id": "p6-31-q2", "questionText": "[2]", "options": ["improve", "improves", "improved", "improving"], "correctIndex": 0 },
+      { "id": "p6-31-q3", "questionText": "[3]", "options": ["As a thank you", "However", "Therefore", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-31-q4", "questionText": "[4]", "options": ["access", "accesses", "accessed", "accessing"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-32",
+    "part": 6,
+    "text": "Shipping confirmation. Your order #OR984 has been [1] _______. It is scheduled to arrive within 3-5 business days. You can track your package using the link [2] _______. [3] _______ there are any delays, we will notify you via email. Thank you for shopping with us. We hope you [4] _______ your purchase.",
+    "subQuestions": [
+      { "id": "p6-32-q1", "questionText": "[1]", "options": ["shipped", "ship", "ships", "shipping"], "correctIndex": 0 },
+      { "id": "p6-32-q2", "questionText": "[2]", "options": ["below", "above", "beside", "behind"], "correctIndex": 0 },
+      { "id": "p6-32-q3", "questionText": "[3]", "options": ["If", "Unless", "Whether", "Otherwise"], "correctIndex": 0 },
+      { "id": "p6-32-q4", "questionText": "[4]", "options": ["enjoy", "enjoys", "enjoyed", "enjoying"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-33",
+    "part": 6,
+    "text": "Notice: Building maintenance. On Saturday, March 25th, the water supply will be [1] _______ from 9 AM to 1 PM for scheduled maintenance. [2] _______, please store enough water for your needs. The restrooms will also be [3] _______ during this time. We apologize for the [4] _______.",
+    "subQuestions": [
+      { "id": "p6-33-q1", "questionText": "[1]", "options": ["interrupted", "interrupt", "interrupts", "interrupting"], "correctIndex": 0 },
+      { "id": "p6-33-q2", "questionText": "[2]", "options": ["Therefore", "However", "Moreover", "Instead"], "correctIndex": 0 },
+      { "id": "p6-33-q3", "questionText": "[3]", "options": ["unavailable", "unavail", "unavailing", "unavailably"], "correctIndex": 0 },
+      { "id": "p6-33-q4", "questionText": "[4]", "options": ["inconvenience", "convenience", "satisfaction", "benefit"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-34",
+    "part": 6,
+    "text": "Job posting: We are hiring! ABC Company is seeking a [1] _______ marketing specialist to join our team. The ideal candidate will have at least three years of experience and [2] _______ communication skills. [3] _______, proficiency in Spanish is a plus. To apply, please send your resume and cover letter to careers@abc.com. [4] _______ is March 31st.",
+    "subQuestions": [
+      { "id": "p6-34-q1", "questionText": "[1]", "options": ["qualified", "qualify", "qualifying", "qualification"], "correctIndex": 0 },
+      { "id": "p6-34-q2", "questionText": "[2]", "options": ["excellent", "excellently", "excellence", "excel"], "correctIndex": 0 },
+      { "id": "p6-34-q3", "questionText": "[3]", "options": ["Additionally", "However", "Therefore", "Consequently"], "correctIndex": 0 },
+      { "id": "p6-34-q4", "questionText": "[4]", "options": ["The deadline", "The date", "The time", "The period"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-35",
+    "part": 6,
+    "text": "Dear Tenant, This is a reminder that rent is due on the first of each month. [1] _______, a late fee of $75 will be added to your account if payment is not received by the 5th. You can pay online, by mail, or in person. [2] _______, please make checks payable to 'Main Street Properties'. Thank you for your [3] _______ payment. For questions, [4] _______ the leasing office.",
+    "subQuestions": [
+      { "id": "p6-35-q1", "questionText": "[1]", "options": ["Please be aware", "Please notice", "Please know", "Please inform"], "correctIndex": 0 },
+      { "id": "p6-35-q2", "questionText": "[2]", "options": ["If paying by check", "If paying online", "If paying in person", "If paying late"], "correctIndex": 0 },
+      { "id": "p6-35-q3", "questionText": "[3]", "options": ["prompt", "promptly", "promptness", "prompting"], "correctIndex": 0 },
+      { "id": "p6-35-q4", "questionText": "[4]", "options": ["contact", "contacts", "contacted", "contacting"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-36",
+    "part": 6,
+    "text": "Safety data sheet: Handling instructions. Always wear [1] _______ gloves when handling this chemical. In case of skin contact, wash immediately with plenty of water. [2] _______, remove any contaminated clothing. Store the container in a cool, [3] _______ place away from direct sunlight. Failure to follow these instructions may [4] _______ in injury.",
+    "subQuestions": [
+      { "id": "p6-36-q1", "questionText": "[1]", "options": ["protective", "protect", "protecting", "protection"], "correctIndex": 0 },
+      { "id": "p6-36-q2", "questionText": "[2]", "options": ["If contact occurs", "Before contact", "After washing", "During storage"], "correctIndex": 0 },
+      { "id": "p6-36-q3", "questionText": "[3]", "options": ["dry", "wet", "hot", "cold"], "correctIndex": 0 },
+      { "id": "p6-36-q4", "questionText": "[4]", "options": ["result", "cause", "lead", "make"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-37",
+    "part": 6,
+    "text": "Meeting minutes - March 5th. The meeting was called to order at 9 AM. The [1] _______ topic was the upcoming product launch. Sarah presented the marketing plan. [2] _______, it was decided to increase the advertising budget by 15%. The next meeting will be held on March 19th. [3] _______ were approved as written. Meeting [4] _______ at 10:30 AM.",
+    "subQuestions": [
+      { "id": "p6-37-q1", "questionText": "[1]", "options": ["main", "mainly", "major", "majority"], "correctIndex": 0 },
+      { "id": "p6-37-q2", "questionText": "[2]", "options": ["After discussion", "Before discussion", "Without discussion", "During discussion"], "correctIndex": 0 },
+      { "id": "p6-37-q3", "questionText": "[3]", "options": ["The minutes", "The notes", "The records", "The reports"], "correctIndex": 0 },
+      { "id": "p6-37-q4", "questionText": "[4]", "options": ["adjourned", "adjourns", "adjourning", "adjourn"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-38",
+    "part": 6,
+    "text": "Webpage: About Us. At Bright Future Inc., we are [1] _______ to providing high-quality educational resources. Founded in 2010, our company has grown to serve over one million users worldwide. [2] _______, we have won several industry awards for innovation. Our mission is to make learning [3] _______ for everyone. [4] _______ our team today!",
+    "subQuestions": [
+      { "id": "p6-38-q1", "questionText": "[1]", "options": ["dedicated", "dedicate", "dedicates", "dedicating"], "correctIndex": 0 },
+      { "id": "p6-38-q2", "questionText": "[2]", "options": ["To date", "To now", "To then", "To later"], "correctIndex": 0 },
+      { "id": "p6-38-q3", "questionText": "[3]", "options": ["accessible", "access", "accessing", "accessibly"], "correctIndex": 0 },
+      { "id": "p6-38-q4", "questionText": "[4]", "options": ["Join", "Joins", "Joined", "Joining"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-39",
+    "part": 6,
+    "text": "Dear Colleague, As you know, our annual charity drive will begin next week. [1] _______, we are collecting non-perishable food items and gently used clothing. Donations can be [2] _______ in the main lobby. [3] _______, there will be a bake sale on Friday. All proceeds go to the local food bank. Thank you for your [4] _______.",
+    "subQuestions": [
+      { "id": "p6-39-q1", "questionText": "[1]", "options": ["This year", "Next year", "Last year", "Every year"], "correctIndex": 0 },
+      { "id": "p6-39-q2", "questionText": "[2]", "options": ["dropped off", "dropping off", "drops off", "drop off"], "correctIndex": 0 },
+      { "id": "p6-39-q3", "questionText": "[3]", "options": ["Additionally", "However", "Therefore", "Instead"], "correctIndex": 0 },
+      { "id": "p6-39-q4", "questionText": "[4]", "options": ["generosity", "generous", "generously", "generousness"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-40",
+    "part": 6,
+    "text": "Terms and conditions: By using our service, you agree to the following terms. You may not [1] _______ our content for commercial purposes without permission. [2] _______, we reserve the right to terminate accounts that violate these rules. All [3] _______ are subject to change without notice. Please check this page [4] _______ for updates.",
+    "subQuestions": [
+      { "id": "p6-40-q1", "questionText": "[1]", "options": ["use", "uses", "used", "using"], "correctIndex": 0 },
+      { "id": "p6-40-q2", "questionText": "[2]", "options": ["Furthermore", "However", "Therefore", "Instead"], "correctIndex": 0 },
+      { "id": "p6-40-q3", "questionText": "[3]", "options": ["terms", "term", "terming", "termed"], "correctIndex": 0 },
+      { "id": "p6-40-q4", "questionText": "[4]", "options": ["regularly", "regular", "regulate", "regulation"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-41",
+    "part": 6,
+    "text": "Memo: New hire orientation. Please welcome our new employees who will be joining us on Monday. [1] _______, orientation will be held in Conference Room B at 9 AM. New hires should bring their identification documents. [2] _______, managers are requested to attend the welcome lunch at noon. [3] _______ any questions, contact HR. We are excited to have them [4] _______ the team.",
+    "subQuestions": [
+      { "id": "p6-41-q1", "questionText": "[1]", "options": ["On Monday morning", "On Monday afternoon", "On Tuesday morning", "On Friday morning"], "correctIndex": 0 },
+      { "id": "p6-41-q2", "questionText": "[2]", "options": ["Additionally", "However", "Therefore", "Instead"], "correctIndex": 0 },
+      { "id": "p6-41-q3", "questionText": "[3]", "options": ["If you have", "If you had", "If you will have", "If you would have"], "correctIndex": 0 },
+      { "id": "p6-41-q4", "questionText": "[4]", "options": ["on", "in", "at", "for"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-42",
+    "part": 6,
+    "text": "Dear Customer, Your subscription will automatically renew on May 1st. [1] _______, you wish to cancel, please do so at least 48 hours in advance. The renewal price remains $9.99 per month. [2] _______, we have added new features to your plan at no extra cost. You can manage your subscription [3] _______ your account settings. Thank you for being a [4] _______ customer.",
+    "subQuestions": [
+      { "id": "p6-42-q1", "questionText": "[1]", "options": ["If", "Unless", "Whether", "Otherwise"], "correctIndex": 0 },
+      { "id": "p6-42-q2", "questionText": "[2]", "options": ["Additionally", "However", "Therefore", "Instead"], "correctIndex": 0 },
+      { "id": "p6-42-q3", "questionText": "[3]", "options": ["through", "throughout", "thorough", "though"], "correctIndex": 0 },
+      { "id": "p6-42-q4", "questionText": "[4]", "options": ["valued", "value", "valuable", "valuation"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-43",
+    "part": 6,
+    "text": "Notice: Internet maintenance. On Sunday from 2 AM to 4 AM, the company network will be [1] _______ for scheduled maintenance. During this time, you will not be able to [2] _______ the internet or your email. [3] _______, please save all work before leaving on Friday. We apologize for any [4] _______.",
+    "subQuestions": [
+      { "id": "p6-43-q1", "questionText": "[1]", "options": ["offline", "online", "offline", "online"], "correctIndex": 0 },
+      { "id": "p6-43-q2", "questionText": "[2]", "options": ["access", "accesses", "accessed", "accessing"], "correctIndex": 0 },
+      { "id": "p6-43-q3", "questionText": "[3]", "options": ["Therefore", "However", "Moreover", "Instead"], "correctIndex": 0 },
+      { "id": "p6-43-q4", "questionText": "[4]", "options": ["inconvenience", "convenience", "satisfaction", "benefit"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-44",
+    "part": 6,
+    "text": "Event schedule: Annual Conference. 8:00 AM - Registration and coffee. 9:00 AM - Keynote speech by Dr. Lee. [1] _______, 10:30 AM - Breakout sessions. 12:00 PM - Lunch. 1:30 PM - Panel discussion. [2] _______, 3:00 PM - Networking reception. Please [3] _______ your badge at all times. We look forward to a [4] _______ event.",
+    "subQuestions": [
+      { "id": "p6-44-q1", "questionText": "[1]", "options": ["Following that", "Before that", "Instead of that", "During that"], "correctIndex": 0 },
+      { "id": "p6-44-q2", "questionText": "[2]", "options": ["Finally", "Initially", "Previously", "Meanwhile"], "correctIndex": 0 },
+      { "id": "p6-44-q3", "questionText": "[3]", "options": ["wear", "wears", "wore", "wearing"], "correctIndex": 0 },
+      { "id": "p6-44-q4", "questionText": "[4]", "options": ["successful", "success", "succeed", "successfully"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-45",
+    "part": 6,
+    "text": "Policy reminder: Attendance. Employees are expected to [1] _______ to work on time each day. If you are going to be late, please notify your supervisor as soon as possible. [2] _______, three or more unexcused latenesses in a month may result in disciplinary action. Please [3] _______ the employee handbook for full details. Thank you for your [4] _______.",
+    "subQuestions": [
+      { "id": "p6-45-q1", "questionText": "[1]", "options": ["report", "reports", "reported", "reporting"], "correctIndex": 0 },
+      { "id": "p6-45-q2", "questionText": "[2]", "options": ["Please note", "Please notice", "Please notify", "Please known"], "correctIndex": 0 },
+      { "id": "p6-45-q3", "questionText": "[3]", "options": ["consult", "consults", "consulted", "consulting"], "correctIndex": 0 },
+      { "id": "p6-45-q4", "questionText": "[4]", "options": ["cooperation", "cooperate", "cooperating", "cooperated"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-46",
+    "part": 6,
+    "text": "Dear Shareholder, We are pleased to invite you to our annual general meeting. The meeting will be held on June 10th at 2 PM at the Grand Hotel. [1] _______, we will present the annual report and vote on key proposals. [2] _______, please bring your shareholder ID for registration. If you cannot attend, you may [3] _______ your vote online. We look forward to your [4] _______.",
+    "subQuestions": [
+      { "id": "p6-46-q1", "questionText": "[1]", "options": ["During the meeting", "Before the meeting", "After the meeting", "Instead of the meeting"], "correctIndex": 0 },
+      { "id": "p6-46-q2", "questionText": "[2]", "options": ["Additionally", "However", "Therefore", "Instead"], "correctIndex": 0 },
+      { "id": "p6-46-q3", "questionText": "[3]", "options": ["cast", "casts", "casted", "casting"], "correctIndex": 0 },
+      { "id": "p6-46-q4", "questionText": "[4]", "options": ["participation", "participate", "participating", "participated"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-47",
+    "part": 6,
+    "text": "Instructions: How to file an expense report. First, download the expense report form from the intranet. [1] _______, fill in all required fields, including date, amount, and purpose. Attach all receipts. [2] _______, submit the completed form to your manager for approval. Once approved, send it to accounting. Reimbursements are [3] _______ within two weeks. [4] _______ retain a copy for your records.",
+    "subQuestions": [
+      { "id": "p6-47-q1", "questionText": "[1]", "options": ["Next", "However", "Therefore", "Meanwhile"], "correctIndex": 0 },
+      { "id": "p6-47-q2", "questionText": "[2]", "options": ["After that", "Before that", "During that", "Instead of that"], "correctIndex": 0 },
+      { "id": "p6-47-q3", "questionText": "[3]", "options": ["processed", "processing", "processes", "process"], "correctIndex": 0 },
+      { "id": "p6-47-q4", "questionText": "[4]", "options": ["Please", "Please to", "Please not", "Please do"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-48",
+    "part": 6,
+    "text": "Memo: Office closure. The office will be closed on Monday, May 29th in observance of Memorial Day. [1] _______, we will reopen on Tuesday, May 30th at 9 AM. Any urgent matters can be directed to the emergency line. [2] _______, please plan your deadlines accordingly. We wish everyone a [3] _______ holiday weekend. Thank you for your [4] _______.",
+    "subQuestions": [
+      { "id": "p6-48-q1", "questionText": "[1]", "options": ["Normal operations", "Normal operation", "Operate normally", "Normally operate"], "correctIndex": 0 },
+      { "id": "p6-48-q2", "questionText": "[2]", "options": ["Therefore", "However", "Moreover", "Instead"], "correctIndex": 0 },
+      { "id": "p6-48-q3", "questionText": "[3]", "options": ["safe and enjoyable", "safely and enjoyably", "safety and enjoyment", "safe and enjoy"], "correctIndex": 0 },
+      { "id": "p6-48-q4", "questionText": "[4]", "options": ["understanding", "understand", "understood", "understands"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-49",
+    "part": 6,
+    "text": "Webpage: Product support. Having trouble with your device? First, try [1] _______ your device by holding the power button for 10 seconds. If that doesn't work, check our online [2] _______ section for common solutions. [3] _______, you can contact our support team via live chat. Our hours are Monday-Friday, 9 AM to 6 PM. We are here to [4] _______.",
+    "subQuestions": [
+      { "id": "p6-49-q1", "questionText": "[1]", "options": ["restarting", "restart", "restarts", "restarted"], "correctIndex": 0 },
+      { "id": "p6-49-q2", "questionText": "[2]", "options": ["FAQ", "FAQ's", "FAQs", "FAQes"], "correctIndex": 0 },
+      { "id": "p6-49-q3", "questionText": "[3]", "options": ["Alternatively", "Therefore", "However", "Moreover"], "correctIndex": 0 },
+      { "id": "p6-49-q4", "questionText": "[4]", "options": ["help", "helps", "helped", "helping"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-50",
+    "part": 6,
+    "text": "Dear Team, I want to take a moment to [1] _______ everyone for their exceptional work this quarter. Our results have exceeded all targets. [2] _______, we have decided to give every employee a bonus. Details will be shared by Friday. [3] _______, please join me in congratulating the sales team for their outstanding performance. Keep up the [4] _______ work!",
+    "subQuestions": [
+      { "id": "p6-50-q1", "questionText": "[1]", "options": ["thank", "thanks", "thankful", "thanking"], "correctIndex": 0 },
+      { "id": "p6-50-q2", "questionText": "[2]", "options": ["As a result", "However", "Moreover", "Instead"], "correctIndex": 0 },
+      { "id": "p6-50-q3", "questionText": "[3]", "options": ["Finally", "Initially", "Previously", "Meanwhile"], "correctIndex": 0 },
+      { "id": "p6-50-q4", "questionText": "[4]", "options": ["great", "greatly", "greatness", "greater"], "correctIndex": 0 }
     ]
   }
 ]

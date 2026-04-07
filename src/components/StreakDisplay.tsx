@@ -18,7 +18,7 @@ const StreakDisplay: React.FC<StreakDisplayProps> = ({ streak }) => {
       />
       <div className="mt-1 text-center">
         <span className="text-2xl font-bold text-gray-800">{streak}</span>
-        <span className="ml-1 text-sm text-gray-500">days streak</span>
+        <span className="ml-1 text-sm text-gray-500">{streak === 1 ? "day" : "days"}</span>
       </div>
     </div>
   );

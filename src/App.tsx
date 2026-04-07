@@ -95,12 +95,19 @@ export default function App() {
           <div className="w-20 h-20 bg-blue-500 rounded-3xl flex items-center justify-center shadow-2xl mb-4">
             <Bird className="text-white w-12 h-12" />
           </div>
-          <h1 className="text-4xl font-black tracking-tight text-blue-600 font-cute">といぴよ</h1>
+          <h1 className="text-5xl font-black tracking-tight text-blue-600 font-cute drop-shadow-sm">
+            といぴよ
+          </h1>
         </motion.div>
-        <div className="flex items-center space-x-2 text-blue-400">
-          <Loader2 className="w-6 h-6 animate-spin" />
-          <span className="text-sm font-bold tracking-widest uppercase">Loading</span>
-        </div>
+        <motion.div 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
+          className="flex flex-col items-center space-y-2"
+        >
+          <Loader2 className="w-8 h-8 text-blue-400 animate-spin" />
+          <span className="text-xs font-bold tracking-[0.2em] text-blue-300 uppercase">Loading</span>
+        </motion.div>
       </div>
     );
   }

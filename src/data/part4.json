@@ -748,5 +748,930 @@
         "correctIndex": 1
       }
     ]
+  },
+  {
+    "id": "p4-31",
+    "part": 4,
+    "audioText": "Good afternoon, shoppers. We have a special promotion on all frozen foods today. Buy one, get one free. This offer is valid until 8 PM. Also, don't forget to use your loyalty card to earn double points. Thank you for shopping at FreshMart.",
+    "subQuestions": [
+      {
+        "id": "p4-31-q1",
+        "questionText": "What is being promoted?",
+        "options": ["Fresh produce", "Frozen foods", "Dairy products", "Bakery items"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-31-q2",
+        "questionText": "What is the special offer?",
+        "options": ["20% off", "Buy one get one free", "Free delivery", "Double points only"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-31-q3",
+        "questionText": "Until what time is the offer valid?",
+        "options": ["6 PM", "7 PM", "8 PM", "9 PM"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-32",
+    "part": 4,
+    "audioText": "Hello, this is your captain speaking. We are experiencing some turbulence. Please return to your seats and fasten your seatbelts. The flight attendants will suspend beverage service until further notice. We expect smooth air in about 20 minutes. Thank you for your cooperation.",
+    "subQuestions": [
+      {
+        "id": "p4-32-q1",
+        "questionText": "What is happening on the flight?",
+        "options": ["Engine trouble", "Turbulence", "Medical emergency", "Delay"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-32-q2",
+        "questionText": "What are passengers asked to do?",
+        "options": ["Move to back", "Fasten seatbelts", "Open window shades", "Turn off phones"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-32-q3",
+        "questionText": "How long until conditions improve?",
+        "options": ["10 minutes", "15 minutes", "20 minutes", "30 minutes"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-33",
+    "part": 4,
+    "audioText": "You have reached the voicemail of John Martinez. I am currently away from my desk. Please leave your name, phone number, and a brief message. I will return your call as soon as possible. If this is urgent, please hang up and dial my mobile phone. Thank you.",
+    "subQuestions": [
+      {
+        "id": "p4-33-q1",
+        "questionText": "What is this message?",
+        "options": ["An automated system", "A voicemail greeting", "A company announcement", "A sales pitch"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-33-q2",
+        "questionText": "What should callers leave?",
+        "options": ["Email address", "Name and phone number", "Account number", "Call back time"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-33-q3",
+        "questionText": "What should callers do for urgent matters?",
+        "options": ["Call his mobile", "Call the office", "Send an email", "Call back later"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p4-34",
+    "part": 4,
+    "audioText": "Attention: The 6:30 showing of 'Midnight Sky' has been canceled due to technical issues. Ticket holders can exchange their tickets for the 8:00 showing or receive a full refund at the box office. We apologize for the inconvenience. Thank you for your understanding.",
+    "subQuestions": [
+      {
+        "id": "p4-34-q1",
+        "questionText": "Where is this announcement heard?",
+        "options": ["At a theater", "At a concert hall", "At a stadium", "At a museum"],
+        "correctIndex": 0
+      },
+      {
+        "id": "p4-34-q2",
+        "questionText": "Why was the showing canceled?",
+        "options": ["Weather", "Technical issues", "Low ticket sales", "Staff shortage"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-34-q3",
+        "questionText": "What option is available at the box office?",
+        "options": ["Free popcorn", "Full refund", "Discount on next show", "Free parking"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-35",
+    "part": 4,
+    "audioText": "Good morning, team. This is your project manager, Lisa. I want to remind everyone that the client presentation is tomorrow at 10 AM. Please send me your slides by 3 PM today. We'll have a dry run at 4 PM in the main conference room. Let me know if you have conflicts.",
+    "subQuestions": [
+      {
+        "id": "p4-35-q1",
+        "questionText": "Who is the speaker?",
+        "options": ["A client", "A project manager", "An intern", "A CEO"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-35-q2",
+        "questionText": "When is the client presentation?",
+        "options": ["Today at 10 AM", "Today at 3 PM", "Tomorrow at 10 AM", "Tomorrow at 4 PM"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-35-q3",
+        "questionText": "What is the deadline for sending slides?",
+        "options": ["10 AM", "12 PM", "3 PM", "4 PM"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-36",
+    "part": 4,
+    "audioText": "And now for a look at the weekend forecast. Saturday will be partly cloudy with a high of 65. Sunday, expect rain in the morning, clearing by the afternoon. High near 60. Winds will be light. A good weekend to stay indoors on Sunday morning. Back to you, Tom.",
+    "subQuestions": [
+      {
+        "id": "p4-36-q1",
+        "questionText": "What is being reported?",
+        "options": ["Sports", "Weather", "Traffic", "News"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-36-q2",
+        "questionText": "What is the weather on Saturday?",
+        "options": ["Sunny", "Rainy", "Partly cloudy", "Snowy"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-36-q3",
+        "questionText": "What does the speaker say about Sunday morning?",
+        "options": ["It will be sunny", "It will rain", "It will snow", "It will be windy"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-37",
+    "part": 4,
+    "audioText": "Welcome to the Johnson & Sons annual picnic. The barbecue will start at 12:30 PM. There are games for children near the playground. Please remember to clean up your trash. The raffle drawing will be at 2 PM. Prizes include gift cards and a weekend getaway. Enjoy the day!",
+    "subQuestions": [
+      {
+        "id": "p4-37-q1",
+        "questionText": "What is the occasion?",
+        "options": ["Company meeting", "Annual picnic", "Product launch", "Holiday party"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-37-q2",
+        "questionText": "When will the raffle drawing take place?",
+        "options": ["12:30 PM", "1:00 PM", "1:30 PM", "2:00 PM"],
+        "correctIndex": 3
+      },
+      {
+        "id": "p4-37-q3",
+        "questionText": "What is mentioned as a prize?",
+        "options": ["Cash", "Weekend getaway", "New phone", "Free lunch"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-38",
+    "part": 4,
+    "audioText": "This is a police emergency broadcast. A missing child was last seen near Oak Street and 5th Avenue. The child is a 7-year-old boy, wearing a red jacket and blue jeans. If you have any information, please call 911 immediately. Do not approach. Repeat: do not approach.",
+    "subQuestions": [
+      {
+        "id": "p4-38-q1",
+        "questionText": "What is the purpose of this broadcast?",
+        "options": ["Weather warning", "Missing child alert", "Traffic update", "Event announcement"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-38-q2",
+        "questionText": "What is the child wearing?",
+        "options": ["Red jacket, blue jeans", "Blue jacket, red jeans", "Black jacket, brown pants", "Green jacket, khakis"],
+        "correctIndex": 0
+      },
+      {
+        "id": "p4-38-q3",
+        "questionText": "What should listeners NOT do?",
+        "options": ["Call 911", "Look for the child", "Approach the child", "Share information"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-39",
+    "part": 4,
+    "audioText": "Thank you for calling TechSupport. Your call is very important to us. You are currently number 7 in the queue. Estimated wait time is 12 minutes. For faster service, please visit our online help center at techsupport.com/help. You can also request a callback by pressing 1 now.",
+    "subQuestions": [
+      {
+        "id": "p4-39-q1",
+        "questionText": "What is this message?",
+        "options": ["A voicemail", "An automated hold message", "A sales call", "A survey"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-39-q2",
+        "questionText": "What is the estimated wait time?",
+        "options": ["7 minutes", "10 minutes", "12 minutes", "15 minutes"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-39-q3",
+        "questionText": "What can callers do by pressing 1?",
+        "options": ["Leave a message", "Request a callback", "Speak to an agent", "Hear the menu again"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-40",
+    "part": 4,
+    "audioText": "Good evening. This is the front desk. We have a lost wallet that was found in the lobby. The name on the ID is Robert Chen. If this belongs to you, please come to the front desk to claim it. You will need to show another form of ID. Thank you.",
+    "subQuestions": [
+      {
+        "id": "p4-40-q1",
+        "questionText": "Where is this announcement likely made?",
+        "options": ["At a school", "At a hotel", "At a bank", "At a restaurant"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-40-q2",
+        "questionText": "What was found?",
+        "options": ["A phone", "A wallet", "A key", "A bag"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-40-q3",
+        "questionText": "What is required to claim the item?",
+        "options": ["Receipt", "Another ID", "Room key", "Phone number"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-41",
+    "part": 4,
+    "audioText": "Hi, this is a reminder from Maple Dental. Your cleaning appointment is scheduled for Thursday at 9:30 AM. Please arrive 10 minutes early to fill out a health questionnaire. If you need to cancel, please give us 24 hours' notice. Thank you, and we look forward to seeing you.",
+    "subQuestions": [
+      {
+        "id": "p4-41-q1",
+        "questionText": "What type of call is this?",
+        "options": ["Sales call", "Appointment reminder", "Billing notice", "Survey request"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-41-q2",
+        "questionText": "What day is the appointment?",
+        "options": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-41-q3",
+        "questionText": "How early should the patient arrive?",
+        "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-42",
+    "part": 4,
+    "audioText": "This is an announcement for all passengers on platform 3. The 8:45 train to Springfield has been canceled due to a mechanical failure. Passengers may take the 9:15 train to Springfield instead. We apologize for the disruption. Refunds are available at the ticket office.",
+    "subQuestions": [
+      {
+        "id": "p4-42-q1",
+        "questionText": "What happened to the 8:45 train?",
+        "options": ["Delayed", "Canceled", "Changed platform", "Overbooked"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-42-q2",
+        "questionText": "Why was it canceled?",
+        "options": ["Weather", "Mechanical failure", "Staff shortage", "Signal issue"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-42-q3",
+        "questionText": "What time is the alternative train?",
+        "options": ["8:45", "9:00", "9:15", "9:30"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-43",
+    "part": 4,
+    "audioText": "Hello, I'm calling from the travel agency. Your flight to Tokyo has been rescheduled. It now departs at 10:30 PM instead of 8:15 PM. Please arrive at the airport by 8:00 PM. We have emailed you the updated itinerary. Call us if you have questions. Sorry for any trouble.",
+    "subQuestions": [
+      {
+        "id": "p4-43-q1",
+        "questionText": "Why is the travel agency calling?",
+        "options": ["To sell a package", "To reschedule a flight", "To confirm payment", "To offer an upgrade"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-43-q2",
+        "questionText": "What is the new departure time?",
+        "options": ["8:15 PM", "9:30 PM", "10:00 PM", "10:30 PM"],
+        "correctIndex": 3
+      },
+      {
+        "id": "p4-43-q3",
+        "questionText": "When should the passenger arrive?",
+        "options": ["6:00 PM", "7:00 PM", "8:00 PM", "9:00 PM"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-44",
+    "part": 4,
+    "audioText": "Good morning, students. This is the principal. I'm pleased to announce that our school won the district science fair award. Congratulations to the science club. There will be an assembly in the gym at 2 PM today to celebrate. All students are expected to attend. Great job, everyone!",
+    "subQuestions": [
+      {
+        "id": "p4-44-q1",
+        "questionText": "What is being announced?",
+        "options": ["A holiday", "An award win", "A new rule", "A schedule change"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-44-q2",
+        "questionText": "Which group won the award?",
+        "options": ["Math club", "Science club", "Art club", "Drama club"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-44-q3",
+        "questionText": "When is the assembly?",
+        "options": ["10 AM", "12 PM", "1 PM", "2 PM"],
+        "correctIndex": 3
+      }
+    ]
+  },
+  {
+    "id": "p4-45",
+    "part": 4,
+    "audioText": "Attention, shoppers. We have a lost child at customer service. A 4-year-old girl in a pink dress. If you are looking for your child, please come to the customer service desk at the front of the store. Thank you for your help.",
+    "subQuestions": [
+      {
+        "id": "p4-45-q1",
+        "questionText": "Where is this announcement heard?",
+        "options": ["At a park", "At a store", "At a school", "At a hospital"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-45-q2",
+        "questionText": "What is the child wearing?",
+        "options": ["Blue shirt", "Pink dress", "Yellow jacket", "Purple pants"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-45-q3",
+        "questionText": "Where should the parent go?",
+        "options": ["Security office", "Customer service desk", "Parking lot", "Entrance gate"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-46",
+    "part": 4,
+    "audioText": "This is a reminder that the office will be closed on Monday for the national holiday. We will reopen on Tuesday at 9 AM. Please plan accordingly. For urgent matters, you can reach the on-call manager at 555-0199. Have a safe holiday weekend.",
+    "subQuestions": [
+      {
+        "id": "p4-46-q1",
+        "questionText": "Why is the office closed?",
+        "options": ["Maintenance", "Holiday", "Power outage", "Staff training"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-46-q2",
+        "questionText": "When will the office reopen?",
+        "options": ["Monday", "Tuesday at 9 AM", "Tuesday at 10 AM", "Wednesday"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-46-q3",
+        "questionText": "Who can be contacted for urgent matters?",
+        "options": ["The CEO", "The on-call manager", "The receptionist", "The IT department"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-47",
+    "part": 4,
+    "audioText": "Hello, this is your driver. I'm outside your building. I'll wait for 5 more minutes. Please come down as soon as possible. I have a black sedan with license plate XYZ-123. If you need to contact me, reply to this text. Thank you for using RideShare.",
+    "subQuestions": [
+      {
+        "id": "p4-47-q1",
+        "questionText": "Who is the speaker?",
+        "options": ["A taxi dispatcher", "A rideshare driver", "A bus driver", "A delivery person"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-47-q2",
+        "questionText": "How long will the driver wait?",
+        "options": ["2 minutes", "5 minutes", "10 minutes", "15 minutes"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-47-q3",
+        "questionText": "What is the color of the car?",
+        "options": ["White", "Black", "Gray", "Blue"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-48",
+    "part": 4,
+    "audioText": "Welcome to the City Zoo. The zoo is open from 9 AM to 5 PM daily. The last admission is at 4 PM. Today's feeding times: lions at 11 AM, penguins at 2 PM. Please do not feed the animals. Strollers are available for rent near the entrance. Enjoy your visit.",
+    "subQuestions": [
+      {
+        "id": "p4-48-q1",
+        "questionText": "What is this talk?",
+        "options": ["A safety announcement", "A welcome message", "A commercial", "A lecture"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-48-q2",
+        "questionText": "When is the lion feeding?",
+        "options": ["10 AM", "11 AM", "1 PM", "2 PM"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-48-q3",
+        "questionText": "What is available for rent?",
+        "options": ["Wheelchairs", "Strollers", "Lockers", "Umbrellas"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-49",
+    "part": 4,
+    "audioText": "Your attention, please. The pool will close in 15 minutes for cleaning. All swimmers must exit the water by 7:45 PM. The locker rooms will remain open until 8:30 PM. Thank you for swimming at the Community Center. We hope to see you again tomorrow.",
+    "subQuestions": [
+      {
+        "id": "p4-49-q1",
+        "questionText": "Why is the pool closing?",
+        "options": ["Weather", "Cleaning", "Staff shortage", "Maintenance"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-49-q2",
+        "questionText": "What time must swimmers exit?",
+        "options": ["7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-49-q3",
+        "questionText": "How long are locker rooms open after the pool closes?",
+        "options": ["15 minutes", "30 minutes", "45 minutes", "60 minutes"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-50",
+    "part": 4,
+    "audioText": "Hi, this is Sarah from the wedding venue. I'm confirming your booking for Saturday, June 15th, at 4 PM. The deposit of $500 has been received. The remaining balance of $2,000 is due on the day of the event. Please call me if you need to change the guest count.",
+    "subQuestions": [
+      {
+        "id": "p4-50-q1",
+        "questionText": "What is the purpose of this call?",
+        "options": ["To sell a package", "To confirm a booking", "To request payment", "To cancel an event"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-50-q2",
+        "questionText": "How much is the remaining balance?",
+        "options": ["$500", "$1,000", "$2,000", "$2,500"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-50-q3",
+        "questionText": "When is the event?",
+        "options": ["Friday", "Saturday", "Sunday", "Monday"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-51",
+    "part": 4,
+    "audioText": "This is a traffic update for the evening commute. An accident on the Beltway at mile marker 12 has closed the left lane. Expect delays of up to 30 minutes. Use exit 10 to avoid the backup. The right lane is moving slowly. Drive safely.",
+    "subQuestions": [
+      {
+        "id": "p4-51-q1",
+        "questionText": "What is being reported?",
+        "options": ["Weather", "Traffic", "News", "Sports"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-51-q2",
+        "questionText": "What lane is closed?",
+        "options": ["Right lane", "Left lane", "Middle lane", "Shoulder"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-51-q3",
+        "questionText": "How long are the expected delays?",
+        "options": ["15 minutes", "20 minutes", "30 minutes", "45 minutes"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-52",
+    "part": 4,
+    "audioText": "Thank you for choosing Green Energy. Your solar panel installation is scheduled for next Wednesday between 9 AM and 1 PM. Please ensure someone over 18 is home. The installation takes about 4 hours. You will receive a confirmation email tomorrow. Call us to reschedule.",
+    "subQuestions": [
+      {
+        "id": "p4-52-q1",
+        "questionText": "What service is being scheduled?",
+        "options": ["Roof repair", "Solar panel installation", "Electrical inspection", "Window replacement"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-52-q2",
+        "questionText": "How long will the installation take?",
+        "options": ["2 hours", "3 hours", "4 hours", "5 hours"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-52-q3",
+        "questionText": "What is required at the home?",
+        "options": ["A pet", "Someone over 18", "Parking space", "A phone"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-53",
+    "part": 4,
+    "audioText": "Hello, this is the post office. We have a certified letter for you from the IRS. You can pick it up at the main post office on 1st Street. Please bring a government-issued ID. We are open Monday to Friday 9 AM to 5 PM and Saturday 10 AM to 2 PM.",
+    "subQuestions": [
+      {
+        "id": "p4-53-q1",
+        "questionText": "Why is the post office calling?",
+        "options": ["To sell stamps", "To notify about a letter", "To confirm address", "To request payment"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-53-q2",
+        "questionText": "What is required to pick up the letter?",
+        "options": ["A receipt", "Government ID", "A key", "A phone number"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-53-q3",
+        "questionText": "What are the Saturday hours?",
+        "options": ["9 AM - 5 PM", "9 AM - 2 PM", "10 AM - 2 PM", "10 AM - 4 PM"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-54",
+    "part": 4,
+    "audioText": "Good afternoon. This is the manager speaking. I want to remind all employees that the fire drill will take place at 3 PM today. When you hear the alarm, please exit the building calmly and gather in the east parking lot. Do not use elevators. Attendance will be taken.",
+    "subQuestions": [
+      {
+        "id": "p4-54-q1",
+        "questionText": "What will happen at 3 PM?",
+        "options": ["A meeting", "A fire drill", "A training session", "A break"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-54-q2",
+        "questionText": "Where should employees gather?",
+        "options": ["West parking lot", "East parking lot", "Main lobby", "Conference room"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-54-q3",
+        "questionText": "What is prohibited during the drill?",
+        "options": ["Talking", "Using stairs", "Using elevators", "Running"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-55",
+    "part": 4,
+    "audioText": "Hi, it's Jen. I'm running about 20 minutes late for our lunch. There's a lot of traffic on the highway. Can we meet at 12:50 instead of 12:30? Same place, the Corner Cafe. Sorry for the delay. See you soon.",
+    "subQuestions": [
+      {
+        "id": "p4-55-q1",
+        "questionText": "What is the purpose of this voicemail?",
+        "options": ["To cancel lunch", "To say she is late", "To change the restaurant", "To ask for directions"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-55-q2",
+        "questionText": "What time was the original meeting?",
+        "options": ["12:00", "12:15", "12:30", "12:50"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-55-q3",
+        "questionText": "What is the new meeting time?",
+        "options": ["12:20", "12:30", "12:40", "12:50"],
+        "correctIndex": 3
+      }
+    ]
+  },
+  {
+    "id": "p4-56",
+    "part": 4,
+    "audioText": "This is a message for all residents. The water will be shut off for maintenance tomorrow from 9 AM to 12 PM. Please store enough water for drinking and cooking. We apologize for the inconvenience. The water should be restored by noon. Thank you for your patience.",
+    "subQuestions": [
+      {
+        "id": "p4-56-q1",
+        "questionText": "Who is this message for?",
+        "options": ["Business owners", "Residents", "Visitors", "Construction workers"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-56-q2",
+        "questionText": "Why will the water be shut off?",
+        "options": ["Leak repair", "Maintenance", "Pipe replacement", "Emergency"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-56-q3",
+        "questionText": "How long will the water be off?",
+        "options": ["2 hours", "3 hours", "4 hours", "5 hours"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-57",
+    "part": 4,
+    "audioText": "Good evening, and welcome to the City Council meeting. We will first discuss the new budget, followed by the school renovation project. Public comments will be taken at 7:30 PM. Please limit your comments to 2 minutes. The meeting is expected to end by 9 PM. Thank you for attending.",
+    "subQuestions": [
+      {
+        "id": "p4-57-q1",
+        "questionText": "What is the first topic?",
+        "options": ["School renovation", "New budget", "Public safety", "Park improvements"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-57-q2",
+        "questionText": "When can the public speak?",
+        "options": ["7:00 PM", "7:30 PM", "8:00 PM", "8:30 PM"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-57-q3",
+        "questionText": "How long is each public comment?",
+        "options": ["1 minute", "2 minutes", "3 minutes", "5 minutes"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-58",
+    "part": 4,
+    "audioText": "Hello, this is your pharmacy. Your prescription is ready for pickup. It's for amoxicillin, 500 mg. The cost is $15. Please pick it up by Friday, or it will be returned to stock. We're open until 8 PM tonight. Thank you for choosing Main Street Pharmacy.",
+    "subQuestions": [
+      {
+        "id": "p4-58-q1",
+        "questionText": "What is the purpose of this call?",
+        "options": ["To request refill", "To notify prescription is ready", "To confirm insurance", "To change dosage"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-58-q2",
+        "questionText": "How much does the prescription cost?",
+        "options": ["$5", "$10", "$15", "$20"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-58-q3",
+        "questionText": "What happens if not picked up by Friday?",
+        "options": ["Price increases", "It is returned to stock", "It is mailed", "It is discarded"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-59",
+    "part": 4,
+    "audioText": "Attention: The elevator in the north tower is out of service. Please use the south tower elevator or the stairs. We expect repairs to be completed by tomorrow morning. We apologize for any inconvenience. Thank you for your understanding.",
+    "subQuestions": [
+      {
+        "id": "p4-59-q1",
+        "questionText": "What is the problem?",
+        "options": ["No power", "Elevator out of service", "Stairs blocked", "Door stuck"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-59-q2",
+        "questionText": "Which elevator is still working?",
+        "options": ["North tower", "South tower", "East tower", "West tower"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-59-q3",
+        "questionText": "When will repairs be done?",
+        "options": ["Today", "Tomorrow morning", "Tomorrow afternoon", "Next week"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-60",
+    "part": 4,
+    "audioText": "Hi, this is Mark from the gym. Your personal training session with Lisa is confirmed for tomorrow at 6 AM. Please arrive 5 minutes early. If you need to cancel, please give 12 hours' notice. Otherwise, you may be charged a $25 fee. See you tomorrow!",
+    "subQuestions": [
+      {
+        "id": "p4-60-q1",
+        "questionText": "What is confirmed?",
+        "options": ["A class", "A personal training session", "A massage", "A yoga session"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-60-q2",
+        "questionText": "What time is the session?",
+        "options": ["5 AM", "6 AM", "7 AM", "8 AM"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-60-q3",
+        "questionText": "What is the cancellation fee?",
+        "options": ["$15", "$20", "$25", "$30"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-61",
+    "part": 4,
+    "audioText": "This is a Coast Guard broadcast. A small craft advisory is in effect for all coastal waters until 6 PM tomorrow. Winds are expected to reach 25 knots. Recreational boaters are advised to stay in port. Commercial vessels should exercise caution. This advisory may be extended.",
+    "subQuestions": [
+      {
+        "id": "p4-61-q1",
+        "questionText": "What is being announced?",
+        "options": ["Weather warning", "Small craft advisory", "Marine forecast", "Port closure"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-61-q2",
+        "questionText": "What should recreational boaters do?",
+        "options": ["Use extra caution", "Stay in port", "Check equipment", "File a float plan"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-61-q3",
+        "questionText": "Until when is the advisory in effect?",
+        "options": ["Tonight", "Tomorrow morning", "Tomorrow 6 PM", "Next day"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-62",
+    "part": 4,
+    "audioText": "Hello, this is a courtesy call from your internet provider. We noticed your modem is offline. Please try restarting it. If that doesn't work, call our technical support at 1-800-555-1234. There is no charge for this call. We want to help you get back online.",
+    "subQuestions": [
+      {
+        "id": "p4-62-q1",
+        "questionText": "Why is the company calling?",
+        "options": ["To sell faster internet", "To report an outage", "To help with an offline modem", "To collect payment"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-62-q2",
+        "questionText": "What does the caller suggest first?",
+        "options": ["Call support", "Restart the modem", "Check cables", "Wait for technician"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-62-q3",
+        "questionText": "What is stated about the call?",
+        "options": ["There is a fee", "No charge", "It is recorded", "It is a sales call"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-63",
+    "part": 4,
+    "audioText": "Good morning, passengers. This is your conductor. We will be arriving at Union Station in approximately 10 minutes. Please gather your belongings and prepare to exit from the rear doors. The temperature outside is 45 degrees. Thank you for riding with Amtrak.",
+    "subQuestions": [
+      {
+        "id": "p4-63-q1",
+        "questionText": "What is the arrival time?",
+        "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-63-q2",
+        "questionText": "Which doors should passengers use?",
+        "options": ["Front doors", "Rear doors", "All doors", "Middle doors"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-63-q3",
+        "questionText": "What is the outside temperature?",
+        "options": ["35 degrees", "40 degrees", "45 degrees", "50 degrees"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-64",
+    "part": 4,
+    "audioText": "Hi, this is a message from the daycare. Your child, Emma, has a mild fever of 100.5 degrees. Please pick her up as soon as possible. She is resting in the nurse's office. If you cannot come, please provide an emergency contact. Thank you for your cooperation.",
+    "subQuestions": [
+      {
+        "id": "p4-64-q1",
+        "questionText": "Why is the daycare calling?",
+        "options": ["To report an accident", "To say the child has a fever", "To confirm pickup time", "To discuss behavior"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-64-q2",
+        "questionText": "What is the child's temperature?",
+        "options": ["99.5", "100.5", "101.5", "102.5"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-64-q3",
+        "questionText": "Where is the child?",
+        "options": ["Classroom", "Nurse's office", "Playground", "Lunchroom"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-65",
+    "part": 4,
+    "audioText": "This is a reminder that the recycling pickup will be delayed by one day this week due to the holiday. Instead of Thursday, please put your bins out on Friday morning. Regular schedule will resume next week. Thank you for recycling with us.",
+    "subQuestions": [
+      {
+        "id": "p4-65-q1",
+        "questionText": "What service is affected?",
+        "options": ["Trash pickup", "Recycling pickup", "Mail delivery", "Bus service"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-65-q2",
+        "questionText": "What is the normal pickup day?",
+        "options": ["Monday", "Tuesday", "Thursday", "Friday"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-65-q3",
+        "questionText": "When should bins be put out this week?",
+        "options": ["Thursday", "Friday", "Saturday", "Sunday"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-66",
+    "part": 4,
+    "audioText": "Hello, I'm calling from the car dealership. Your new car has arrived. You can pick it up anytime between 9 AM and 7 PM tomorrow. Please bring your driver's license and the down payment of $3,000. We'll need about 30 minutes for paperwork. Congratulations!",
+    "subQuestions": [
+      {
+        "id": "p4-66-q1",
+        "questionText": "What is the purpose of this call?",
+        "options": ["To sell a car", "To notify car has arrived", "To schedule a test drive", "To request payment"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-66-q2",
+        "questionText": "What is the down payment amount?",
+        "options": ["$1,000", "$2,000", "$3,000", "$4,000"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-66-q3",
+        "questionText": "How long will paperwork take?",
+        "options": ["15 minutes", "30 minutes", "45 minutes", "1 hour"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-67",
+    "part": 4,
+    "audioText": "Thank you for calling the city bus information line. Buses are running on a Sunday schedule today due to the holiday. The last bus from downtown leaves at 8 PM. For specific route information, please visit our website. Have a safe trip.",
+    "subQuestions": [
+      {
+        "id": "p4-67-q1",
+        "questionText": "What is this recording?",
+        "options": ["A voicemail", "An automated bus info line", "A weather report", "A traffic update"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-67-q2",
+        "questionText": "Why are buses on a Sunday schedule?",
+        "options": ["Maintenance", "Holiday", "Staff shortage", "Weather"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-67-q3",
+        "questionText": "What time is the last bus from downtown?",
+        "options": ["6 PM", "7 PM", "8 PM", "9 PM"],
+        "correctIndex": 2
+      }
+    ]
   }
 ]
