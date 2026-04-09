@@ -1,20 +1,1206 @@
-[
-  {
-    "id": "p1-1",
-    "part": 1,
-    "image": "https://picsum.photos/seed/toeic1/600/400",
-    "audioTexts": [
-      "A man is sitting at a desk.",
-      "A woman is standing by the window.",
-      "The office is empty.",
-      "They are having a meeting."
-    ],
-    "subQuestions": [
-      {
-        "id": "p1-1-q1",
-        "options": ["(A)", "(B)", "(C)", "(D)"],
-        "correctIndex": 0
-      }
-    ]
-  }
-]
+{
+  "format": "TOEIC Part 1 写真描写問題（日本語説明文版）",
+  "instructions": "以下の各問題で、日本語の画像説明文を読み、4つの英語選択肢の中で正しいものを選んでください。",
+  "questions": [
+    {
+      "id": "p1-1",
+      "imageDescriptionJa": "スーツを着た男性が1人、オフィスのデスクに座り、スマートフォンを耳に当てて話している。デスクの上にはコーヒーマグとノートがある。",
+      "audioTexts": ["He is talking on the phone.", "He is drinking coffee.", "He is reading a newspaper.", "He is standing by the desk."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-2",
+      "imageDescriptionJa": "現代的なキッチンで2人の女性が料理を準備している。1人はカウンターで野菜を切っており、もう1人はシンクでレタスを洗っている。部屋は明るい。",
+      "audioTexts": ["Both women are wearing aprons.", "One of them is sweeping the floor.", "They are having a coffee break.", "The kitchen is dark and empty."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-3",
+      "imageDescriptionJa": "大きな木の下にある公園のベンチ。誰もいない。ベンチに寄りかかって自転車が1台置いてある。地面には秋の落ち葉が散らばっている。",
+      "audioTexts": ["Some people are sitting on the bench.", "The bicycle is parked next to the bench.", "It is snowing heavily.", "A dog is running across the grass."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-4",
+      "imageDescriptionJa": "女性の教師が教室でホワイトボードにマーカーで書いている。数人の生徒が教師の方を見て座っている。壁に世界地図が掛かっている。",
+      "audioTexts": ["The teacher is erasing the board.", "All the students are standing up.", "The classroom has a map on the wall.", "They are having lunch together."],
+      "correctIndex": 2
+    },
+    {
+      "id": "p1-5",
+      "imageDescriptionJa": "青色の制服を着た男性が、段ボール箱でいっぱいのカートを廊下で押している。床はタイル張りで光っている。天井に蛍光灯がある。",
+      "audioTexts": ["The cart is empty.", "He is carrying a box in his hands.", "He is pushing a cart loaded with boxes.", "He is sitting on the floor."],
+      "correctIndex": 2
+    },
+    {
+      "id": "p1-6",
+      "imageDescriptionJa": "駅のホームの眺め。電車が停車してドアが開いている。数人の乗客が黄色い線の近くで待っている。ホームのデジタル時計は8:45を示している。",
+      "audioTexts": ["The train doors are closed.", "The platform is completely empty.", "Several people are waiting on the platform.", "The clock is broken and not showing the time."],
+      "correctIndex": 2
+    },
+    {
+      "id": "p1-7",
+      "imageDescriptionJa": "スーパーマーケットの果物売り場。りんごとオレンジがきれいに積まれている。値札が各商品の前に置いてある。客は誰もいない。",
+      "audioTexts": ["A customer is picking up an apple.", "The fruits are displayed neatly.", "The price tags are missing.", "The store is crowded with shoppers."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-8",
+      "imageDescriptionJa": "空港の搭乗ゲート前。座席に数人の旅行者が座って待っている。大きな窓の外に飛行機が見える。出発時刻の表示板が点灯している。",
+      "audioTexts": ["Passengers are boarding the plane.", "The departure board is not working.", "Several travelers are waiting at the gate.", "The gate area is completely empty."],
+      "correctIndex": 2
+    },
+    {
+      "id": "p1-9",
+      "imageDescriptionJa": "図書館の中で、若い女性が本棚から本を1冊取っている。後ろのテーブルで別の男性がノートパソコンを使っている。窓から日光が入っている。",
+      "audioTexts": ["The woman is returning a book to the shelf.", "The woman is taking a book from the shelf.", "Both people are reading the same book.", "The room has no windows."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-10",
+      "imageDescriptionJa": "道路工事現場。オレンジ色のベストを着た3人の作業員がいる。1人がドリルを使い、2人が大きなパイプを持っている。工事用のコーンが置いてある。",
+      "audioTexts": ["All workers are wearing orange vests.", "One worker is holding a stop sign.", "They are repairing a car.", "The road is closed to all traffic."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-11",
+      "imageDescriptionJa": "会議室で、5人が長いテーブルの周りに座っている。正面のスクリーンにグラフが映し出されている。1人が立ってプレゼンをしている。",
+      "audioTexts": ["Everyone is looking at the floor.", "A presentation is being given.", "The screen is turned off.", "Only two people are in the room."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-12",
+      "imageDescriptionJa": "カフェのテラス席。男性が1人でコーヒーを飲みながらスマートフォンを操作している。隣の席は空いている。通りには数人が歩いている。",
+      "audioTexts": ["The man is talking to his friend.", "The man is drinking coffee and using his phone.", "All tables are fully occupied.", "It is raining heavily outside."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-13",
+      "imageDescriptionJa": "ホテルのフロント。女性スタッフが1人、ゲストの男性に向かって微笑みながら何かを説明している。ゲストはスーツケースを持っている。",
+      "audioTexts": ["The guest is checking out.", "The staff member is yelling at the guest.", "The staff is explaining something to the guest.", "There is no luggage in the lobby."],
+      "correctIndex": 2
+    },
+    {
+      "id": "p1-14",
+      "imageDescriptionJa": "公園で、母親と小さな男の子が凧揚げをしている。空は晴れている。周りに他の家族も数組いる。木々は緑が生い茂っている。",
+      "audioTexts": ["The mother and son are flying a kite.", "They are playing soccer.", "The sky is cloudy and dark.", "The park is completely empty."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-15",
+      "imageDescriptionJa": "ガレージの中で、男性が車のボンネットを開けてエンジンを点検している。工具が床に散らばっている。車は少し古そうに見える。",
+      "audioTexts": ["The man is washing the car.", "The man is inspecting the car engine.", "The garage is very tidy and clean.", "He is driving the car out of the garage."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-16",
+      "imageDescriptionJa": "レストランの厨房。シェフが2人、熱い鍋を火にかけて調理している。周りには野菜や調味料が並んでいる。換気扇が回っている。",
+      "audioTexts": ["The chefs are preparing a meal.", "The kitchen is closed for cleaning.", "The chefs are taking a break.", "There is no food in the kitchen."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-17",
+      "imageDescriptionJa": "大学の講堂。教授が壇上で話しており、大勢の学生がノートを取りながら聞いている。スクリーンにはスライドが映っている。",
+      "audioTexts": ["The students are sleeping.", "The professor is writing on the blackboard.", "The students are taking notes during the lecture.", "The lecture hall is almost empty."],
+      "correctIndex": 2
+    },
+    {
+      "id": "p1-18",
+      "imageDescriptionJa": "ジムの中で、女性がトレッドミルで走っている。横の鏡に自分の姿が映っている。他の機械にも数人がそれぞれ運動している。",
+      "audioTexts": ["The woman is lifting weights.", "The woman is running on a treadmill.", "She is the only person in the gym.", "All the machines are broken."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-19",
+      "imageDescriptionJa": "郵便局の中。長いカウンターに2人の窓口係がいる。数人の客が並んで待っている。天井のファンがゆっくり回っている。",
+      "audioTexts": ["Customers are waiting in line.", "The post office is closed.", "The staff are on their lunch break.", "There is no one at the counter."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-20",
+      "imageDescriptionJa": "ビーチ。青い海と砂浜。数人の人が日光浴をしている。遠くにヨットが1艘見える。空には雲がほとんどない。",
+      "audioTexts": ["People are sunbathing on the beach.", "A storm is approaching.", "The beach is covered with snow.", "Many boats are anchored near the shore."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-21",
+      "imageDescriptionJa": "歯医者の診察室。患者の女性が診察台に横たわっている。歯科医と衛生士が彼女の口の中を覗き込んでいる。器具がトレイに並んでいる。",
+      "audioTexts": ["The dentist is brushing the patient's teeth.", "The dentist is examining the patient's mouth.", "The patient is standing up.", "The room is completely dark."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-22",
+      "imageDescriptionJa": "オフィスのコピー機コーナー。女性がコピー機の前に立ち、用紙を補充している。近くのテーブルに書類の束が積まれている。",
+      "audioTexts": ["The woman is making copies.", "The woman is refilling paper into the copier.", "She is shredding documents.", "The copy machine is on fire."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-23",
+      "imageDescriptionJa": "バス停。雨の中で数人が傘をさして待っている。バスが近づいて来ているのが見える。バス停の時刻表が壁に貼ってある。",
+      "audioTexts": ["People are waiting for the bus in the rain.", "It is a sunny day.", "No one is carrying an umbrella.", "The bus schedule is not posted."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-24",
+      "imageDescriptionJa": "美術館の展示室。壁に数枚の絵が掛けられている。警備員が1人立って見守っている。数人の来館者がゆっくりと鑑賞している。",
+      "audioTexts": ["A guard is watching the gallery.", "Visitors are running through the room.", "The paintings are all on the floor.", "The gallery is closed to the public."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-25",
+      "imageDescriptionJa": "洗濯室。男性が洗濯機から洗濯物を取り出してカゴに入れている。乾燥機が2台、奥に並んでいる。床には靴下が1枚落ちている。",
+      "audioTexts": ["The man is folding laundry.", "The man is taking clothes out of the washing machine.", "The laundry room is very crowded.", "All the dryers are empty."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-26",
+      "imageDescriptionJa": "スポーツジムのロッカールーム。2人の男性がロッカーの前でタオルをかけながら話している。ベンチにスポーツバッグが置いてある。",
+      "audioTexts": ["The men are showering.", "The men are talking in front of the lockers.", "The locker room is empty.", "The men are playing tennis."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-27",
+      "imageDescriptionJa": "農場。トラクターに乗った男性が畑を耕している。遠くに納屋とサイロが見える。空は青く、雲が少し出ている。",
+      "audioTexts": ["The man is driving a tractor.", "The man is feeding the cows.", "It is raining heavily.", "The barn is on fire."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-28",
+      "imageDescriptionJa": "ホテルの客室。ベッドメイキングがされている。窓の外に街の景色が見える。テーブルの上にウェルカムフルーツが置いてある。",
+      "audioTexts": ["The bed is unmade.", "The room has a view of the city.", "Someone is sleeping in the bed.", "The room is very messy."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-29",
+      "imageDescriptionJa": "路上で、警察官が1人の男性ドライバーに交通切符を切っている。車は路肩に停めてある。後ろには別の車が待っている。",
+      "audioTexts": ["The police officer is giving the driver a ticket.", "The driver is arresting the police officer.", "The car is still moving.", "There are no other cars on the road."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-30",
+      "imageDescriptionJa": "薬局の中。棚にたくさんの薬や健康食品が並んでいる。店員が1人、レジの後ろに立っている。客は2人、通路を歩いている。",
+      "audioTexts": ["The pharmacy is empty of customers.", "Products are displayed on shelves.", "The cashier is sleeping.", "All medicines are locked in a safe."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-31",
+      "imageDescriptionJa": "結婚式の会場。新郎新婦がケーキを切っている。参列者が拍手している。後ろには大きな花の装飾がある。",
+      "audioTexts": ["The bride and groom are cutting the cake.", "The wedding is canceled.", "The guests are leaving early.", "There are no flowers in the venue."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-32",
+      "imageDescriptionJa": "山道をハイキングしているグループ。リュックを背負った男女4人。1人が地図を見て道を確認している。天気は晴れている。",
+      "audioTexts": ["The group is lost in the forest.", "One person is checking a map.", "They are all wearing business suits.", "It is snowing on the mountain."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-33",
+      "imageDescriptionJa": "美容院。女性客が椅子に座っており、美容師がその髪をカットしている。鏡に作業の様子が映っている。隣の席には別の客もいる。",
+      "audioTexts": ["The customer is cutting her own hair.", "The hairdresser is washing the customer's hair.", "The hairdresser is cutting the customer's hair.", "The salon is empty."],
+      "correctIndex": 2
+    },
+    {
+      "id": "p1-34",
+      "imageDescriptionJa": "地下鉄の車内。数人の乗客が座っている。1人の男性が立ってつり革につかまっている。広告が吊り下げられている。",
+      "audioTexts": ["The train is completely empty.", "All passengers are standing.", "One man is standing and holding a strap.", "There are no advertisements inside."],
+      "correctIndex": 2
+    },
+    {
+      "id": "p1-35",
+      "imageDescriptionJa": "生花店の店先。たくさんの花がバケツに入れて並べられている。店主の女性が花束を包装している。通りを人が歩いている。",
+      "audioTexts": ["The florist is arranging flowers.", "The shop is selling vegetables.", "The florist is wrapping a bouquet.", "There are no flowers outside the shop."],
+      "correctIndex": 2
+    },
+    {
+      "id": "p1-36",
+      "imageDescriptionJa": "工場の組み立てライン。コンベアベルトの両側に作業員が並んでいる。それぞれが製品に部品を取り付けている。照明は明るい。",
+      "audioTexts": ["Workers are assembling products on a conveyor belt.", "The factory is closed for maintenance.", "Workers are having a meeting.", "The conveyor belt is broken."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-37",
+      "imageDescriptionJa": "自宅のリビングルーム。ソファに男性が横になってテレビを見ている。コーヒーテーブルにはポテトチップスの袋とリモコンがある。",
+      "audioTexts": ["The man is exercising in the living room.", "The man is lying on the sofa watching TV.", "The room is being painted.", "There is no furniture in the room."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-38",
+      "imageDescriptionJa": "図書館の閲覧室。大きなテーブルに何人かの学生が座って勉強している。司書がカウンターで本の貸出処理をしている。",
+      "audioTexts": ["The librarian is shelving books.", "The librarian is checking out books for a patron.", "All students are talking loudly.", "The library is closed."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-39",
+      "imageDescriptionJa": "消防署。消防士たちがトレーニングをしている。1人がはしごを登り、他の2人がホースを持っている。赤い消防車が後ろに停まっている。",
+      "audioTexts": ["Firefighters are training with a ladder and a hose.", "The fire truck is driving away.", "The firefighters are sleeping in the station.", "There is no emergency equipment."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-40",
+      "imageDescriptionJa": "公園で、老人がベンチに座って鳩に餌をあげている。周りにたくさんの鳩が集まっている。日差しが暖かそうである。",
+      "audioTexts": ["The old man is feeding pigeons.", "The old man is chasing birds away.", "It is snowing heavily.", "The park is closed to visitors."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-41",
+      "imageDescriptionJa": "空港のセキュリティチェックエリア。乗客が荷物をX線検査機に通している。係員がモニターを見ている。長い列ができている。",
+      "audioTexts": ["Passengers are going through security.", "The airport is empty.", "Security staff are on a break.", "No one is waiting in line."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-42",
+      "imageDescriptionJa": "会議室で、女性がホワイトボードにマーカーで図を描いている。他の3人の同僚がそれを座って見ている。コーヒーカップが机の上にある。",
+      "audioTexts": ["The woman is erasing the whiteboard.", "The woman is drawing a diagram on the whiteboard.", "Everyone is standing up.", "The room is completely dark."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-43",
+      "imageDescriptionJa": "銀行のロビー。数人の客が窓口に並んでいる。天井の高い吹き抜けの空間。柱に大きな時計が掛かっている。警備員が1人見回っている。",
+      "audioTexts": ["Customers are waiting in line at the bank.", "The bank is closed today.", "There is no security guard present.", "The ceiling is very low."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-44",
+      "imageDescriptionJa": "病院の待合室。プラスチックの椅子に数人が座って順番を待っている。ナースステーションで看護師が電話をしている。",
+      "audioTexts": ["Patients are waiting in the waiting room.", "A nurse is answering a phone call.", "The waiting room is empty.", "The doctor is seeing a patient."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-45",
+      "imageDescriptionJa": "港に停泊している大きな貨物船。クレーンがコンテナを船から陸に降ろしている。作業員が数人、周りで作業をしている。",
+      "audioTexts": ["A crane is unloading containers from the ship.", "The ship is sailing away.", "The port is closed for the day.", "No workers are at the port."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-46",
+      "imageDescriptionJa": "カラオケボックスの中。4人の若者がマイクを持って歌っている。画面に歌詞が表示されている。テーブルにはドリンクとスナックがある。",
+      "audioTexts": ["They are having a business meeting.", "They are singing karaoke.", "The room is completely silent.", "No one is holding a microphone."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-47",
+      "imageDescriptionJa": "路上駐車している車の横で、男性がタイヤを交換している。ジャッキで車を持ち上げている。トランクからスペアタイヤを出している。",
+      "audioTexts": ["The man is washing the car windows.", "The man is changing a flat tire.", "The man is driving the car.", "The car has no wheels."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-48",
+      "imageDescriptionJa": "幼稚園の教室。数人の小さな子供たちが床に座って先生の話を聞いている。壁には子供たちの絵が貼ってある。カラフルなアルファベットポスターもある。",
+      "audioTexts": ["Children are listening to their teacher.", "The children are taking a test.", "The classroom has no decorations.", "The teacher is not in the room."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-49",
+      "imageDescriptionJa": "ビルの屋上。男性が双眼鏡で遠くを見ている。周りにはいくつかのアンテナと換気設備がある。夕日が沈もうとしている。",
+      "audioTexts": ["The man is looking through binoculars.", "The man is eating lunch.", "It is early morning.", "The rooftop is empty except for the man."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-50",
+      "imageDescriptionJa": "スーパーマーケットのレジ。店員が商品をスキャンしている。客が買い物カートを押して待っている。後ろに数人の客が並んでいる。",
+      "audioTexts": ["The cashier is scanning groceries.", "The customer is paying with cash.", "There is no line at the register.", "The store is closed."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-51",
+      "imageDescriptionJa": "教会の中。パイプオルガンが後方にある。数人の参拝者が椅子に座って祈っている。ステンドグラスから光が差し込んでいる。",
+      "audioTexts": ["People are praying in the church.", "The church is under construction.", "The organ is not working.", "No one is inside the church."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-52",
+      "imageDescriptionJa": "研究室で、科学者が白衣を着て顕微鏡を覗いている。ノートに何かを書き留めている。周りには試験管やフラスコが並んでいる。",
+      "audioTexts": ["The scientist is looking through a microscope.", "The scientist is washing glassware.", "The laboratory is very dark.", "The scientist is sleeping at the desk."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-53",
+      "imageDescriptionJa": "映画館のスクリーンの前。数人の観客が座って映画を観ている。スクリーンにはアクションシーンが映っている。入り口の灯りが少し漏れている。",
+      "audioTexts": ["The audience is watching a movie.", "The theater is completely empty.", "The screen is blank.", "Everyone is standing up."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-54",
+      "imageDescriptionJa": "ゴルフ場。男性がゴルフクラブを振り抜いているところ。ボールはもう飛んで行った後。後ろにカートとバッグが見える。芝生はきれいに刈られている。",
+      "audioTexts": ["The man is swinging a golf club.", "The man is putting the ball.", "The golf course is covered in snow.", "The man is carrying his golf bag."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-55",
+      "imageDescriptionJa": "駅の切符売り場。自動券売機の前に数人が並んでいる。1人の女性が機械の前で迷っている様子。駅員が近くで案内している。",
+      "audioTexts": ["People are buying tickets at the vending machines.", "The ticket machines are all broken.", "The station is closed.", "No one is at the station."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-56",
+      "imageDescriptionJa": "ランドリーのクリーニング工場。長いコンベアにハンガーにかけられた服が流れている。作業員がアイロンをかけている。",
+      "audioTexts": ["Workers are ironing clothes at the laundry.", "The conveyor belt is carrying empty hangers.", "The factory is abandoned.", "No one is working today."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-57",
+      "imageDescriptionJa": "動物園。子どもたちが柵の前でキリンを見ている。キリンは2頭いて、1頭は葉っぱを食べている。ガイドが説明をしている。",
+      "audioTexts": ["Children are watching giraffes at the zoo.", "The giraffes are sleeping.", "The guide is not speaking.", "The zoo is closed to visitors."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-58",
+      "imageDescriptionJa": "楽器店。ピアノの前に男性が座って試奏している。店員が隣で説明している。壁にはギターやバイオリンが掛けてある。",
+      "audioTexts": ["A man is trying out a piano at the store.", "The man is cleaning the piano.", "The store sells only drums.", "The salesman is not helping the customer."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-59",
+      "imageDescriptionJa": "図書館の書庫。高い書架にびっしりと本が詰まっている。はしごが書架にかけられている。誰もいない。非常に静かそうである。",
+      "audioTexts": ["The library stacks are full of books.", "The library is very crowded with people.", "The ladder is on the floor.", "All books have been removed from the shelves."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-60",
+      "imageDescriptionJa": "スポーツジムで、インストラクターがエアロビクスのクラスを教えている。大勢の女性がインストラクターの動きを真似している。大きな鏡がある。",
+      "audioTexts": ["An instructor is teaching an aerobics class.", "Everyone is lifting weights.", "The gym is empty.", "The class is over and people are leaving."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-61",
+      "imageDescriptionJa": "マンションのエントランス。宅配便の配達員が大きな段ボール箱を持って立っている。インターホンを押そうとしている。管理人らしき人が奥にいる。",
+      "audioTexts": ["A delivery person is holding a cardboard box.", "The delivery person is writing a note.", "No one is at the entrance.", "The package is very small."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-62",
+      "imageDescriptionJa": "レストランで、ウエイターがテーブルに料理を運んでいる。客のカップルがその料理を見て嬉しそうにしている。ワイングラスがテーブルにある。",
+      "audioTexts": ["A waiter is serving food to a couple.", "The couple is leaving the restaurant.", "The restaurant has no customers.", "The waiter is clearing empty plates."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-63",
+      "imageDescriptionJa": "川辺で、男性が釣り竿を持って座っている。バケツには釣れた魚が数匹入っている。日没の時間帯で空がオレンジ色になっている。",
+      "audioTexts": ["The man is fishing by the river.", "The man is swimming in the river.", "The bucket is empty.", "It is early morning."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-64",
+      "imageDescriptionJa": "理髪店。床に切った髪の毛が散らばっている。鏡の前の椅子に客が座り、理髪師がバリカンで髪を刈っている。",
+      "audioTexts": ["The barber is cutting the customer's hair.", "The customer is shaving his own beard.", "The barbershop is closed.", "There is no hair on the floor."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-65",
+      "imageDescriptionJa": "会議場で、大勢の人が椅子に座って講演を聞いている。演壇にはスピーカーが立って話している。大きなスクリーンにスライドが映っている。",
+      "audioTexts": ["People are listening to a speaker at a conference.", "The conference room is empty.", "The speaker is not on the stage.", "The screen is turned off."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-66",
+      "imageDescriptionJa": "書斎。本棚にぎっしり本が詰まっている。机の上に開いたノートと万年筆がある。窓から木漏れ日が入っている。誰もいない。",
+      "audioTexts": ["Someone is reading at the desk.", "The study is unoccupied.", "The desk is completely empty.", "It is nighttime."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-67",
+      "imageDescriptionJa": "プールサイド。数人がチェアに寝そべって日光浴をしている。プールの中で2人の子供が泳いでいる。ライフガードが高い椅子に座っている。",
+      "audioTexts": ["People are sunbathing by the pool.", "The pool is empty.", "The lifeguard is swimming.", "It is raining heavily."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-68",
+      "imageDescriptionJa": "パン屋のショーケース。いろいろな種類のパンが並べてある。店員がトングでパンを袋に入れている。客がそれを待っている。",
+      "audioTexts": ["The baker is making dough.", "A customer is buying bread.", "The display case is empty.", "The bakery sells only cakes."],
+      "correctIndex": 1
+    },
+    {
+      "id": "p1-69",
+      "imageDescriptionJa": "工事現場のクレーン。クレーンが鉄骨の塊を持ち上げている。地上で作業員が合図を送っている。ヘルメットをかぶっている。",
+      "audioTexts": ["A crane is lifting a steel beam.", "The crane is not working.", "Workers are not wearing helmets.", "The construction site is abandoned."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-70",
+      "imageDescriptionJa": "バーの中。バーテンダーがカクテルをシェイクしている。カウンターに数人の客が座っている。棚にはたくさんの酒のボトルが並んでいる。",
+      "audioTexts": ["The bartender is shaking a cocktail.", "The bartender is washing glasses.", "The bar has no customers.", "The bottles are all empty."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-71",
+      "imageDescriptionJa": "歯科医院の受付。受付の女性が電話対応をしている。待合室に数人の患者が座って待っている。雑誌が置いてある。",
+      "audioTexts": ["The receptionist is talking on the phone.", "The receptionist is treating a patient.", "The waiting room is empty.", "No one is at the reception desk."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-72",
+      "imageDescriptionJa": "駅の改札口。ICカードをタッチして通る人が何人もいる。改札機の横に駅員が立って案内している。時刻表の電光表示板が点灯している。",
+      "audioTexts": ["Passengers are going through the ticket gate.", "The ticket gate is closed.", "No one is at the station.", "The station staff is not present."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-73",
+      "imageDescriptionJa": "温室の中。たくさんの蘭の花が咲いている。女性がじょうろで水をやっている。温度計と湿度計が壁にかかっている。",
+      "audioTexts": ["A woman is watering orchids in a greenhouse.", "The flowers are all dead.", "The greenhouse is very cold.", "The woman is cutting flowers."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-74",
+      "imageDescriptionJa": "オフィスの休憩室。電子レンジの前に女性が立ち、お弁当を温めている。他の従業員がソファに座ってコーヒーを飲んでいる。",
+      "audioTexts": ["A woman is heating her lunch in the microwave.", "The woman is cleaning the microwave.", "The break room is empty.", "Everyone is working at their desks."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-75",
+      "imageDescriptionJa": "図書館の階段。学生が階段に座って本を読んでいる。壁に大きなポスターが貼ってある。天窓から光が差し込んでいる。",
+      "audioTexts": ["A student is sitting on the stairs reading a book.", "The student is running up the stairs.", "The library has no windows.", "The student is sleeping."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-76",
+      "imageDescriptionJa": "スキー場。数人がスキーを滑っている。リフトに乗っている人もいる。山の頂上付近は雪に覆われている。青空が広がっている。",
+      "audioTexts": ["People are skiing on the mountain.", "There is no snow on the slopes.", "The ski lift is not operating.", "It is summer."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-77",
+      "imageDescriptionJa": "パソコン修理店。店員がデスクトップパソコンのケースを開けて内部を点検している。カウンターに何台かのノートパソコンが積まれている。",
+      "audioTexts": ["A technician is checking the inside of a computer.", "The technician is selling a new computer.", "The store sells only software.", "There are no computers in the store."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-78",
+      "imageDescriptionJa": "電車の中で、サラリーマンがネクタイを締め直しながら立っている。つり革に片手をかけている。もう一方の手にはブリーフケースを持っている。",
+      "audioTexts": ["The man is holding a briefcase.", "The man is sitting on a seat.", "The man is eating a sandwich.", "The train is empty."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-79",
+      "imageDescriptionJa": "美容室のシャンプー台。女性客が首を洗面台に預けて髪を洗ってもらっている。美容師がシャワーヘッドでお湯をかけている。",
+      "audioTexts": ["The hairdresser is washing the customer's hair.", "The customer is cutting her own hair.", "The customer is drying her hair.", "The salon is closed."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-80",
+      "imageDescriptionJa": "街角で、路上アーティストがギターを弾きながら歌っている。帽子を地面に置いてある。数人が立ち止まって聴いている。",
+      "audioTexts": ["A street musician is playing guitar and singing.", "The musician is painting a picture.", "No one is listening to the music.", "The musician is packing up to leave."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-81",
+      "imageDescriptionJa": "オフィスのエレベーター前。数人がエレベーターを待っている。1人の女性が荷物をたくさん抱えている。エレベーターの扉が開いたところ。",
+      "audioTexts": ["People are waiting for the elevator.", "The elevator is out of service.", "No one is carrying any bags.", "The elevator door is closed."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-82",
+      "imageDescriptionJa": "書店。棚の前に立って本を読んでいる人が数人いる。レジで店員が客の会計をしている。ポスターに「新刊発売中」と書いてある。",
+      "audioTexts": ["Customers are browsing books in a bookstore.", "The bookstore is empty.", "The cashier is not working.", "The store sells only magazines."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-83",
+      "imageDescriptionJa": "ビーチバレーのコート。4人の女性が砂の上でバレーボールをしている。ネットが張ってある。観客席には数人が座って見ている。",
+      "audioTexts": ["Women are playing beach volleyball.", "The players are swimming in the ocean.", "The court is empty.", "There are no spectators."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-84",
+      "imageDescriptionJa": "駅のホームで、掃除係がほうきで床を掃いている。ゴミ箱を引きずっている。電車はまだ来ていない。ホームには数人の乗客がいる。",
+      "audioTexts": ["A cleaner is sweeping the platform.", "The cleaner is driving a train.", "The platform is crowded with people.", "No one is on the platform."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-85",
+      "imageDescriptionJa": "プレゼンの練習をしている女性。会議室の前に立ち、ジェスチャーをしながら話している。数人の同僚が聴衆役として座っている。",
+      "audioTexts": ["The woman is practicing a presentation.", "The woman is making a phone call.", "The room is empty.", "Everyone is ignoring her."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-86",
+      "imageDescriptionJa": "花屋。店の前に色とりどりの花が並べられている。店主の男性が花に水をやっている。通りかかった女性が立ち止まって見ている。",
+      "audioTexts": ["The florist is watering the flowers.", "The florist is arranging a bouquet.", "The flower shop is closed.", "No one is on the street."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-87",
+      "imageDescriptionJa": "ボウリング場。男性がボールを投げようと構えている。スコア表示板には現在の点数が出ている。隣のレーンでは別のグループがプレイしている。",
+      "audioTexts": ["The man is about to bowl.", "The man is fixing his shoes.", "The bowling alley is empty.", "The scoreboard is turned off."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-88",
+      "imageDescriptionJa": "高校の実験室。生徒たちがグループに分かれて実験をしている。試験管の中の液体が色を変えている。先生が机の間を回っている。",
+      "audioTexts": ["Students are conducting an experiment.", "The students are taking a written test.", "The teacher is not in the room.", "The laboratory is empty."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-89",
+      "imageDescriptionJa": "バスの車内。運転手がバックミラーを見ている。数人の乗客が座っている。つり革が揺れている。窓の外は雨が降っている。",
+      "audioTexts": ["The bus driver is looking at the mirror.", "The bus is completely empty.", "The driver is talking on the phone.", "The sun is shining brightly."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-90",
+      "imageDescriptionJa": "ビルの受付ロビー。大きな受付カウンターに女性が座っている。訪問者が名刺を差し出している。後ろに会社のロゴが見える。",
+      "audioTexts": ["A visitor is giving a business card to the receptionist.", "The receptionist is leaving her desk.", "The lobby is crowded with people.", "There is no logo on the wall."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-91",
+      "imageDescriptionJa": "テニスコート。2人の男性が試合をしている。1人がラケットを振ってボールを打ったところ。ネットの向こう側の相手が構えている。",
+      "audioTexts": ["Two men are playing tennis.", "The men are playing golf.", "The tennis court is empty.", "No one is holding a racket."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-92",
+      "imageDescriptionJa": "居酒屋の厨房。板前がまな板の上で魚をさばいている。包丁が光っている。周りには日本の調味料が並んでいる。",
+      "audioTexts": ["A chef is cutting fish on a cutting board.", "The chef is washing dishes.", "The kitchen is very dark.", "No food is being prepared."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-93",
+      "imageDescriptionJa": "病院の廊下。看護師が点滴の台を押して歩いている。車椅子に乗った患者が部屋から出てくるところ。蛍光灯が明るい。",
+      "audioTexts": ["A nurse is pushing an IV stand.", "The nurse is running down the hall.", "The hallway is empty.", "The patient is standing up."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-94",
+      "imageDescriptionJa": "消防署の車庫。消防車のドアが開いている。消防士が消防車の装備を点検している。ヘルメットとコートを着ている。",
+      "audioTexts": ["A firefighter is inspecting the fire truck.", "The fire truck is driving away.", "The firefighter is sleeping.", "No equipment is on the truck."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-95",
+      "imageDescriptionJa": "公園の池。鯉がたくさん泳いでいる。橋の上から子供がパンを投げて餌をあげている。母親が後ろで見守っている。",
+      "audioTexts": ["A child is feeding the carp in the pond.", "The child is fishing.", "The pond has no fish.", "The mother is swimming in the pond."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-96",
+      "imageDescriptionJa": "引っ越し作業。トラックの荷台から男性が段ボール箱を降ろしている。もう1人の男性が家の玄関で受け取っている。",
+      "audioTexts": ["Men are moving boxes from a truck.", "The truck is empty.", "The movers are taking a break.", "No one is at the house."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-97",
+      "imageDescriptionJa": "大学のキャンパス。芝生の上に数人の学生が座って話している。木陰で本を読んでいる学生もいる。時計台が遠くに見える。",
+      "audioTexts": ["Students are sitting on the grass and talking.", "The campus is empty.", "All students are inside the buildings.", "The clock tower is not visible."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-98",
+      "imageDescriptionJa": "スーパーの陳列棚。棚に缶詰や瓶詰めがきれいに並んでいる。値札が各商品の下に貼ってある。買い物客の手が映っている。",
+      "audioTexts": ["Canned goods are displayed on the shelf.", "The shelves are completely empty.", "There are no price tags.", "The store is closed."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-99",
+      "imageDescriptionJa": "飛行機の機内。乗客が座ってシートベルトを締めている。客室乗務員が安全のデモンストレーションをしている。窓から翼が見える。",
+      "audioTexts": ["A flight attendant is demonstrating safety procedures.", "The passengers are standing up.", "The plane is on the ground with doors open.", "No one is wearing a seatbelt."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-100",
+      "imageDescriptionJa": "庭園。庭師が植木ばさみで木の枝を剪定している。刈り取った枝が地面に積まれている。日本庭園のような石灯籠が見える。",
+      "audioTexts": ["A gardener is pruning tree branches.", "The gardener is planting flowers.", "The garden is overgrown with weeds.", "No tools are being used."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-101",
+      "imageDescriptionJa": "劇場の舞台。役者たちが台本を持ってリハーサルをしている。照明スタッフが上の方でライトを調整している。観客席は誰もいない。",
+      "audioTexts": ["Actors are rehearsing on stage.", "The theater is full of audience.", "The lights are all turned off.", "The actors are taking a bow."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-102",
+      "imageDescriptionJa": "ガソリンスタンド。店員が車の給油口にノズルを挿している。運転手は車の中に座ったまま。看板にガソリン価格が表示されている。",
+      "audioTexts": ["An attendant is refueling a car.", "The driver is pumping gas himself.", "The gas station is closed.", "The price sign is blank."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-103",
+      "imageDescriptionJa": "デパートの化粧品売り場。女性店員が客の手の甲にファンデーションを塗って試させている。鏡と明るい照明がある。",
+      "audioTexts": ["A saleswoman is applying makeup to a customer's hand.", "The customer is buying perfume.", "The cosmetics counter is empty.", "The saleswoman is sleeping."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-104",
+      "imageDescriptionJa": "アパートのベランダ。女性が洗濯物を干している。風でシーツがはためいている。隣のベランダに鉢植えが見える。",
+      "audioTexts": ["A woman is hanging laundry on the balcony.", "The woman is watering plants.", "There is no wind.", "The balcony is empty."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-105",
+      "imageDescriptionJa": "タクシーの車内。後部座席にスーツケースを置いた男性が座っている。運転手がバックミラーを見ながら何か話している。",
+      "audioTexts": ["A man is riding in a taxi with his suitcase.", "The man is driving the taxi.", "The taxi is empty.", "There is no luggage in the car."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-106",
+      "imageDescriptionJa": "ショッピングモールのフードコート。家族連れがトレイに乗せた食事をテーブルに運んでいる。周りの席は半分ほど埋まっている。",
+      "audioTexts": ["A family is carrying their food on a tray.", "The food court is completely empty.", "Everyone is standing in line.", "The family is washing dishes."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-107",
+      "imageDescriptionJa": "小学校の教室。黒板に算数の問題が書いてある。児童が手を挙げて発言しようとしている。先生がチョークを持っている。",
+      "audioTexts": ["A student is raising their hand in class.", "The students are taking an exam.", "The blackboard is clean.", "The teacher is not present."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-108",
+      "imageDescriptionJa": "ペットショップのショーケース。子犬が数匹、ガラス越しに外を見ている。値札がケージの前に置いてある。店員が掃除をしている。",
+      "audioTexts": ["Puppies are looking out from a display case.", "The pet shop has no animals.", "The puppies are sleeping.", "The store clerk is playing with the dogs."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-109",
+      "imageDescriptionJa": "喫茶店の厨房。バリスタがエスプレッソマシンでコーヒーを淹れている。カップが並べてある。ミルクフォーマーも見える。",
+      "audioTexts": ["A barista is making coffee with an espresso machine.", "The barista is washing cups.", "The coffee machine is broken.", "No coffee is being prepared."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-110",
+      "imageDescriptionJa": "マラソン大会。大勢のランナーがスタートラインに並んでいる。号砲が今まさに鳴ろうとしている。沿道には応援の人たちがいる。",
+      "audioTexts": ["Runners are lined up at the starting line.", "The marathon has already finished.", "No one is watching the race.", "The runners are sitting down."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-111",
+      "imageDescriptionJa": "カメラ店。男性店員がカメラのレンズを客に説明している。ショーケースの中に複数のカメラボディが並んでいる。",
+      "audioTexts": ["A clerk is explaining a camera lens to a customer.", "The customer is taking photos.", "The camera store is closed.", "No cameras are on display."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-112",
+      "imageDescriptionJa": "アートスタジオ。画家がキャンバスの前に立ち、筆で絵を描いている。パレットには数色の絵の具が乗っている。床に絵の具の跡がある。",
+      "audioTexts": ["A painter is painting on a canvas.", "The painter is cleaning the brushes.", "The canvas is completely white.", "The studio is very tidy."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-113",
+      "imageDescriptionJa": "地下駐車場。車から降りた女性がトランクから荷物を出している。駐車場はコンクリート造りで柱が何本もある。他に車は数台ある。",
+      "audioTexts": ["A woman is taking luggage out of the trunk.", "The woman is getting into the driver's seat.", "The parking garage is empty.", "The trunk is closed."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-114",
+      "imageDescriptionJa": "マッサージ店。施術ベッドにうつ伏せになった客。セラピストが背中を指圧している。アロマオイルとタオルが横に置いてある。",
+      "audioTexts": ["A therapist is giving a massage to a client.", "The client is sitting up.", "The massage room is crowded.", "No towels are in the room."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-115",
+      "imageDescriptionJa": "倉庫。フォークリフトに乗った作業員がパレットを運んでいる。高い棚にたくさんの段ボール箱が積まれている。",
+      "audioTexts": ["A worker is operating a forklift.", "The worker is carrying a box by hand.", "The warehouse is empty.", "The forklift is parked and not moving."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-116",
+      "imageDescriptionJa": "橋の上から川を眺めている男性。両手を欄干に置いて遠くを見ている。バックパックを背負っている。天気は曇り。",
+      "audioTexts": ["A man is looking at the river from a bridge.", "The man is jumping into the river.", "The man is carrying an umbrella.", "The sky is clear and sunny."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-117",
+      "imageDescriptionJa": "ネイルサロン。女性客が手をテーブルの上に出している。ネイリストが爪にアートを描いている。紫外線ライトの機械がある。",
+      "audioTexts": ["A nail artist is painting a customer's nails.", "The customer is doing her own nails.", "The nail salon is closed.", "No nail tools are visible."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-118",
+      "imageDescriptionJa": "工場の制御室。モニターが何台も並んでいる。技術者が椅子に座ってデータを確認している。赤いランプが点滅している。",
+      "audioTexts": ["A technician is monitoring data on screens.", "The technician is sleeping at the desk.", "All screens are turned off.", "The control room is abandoned."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-119",
+      "imageDescriptionJa": "保育園の昼寝の時間。小さな布団に子供たちが横になっている。保育士が1人、本を読み聞かせている。カーテンが閉まっている。",
+      "audioTexts": ["Children are napping while a teacher reads a story.", "The children are playing outside.", "The teacher is also sleeping.", "The curtains are open."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-120",
+      "imageDescriptionJa": "バッティングセンター。男性がバットを構えて打席に立っている。マシンからボールが飛んで来る瞬間。ネットで囲われている。",
+      "audioTexts": ["A man is preparing to hit a ball at a batting cage.", "The man is pitching the ball.", "The batting center is empty.", "The man is sitting on a bench."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-121",
+      "imageDescriptionJa": "結婚式の披露宴会場。テーブルにはナプキンとグラスがセッティングされている。中央にウェルカムボードがある。まだ誰も座っていない。",
+      "audioTexts": ["Tables are set for a wedding reception.", "The wedding is already over.", "Guests are already seated.", "The welcome board is blank."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-122",
+      "imageDescriptionJa": "駐車場の料金所。男性が機械に硬貨を入れている。バーの前に車が停まっている。後ろの車がクラクションを鳴らしている。",
+      "audioTexts": ["A man is paying at a parking ticket machine.", "The man is driving through the gate.", "The parking lot is free.", "No cars are waiting behind him."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-123",
+      "imageDescriptionJa": "録音スタジオ。男性シンガーがマイクの前に立って歌っている。エンジニアがガラス越しの別室でミキサーを操作している。",
+      "audioTexts": ["A singer is recording a song in a studio.", "The singer is playing the guitar.", "The recording engineer is not present.", "The studio is empty."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-124",
+      "imageDescriptionJa": "道端で、女性がスマートフォンで写真を撮っている。背景には観光名所の塔が見える。観光客が他にも数人いる。",
+      "audioTexts": ["A woman is taking a photo with her smartphone.", "The woman is making a phone call.", "There are no tourists around.", "The tower is not visible in the background."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-125",
+      "imageDescriptionJa": "エスカレーター。左側に立って乗っている人たち。右側を急いで歩いて上がっている男性がいる。全員がビジネススーツを着ている。",
+      "audioTexts": ["People are standing on the left side of the escalator.", "Everyone is walking up the escalator.", "The escalator is not moving.", "No one is wearing a suit."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-126",
+      "imageDescriptionJa": "工場の検品ライン。女性作業員が完成した製品をライトの下でチェックしている。拡大鏡を使っている。隣に合格・不合格の箱がある。",
+      "audioTexts": ["A worker is inspecting finished products under a light.", "The worker is assembling the product.", "The inspection line is not operating.", "No tools are being used."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-127",
+      "imageDescriptionJa": "居間で、家族4人がテレビゲームをしている。コントローラーを持って画面を見ている。床にスナックの袋や飲み物が置いてある。",
+      "audioTexts": ["A family is playing a video game together.", "The family is watching a movie.", "The TV is turned off.", "No one is holding a controller."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-128",
+      "imageDescriptionJa": "駅の売店。店員がおにぎりやお弁当を並べている。通勤客が数人、サンドイッチを選んでいる。電子マネーの端末がある。",
+      "audioTexts": ["A clerk is stocking shelves at a station kiosk.", "The kiosk is closed.", "Customers are not buying anything.", "The kiosk sells only newspapers."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-129",
+      "imageDescriptionJa": "橋の修理工事。作業員が安全帯を付けて橋の下に吊られている。上の作業員がロープを操作している。ヘルメットを全員かぶっている。",
+      "audioTexts": ["Workers are repairing a bridge while suspended.", "The workers are having lunch.", "No one is wearing a helmet.", "The bridge is closed to all traffic."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-130",
+      "imageDescriptionJa": "図書館のカウンター。学生が司書に質問している。司書がパソコンで蔵書を検索している。後ろの書架に本が並んでいる。",
+      "audioTexts": ["A student is asking a librarian a question.", "The student is checking out books.", "The librarian is not helping anyone.", "The library is empty."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-131",
+      "imageDescriptionJa": "ライブハウス。バンドがステージで演奏している。ギタリストがソロを弾いている。観客が手を上げて盛り上がっている。",
+      "audioTexts": ["A band is performing on stage at a live house.", "The band is setting up equipment.", "The audience is sitting quietly.", "The stage is empty."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-132",
+      "imageDescriptionJa": "ベーカリーの製造室。大きなオーブンからパンを取り出しているパン職人。焼きたてのパンがトレイに並んでいる。小麦粉の袋が積んである。",
+      "audioTexts": ["A baker is taking bread out of a large oven.", "The baker is kneading dough.", "The oven is cold.", "No bread is in the oven."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-133",
+      "imageDescriptionJa": "美容院の待合席。雑誌を読んでいる女性客。テーブルにウェルカムドリンクが置いてある。受付の女性が電話対応をしている。",
+      "audioTexts": ["A customer is reading a magazine in the waiting area.", "The customer is having her hair cut.", "The waiting area is empty.", "No drinks are offered."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-134",
+      "imageDescriptionJa": "マンションのゴミ置き場。女性が分別されたゴミ袋を指定の場所に置いている。ペットボトルや缶をまとめている。",
+      "audioTexts": ["A woman is disposing of sorted garbage.", "The woman is burning trash.", "The garbage area is clean and empty.", "No recycling is being done."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-135",
+      "imageDescriptionJa": "スポーツジムのパーソナルトレーニング。トレーナーがクライアントのフォームを修正している。クライアントはダンベルを持っている。",
+      "audioTexts": ["A trainer is correcting a client's form.", "The client is training alone.", "The gym is closed.", "No weights are being used."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-136",
+      "imageDescriptionJa": "学校の廊下。ロッカーの前で生徒が友達と話している。1人はロッカーから教科書を取り出している。時計が廊下の壁にかかっている。",
+      "audioTexts": ["Students are talking in front of lockers.", "The hallway is empty.", "The students are running.", "No lockers are in the hallway."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-137",
+      "imageDescriptionJa": "パン屋のレジ。店員がレジを打っている。客がパンの入ったトレイをカウンターに置いている。ポイントカードを出している。",
+      "audioTexts": ["A customer is paying for bread at the register.", "The customer is baking bread.", "The register is not working.", "No one is at the counter."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-138",
+      "imageDescriptionJa": "船着き場。漁師が網を引き上げている。網の中に魚が何匹も入っている。隣の船では別の漁師がエンジンを整備している。",
+      "audioTexts": ["A fisherman is pulling up a net full of fish.", "The fisherman is repairing the boat engine.", "The net is empty.", "No other boats are nearby."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-139",
+      "imageDescriptionJa": "博物館の恐竜の骨格展示。大きなティラノサウルスの骨格の前で、親子が見上げている。説明板が柵の前に立っている。",
+      "audioTexts": ["A parent and child are looking at a dinosaur skeleton.", "The museum is closed.", "No one is in the exhibition hall.", "The skeleton is of a small animal."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-140",
+      "imageDescriptionJa": "バーのカウンター。マスターがウイスキーをグラスに注いでいる。常連客がそれを見ている。カウンターの上にナッツの器がある。",
+      "audioTexts": ["The bartender is pouring whiskey into a glass.", "The bartender is cleaning the counter.", "The customer is leaving.", "No drinks are being served."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-141",
+      "imageDescriptionJa": "公園の遊具。ブランコに乗った女の子が高いところまで上がっている。後ろでお父さんが押している。笑顔で楽しそう。",
+      "audioTexts": ["A girl is swinging on a swing as her father pushes her.", "The girl is playing on a slide.", "The playground is empty.", "The father is sitting on a bench."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-142",
+      "imageDescriptionJa": "クリーニング店。店員がハンガーにかかったスーツをビニールカバーに入れている。機械が動いている音がしそう。カウンターに預かり票がある。",
+      "audioTexts": ["A clerk is putting a suit into a plastic cover.", "The clerk is washing clothes.", "The dry cleaning shop is closed.", "No clothes are being processed."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-143",
+      "imageDescriptionJa": "高層ビルの清掃。窓の外側で清掃員がゴンドラに乗って窓を拭いている。安全帯を付けている。下の道路は遥か下に見える。",
+      "audioTexts": ["A cleaner is washing windows from a gondola.", "The cleaner is inside the building.", "The gondola is on the ground.", "No safety equipment is being used."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-144",
+      "imageDescriptionJa": "ピザ屋。ピザ職人が生地を回しながら伸ばしている。オーブンが後ろにある。トッピングの材料が並べてある。",
+      "audioTexts": ["A pizzaiolo is stretching pizza dough.", "The pizzaiolo is cutting pizza.", "The oven is turned off.", "No toppings are visible."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-145",
+      "imageDescriptionJa": "エレベーターの中。背の高い男性が天井近くのボタンを押そうとしている。他の乗客がその後ろで待っている。鏡に全員が映っている。",
+      "audioTexts": ["A tall man is pressing a button in the elevator.", "The elevator is moving.", "The elevator is empty.", "No one is looking at the mirror."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-146",
+      "imageDescriptionJa": "研究室。顕微鏡とパソコンがつながっている。研究者が画像データを見ながらノートに記録している。試験管ラックもある。",
+      "audioTexts": ["A researcher is recording data while looking at images.", "The researcher is sleeping.", "The computer is turned off.", "No lab equipment is in the room."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-147",
+      "imageDescriptionJa": "楽器の修理店。修理士がバイオリンの弦を張り替えている。作業台の上に小さな工具が並んでいる。修理待ちの楽器が何本か掛けてある。",
+      "audioTexts": ["A repairman is changing violin strings.", "The repairman is playing the violin.", "The shop sells new instruments only.", "No tools are on the workbench."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-148",
+      "imageDescriptionJa": "駅のホームで、ベンチに座ってスマートフォンを操作している男性。隣にスーツケースを置いている。電光掲示板に次の電車の時刻が出ている。",
+      "audioTexts": ["A man is using his smartphone while sitting on a bench.", "The man is running to catch the train.", "The platform has no benches.", "The departure board is blank."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-149",
+      "imageDescriptionJa": "花壇。女性がスコップで土を掘っている。苗を植えようとしている。横にバケツと苗のトレイがある。日よけの帽子をかぶっている。",
+      "audioTexts": ["A woman is digging soil to plant seedlings.", "The woman is cutting flowers.", "The flower bed is already full.", "No gardening tools are visible."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-150",
+      "imageDescriptionJa": "ドラッグストア。店員が棚に商品を補充している。ハンドソープやシャンプーのボトルが並んでいる。客がカゴを持って歩いている。",
+      "audioTexts": ["A clerk is restocking products on the shelf.", "The clerk is cleaning the floor.", "The store has no customers.", "All shelves are empty."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-151",
+      "imageDescriptionJa": "ジムのロッカールーム。男性がタオルで髪を拭きながらロッカーを閉めている。スポーツバッグを肩にかけている。シャワーを浴びた後らしい。",
+      "audioTexts": ["A man is closing his locker while drying his hair.", "The man is taking a shower.", "The locker room is crowded.", "No towels are in use."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-152",
+      "imageDescriptionJa": "バイクショップ。整備士がバイクのエンジンを分解している。床に工具が広がっている。バイクはスタンドアップされている。",
+      "audioTexts": ["A mechanic is disassembling a motorcycle engine.", "The mechanic is riding the motorcycle.", "The shop sells only helmets.", "No tools are being used."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-153",
+      "imageDescriptionJa": "美容室のカラーコーナー。客の髪にカラー剤を塗っている美容師。アルミホイルに包んでいる。タイマーが机の上にある。",
+      "audioTexts": ["A hairdresser is applying hair color to a client.", "The client is cutting her own hair.", "The hairdresser is washing hair.", "No color is being applied."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-154",
+      "imageDescriptionJa": "アスレチック公園。子どもたちがロープクライミングをしている。一番上まで登った子がいる。下で見守る親たち。",
+      "audioTexts": ["Children are climbing ropes at a playground.", "The children are playing on a swing.", "The playground is empty.", "No parents are watching."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-155",
+      "imageDescriptionJa": "コンビニの店内。弁当やおにぎりの棚が並んでいる。店員がレジで対応中。セルフコーヒーマシンが奥にある。",
+      "audioTexts": ["A convenience store has shelves of boxed lunches.", "The store is closed.", "No customers are at the register.", "The coffee machine is broken."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-156",
+      "imageDescriptionJa": "図書館の個別学習ブース。学生がノートパソコンを開いて勉強している。ヘッドフォンをしている。隣のブースは空いている。",
+      "audioTexts": ["A student is studying in a private booth with a laptop.", "The student is talking on the phone.", "All booths are occupied.", "The laptop is closed."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-157",
+      "imageDescriptionJa": "ビルのエントランス。大きなクリスマスツリーが飾られている。人が写真を撮っている。天井からシャンデリアが下がっている。",
+      "audioTexts": ["A Christmas tree is decorated in the building entrance.", "The building is under construction.", "No one is taking photos.", "The chandelier is on the floor."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-158",
+      "imageDescriptionJa": "高速道路の料金所。ETCレーンを車が通過している。一般レーンでは現金を払っているドライバーがいる。係員が手を差し伸べている。",
+      "audioTexts": ["A driver is paying cash at a toll booth.", "All cars are using ETC lanes.", "The toll booth is unattended.", "No cars are passing through."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-159",
+      "imageDescriptionJa": "陶芸教室。粘土をこねている女性。ろくろの上に置いて形を作っている。周りに出来上がった作品が棚に並んでいる。",
+      "audioTexts": ["A woman is shaping clay on a pottery wheel.", "The woman is painting finished pottery.", "The pottery class is empty.", "No clay is being used."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-160",
+      "imageDescriptionJa": "スーパーマーケットの精肉コーナー。店員がパックに肉を詰めている。値札を貼っている。ショーケースに並んだ肉がきれいに見える。",
+      "audioTexts": ["A butcher is packing meat into containers.", "The butcher is cutting meat.", "The meat section is empty.", "No price tags are on the packages."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-161",
+      "imageDescriptionJa": "公園の水道。犬を連れた女性が犬に水を飲ませている。蛇口をひねって水を出している。犬は楽しそうに飲んでいる。",
+      "audioTexts": ["A woman is giving water to her dog at a fountain.", "The woman is washing her hands.", "The dog is running away.", "The fountain is dry."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-162",
+      "imageDescriptionJa": "歯科技工所。技工士が歯の模型に人工の歯を並べている。照明付きの拡大鏡を使っている。石膏の模型がいくつかある。",
+      "audioTexts": ["A dental technician is arranging artificial teeth on a model.", "The technician is treating a patient.", "The lab has no dental models.", "No special lighting is being used."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-163",
+      "imageDescriptionJa": "バスの停留所で、ベンチに座って本を読んでいる女性。バス時刻表を見上げている。バッグを足元に置いている。",
+      "audioTexts": ["A woman is reading a book while waiting for the bus.", "The woman is boarding the bus.", "The bus stop has no bench.", "The timetable is not posted."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-164",
+      "imageDescriptionJa": "カラオケ店の受付。グループの若者たちが部屋を予約している。店員がタブレットで空き状況を確認している。",
+      "audioTexts": ["Young people are reserving a karaoke room.", "The group is singing already.", "The karaoke shop is closed.", "No staff is at the reception."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-165",
+      "imageDescriptionJa": "理容室の椅子。客が顔にシェービングクリームを塗られている。鏡に自分の姿が映っている。理容師がカミソリを持っている。",
+      "audioTexts": ["A customer is having shaving cream applied to his face.", "The customer is shaving himself.", "The barbershop has no mirrors.", "The barber is cutting hair."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-166",
+      "imageDescriptionJa": "銀行のATMコーナー。女性がATMの前に立って操作している。後ろに数人が並んで待っている。タッチパネル式の機械。",
+      "audioTexts": ["A woman is using an ATM while others wait behind her.", "The ATM is out of service.", "No one is waiting in line.", "The woman is depositing a check."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-167",
+      "imageDescriptionJa": "中学校の技術室。生徒たちが木材をのこぎりで切っている。先生が指導している。完成した作品が棚に飾ってある。",
+      "audioTexts": ["Students are cutting wood with saws in a workshop.", "The students are painting.", "The workshop has no tools.", "The teacher is not present."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-168",
+      "imageDescriptionJa": "カフェのテーブル。コーヒーカップとノートパソコンが置いてある。ビジネスマンが資料を見ながら電話している。窓際の席。",
+      "audioTexts": ["A businessman is on the phone while looking at documents.", "The man is sleeping at the table.", "The cafe has no customers.", "The laptop is closed."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-169",
+      "imageDescriptionJa": "工場の安全講習。作業員たちが集まって説明を聞いている。ホワイトボードに安全の注意点が書いてある。ヘルメットをかぶっている。",
+      "audioTexts": ["Workers are attending a safety training session.", "The workers are on strike.", "The whiteboard is blank.", "No one is wearing a helmet."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-170",
+      "imageDescriptionJa": "スーパーの青果売り場。店員がキャベツの葉っぱをむいている。傷んだ部分を取り除いている。陳列棚には新鮮な野菜が並んでいる。",
+      "audioTexts": ["A clerk is removing outer leaves from cabbages.", "The clerk is stocking canned goods.", "The vegetable section is empty.", "No fresh produce is on display."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-171",
+      "imageDescriptionJa": "図書館の返却ポスト。図書館員が返却された本をカートに積んでいる。本の背表紙を確認しながら分類している。",
+      "audioTexts": ["A librarian is sorting returned books on a cart.", "The librarian is reading a book.", "The return slot is closed.", "No books are on the cart."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-172",
+      "imageDescriptionJa": "ホテルのチェックインカウンター。フロント係がパスポートとクレジットカードを受け取っている。宿泊客がスーツケースを横に置いている。",
+      "audioTexts": ["A guest is checking in at the hotel front desk.", "The guest is checking out.", "The front desk is unattended.", "No luggage is visible."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-173",
+      "imageDescriptionJa": "スタジアムの観客席。満員の観客が応援している。旗を振っている人もいる。フィールドでは選手がプレーしている。",
+      "audioTexts": ["Spectators are cheering in a full stadium.", "The stadium is empty.", "No one is waving flags.", "The game has not started."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-174",
+      "imageDescriptionJa": "薬局の調剤室。薬剤師が薬の錠剤を数えている。分包機が動いている。患者の処方箋が机の上にある。",
+      "audioTexts": ["A pharmacist is counting pills for a prescription.", "The pharmacist is sweeping the floor.", "The pharmacy is closed.", "No prescription is on the desk."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-175",
+      "imageDescriptionJa": "パン屋の製造室。大きなミキサーで生地を混ぜている。小麦粉が飛び散っている。パン職人が様子を見ている。",
+      "audioTexts": ["A baker is mixing dough in a large mixer.", "The baker is shaping bread.", "The mixer is turned off.", "No flour is visible."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-176",
+      "imageDescriptionJa": "路上で、新聞配達員がバイクに新聞の束を積んでいる。ヘルメットをかぶっている。配達先のリストを見ている。",
+      "audioTexts": ["A newspaper delivery person is loading papers onto a bike.", "The person is reading a newspaper.", "The bike has no papers on it.", "No helmet is being worn."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-177",
+      "imageDescriptionJa": "マッサージチェアの展示場。男性がマッサージチェアに座って体験している。店員がリモコンの操作を説明している。",
+      "audioTexts": ["A man is trying out a massage chair while a clerk explains.", "The man is sleeping in the chair.", "The store has no massage chairs.", "The clerk is not helping."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-178",
+      "imageDescriptionJa": "学校のプール。水泳の授業中。子どもたちがプールサイドに並んで座っている。先生が泳ぎ方の手本を見せている。",
+      "audioTexts": ["Children are sitting by the pool while a teacher demonstrates swimming.", "The children are swimming.", "The pool is empty.", "No teacher is present."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-179",
+      "imageDescriptionJa": "蕎麦屋。職人が蕎麦を切っている。麺棒で伸ばした生地を包丁で細く切っている。真剣な表情。",
+      "audioTexts": ["A soba chef is cutting noodle dough with a knife.", "The chef is boiling noodles.", "The knife is not being used.", "No dough is on the board."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-180",
+      "imageDescriptionJa": "図書館の書架の間。学生が本を探している。指で背表紙をなぞりながら歩いている。カートに何冊か選んだ本を入れている。",
+      "audioTexts": ["A student is looking for books along the shelves.", "The student is returning books.", "The library has no books.", "The cart is empty."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-181",
+      "imageDescriptionJa": "ネイルサロンで、施術中の女性客の手元。ネイリストが細かい筆で花の絵を描いている。紫外線ランプで硬化中。",
+      "audioTexts": ["A nail artist is painting a flower design on a client's nail.", "The client is doing her own nails.", "The UV lamp is not in use.", "No design is being painted."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-182",
+      "imageDescriptionJa": "漁港。早朝、漁船が戻ってきた。漁師たちが網から魚を選別している。カモメが上空を飛んでいる。",
+      "audioTexts": ["Fishermen are sorting fish from a net at the port.", "The fishermen are sleeping.", "The port is empty.", "No birds are in the sky."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-183",
+      "imageDescriptionJa": "スキー場のレストラン。スキーウェアを着た人たちが温かい飲み物を飲んでいる。窓の外は雪景色。混雑している。",
+      "audioTexts": ["People in ski wear are drinking warm drinks at a restaurant.", "The restaurant is empty.", "Everyone is eating ice cream.", "The windows are covered."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-184",
+      "imageDescriptionJa": "公園で、ヨガをしている女性グループ。マットの上でポーズをとっている。インストラクターが前に立ってお手本を見せている。",
+      "audioTexts": ["A group of women is doing yoga in the park.", "The women are jogging.", "The park is empty.", "No instructor is present."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-185",
+      "imageDescriptionJa": "コンビニのATM前。お年寄りがATMの使い方に困っている。店員が来て操作方法を教えている。優しく対応している。",
+      "audioTexts": ["A store clerk is helping an elderly person use the ATM.", "The elderly person is using the ATM alone.", "The ATM is out of order.", "No clerk is nearby."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-186",
+      "imageDescriptionJa": "理容店の床。散髪した髪の毛がたくさん落ちている。掃除機をかけている最中。半分はきれいになっている。",
+      "audioTexts": ["Hair clippings are scattered on the barbershop floor.", "The floor is completely clean.", "No haircut has been done.", "The barbershop is closed."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-187",
+      "imageDescriptionJa": "宝石店。ショーケースの中にネックレスや指輪が並んでいる。女性客がケースを覗き込んでいる。店員が取り出して見せている。",
+      "audioTexts": ["A customer is looking at jewelry in a display case.", "The jewelry store is closed.", "The display case is empty.", "The customer is buying a watch."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-188",
+      "imageDescriptionJa": "大学の講義室。黒板にびっしり数式が書いてある。教授が説明している。学生がノートを取っている。後ろの席の学生が眠そう。",
+      "audioTexts": ["A professor is explaining equations written on the blackboard.", "The blackboard is clean.", "All students are sleeping.", "No one is taking notes."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-189",
+      "imageDescriptionJa": "ベーカリーカフェ。ガラスのショーケースにケーキやタルトが並んでいる。客が指をさして選んでいる。店員が取っている。",
+      "audioTexts": ["A customer is choosing a cake from a glass display case.", "The customer is baking a cake.", "The display case is empty.", "No staff is serving."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-190",
+      "imageDescriptionJa": "自転車修理店。店員がパンクしたタイヤを直している。タイヤレバーを使っている。床に工具が散らばっている。",
+      "audioTexts": ["A mechanic is fixing a punctured bicycle tire.", "The mechanic is pumping air into a tire.", "The bicycle has no flat tire.", "No tools are on the floor."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-191",
+      "imageDescriptionJa": "映画館のロビー。ポップコーンを買う長い列。売り子が袋に詰めている。映画のポスターが壁に貼ってある。",
+      "audioTexts": ["People are lining up to buy popcorn at the cinema lobby.", "The cinema is empty.", "No one is selling popcorn.", "The posters are all blank."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-192",
+      "imageDescriptionJa": "研究室の冷蔵庫の中。試薬のビンが並んでいる。温度計が貼ってある。研究者がビンを取り出そうとしている。",
+      "audioTexts": ["A researcher is taking a reagent bottle from a refrigerator.", "The refrigerator is empty.", "No temperature gauge is visible.", "The researcher is closing the door."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-193",
+      "imageDescriptionJa": "ヘアサロンのシャンプー台。客がリクライニングチェアに倒れて髪を洗われている。お湯の温度を確認している。",
+      "audioTexts": ["A customer is having their hair washed at a salon shampoo station.", "The customer is cutting their own hair.", "The shampoo station is not in use.", "The water is cold."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-194",
+      "imageDescriptionJa": "花屋の店先で、男性が花束を受け取っている。配達員がバイクにまたがって渡している。ヘルメットをかぶっている。",
+      "audioTexts": ["A delivery person is handing a bouquet to a man.", "The man is delivering flowers.", "The flower shop is closed.", "No motorcycle is nearby."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-195",
+      "imageDescriptionJa": "小学校の音楽室。子どもたちがリコーダーを吹いている。先生がピアノで伴奏している。楽譜立てが並んでいる。",
+      "audioTexts": ["Children are playing recorders while a teacher plays piano.", "The children are singing.", "The music room has no instruments.", "The teacher is not present."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-196",
+      "imageDescriptionJa": "倉庫の入り口。フォークリフトがパレットを運び出している。警備員が門のところでチェックしている。トラックが待っている。",
+      "audioTexts": ["A forklift is moving a pallet out of the warehouse.", "The forklift is parked.", "No security guard is at the gate.", "The warehouse is empty."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-197",
+      "imageDescriptionJa": "釣り堀。家族連れが釣り竿を垂らしている。子どもが魚を釣り上げたところ。網ですくおうとしている。",
+      "audioTexts": ["A child is catching a fish at a fishing pond.", "The family is eating fish.", "The fishing pond has no fish.", "No one is holding a fishing rod."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-198",
+      "imageDescriptionJa": "スポーツジムのスタジオ。ズンバのクラス。大勢の参加者がインストラクターの動きに合わせて踊っている。鏡が全面にある。",
+      "audioTexts": ["Many people are dancing in a Zumba class.", "The class has only one person.", "The mirrors are covered.", "The instructor is sitting down."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-199",
+      "imageDescriptionJa": "本屋の雑誌コーナー。立ち読みしている人が何人もいる。最新号の雑誌が表紙を向けて並べられている。",
+      "audioTexts": ["People are browsing magazines at a bookstore.", "The magazine section is empty.", "All magazines are covered.", "No one is standing."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p1-200",
+      "imageDescriptionJa": "道路工事の夜間作業。照明灯が明るく照らしている。作業員がアスファルトを敷いている。ローラー車が走っている。",
+      "audioTexts": ["Workers are paving asphalt at night under bright lights.", "The workers are sleeping.", "No construction vehicles are present.", "It is daytime."],
+      "correctIndex": 0
+    }
+  ]
+}

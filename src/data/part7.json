@@ -1,21 +1,3809 @@
-[
-  {
-    "id": "p7-1",
-    "part": 7,
-    "text": "MEMORANDUM\nTo: All Staff\nFrom: Management\nDate: October 12\nSubject: Office Renovation\n\nPlease be advised that the third-floor office will be undergoing renovations starting next Monday. During this time, staff members usually working on the third floor will be relocated to the second-floor conference room. We expect the work to be completed by Friday. Thank you for your cooperation.",
-    "subQuestions": [
-      {
-        "id": "p7-1-q1",
-        "questionText": "What is the purpose of the memo?",
-        "options": ["To announce a holiday", "To inform about renovations", "To invite staff to a party", "To introduce a new manager"],
-        "correctIndex": 1
-      },
-      {
-        "id": "p7-1-q2",
-        "questionText": "Where will the third-floor staff work next week?",
-        "options": ["At home", "In the lobby", "In the second-floor conference room", "In the cafeteria"],
-        "correctIndex": 2
-      }
-    ]
-  }
-]
+{
+  "format": "TOEIC Part 7 長文読解問題",
+  "totalQuestions": 200,
+  "wordCountPerText": "80-180 words",
+  "timeLimit": "1 minute per question set",
+  "instructions": "以下の各問題で、文書を読み、各設問に答えてください。",
+  "questions": [
+    {
+      "id": "p7-1",
+      "part": 7,
+      "text": "EMAIL\nTo: All Employees\nFrom: HR Department\nSubject: Holiday Schedule\n\nThe office will be closed on Monday, May 5th, in observance of Labor Day. Normal business hours will resume on Tuesday, May 6th. Please plan your work accordingly. If you have any urgent matters, contact your supervisor before Friday.",
+      "subQuestions": [
+        {
+          "id": "p7-1-q1",
+          "questionText": "What is the purpose of the email?",
+          "options": ["To announce a holiday closure", "To request overtime", "To schedule a meeting", "To remind about a deadline"],
+          "correctIndex": 0
+        },
+        {
+          "id": "p7-1-q2",
+          "questionText": "When will the office reopen?",
+          "options": ["Monday, May 5th", "Tuesday, May 6th", "Friday, May 2nd", "Wednesday, May 7th"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-2",
+      "part": 7,
+      "text": "NOTICE\nParking is restricted to permit holders only between 8 a.m. and 6 p.m., Monday through Friday. Vehicles without a permit will be towed at the owner's expense. Visitors may park in the designated area behind the building.",
+      "subQuestions": [
+        {
+          "id": "p7-2-q1",
+          "questionText": "When can permit holders park?",
+          "options": ["Weekends only", "Weekdays 8 a.m. to 6 p.m.", "After 6 p.m. only", "24 hours a day"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-2-q2",
+          "questionText": "Where can visitors park?",
+          "options": ["In front of the building", "Behind the building", "On the street", "In any available spot"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-3",
+      "part": 7,
+      "text": "ADVERTISEMENT\nBuy one, get one free on all coffee drinks! Offer valid this weekend only at all downtown locations. Cannot be combined with other discounts. Present this ad at the counter.",
+      "subQuestions": [
+        {
+          "id": "p7-3-q1",
+          "questionText": "What is being offered?",
+          "options": ["Free coffee", "Buy one, get one free", "50% off all drinks", "Free pastry with coffee"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-3-q2",
+          "questionText": "When is the offer valid?",
+          "options": ["Weekdays only", "This weekend only", "All month", "Today only"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-4",
+      "part": 7,
+      "text": "MEMO\nTO: Sales Team\nFROM: Regional Manager\n\nAll sales reports must be submitted electronically by Friday, March 15th. Paper submissions will no longer be accepted. Please use the new template available on the company portal. Late submissions may affect quarterly bonuses.",
+      "subQuestions": [
+        {
+          "id": "p7-4-q1",
+          "questionText": "What is the deadline for submissions?",
+          "options": ["March 1st", "March 15th", "March 31st", "April 15th"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-4-q2",
+          "questionText": "What will happen to late submissions?",
+          "options": ["They will be accepted", "They may affect bonuses", "They will be ignored", "They require a fee"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-5",
+      "part": 7,
+      "text": "CHAT\nA: Can you attend the 2 p.m. meeting?\nB: I have another appointment. Can we reschedule?\nA: How about 4 p.m.?\nB: That works. See you then.\nA: Great. I'll book the conference room.",
+      "subQuestions": [
+        {
+          "id": "p7-5-q1",
+          "questionText": "Why can't B attend at 2 p.m.?",
+          "options": ["He is sick", "He has another appointment", "He is on vacation", "He forgot"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-5-q2",
+          "questionText": "What time did they agree to meet?",
+          "options": ["2 p.m.", "3 p.m.", "4 p.m.", "5 p.m."],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-6",
+      "part": 7,
+      "text": "INVOICE\nInvoice #: 2025-101\nDate: March 10, 2025\nCustomer: Tanaka Office Solutions\nDescription: Office chairs (20 units)\nTotal: $2,400\nDue Date: April 9, 2025\nPlease include invoice number with payment.",
+      "subQuestions": [
+        {
+          "id": "p7-6-q1",
+          "questionText": "What was purchased?",
+          "options": ["Computers", "Office chairs", "Desks", "Printers"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-6-q2",
+          "questionText": "When is payment due?",
+          "options": ["March 10, 2025", "March 31, 2025", "April 9, 2025", "April 30, 2025"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-7",
+      "part": 7,
+      "text": "WEBSITE\nCheck-in: 3:00 PM\nCheck-out: 11:00 AM\nFree Wi-Fi included. Breakfast available 7-10 AM ($15 per person). Parking: $20 per night. Cancellation: Free up to 48 hours before arrival.",
+      "subQuestions": [
+        {
+          "id": "p7-7-q1",
+          "questionText": "What is the check-out time?",
+          "options": ["10:00 AM", "11:00 AM", "12:00 PM", "3:00 PM"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-7-q2",
+          "questionText": "How much does parking cost?",
+          "options": ["Free", "$15 per night", "$20 per night", "$25 per night"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-8",
+      "part": 7,
+      "text": "REVIEW\nI stayed at the Grand Hotel for two nights. The location is great, close to the train station. The room was clean but small. The staff was friendly. However, the breakfast was overpriced at $25. I would stay here again for the location.",
+      "subQuestions": [
+        {
+          "id": "p7-8-q1",
+          "questionText": "What is mentioned as a positive?",
+          "options": ["The price", "The breakfast", "The location", "The room size"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-8-q2",
+          "questionText": "What does the reviewer say about breakfast?",
+          "options": ["It was free", "It was delicious", "It was overpriced", "It was not available"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-9",
+      "part": 7,
+      "text": "LETTER\nDear Ms. Sato,\n\nThank you for your application. We were impressed with your qualifications and would like to invite you for an interview on Monday, June 10th at 10 a.m. Please bring two references. Confirm your availability by Friday.\n\nSincerely,\nHiring Manager",
+      "subQuestions": [
+        {
+          "id": "p7-9-q1",
+          "questionText": "What is the purpose of the letter?",
+          "options": ["To reject an application", "To invite for an interview", "To offer a job", "To request more documents"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-9-q2",
+          "questionText": "What must Ms. Sato bring?",
+          "options": ["Her resume", "Two references", "A portfolio", "Her diploma"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-10",
+      "part": 7,
+      "text": "NOTICE\nPlease turn off all lights and lock the doors before leaving. The alarm will activate at 8 p.m. automatically. Do not leave any windows open. Report any issues to security at extension 5500.",
+      "subQuestions": [
+        {
+          "id": "p7-10-q1",
+          "questionText": "What time does the alarm activate?",
+          "options": ["6 p.m.", "7 p.m.", "8 p.m.", "9 p.m."],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-10-q2",
+          "questionText": "What should employees do before leaving?",
+          "options": ["Clean their desks", "Turn off lights and lock doors", "Call security", "Close the windows"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-11",
+      "part": 7,
+      "text": "EMAIL\nTo: support@tech.com\nFrom: david.kim@email.com\nSubject: Order #8842\n\nI received my order today, but one item is missing. I ordered three wireless mice, but only two were in the box. Please send the missing item or issue a refund. My order number is #8842.",
+      "subQuestions": [
+        {
+          "id": "p7-11-q1",
+          "questionText": "What is David's problem?",
+          "options": ["The package was damaged", "One item is missing", "He received wrong items", "The delivery was late"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-11-q2",
+          "questionText": "How many mice did David receive?",
+          "options": ["One", "Two", "Three", "Four"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-12",
+      "part": 7,
+      "text": "ANNOUNCEMENT\nWe are pleased to announce that Maria Santos has been promoted to Senior Manager. Maria has been with the company for six years and has led the marketing team to record growth. Please join us for a celebration on Friday at 3 p.m. in the cafeteria.",
+      "subQuestions": [
+        {
+          "id": "p7-12-q1",
+          "questionText": "What is the announcement about?",
+          "options": ["A new hire", "A promotion", "A retirement", "A department closure"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-12-q2",
+          "questionText": "How long has Maria been with the company?",
+          "options": ["Three years", "Four years", "Five years", "Six years"],
+          "correctIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "p7-13",
+      "part": 7,
+      "text": "TEXT MESSAGE\nMom: Don't forget to pick up milk and bread.\nTom: OK. Anything else?\nMom: Yes, we also need eggs and butter.\nTom: Got it. I'll be home by 6.\nMom: Thanks. Drive safely.",
+      "subQuestions": [
+        {
+          "id": "p7-13-q1",
+          "questionText": "What does Tom need to buy?",
+          "options": ["Milk only", "Bread and eggs", "Milk, bread, eggs, and butter", "Butter only"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-13-q2",
+          "questionText": "When will Tom be home?",
+          "options": ["By 5 p.m.", "By 6 p.m.", "By 7 p.m.", "By 8 p.m."],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-14",
+      "part": 7,
+      "text": "BROCHURE\nVisit Central Park Zoo! Open daily 10 a.m. to 5 p.m. Admission: Adults $15, Children (3-12) $8, Seniors $10. Free parking available. Guided tours at 11 a.m. and 2 p.m. No outside food or drinks allowed.",
+      "subQuestions": [
+        {
+          "id": "p7-14-q1",
+          "questionText": "How much is admission for an adult?",
+          "options": ["$8", "$10", "$12", "$15"],
+          "correctIndex": 3
+        },
+        {
+          "id": "p7-14-q2",
+          "questionText": "What time are guided tours?",
+          "options": ["10 a.m. and 3 p.m.", "11 a.m. and 2 p.m.", "12 p.m. and 4 p.m.", "1 p.m. and 5 p.m."],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-15",
+      "part": 7,
+      "text": "EMAIL\nTo: All Staff\nFrom: IT Department\nSubject: System Maintenance\n\nThe server will be offline on Saturday from 9 a.m. to 5 p.m. During this time, you cannot access email or shared files. Please save all work before Friday. Contact IT if you have questions.",
+      "subQuestions": [
+        {
+          "id": "p7-15-q1",
+          "questionText": "When will the server be offline?",
+          "options": ["Friday all day", "Saturday 9 a.m. to 5 p.m.", "Sunday all day", "Monday morning"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-15-q2",
+          "questionText": "What should employees do before Friday?",
+          "options": ["Back up their files", "Save their work", "Contact IT", "Work from home"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-16",
+      "part": 7,
+      "text": "RECEIPT\nStore: Green Market\nDate: March 5, 2025\nItems:\n- Apples (3) $4.50\n- Milk (1) $3.99\n- Bread (1) $2.50\n- Eggs (1) $3.00\nTotal: $13.99\nPayment: Credit Card\nThank you for shopping!",
+      "subQuestions": [
+        {
+          "id": "p7-16-q1",
+          "questionText": "How much was the total?",
+          "options": ["$10.99", "$12.99", "$13.99", "$14.99"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-16-q2",
+          "questionText": "How did the customer pay?",
+          "options": ["Cash", "Credit Card", "Debit Card", "Gift Card"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-17",
+      "part": 7,
+      "text": "NOTICE\nLibrary Hours Update\nStarting next Monday, the library will close at 8 p.m. on weekdays and 5 p.m. on weekends. Regular hours (9 a.m. to 9 p.m.) will resume in September. We apologize for any inconvenience.",
+      "subQuestions": [
+        {
+          "id": "p7-17-q1",
+          "questionText": "What time does the library close on weekdays?",
+          "options": ["5 p.m.", "6 p.m.", "7 p.m.", "8 p.m."],
+          "correctIndex": 3
+        },
+        {
+          "id": "p7-17-q2",
+          "questionText": "When will regular hours resume?",
+          "options": ["Next month", "In September", "In December", "Next year"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-18",
+      "part": 7,
+      "text": "EMAIL\nTo: john.tanaka@email.com\nFrom: events@cityhall.com\nSubject: Community Event\n\nDear Mr. Tanaka,\n\nYou are invited to the annual community festival on Saturday, April 12th from 10 a.m. to 4 p.m. at City Park. There will be food, music, and activities for children. Admission is free. Please RSVP by April 5th.",
+      "subQuestions": [
+        {
+          "id": "p7-18-q1",
+          "questionText": "What is the event?",
+          "options": ["A concert", "A community festival", "A business conference", "A sports game"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-18-q2",
+          "questionText": "When must Mr. Tanaka RSVP?",
+          "options": ["April 5th", "April 12th", "April 15th", "April 20th"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "p7-19",
+      "part": 7,
+      "text": "ARTICLE\nLocal bakery Sweet Treats won the \"Best Dessert\" award at the annual food festival. Owner Maria Gomez started the bakery five years ago. The winning item was a chocolate cake with raspberry filling. The bakery is located at 123 Main Street.",
+      "subQuestions": [
+        {
+          "id": "p7-19-q1",
+          "questionText": "What award did Sweet Treats win?",
+          "options": ["Best Bread", "Best Dessert", "Best Coffee", "Best Service"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-19-q2",
+          "questionText": "How long ago did Maria Gomez start the bakery?",
+          "options": ["Three years", "Four years", "Five years", "Six years"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-20",
+      "part": 7,
+      "text": "CHAT\nSarah: Did you finish the report?\nMike: Almost. I just need to add the charts.\nSarah: When can you send it?\nMike: By 3 p.m. today.\nSarah: Perfect. Let me know when it's ready.",
+      "subQuestions": [
+        {
+          "id": "p7-20-q1",
+          "questionText": "What does Mike still need to do?",
+          "options": ["Write the conclusion", "Add the charts", "Check the spelling", "Print the report"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-20-q2",
+          "questionText": "When will Mike send the report?",
+          "options": ["By 10 a.m.", "By 12 p.m.", "By 3 p.m.", "By 5 p.m."],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-21",
+      "part": 7,
+      "text": "SIGN\nConstruction Zone\nPlease use alternate route\nMonday - Friday: 7 a.m. - 6 p.m.\nWeekend: No construction\nThank you for your patience",
+      "subQuestions": [
+        {
+          "id": "p7-21-q1",
+          "questionText": "When does construction occur?",
+          "options": ["Weekends only", "Weekdays 7 a.m. to 6 p.m.", "24 hours a day", "Nights only"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-21-q2",
+          "questionText": "What are drivers advised to do?",
+          "options": ["Drive slowly", "Use an alternate route", "Honk their horns", "Park elsewhere"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-22",
+      "part": 7,
+      "text": "EMAIL\nTo: All Staff\nFrom: Finance Department\nSubject: Payroll Schedule\n\nDue to the holiday, payroll will be processed one day earlier than usual. Please submit your timesheets by Wednesday, November 20th. Late submissions will be processed in the next pay period.",
+      "subQuestions": [
+        {
+          "id": "p7-22-q1",
+          "questionText": "Why is payroll being processed early?",
+          "options": ["System error", "Staff shortage", "A holiday", "Budget cuts"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-22-q2",
+          "questionText": "When must timesheets be submitted?",
+          "options": ["November 19th", "November 20th", "November 21st", "November 22nd"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-23",
+      "part": 7,
+      "text": "MENU\nSunset Diner\nBreakfast served all day\n- Pancakes $8.99\n- Omelette $10.99\n- French Toast $9.99\n- Coffee $2.50\n- Orange Juice $3.00\nAdd bacon or sausage $3.00",
+      "subQuestions": [
+        {
+          "id": "p7-23-q1",
+          "questionText": "How much is an omelette?",
+          "options": ["$8.99", "$9.99", "$10.99", "$11.99"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-23-q2",
+          "questionText": "What is the cost to add bacon?",
+          "options": ["$2.00", "$2.50", "$3.00", "$3.50"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-24",
+      "part": 7,
+      "text": "NOTICE\nPool Rules\n1. Shower before entering\n2. No running on deck\n3. Children under 12 must be accompanied by an adult\n4. No glass containers\n5. Swim at your own risk\nViolators will be asked to leave.",
+      "subQuestions": [
+        {
+          "id": "p7-24-q1",
+          "questionText": "What is required before entering the pool?",
+          "options": ["Wear a swim cap", "Shower", "Sign a waiver", "Pay a fee"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-24-q2",
+          "questionText": "Who must be accompanied by an adult?",
+          "options": ["Children under 10", "Children under 12", "Children under 14", "All children"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-25",
+      "part": 7,
+      "text": "EMAIL\nTo: reservations@hotel.com\nFrom: emma.wong@email.com\nSubject: Booking change\n\nDear Sir or Madam,\n\nI have a reservation for June 15th under the name Emma Wong. I need to change it to June 22nd. Is the same room available? Please let me know. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-25-q1",
+          "questionText": "What does Emma want to do?",
+          "options": ["Cancel her reservation", "Change the date", "Upgrade her room", "Add a guest"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-25-q2",
+          "questionText": "What is Emma's original reservation date?",
+          "options": ["June 1st", "June 8th", "June 15th", "June 22nd"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-26",
+      "part": 7,
+      "text": "ADVERTISEMENT\nSpring Sale at Fashion Outlet!\nAll items 30-50% off\n- Dresses: 40% off\n- Jeans: 30% off\n- Jackets: 50% off\n- Shoes: Buy one, get one 50% off\nSale ends March 31st. Don't miss out!",
+      "subQuestions": [
+        {
+          "id": "p7-26-q1",
+          "questionText": "What is the discount on jackets?",
+          "options": ["30%", "40%", "50%", "60%"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-26-q2",
+          "questionText": "When does the sale end?",
+          "options": ["March 15th", "March 20th", "March 31st", "April 15th"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-27",
+      "part": 7,
+      "text": "REVIEW\nI bought a laptop from this store. Shipping was fast, and the price was good. However, customer service was slow when I had a question. I would still recommend them for prices, but be patient with support.",
+      "subQuestions": [
+        {
+          "id": "p7-27-q1",
+          "questionText": "What is mentioned as positive?",
+          "options": ["Customer service", "Fast shipping and good price", "Return policy", "Warranty"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-27-q2",
+          "questionText": "What does the reviewer say about customer service?",
+          "options": ["It was excellent", "It was slow", "It was unavailable", "It was rude"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-28",
+      "part": 7,
+      "text": "MEMO\nTO: All Employees\nFROM: Office Manager\nSUBJECT: Desk Cleaning\n\nPlease remove all personal items from your desks by Friday, April 10th. The office will be cleaned and repainted over the weekend. You may return items on Monday, April 13th. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-28-q1",
+          "questionText": "What is the deadline to remove personal items?",
+          "options": ["April 10th", "April 11th", "April 12th", "April 13th"],
+          "correctIndex": 0
+        },
+        {
+          "id": "p7-28-q2",
+          "questionText": "Why are employees removing items?",
+          "options": ["Office relocation", "Cleaning and repainting", "New furniture", "Building inspection"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-29",
+      "part": 7,
+      "text": "TEXT MESSAGE\nLisa: Are you coming to the party?\nTom: What time does it start?\nLisa: 7 p.m. at my place.\nTom: I'll be there around 8. I have a meeting.\nLisa: No problem. See you then!",
+      "subQuestions": [
+        {
+          "id": "p7-29-q1",
+          "questionText": "What time does the party start?",
+          "options": ["6 p.m.", "7 p.m.", "8 p.m.", "9 p.m."],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-29-q2",
+          "questionText": "Why will Tom be late?",
+          "options": ["He has a meeting", "He forgot", "He is sick", "He is out of town"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "p7-30",
+      "part": 7,
+      "text": "FLYER\nYoga Class at Community Center\nMondays and Wednesdays\n6:30 p.m. - 7:30 p.m.\n$15 per class or $50 for 4 classes\nBring your own mat. Beginners welcome. Register at the front desk.",
+      "subQuestions": [
+        {
+          "id": "p7-30-q1",
+          "questionText": "What days are the classes held?",
+          "options": ["Mondays and Fridays", "Tuesdays and Thursdays", "Mondays and Wednesdays", "Weekends only"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-30-q2",
+          "questionText": "How much is a single class?",
+          "options": ["$10", "$12", "$15", "$20"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-31",
+      "part": 7,
+      "text": "EMAIL\nTo: marketing@company.com\nFrom: client@email.com\nSubject: Campaign feedback\n\nDear Team,\n\nI reviewed the proposed marketing campaign. The concept is strong, but the budget is too high. Can you provide a revised version with a 20% cost reduction? Please send by Friday. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-31-q1",
+          "questionText": "What is the client's main concern?",
+          "options": ["The concept is weak", "The budget is too high", "The timeline is too short", "The team is inexperienced"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-31-q2",
+          "questionText": "What does the client request?",
+          "options": ["A new concept", "A 20% cost reduction", "More team members", "A longer timeline"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-32",
+      "part": 7,
+      "text": "SCHEDULE\nConference Agenda - May 10th\n9:00 AM: Registration\n10:00 AM: Keynote Speech\n12:00 PM: Lunch\n1:30 PM: Workshop A (Marketing)\n1:30 PM: Workshop B (Finance)\n3:30 PM: Panel Discussion\n5:00 PM: Closing Remarks",
+      "subQuestions": [
+        {
+          "id": "p7-32-q1",
+          "questionText": "What time is the keynote speech?",
+          "options": ["9:00 AM", "10:00 AM", "12:00 PM", "1:30 PM"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-32-q2",
+          "questionText": "How many workshops are offered at 1:30 PM?",
+          "options": ["One", "Two", "Three", "Four"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-33",
+      "part": 7,
+      "text": "NOTICE\nLost and Found\nA black backpack was found in the cafeteria. It contains a laptop and notebooks. Please claim at the security desk. Describe the contents for verification. Unclaimed items will be donated after 30 days.",
+      "subQuestions": [
+        {
+          "id": "p7-33-q1",
+          "questionText": "What was found?",
+          "options": ["A laptop", "A black backpack", "Notebooks", "A wallet"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-33-q2",
+          "questionText": "Where can the owner claim it?",
+          "options": ["The cafeteria", "The security desk", "The front office", "The lost and found box"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-34",
+      "part": 7,
+      "text": "EMAIL\nTo: All Staff\nFrom: HR\nSubject: New Hire Announcement\n\nPlease welcome James Chen as our new IT Manager. James joins us from Tech Solutions, where he worked for eight years. He starts on Monday, April 15th. Stop by his office to say hello.",
+      "subQuestions": [
+        {
+          "id": "p7-34-q1",
+          "questionText": "What is James Chen's new position?",
+          "options": ["IT Manager", "Sales Director", "HR Coordinator", "Marketing Lead"],
+          "correctIndex": 0
+        },
+        {
+          "id": "p7-34-q2",
+          "questionText": "When does James start?",
+          "options": ["April 1st", "April 8th", "April 15th", "April 22nd"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-35",
+      "part": 7,
+      "text": "ADVERTISEMENT\nGym Membership Special\nJoin now and pay $0 enrollment fee!\nMonthly fee: $39.99\nIncludes: All classes, gym access, locker room\n24/7 access with keycard\nFirst month free with annual contract",
+      "subQuestions": [
+        {
+          "id": "p7-35-q1",
+          "questionText": "What is the monthly fee?",
+          "options": ["$29.99", "$39.99", "$49.99", "$59.99"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-35-q2",
+          "questionText": "What is included in the membership?",
+          "options": ["Personal trainer", "All classes and gym access", "Protein shakes", "Parking"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-36",
+      "part": 7,
+      "text": "CHAT\nBoss: Can you work overtime tonight?\nEmployee: How many hours?\nBoss: About 3 hours, until 8 p.m.\nEmployee: I can do 2 hours but not 3. I have a prior commitment.\nBoss: 2 hours works. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-36-q1",
+          "questionText": "How many hours will the employee work?",
+          "options": ["1 hour", "2 hours", "3 hours", "4 hours"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-36-q2",
+          "questionText": "Why can't the employee work 3 hours?",
+          "options": ["He is sick", "He has a prior commitment", "He is tired", "He has another job"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-37",
+      "part": 7,
+      "text": "INVOICE\nInvoice #: 2025-205\nDate: May 1, 2025\nCustomer: Green Energy Co.\nDescription: Solar panel installation\nAmount: $12,500\nDeposit paid: $5,000\nBalance due: $7,500\nDue date: June 1, 2025",
+      "subQuestions": [
+        {
+          "id": "p7-37-q1",
+          "questionText": "What is the total amount of the invoice?",
+          "options": ["$5,000", "$7,500", "$12,500", "$15,000"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-37-q2",
+          "questionText": "What is the balance due?",
+          "options": ["$5,000", "$7,500", "$12,500", "$15,000"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-38",
+      "part": 7,
+      "text": "WEBSITE\nProduct Return Policy\nItems may be returned within 30 days of purchase. Items must be unused and in original packaging. Customer pays return shipping. Refunds issued within 5 business days of receiving return. Final sale items cannot be returned.",
+      "subQuestions": [
+        {
+          "id": "p7-38-q1",
+          "questionText": "What is the return period?",
+          "options": ["14 days", "30 days", "45 days", "60 days"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-38-q2",
+          "questionText": "Who pays return shipping?",
+          "options": ["The store", "The customer", "The manufacturer", "Free shipping"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-39",
+      "part": 7,
+      "text": "LETTER\nDear Valued Customer,\n\nWe regret to inform you that our downtown location will close permanently on June 30th. All remaining inventory is 40% off. Thank you for your years of support. Please visit our online store or other locations.",
+      "subQuestions": [
+        {
+          "id": "p7-39-q1",
+          "questionText": "What is happening on June 30th?",
+          "options": ["A sale begins", "The store closes permanently", "A new store opens", "Inventory arrives"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-39-q2",
+          "questionText": "What discount is offered?",
+          "options": ["20% off", "30% off", "40% off", "50% off"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-40",
+      "part": 7,
+      "text": "ARTICLE\nCity council approved a new budget for road repairs yesterday. The $5 million project will repave 20 miles of roads in the downtown area. Work is scheduled to begin in July and will take approximately six months. Drivers should expect delays.",
+      "subQuestions": [
+        {
+          "id": "p7-40-q1",
+          "questionText": "How much is the road repair budget?",
+          "options": ["$2 million", "$3 million", "$4 million", "$5 million"],
+          "correctIndex": 3
+        },
+        {
+          "id": "p7-40-q2",
+          "questionText": "How long will the project take?",
+          "options": ["Three months", "Four months", "Six months", "One year"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-41",
+      "part": 7,
+      "text": "TEXT MESSAGE\nA: The meeting was moved to 11 a.m.\nB: Thanks for letting me know. Is it still in Room 301?\nA: No, it's now in Room 405.\nB: Got it. See you there.",
+      "subQuestions": [
+        {
+          "id": "p7-41-q1",
+          "questionText": "What time is the meeting now?",
+          "options": ["10 a.m.", "11 a.m.", "12 p.m.", "1 p.m."],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-41-q2",
+          "questionText": "What room is the meeting in?",
+          "options": ["Room 201", "Room 301", "Room 405", "Room 501"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-42",
+      "part": 7,
+      "text": "NOTICE\nOffice Kitchen Rules\n- Clean up after yourself\n- Label your food in the refrigerator\n- Do not leave dishes in the sink\n- Coffee is $0.50 per cup (honor system)\n- Violations may result in loss of kitchen privileges",
+      "subQuestions": [
+        {
+          "id": "p7-42-q1",
+          "questionText": "What is required for food in the refrigerator?",
+          "options": ["Use a container", "Label it", "Eat it within 2 days", "Share with others"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-42-q2",
+          "questionText": "How much does coffee cost?",
+          "options": ["Free", "$0.25", "$0.50", "$1.00"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-43",
+      "part": 7,
+      "text": "EMAIL\nTo: customer.service@store.com\nFrom: anna.lee@email.com\nSubject: Wrong item received\n\nI received my order today, but the color is wrong. I ordered a blue jacket, but received a black one. Please send me the blue one or issue a refund. Order #3352. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-43-q1",
+          "questionText": "What problem does Anna have?",
+          "options": ["The package is damaged", "The wrong color was sent", "The item is too small", "The delivery was late"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-43-q2",
+          "questionText": "What color did Anna order?",
+          "options": ["Black", "Blue", "Red", "Green"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-44",
+      "part": 7,
+      "text": "FLYER\nBlood Drive at City Hall\nWednesday, May 20th\n9:00 AM - 3:00 PM\nFree t-shirt for donors\nAppointments recommended, walk-ins welcome\nBring photo ID\nSnacks provided after donation",
+      "subQuestions": [
+        {
+          "id": "p7-44-q1",
+          "questionText": "What do donors receive?",
+          "options": ["A free meal", "A free t-shirt", "A discount coupon", "A parking pass"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-44-q2",
+          "questionText": "What is required to donate?",
+          "options": ["Proof of address", "Photo ID", "Insurance card", "Doctor's note"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-45",
+      "part": 7,
+      "text": "REVIEW\nThis restaurant has great food, but the service is slow. I waited 20 minutes just to get a menu. The pasta was delicious, though. I would come back for the food but hope they improve the service.",
+      "subQuestions": [
+        {
+          "id": "p7-45-q1",
+          "questionText": "What is the reviewer's main complaint?",
+          "options": ["The food quality", "The prices", "The slow service", "The location"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-45-q2",
+          "questionText": "What does the reviewer say about the pasta?",
+          "options": ["It was cold", "It was delicious", "It was too salty", "It was undercooked"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-46",
+      "part": 7,
+      "text": "MEMO\nTO: Research Team\nFROM: Project Lead\nSUBJECT: Deadline Extension\n\nThe deadline for the preliminary report has been extended to May 10th. This gives us an extra week. Please use this time to verify your data. Final report deadline remains May 30th.",
+      "subQuestions": [
+        {
+          "id": "p7-46-q1",
+          "questionText": "What is the new deadline for the preliminary report?",
+          "options": ["May 3rd", "May 5th", "May 10th", "May 15th"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-46-q2",
+          "questionText": "What is the team asked to do with the extra time?",
+          "options": ["Take a break", "Verify data", "Write more pages", "Start the final report"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-47",
+      "part": 7,
+      "text": "ADVERTISEMENT\nSpring Cleaning Sale!\nAll furniture 25% off\nCarpets 30% off\nLighting 20% off\nFree delivery on orders over $500\nSale ends Sunday. In-store only.",
+      "subQuestions": [
+        {
+          "id": "p7-47-q1",
+          "questionText": "What is the discount on carpets?",
+          "options": ["20%", "25%", "30%", "35%"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-47-q2",
+          "questionText": "When does the sale end?",
+          "options": ["Friday", "Saturday", "Sunday", "Monday"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-48",
+      "part": 7,
+      "text": "CHAT\nCustomer: My order hasn't arrived yet. It was supposed to be here yesterday.\nSupport: I'm sorry. Can I have your order number?\nCustomer: #7721.\nSupport: I see a delay. It will arrive tomorrow. I've refunded the shipping fee.",
+      "subQuestions": [
+        {
+          "id": "p7-48-q1",
+          "questionText": "What is the customer's problem?",
+          "options": ["Wrong item", "Damaged item", "Late delivery", "Missing item"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-48-q2",
+          "questionText": "What did support do for the customer?",
+          "options": ["Sent a replacement", "Refunded the shipping fee", "Gave a discount", "Canceled the order"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-49",
+      "part": 7,
+      "text": "SIGN\nQuiet Zone\nPlease respect our neighbors\nNo loud music\nNo parties after 10 p.m.\nViolators will be reported to management\nThank you for your cooperation",
+      "subQuestions": [
+        {
+          "id": "p7-49-q1",
+          "questionText": "What is prohibited after 10 p.m.?",
+          "options": ["Talking", "Watching TV", "Parties", "Walking"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-49-q2",
+          "questionText": "What will happen to violators?",
+          "options": ["They will be fined", "They will be reported to management", "They will be evicted", "They will lose privileges"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-50",
+      "part": 7,
+      "text": "EMAIL\nTo: All Staff\nFrom: Facilities\nSubject: Office Temperature\n\nWe have received complaints that the office is too cold. The thermostat is set to 72°F. Please dress appropriately. Space heaters are not allowed due to fire safety. Thank you for understanding.",
+      "subQuestions": [
+        {
+          "id": "p7-50-q1",
+          "questionText": "What is the thermostat set to?",
+          "options": ["68°F", "70°F", "72°F", "74°F"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-50-q2",
+          "questionText": "Why are space heaters not allowed?",
+          "options": ["They use too much energy", "Fire safety", "They are noisy", "They are expensive"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-51",
+      "part": 7,
+      "text": "NEWSLETTER\nMarch 2025\nEmployee of the Month: Sarah Wong\nSarah has been with us for three years. She exceeded her sales target by 25% this quarter. She also volunteered to train new team members. Congratulations, Sarah!",
+      "subQuestions": [
+        {
+          "id": "p7-51-q1",
+          "questionText": "Who is Employee of the Month?",
+          "options": ["Sarah Wong", "Maria Santos", "James Chen", "David Kim"],
+          "correctIndex": 0
+        },
+        {
+          "id": "p7-51-q2",
+          "questionText": "By how much did Sarah exceed her sales target?",
+          "options": ["10%", "15%", "20%", "25%"],
+          "correctIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "p7-52",
+      "part": 7,
+      "text": "TEXT MESSAGE\nLandlord: Rent is due on the 1st of each month.\nTenant: I know. I'll pay tomorrow.\nLandlord: There is a $50 late fee after the 5th.\nTenant: I understand. I'll pay tomorrow for sure.",
+      "subQuestions": [
+        {
+          "id": "p7-52-q1",
+          "questionText": "When is rent normally due?",
+          "options": ["The 1st", "The 5th", "The 10th", "The 15th"],
+          "correctIndex": 0
+        },
+        {
+          "id": "p7-52-q2",
+          "questionText": "What happens after the 5th?",
+          "options": ["Eviction", "A $50 late fee", "A warning", "Rent increase"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-53",
+      "part": 7,
+      "text": "BROCHURE\nMuseum of Natural History\nHours: 10 AM - 5 PM daily\nAdmission: Adults $12, Children $6, Seniors $8\nFree admission on first Tuesday of each month\nSpecial exhibit: Dinosaurs of Asia (through August)",
+      "subQuestions": [
+        {
+          "id": "p7-53-q1",
+          "questionText": "How much is adult admission?",
+          "options": ["$6", "$8", "$10", "$12"],
+          "correctIndex": 3
+        },
+        {
+          "id": "p7-53-q2",
+          "questionText": "When is admission free?",
+          "options": ["Every Tuesday", "First Tuesday of each month", "Weekends", "After 5 PM"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-54",
+      "part": 7,
+      "text": "EMAIL\nTo: team@project.com\nFrom: manager@project.com\nSubject: Meeting canceled\n\nThe 2 p.m. meeting is canceled. The client had to reschedule. I will send a new meeting invite once we have a confirmed time. Please use this time to work on your individual tasks. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-54-q1",
+          "questionText": "Why was the meeting canceled?",
+          "options": ["The manager is sick", "The client rescheduled", "The room is unavailable", "No agenda"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-54-q2",
+          "questionText": "What should team members do instead?",
+          "options": ["Go home", "Work on individual tasks", "Attend training", "Take a break"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-55",
+      "part": 7,
+      "text": "NOTICE\nElevator out of service\nWe apologize for the inconvenience\nThe elevator will be repaired by Friday\nPlease use the stairs\nFor assistance, call maintenance at ext. 3344\nThank you for your patience",
+      "subQuestions": [
+        {
+          "id": "p7-55-q1",
+          "questionText": "When will the elevator be repaired?",
+          "options": ["Monday", "Wednesday", "Friday", "Next week"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-55-q2",
+          "questionText": "What should people use instead?",
+          "options": ["The escalator", "The stairs", "The ramp", "The back entrance"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-56",
+      "part": 7,
+      "text": "REVIEW\nThis is my third time staying at this hotel. The staff always remembers my name. The rooms are clean, and the location is perfect. Breakfast could be better, but overall, I highly recommend it.",
+      "subQuestions": [
+        {
+          "id": "p7-56-q1",
+          "questionText": "How many times has the reviewer stayed here?",
+          "options": ["Once", "Twice", "Three times", "Four times"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-56-q2",
+          "questionText": "What is mentioned as a positive?",
+          "options": ["Breakfast", "Price", "Staff remembers names", "Pool"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-57",
+      "part": 7,
+      "text": "INVOICE\nService: Website design\nDate: March 1, 2025\nAmount: $2,500\nPayment terms: 50% upfront, 50% upon completion\nStatus: 50% paid ($1,250)\nRemaining: $1,250 due upon completion",
+      "subQuestions": [
+        {
+          "id": "p7-57-q1",
+          "questionText": "What is the total cost of the service?",
+          "options": ["$1,250", "$2,000", "$2,500", "$3,000"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-57-q2",
+          "questionText": "How much has been paid already?",
+          "options": ["$500", "$1,000", "$1,250", "$1,500"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-58",
+      "part": 7,
+      "text": "CHAT\nA: Did you see the email about the new policy?\nB: Yes, but I don't understand the part about overtime.\nA: It says overtime needs manager approval.\nB: That's what I thought. Thanks for clarifying.",
+      "subQuestions": [
+        {
+          "id": "p7-58-q1",
+          "questionText": "What does the new policy require for overtime?",
+          "options": ["HR approval", "Manager approval", "No approval needed", "Client approval"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-58-q2",
+          "questionText": "What does B need clarification on?",
+          "options": ["Vacation days", "Overtime rules", "Dress code", "Parking"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-59",
+      "part": 7,
+      "text": "ADVERTISEMENT\nCar Wash Special\nFull service wash only $19.99\nIncludes: Exterior wash, interior vacuum, window cleaning\nUpgrade to premium for $29.99 (includes wax and tire shine)\nOpen 8 AM - 6 PM daily",
+      "subQuestions": [
+        {
+          "id": "p7-59-q1",
+          "questionText": "How much is the full service wash?",
+          "options": ["$14.99", "$19.99", "$24.99", "$29.99"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-59-q2",
+          "questionText": "What does the premium upgrade include?",
+          "options": ["Engine cleaning", "Wax and tire shine", "Leather treatment", "Fragrance"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-60",
+      "part": 7,
+      "text": "MEMO\nTO: Marketing Team\nFROM: Director\nSUBJECT: Budget Cuts\n\nDue to lower than expected revenue, all departments must reduce spending by 10% this quarter. Please review your expenses and identify areas to cut. Submit your revised budget by Friday. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-60-q1",
+          "questionText": "Why are budget cuts necessary?",
+          "options": ["Overstaffing", "Lower than expected revenue", "New equipment", "Office relocation"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-60-q2",
+          "questionText": "What percentage must be cut?",
+          "options": ["5%", "10%", "15%", "20%"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-61",
+      "part": 7,
+      "text": "WEBSITE\nShipping Information\nStandard shipping: 5-7 business days ($5.99)\nExpress shipping: 2-3 business days ($12.99)\nOvernight shipping: 1 business day ($24.99)\nFree standard shipping on orders over $50",
+      "subQuestions": [
+        {
+          "id": "p7-61-q1",
+          "questionText": "How much does express shipping cost?",
+          "options": ["$5.99", "$12.99", "$19.99", "$24.99"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-61-q2",
+          "questionText": "When is standard shipping free?",
+          "options": ["Always", "On orders over $30", "On orders over $50", "On orders over $100"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-62",
+      "part": 7,
+      "text": "LETTER\nDear Parent,\n\nSchool will be closed on Friday, April 18th for teacher training. Classes will resume on Monday, April 21st. After-school programs are also canceled on the 18th. We apologize for any inconvenience.",
+      "subQuestions": [
+        {
+          "id": "p7-62-q1",
+          "questionText": "Why is school closed on April 18th?",
+          "options": ["Holiday", "Teacher training", "Weather", "Maintenance"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-62-q2",
+          "questionText": "When do classes resume?",
+          "options": ["April 19th", "April 20th", "April 21st", "April 22nd"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-63",
+      "part": 7,
+      "text": "TEXT MESSAGE\nDoctor: Your test results came back normal.\nPatient: That's a relief. Thank you.\nDoctor: I still want to see you for a follow-up in 3 months.\nPatient: I'll schedule that. Thanks again.",
+      "subQuestions": [
+        {
+          "id": "p7-63-q1",
+          "questionText": "What did the test results show?",
+          "options": ["Abnormal", "Normal", "Inconclusive", "Missing"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-63-q2",
+          "questionText": "When does the doctor want a follow-up?",
+          "options": ["In 1 month", "In 2 months", "In 3 months", "In 6 months"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-64",
+      "part": 7,
+      "text": "NOTICE\nPlease do not leave personal belongings unattended. Theft has been reported in this area. Lockers are available for $2 per day at the front desk. The management is not responsible for lost or stolen items.",
+      "subQuestions": [
+        {
+          "id": "p7-64-q1",
+          "questionText": "What has been reported in the area?",
+          "options": ["Vandalism", "Theft", "Accidents", "Maintenance issues"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-64-q2",
+          "questionText": "How much do lockers cost?",
+          "options": ["$1 per day", "$2 per day", "$3 per day", "$5 per day"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-65",
+      "part": 7,
+      "text": "ARTICLE\nA new coffee shop opened on Main Street yesterday. The owner, Tom Kim, previously worked as a barista in Seattle. The shop uses organic beans and offers free Wi-Fi. It is open 7 a.m. to 7 p.m. daily.",
+      "subQuestions": [
+        {
+          "id": "p7-65-q1",
+          "questionText": "What did Tom Kim do before opening the shop?",
+          "options": ["Accountant", "Barista", "Teacher", "Chef"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-65-q2",
+          "questionText": "What is offered for free?",
+          "options": ["Coffee", "Pastries", "Wi-Fi", "Parking"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-66",
+      "part": 7,
+      "text": "EMAIL\nTo: All Residents\nFrom: Building Manager\nSubject: Pest Control\n\nPest control will be conducted in all units on Tuesday, May 20th between 9 a.m. and 5 p.m. Please ensure your unit is accessible. If you have pets, please make arrangements. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-66-q1",
+          "questionText": "What is happening on May 20th?",
+          "options": ["Fire drill", "Pest control", "Inspection", "Cleaning"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-66-q2",
+          "questionText": "What should residents do about pets?",
+          "options": ["Keep them inside", "Make arrangements", "Take them to the vet", "Ignore the notice"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-67",
+      "part": 7,
+      "text": "REVIEW\nI tried this new restaurant last night. The atmosphere is nice, but the portions are small for the price. I paid $25 for a pasta dish and was still hungry. The service was friendly, though. Not sure I'll return.",
+      "subQuestions": [
+        {
+          "id": "p7-67-q1",
+          "questionText": "What is the reviewer's main complaint?",
+          "options": ["The service", "The atmosphere", "Small portions for the price", "The location"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-67-q2",
+          "questionText": "How much did the reviewer pay for pasta?",
+          "options": ["$15", "$20", "$25", "$30"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-68",
+      "part": 7,
+      "text": "SCHEDULE\nFlight 204: Tokyo to Osaka\nDepart: 9:30 AM\nArrive: 10:45 AM\nGate: B12\nStatus: On time\nBoarding begins at 8:55 AM",
+      "subQuestions": [
+        {
+          "id": "p7-68-q1",
+          "questionText": "What time does the flight arrive?",
+          "options": ["9:30 AM", "10:00 AM", "10:45 AM", "11:00 AM"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-68-q2",
+          "questionText": "What is the gate number?",
+          "options": ["A12", "B12", "C12", "D12"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-69",
+      "part": 7,
+      "text": "MEMO\nTO: All Staff\nFROM: IT Department\nSUBJECT: Password Update\n\nPlease update your passwords by March 31st. Passwords must be at least 8 characters and include a number. You will be locked out after three failed attempts. Contact IT for assistance.",
+      "subQuestions": [
+        {
+          "id": "p7-69-q1",
+          "questionText": "What is the deadline for updating passwords?",
+          "options": ["March 15th", "March 20th", "March 31st", "April 15th"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-69-q2",
+          "questionText": "What happens after three failed attempts?",
+          "options": ["Password reset", "Account locked", "Warning email", "IT notified"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-70",
+      "part": 7,
+      "text": "CHAT\nSarah: Are you coming to the team lunch?\nMike: What time?\nSarah: 12:30 p.m. at the new Italian place.\nMike: I have a call at 1 p.m. Can we do 11:30?\nSarah: That works for me. I'll tell the others.",
+      "subQuestions": [
+        {
+          "id": "p7-70-q1",
+          "questionText": "What is the original lunch time?",
+          "options": ["11:30 AM", "12:00 PM", "12:30 PM", "1:00 PM"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-70-q2",
+          "questionText": "Why does Mike want to change the time?",
+          "options": ["He has a meeting", "He has a call at 1 p.m.", "He is not hungry", "He has a doctor's appointment"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-71",
+      "part": 7,
+      "text": "NOTICE\nLost cat\nFemale, black and white, answers to \"Luna\"\nLost near Maple Street on May 1st\nReward $100\nPlease call 555-1234 with any information",
+      "subQuestions": [
+        {
+          "id": "p7-71-q1",
+          "questionText": "What is the cat's name?",
+          "options": ["Lily", "Luna", "Lucy", "Lola"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-71-q2",
+          "questionText": "What is the reward amount?",
+          "options": ["$50", "$75", "$100", "$150"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-72",
+      "part": 7,
+      "text": "EMAIL\nTo: support@software.com\nFrom: user@email.com\nSubject: Login issue\n\nI cannot log into my account. I tried resetting my password, but I never received the reset email. Please help me regain access. My username is user123. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-72-q1",
+          "questionText": "What problem is the user having?",
+          "options": ["Forgot username", "Cannot log in", "Account deleted", "Billing issue"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-72-q2",
+          "questionText": "What did the user try to do?",
+          "options": ["Create a new account", "Reset password", "Contact billing", "Delete account"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-73",
+      "part": 7,
+      "text": "FLYER\nCommunity Garden Plot Rental\n$40 per year (April - October)\nIncludes water and tools\nMust attend one workshop\nLimited plots available\nSign up by March 31st at City Hall",
+      "subQuestions": [
+        {
+          "id": "p7-73-q1",
+          "questionText": "How much does a plot cost per year?",
+          "options": ["$20", "$30", "$40", "$50"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-73-q2",
+          "questionText": "What is required to rent a plot?",
+          "options": ["Gardening experience", "Attend a workshop", "Own tools", "Bring soil"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-74",
+      "part": 7,
+      "text": "ARTICLE\nLocal artist Yuki Tanaka will exhibit her paintings at the City Art Gallery from June 1st to June 30th. The exhibition features 20 new works inspired by nature. An opening reception will be held on June 1st at 7 p.m. Admission is free.",
+      "subQuestions": [
+        {
+          "id": "p7-74-q1",
+          "questionText": "Where is the exhibition?",
+          "options": ["Museum of Art", "City Art Gallery", "Community Center", "Public Library"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-74-q2",
+          "questionText": "When is the opening reception?",
+          "options": ["June 1st at 7 p.m.", "June 2nd at 7 p.m.", "June 10th at 7 p.m.", "June 15th at 7 p.m."],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "p7-75",
+      "part": 7,
+      "text": "TEXT MESSAGE\nMom: Did you take out the trash?\nSon: Not yet. I'll do it after dinner.\nMom: The garbage truck comes early tomorrow.\nSon: OK, I'll do it right now.\nMom: Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-75-q1",
+          "questionText": "What does the son need to do?",
+          "options": ["Wash dishes", "Take out the trash", "Walk the dog", "Clean his room"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-75-q2",
+          "questionText": "Why is the son doing it right now?",
+          "options": ["He is leaving", "The garbage truck comes early", "His mom is angry", "It is raining"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-76",
+      "part": 7,
+      "text": "INVOICE\nService: Plumbing repair\nDate: May 10, 2025\nDescription: Fixed leaking sink in kitchen\nLabor: $120\nParts: $45\nTotal: $165\nPaid: $165\nBalance: $0\nThank you for your business.",
+      "subQuestions": [
+        {
+          "id": "p7-76-q1",
+          "questionText": "What was repaired?",
+          "options": ["Toilet", "Sink", "Shower", "Water heater"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-76-q2",
+          "questionText": "How much was the total cost?",
+          "options": ["$120", "$145", "$165", "$185"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-77",
+      "part": 7,
+      "text": "NOTICE\nPlease return all library books by May 30th. The library will be closed for inventory from June 1st to June 7th. No fines will be charged during the closure. We will reopen on June 8th.",
+      "subQuestions": [
+        {
+          "id": "p7-77-q1",
+          "questionText": "Why will the library be closed?",
+          "options": ["Holiday", "Inventory", "Renovation", "Staff training"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-77-q2",
+          "questionText": "When will the library reopen?",
+          "options": ["June 1st", "June 5th", "June 7th", "June 8th"],
+          "correctIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "p7-78",
+      "part": 7,
+      "text": "REVIEW\nI bought a pair of shoes from this website. They arrived in two days, which was impressive. However, they were too small. The return process was easy, and I got a refund within a week. Would buy again.",
+      "subQuestions": [
+        {
+          "id": "p7-78-q1",
+          "questionText": "How long did shipping take?",
+          "options": ["One day", "Two days", "Three days", "Five days"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-78-q2",
+          "questionText": "Why did the reviewer return the shoes?",
+          "options": ["Wrong color", "Too small", "Damaged", "Wrong style"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-79",
+      "part": 7,
+      "text": "EMAIL\nTo: All Members\nFrom: Gym Management\nSubject: Holiday Hours\n\nOn Memorial Day (May 26th), the gym will be open from 8 a.m. to 2 p.m. Group classes are canceled. Regular hours (5 a.m. to 10 p.m.) resume on May 27th. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-79-q1",
+          "questionText": "What are the gym hours on May 26th?",
+          "options": ["5 a.m. to 10 p.m.", "8 a.m. to 2 p.m.", "10 a.m. to 6 p.m.", "Closed"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-79-q2",
+          "questionText": "What is canceled on May 26th?",
+          "options": ["Personal training", "Group classes", "Locker room access", "Parking"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-80",
+      "part": 7,
+      "text": "CHAT\nBoss: The client wants changes to the design.\nEmployee: What kind of changes?\nBoss: Colors and layout.\nEmployee: I can do that. When is the deadline?\nBoss: End of the week. Is that possible?\nEmployee: Yes, I'll prioritize this.",
+      "subQuestions": [
+        {
+          "id": "p7-80-q1",
+          "questionText": "What changes does the client want?",
+          "options": ["Text and images", "Colors and layout", "Fonts and size", "Logos and icons"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-80-q2",
+          "questionText": "When is the deadline?",
+          "options": ["Tomorrow", "End of the week", "Next week", "End of the month"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-81",
+      "part": 7,
+      "text": "ADVERTISEMENT\nPet Adoption Event\nSaturday, June 7th\n10 a.m. - 3 p.m.\nAt the City Animal Shelter\nDogs and cats available\nAdoption fees waived\nAll pets are vaccinated and spayed/neutered",
+      "subQuestions": [
+        {
+          "id": "p7-81-q1",
+          "questionText": "What is being waived?",
+          "options": ["Vaccination fees", "Adoption fees", "Registration fees", "Microchip fees"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-81-q2",
+          "questionText": "What is true about the pets?",
+          "options": ["They are all puppies", "They are vaccinated", "They are free forever", "They come with supplies"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-82",
+      "part": 7,
+      "text": "MEMO\nTO: Sales Team\nFROM: VP of Sales\nSUBJECT: New CRM System\n\nWe will switch to a new CRM system on June 1st. Training sessions will be held on May 28th and May 29th. Attendance is mandatory. Please bring your laptop. The old system will be deactivated on May 31st.",
+      "subQuestions": [
+        {
+          "id": "p7-82-q1",
+          "questionText": "When will the new system be activated?",
+          "options": ["May 28th", "May 29th", "May 31st", "June 1st"],
+          "correctIndex": 3
+        },
+        {
+          "id": "p7-82-q2",
+          "questionText": "What is mandatory?",
+          "options": ["Buying a new laptop", "Attendance at training", "Working overtime", "Clearing old data"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-83",
+      "part": 7,
+      "text": "WEBSITE\nJob Opening: Administrative Assistant\nFull-time, Monday-Friday 9 a.m. - 5 p.m.\nRequirements: 2 years experience, MS Office proficiency\nBenefits: Health insurance, paid time off, 401k\nApply by May 30th at careers.company.com",
+      "subQuestions": [
+        {
+          "id": "p7-83-q1",
+          "questionText": "What is the deadline to apply?",
+          "options": ["May 15th", "May 20th", "May 30th", "June 1st"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-83-q2",
+          "questionText": "What software proficiency is required?",
+          "options": ["Adobe", "MS Office", "QuickBooks", "Salesforce"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-84",
+      "part": 7,
+      "text": "TEXT MESSAGE\nFriend: Are we still meeting for dinner?\nYou: Yes, what time?\nFriend: 7 p.m. at the usual place?\nYou: Can we do 7:30? I'm running late.\nFriend: Sure. See you then.",
+      "subQuestions": [
+        {
+          "id": "p7-84-q1",
+          "questionText": "What is the original meeting time?",
+          "options": ["6:30 p.m.", "7:00 p.m.", "7:30 p.m.", "8:00 p.m."],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-84-q2",
+          "questionText": "Why does the person want to change the time?",
+          "options": ["They are tired", "They are running late", "They forgot", "They have another plan"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-85",
+      "part": 7,
+      "text": "NOTICE\nWater shutoff notice\nThe water will be turned off on Thursday, June 12th from 9 a.m. to 12 p.m. for maintenance. Please plan accordingly. We apologize for the inconvenience. Thank you for your understanding.",
+      "subQuestions": [
+        {
+          "id": "p7-85-q1",
+          "questionText": "How long will the water be off?",
+          "options": ["1 hour", "2 hours", "3 hours", "4 hours"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-85-q2",
+          "questionText": "What is the reason for the shutoff?",
+          "options": ["Emergency repair", "Maintenance", "Leak detection", "Pipe replacement"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-86",
+      "part": 7,
+      "text": "EMAIL\nTo: customer@email.com\nFrom: store@retail.com\nSubject: Your order #9921\n\nYour order has been shipped! Tracking number: 1Z9999. Estimated delivery: 3-5 business days. Track your package at our website. Thank you for shopping with us.",
+      "subQuestions": [
+        {
+          "id": "p7-86-q1",
+          "questionText": "What is included in the email?",
+          "options": ["Discount code", "Tracking number", "Return label", "Invoice"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-86-q2",
+          "questionText": "How long will delivery take?",
+          "options": ["1-2 days", "3-5 days", "5-7 days", "7-10 days"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-87",
+      "part": 7,
+      "text": "ARTICLE\nThe city's new recycling program has been successful. In the first month, recycling rates increased by 35%. The program accepts paper, plastic, and glass. Residents can pick up free bins at City Hall. Next phase starts in July.",
+      "subQuestions": [
+        {
+          "id": "p7-87-q1",
+          "questionText": "By how much did recycling rates increase?",
+          "options": ["15%", "25%", "35%", "45%"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-87-q2",
+          "questionText": "What materials are accepted?",
+          "options": ["Metal only", "Paper, plastic, and glass", "Electronics only", "Food waste"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-88",
+      "part": 7,
+      "text": "REVIEW\nI took my car to this repair shop for an oil change. The price was fair ($45), and they finished in 30 minutes. The waiting area was clean with free coffee. I will definitely return for future services.",
+      "subQuestions": [
+        {
+          "id": "p7-88-q1",
+          "questionText": "How much did the oil change cost?",
+          "options": ["$35", "$40", "$45", "$50"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-88-q2",
+          "questionText": "How long did the service take?",
+          "options": ["15 minutes", "30 minutes", "45 minutes", "1 hour"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-89",
+      "part": 7,
+      "text": "MEMO\nTO: All Employees\nFROM: HR\nSUBJECT: Summer Hours\n\nStarting July 1st through August 31st, we will have summer hours. On Fridays, the office will close at 1 p.m. instead of 5 p.m. Monday through Thursday hours remain 9 a.m. to 5 p.m. Enjoy the summer!",
+      "subQuestions": [
+        {
+          "id": "p7-89-q1",
+          "questionText": "When do summer hours begin?",
+          "options": ["June 1st", "July 1st", "August 1st", "September 1st"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-89-q2",
+          "questionText": "What time does the office close on Fridays during summer?",
+          "options": ["12 p.m.", "1 p.m.", "3 p.m.", "5 p.m."],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-90",
+      "part": 7,
+      "text": "CHAT\nA: I heard you're moving to a new apartment.\nB: Yes, next month.\nA: Do you need help with the move?\nB: That would be great! I'll provide pizza and drinks.\nA: It's a deal. Let me know the date.",
+      "subQuestions": [
+        {
+          "id": "p7-90-q1",
+          "questionText": "What is B offering in return for help?",
+          "options": ["Money", "Pizza and drinks", "Gift card", "Free furniture"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-90-q2",
+          "questionText": "When is B moving?",
+          "options": ["This week", "This month", "Next month", "Next year"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-91",
+      "part": 7,
+      "text": "NOTICE\nElevator maintenance will occur on Sunday, July 20th from 6 a.m. to 2 p.m. One elevator will remain operational during this time. Please allow extra time for travel. Thank you for your patience.",
+      "subQuestions": [
+        {
+          "id": "p7-91-q1",
+          "questionText": "How many elevators will be working?",
+          "options": ["None", "One", "Two", "All"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-91-q2",
+          "questionText": "When will maintenance end?",
+          "options": ["6 a.m.", "10 a.m.", "12 p.m.", "2 p.m."],
+          "correctIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "p7-92",
+      "part": 7,
+      "text": "ADVERTISEMENT\nFree yoga in the park! Every Saturday in July at 9 a.m. at Central Park. Bring your own mat. All levels welcome. Donations accepted but not required. Sponsored by Healthy Living Magazine.",
+      "subQuestions": [
+        {
+          "id": "p7-92-q1",
+          "questionText": "What is the cost to attend?",
+          "options": ["$5", "$10", "Free", "Donation required"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-92-q2",
+          "questionText": "What should participants bring?",
+          "options": ["Water bottle", "Towel", "Yoga mat", "Snacks"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-93",
+      "part": 7,
+      "text": "EMAIL\nTo: team@company.com\nFrom: manager@company.com\nSubject: New project\n\nWe have a new project starting next week. Please review the attached document. We will have a kickoff meeting on Monday at 10 a.m. in Room 301. Attendance is required. Let me know if you cannot attend.",
+      "subQuestions": [
+        {
+          "id": "p7-93-q1",
+          "questionText": "When is the kickoff meeting?",
+          "options": ["Monday at 9 a.m.", "Monday at 10 a.m.", "Tuesday at 10 a.m.", "Friday at 10 a.m."],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-93-q2",
+          "questionText": "What is attached to the email?",
+          "options": ["A budget", "A schedule", "A document", "A contract"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-94",
+      "part": 7,
+      "text": "RECEIPT\nDate: June 15, 2025\nStore: Book World\nItems:\n- Novel $15.99\n- Notebook $4.50\n- Pen $2.00\nSubtotal: $22.49\nTax: $1.80\nTotal: $24.29\nPayment: Cash",
+      "subQuestions": [
+        {
+          "id": "p7-94-q1",
+          "questionText": "What was the most expensive item?",
+          "options": ["Novel", "Notebook", "Pen", "Tax"],
+          "correctIndex": 0
+        },
+        {
+          "id": "p7-94-q2",
+          "questionText": "How did the customer pay?",
+          "options": ["Credit card", "Debit card", "Cash", "Gift card"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-95",
+      "part": 7,
+      "text": "ARTICLE\nA new electric bus fleet will launch in September. The city purchased 50 electric buses to replace older diesel models. The new buses are quieter and produce zero emissions. The project cost $30 million, partly funded by a federal grant.",
+      "subQuestions": [
+        {
+          "id": "p7-95-q1",
+          "questionText": "How many new buses were purchased?",
+          "options": ["25", "40", "50", "75"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-95-q2",
+          "questionText": "What is a benefit of the new buses?",
+          "options": ["Faster speed", "Zero emissions", "Lower fare", "Free Wi-Fi"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-96",
+      "part": 7,
+      "text": "TEXT MESSAGE\nDoctor: Your appointment is confirmed for July 15th at 2 p.m.\nPatient: Thank you. What should I bring?\nDoctor: Your insurance card and a list of current medications.\nPatient: Got it. See you then.",
+      "subQuestions": [
+        {
+          "id": "p7-96-q1",
+          "questionText": "What should the patient bring?",
+          "options": ["Photo ID", "Insurance card and medication list", "Medical records", "Payment"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-96-q2",
+          "questionText": "What time is the appointment?",
+          "options": ["10 a.m.", "11 a.m.", "1 p.m.", "2 p.m."],
+          "correctIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "p7-97",
+      "part": 7,
+      "text": "NOTICE\nOffice Closed July 4th\nIn observance of Independence Day, the office will be closed on Thursday, July 4th. We will reopen on Friday, July 5th at 9 a.m. Have a safe and happy holiday!",
+      "subQuestions": [
+        {
+          "id": "p7-97-q1",
+          "questionText": "What holiday is being observed?",
+          "options": ["Labor Day", "Memorial Day", "Independence Day", "Thanksgiving"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-97-q2",
+          "questionText": "When does the office reopen?",
+          "options": ["July 4th", "July 5th", "July 6th", "July 7th"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-98",
+      "part": 7,
+      "text": "REVIEW\nThis is the best pizza in town. The crust is perfect, and the toppings are fresh. Delivery is fast, usually under 30 minutes. Prices are reasonable. A large pizza is only $15. I order from here every week.",
+      "subQuestions": [
+        {
+          "id": "p7-98-q1",
+          "questionText": "How much does a large pizza cost?",
+          "options": ["$10", "$12", "$15", "$18"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-98-q2",
+          "questionText": "How long does delivery usually take?",
+          "options": ["Under 20 minutes", "Under 30 minutes", "Under 45 minutes", "Under 1 hour"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-99",
+      "part": 7,
+      "text": "MEMO\nTO: Accounting Team\nFROM: CFO\nSUBJECT: Year-end closing\n\nThe fiscal year ends on June 30th. All expenses must be submitted by June 25th. No exceptions. The accounting system will be locked from July 1st to July 7th for audit. Plan accordingly.",
+      "subQuestions": [
+        {
+          "id": "p7-99-q1",
+          "questionText": "What is the deadline for expense submissions?",
+          "options": ["June 20th", "June 25th", "June 30th", "July 1st"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-99-q2",
+          "questionText": "Why will the system be locked?",
+          "options": ["Maintenance", "Upgrade", "Audit", "Holiday"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-100",
+      "part": 7,
+      "text": "CHAT\nCustomer: I want to cancel my subscription.\nSupport: I'm sorry to hear that. Can I ask why?\nCustomer: I'm not using it enough.\nSupport: Would you consider a lower-cost plan instead?\nCustomer: No, thanks. Just cancel it.\nSupport: Done. Your subscription ends today.",
+      "subQuestions": [
+        {
+          "id": "p7-100-q1",
+          "questionText": "Why does the customer want to cancel?",
+          "options": ["Too expensive", "Not using it enough", "Poor service", "Found a better option"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-100-q2",
+          "questionText": "What did support offer?",
+          "options": ["A refund", "A free month", "A lower-cost plan", "A gift card"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-101",
+      "part": 7,
+      "text": "EMAIL\nTo: All Residents\nFrom: Property Manager\nSubject: Pool Opening\n\nThe community pool will open for the season on Saturday, June 1st. Hours are 8 a.m. to 8 p.m. daily. Pool keys can be picked up at the management office. Please review the pool rules posted at the entrance.",
+      "subQuestions": [
+        {
+          "id": "p7-101-q1",
+          "questionText": "When does the pool open?",
+          "options": ["May 25th", "June 1st", "June 15th", "July 1st"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-101-q2",
+          "questionText": "Where can residents get pool keys?",
+          "options": ["At the pool entrance", "At the management office", "By mail", "Online"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-102",
+      "part": 7,
+      "text": "SIGN\nMaximum Occupancy: 50 persons\nPlease do not exceed this limit\nFire exits are located at the front and rear\nKeep all exits clear at all times\nThank you for your cooperation",
+      "subQuestions": [
+        {
+          "id": "p7-102-q1",
+          "questionText": "What is the maximum occupancy?",
+          "options": ["25", "50", "75", "100"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-102-q2",
+          "questionText": "Where are the fire exits?",
+          "options": ["Left and right", "Front and rear", "Only in the front", "Only in the rear"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-103",
+      "part": 7,
+      "text": "TEXT MESSAGE\nBoss: Can you come in early tomorrow?\nEmployee: What time?\nBoss: 7 a.m. instead of 9 a.m.\nEmployee: I can do 7:30. Is that okay?\nBoss: Yes, that works. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-103-q1",
+          "questionText": "What time will the employee arrive?",
+          "options": ["7:00 a.m.", "7:30 a.m.", "8:00 a.m.", "9:00 a.m."],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-103-q2",
+          "questionText": "What is the employee's usual start time?",
+          "options": ["7 a.m.", "8 a.m.", "9 a.m.", "10 a.m."],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-104",
+      "part": 7,
+      "text": "NEWSLETTER\nJune 2025\nEmployee Birthdays: \n- Sarah Chen (June 3rd)\n- Michael Lee (June 15th)\n- David Kim (June 28th)\nPlease wish them a happy birthday! Birthday cards are available in the break room.",
+      "subQuestions": [
+        {
+          "id": "p7-104-q1",
+          "questionText": "Whose birthday is on June 15th?",
+          "options": ["Sarah Chen", "Michael Lee", "David Kim", "None of the above"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-104-q2",
+          "questionText": "Where are birthday cards available?",
+          "options": ["At HR", "In the break room", "At the front desk", "In the cafeteria"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-105",
+      "part": 7,
+      "text": "INVOICE\nInvoice #: 2025-505\nDate: June 10, 2025\nCustomer: Sunrise Bakery\nDescription: Commercial oven repair\nLabor: $180\nParts: $95\nTotal: $275\nPayment due upon receipt",
+      "subQuestions": [
+        {
+          "id": "p7-105-q1",
+          "questionText": "What was repaired?",
+          "options": ["Refrigerator", "Commercial oven", "Mixer", "Dishwasher"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-105-q2",
+          "questionText": "What is the total amount due?",
+          "options": ["$95", "$180", "$275", "$300"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-106",
+      "part": 7,
+      "text": "NOTICE\nLost: Brown wallet\nLost near the parking lot on June 5th\nContains ID and credit cards\nReward offered\nPlease contact security at extension 2200 if found",
+      "subQuestions": [
+        {
+          "id": "p7-106-q1",
+          "questionText": "What was lost?",
+          "options": ["Keys", "Phone", "Wallet", "Bag"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-106-q2",
+          "questionText": "Where should the item be returned?",
+          "options": ["Front desk", "Security at extension 2200", "Lost and found box", "Parking office"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-107",
+      "part": 7,
+      "text": "EMAIL\nTo: marketing@company.com\nFrom: client@email.com\nSubject: Proposal approval\n\nDear team,\n\nI have reviewed your proposal for the summer campaign. I approve the budget and timeline. Please proceed with the plan as outlined. Let me know if you need anything from my side. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-107-q1",
+          "questionText": "What has the client approved?",
+          "options": ["New product", "Summer campaign", "Staff hiring", "Office move"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-107-q2",
+          "questionText": "What does the client ask?",
+          "options": ["To reduce budget", "To change timeline", "To proceed as planned", "To cancel the project"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-108",
+      "part": 7,
+      "text": "ADVERTISEMENT\nSummer Clearance Sale!\nAll summer clothing 50% off\nSandals: Buy one, get one free\nSwimwear: 40% off\nHats: $5 each\nSale ends July 31st\nIn-store only",
+      "subQuestions": [
+        {
+          "id": "p7-108-q1",
+          "questionText": "What is the discount on swimwear?",
+          "options": ["30%", "40%", "50%", "60%"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-108-q2",
+          "questionText": "When does the sale end?",
+          "options": ["July 15th", "July 31st", "August 15th", "August 31st"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-109",
+      "part": 7,
+      "text": "CHAT\nA: The printer is out of toner again.\nB: I ordered some last week. It should arrive today.\nA: Can you check the shipping status?\nB: Just did. It's out for delivery.\nA: Great. Thanks for handling it.",
+      "subQuestions": [
+        {
+          "id": "p7-109-q1",
+          "questionText": "What is the problem?",
+          "options": ["Printer is broken", "Out of toner", "Paper is jammed", "Printer is offline"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-109-q2",
+          "questionText": "What is the status of the order?",
+          "options": ["Not shipped", "Out for delivery", "Delivered", "Canceled"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-110",
+      "part": 7,
+      "text": "WEBSITE\nCustomer Support Hours\nMonday - Friday: 8 a.m. - 8 p.m. EST\nSaturday: 9 a.m. - 5 p.m. EST\nSunday: Closed\nPhone: 1-800-555-1234\nEmail: support@company.com\nLive chat available during business hours",
+      "subQuestions": [
+        {
+          "id": "p7-110-q1",
+          "questionText": "When is customer support closed?",
+          "options": ["Saturday", "Sunday", "Monday", "Friday"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-110-q2",
+          "questionText": "What is the phone number?",
+          "options": ["1-800-555-4321", "1-800-555-1234", "1-800-555-5678", "1-800-555-9876"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-111",
+      "part": 7,
+      "text": "REVIEW\nI hired this company to clean my office. They arrived on time and did a thorough job. The price was reasonable at $150 for 4 hours. The staff was professional. I will use them again next month.",
+      "subQuestions": [
+        {
+          "id": "p7-111-q1",
+          "questionText": "How much did the cleaning cost?",
+          "options": ["$100", "$125", "$150", "$175"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-111-q2",
+          "questionText": "How long did the cleaning take?",
+          "options": ["2 hours", "3 hours", "4 hours", "5 hours"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-112",
+      "part": 7,
+      "text": "MEMO\nTO: IT Team\nFROM: CTO\nSUBJECT: Server Upgrade\n\nWe will upgrade the server on Saturday, July 12th from 10 p.m. to 2 a.m. The system will be unavailable during this time. Please ensure all backups are complete by Friday. Thank you for your cooperation.",
+      "subQuestions": [
+        {
+          "id": "p7-112-q1",
+          "questionText": "When will the server upgrade occur?",
+          "options": ["Friday night", "Saturday night", "Sunday night", "Monday night"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-112-q2",
+          "questionText": "How long will the system be unavailable?",
+          "options": ["2 hours", "3 hours", "4 hours", "5 hours"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-113",
+      "part": 7,
+      "text": "TEXT MESSAGE\nFriend: I'm at the restaurant. Where are you?\nYou: Sorry, traffic is bad. I'll be there in 10 minutes.\nFriend: Okay. I'll order appetizers.\nYou: Great. Get the spring rolls.\nFriend: Already ordered them. See you soon.",
+      "subQuestions": [
+        {
+          "id": "p7-113-q1",
+          "questionText": "Why is the person late?",
+          "options": ["Overslept", "Traffic", "Wrong address", "Meeting ran late"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-113-q2",
+          "questionText": "What appetizer did the friend order?",
+          "options": ["Salad", "Soup", "Spring rolls", "Bread"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-114",
+      "part": 7,
+      "text": "NOTICE\nFire Drill Scheduled\nA fire drill will be held on Wednesday, July 16th at 10 a.m. When you hear the alarm, please exit the building calmly and proceed to the assembly point in the parking lot. Do not use elevators.",
+      "subQuestions": [
+        {
+          "id": "p7-114-q1",
+          "questionText": "What time will the fire drill occur?",
+          "options": ["9 a.m.", "10 a.m.", "11 a.m.", "12 p.m."],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-114-q2",
+          "questionText": "Where is the assembly point?",
+          "options": ["Front entrance", "Back entrance", "Parking lot", "Sidewalk"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-115",
+      "part": 7,
+      "text": "EMAIL\nTo: All Employees\nFrom: Facilities\nSubject: Air Conditioning\n\nThe air conditioning will be turned off this weekend for maintenance. Please turn off all computers and electronics before leaving on Friday. The system will be back online by Monday morning. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-115-q1",
+          "questionText": "When will the AC be off?",
+          "options": ["Friday only", "Weekend", "Monday only", "All week"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-115-q2",
+          "questionText": "What should employees do before leaving Friday?",
+          "options": ["Clean desks", "Turn off computers", "Lock files", "Water plants"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-116",
+      "part": 7,
+      "text": "FLYER\nFarmers Market\nEvery Saturday\n8 a.m. - 1 p.m.\nAt the City Hall parking lot\nFresh vegetables, fruits, bread, and flowers\nAccepting cash and credit cards\nRain or shine!",
+      "subQuestions": [
+        {
+          "id": "p7-116-q1",
+          "questionText": "What days is the farmers market held?",
+          "options": ["Sundays", "Saturdays", "Wednesdays", "Fridays"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-116-q2",
+          "questionText": "What forms of payment are accepted?",
+          "options": ["Cash only", "Credit cards only", "Cash and credit cards", "Checks only"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-117",
+      "part": 7,
+      "text": "ARTICLE\nThe city's new bike share program has been a success. In the first three months, over 10,000 rides were taken. The program has 500 bikes at 50 stations. Annual membership is $50. Single rides are $2 per 30 minutes.",
+      "subQuestions": [
+        {
+          "id": "p7-117-q1",
+          "questionText": "How many rides were taken in the first three months?",
+          "options": ["5,000", "7,500", "10,000", "12,500"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-117-q2",
+          "questionText": "How much is an annual membership?",
+          "options": ["$25", "$50", "$75", "$100"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-118",
+      "part": 7,
+      "text": "CHAT\nCustomer: I received a damaged item.\nSupport: I'm very sorry. Can you send a photo?\nCustomer: Yes, I'll send it now.\nSupport: Thank you. I will process a replacement immediately.\nCustomer: Do I need to return the damaged one?\nSupport: No, you can keep it or dispose of it.",
+      "subQuestions": [
+        {
+          "id": "p7-118-q1",
+          "questionText": "What does support ask the customer to send?",
+          "options": ["Receipt", "Photo", "Order number", "Address"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-118-q2",
+          "questionText": "What will support do?",
+          "options": ["Issue a refund", "Process a replacement", "Send a discount code", "Cancel the order"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-119",
+      "part": 7,
+      "text": "NOTICE\nNo soliciting\nPlease do not knock on doors to sell products or services\nThis includes religious and political canvassing\nViolators will be reported to the police\nThank you for respecting our community",
+      "subQuestions": [
+        {
+          "id": "p7-119-q1",
+          "questionText": "What is prohibited?",
+          "options": ["Parking", "Soliciting", "Loud music", "Pets"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-119-q2",
+          "questionText": "What will happen to violators?",
+          "options": ["Fined", "Reported to police", "Evicted", "Banned"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-120",
+      "part": 7,
+      "text": "EMAIL\nTo: accounting@company.com\nFrom: vendor@supplier.com\nSubject: Payment reminder\n\nThis is a reminder that invoice #5521 for $3,200 is now 15 days past due. Please arrange payment as soon as possible. If payment has already been sent, please disregard this message. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-120-q1",
+          "questionText": "What is the invoice number?",
+          "options": ["#4421", "#5521", "#6621", "#7721"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-120-q2",
+          "questionText": "How many days past due is the invoice?",
+          "options": ["5 days", "10 days", "15 days", "20 days"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-121",
+      "part": 7,
+      "text": "SCHEDULE\nCity Bus Route 7\nWeekday Schedule\n6:00 AM - 9:00 AM: Every 15 minutes\n9:00 AM - 3:00 PM: Every 30 minutes\n3:00 PM - 7:00 PM: Every 15 minutes\n7:00 PM - 10:00 PM: Every 60 minutes\nNo service after 10:00 PM",
+      "subQuestions": [
+        {
+          "id": "p7-121-q1",
+          "questionText": "How often do buses run at 10:00 AM?",
+          "options": ["Every 15 minutes", "Every 30 minutes", "Every 60 minutes", "No service"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-121-q2",
+          "questionText": "When does service end?",
+          "options": ["7:00 PM", "8:00 PM", "9:00 PM", "10:00 PM"],
+          "correctIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "p7-122",
+      "part": 7,
+      "text": "REVIEW\nI used this car rental company for a trip last week. The car was clean and ran well. However, the pickup process took 45 minutes, which was too long. The price was competitive. I might try a different company next time.",
+      "subQuestions": [
+        {
+          "id": "p7-122-q1",
+          "questionText": "What was the problem?",
+          "options": ["Car was dirty", "Pickup took too long", "Price was high", "Car broke down"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-122-q2",
+          "questionText": "How long did pickup take?",
+          "options": ["15 minutes", "30 minutes", "45 minutes", "60 minutes"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-123",
+      "part": 7,
+      "text": "MEMO\nTO:全体员工\nFROM:总经理\nSUBJECT:公司 picnic\n\n年度 picnic 将于8月10日星期六在中央公园举行。活动时间为上午11时至下午3时。提供食物和饮料。欢迎携带家人。请在8月1日前回复HR。",
+      "subQuestions": [
+        {
+          "id": "p7-123-q1",
+          "questionText": "When is the company picnic?",
+          "options": ["August 1st", "August 10th", "August 15th", "August 20th"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-123-q2",
+          "questionText": "What is the deadline to RSVP?",
+          "options": ["July 25th", "August 1st", "August 5th", "August 10th"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-124",
+      "part": 7,
+      "text": "TEXT MESSAGE\nDoctor: Your blood test results are ready.\nPatient: Can you email them to me?\nDoctor: I can only share them in person for privacy reasons.\nPatient: I understand. I'll come in tomorrow.\nDoctor: What time works for you?\nPatient: 10 a.m. is best.",
+      "subQuestions": [
+        {
+          "id": "p7-124-q1",
+          "questionText": "Why can't the doctor email the results?",
+          "options": ["Technical issue", "Privacy reasons", "Results not ready", "Doctor is busy"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-124-q2",
+          "questionText": "When will the patient come in?",
+          "options": ["Today at 10 a.m.", "Tomorrow at 10 a.m.", "Today at 2 p.m.", "Tomorrow at 2 p.m."],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-125",
+      "part": 7,
+      "text": "NOTICE\nParking Garage Cleaning\nThe parking garage will be closed for cleaning on Sunday, August 3rd from 6 a.m. to 2 p.m. Please remove all vehicles by 5 a.m. on Sunday. Alternative parking is available at the lot on 5th Street.",
+      "subQuestions": [
+        {
+          "id": "p7-125-q1",
+          "questionText": "Why will the garage be closed?",
+          "options": ["Repairs", "Cleaning", "Construction", "Inspection"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-125-q2",
+          "questionText": "Where can drivers park instead?",
+          "options": ["On 3rd Street", "On 4th Street", "On 5th Street", "On 6th Street"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-126",
+      "part": 7,
+      "text": "ADVERTISEMENT\nBack to School Sale!\nBackpacks: 30% off\nNotebooks: 10 for $5\nPens: 20 for $5\nCalculators: 20% off\nLaptops: Starting at $299\nSale ends August 31st",
+      "subQuestions": [
+        {
+          "id": "p7-126-q1",
+          "questionText": "How much do 10 notebooks cost?",
+          "options": ["$3", "$4", "$5", "$6"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-126-q2",
+          "questionText": "What is the starting price for laptops?",
+          "options": ["$199", "$249", "$299", "$349"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-127",
+      "part": 7,
+      "text": "CHAT\nA: Did you finish the quarterly report?\nB: Almost done. Just need to add the graphs.\nA: When can you send it to me?\nB: By 4 p.m. today.\nA: Perfect. I need to review it before the meeting.\nB: I'll prioritize it.",
+      "subQuestions": [
+        {
+          "id": "p7-127-q1",
+          "questionText": "What does B still need to add?",
+          "options": ["Conclusion", "Graphs", "Data", "Cover page"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-127-q2",
+          "questionText": "When will B send the report?",
+          "options": ["By 2 p.m.", "By 3 p.m.", "By 4 p.m.", "By 5 p.m."],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-128",
+      "part": 7,
+      "text": "WEBSITE\nHotel Cancellation Policy\nFree cancellation up to 48 hours before check-in. Cancellations within 48 hours will be charged one night's stay. No-shows will be charged the full reservation amount. Please call to modify or cancel your reservation.",
+      "subQuestions": [
+        {
+          "id": "p7-128-q1",
+          "questionText": "How far in advance can you cancel for free?",
+          "options": ["24 hours", "48 hours", "72 hours", "7 days"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-128-q2",
+          "questionText": "What happens if you do not show up?",
+          "options": ["No charge", "One night charge", "Full reservation charge", "Half charge"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-129",
+      "part": 7,
+      "text": "LETTER\nDear Mr. Tanaka,\n\nYour application for the position of Software Engineer has been approved. Your start date is September 1st. Please report to HR at 9 a.m. for orientation. Bring two forms of ID for your I-9. Welcome to the team!",
+      "subQuestions": [
+        {
+          "id": "p7-129-q1",
+          "questionText": "What is Mr. Tanaka's start date?",
+          "options": ["August 15th", "September 1st", "September 15th", "October 1st"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-129-q2",
+          "questionText": "What must Mr. Tanaka bring to orientation?",
+          "options": ["Resume", "Two forms of ID", "References", "Portfolio"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-130",
+      "part": 7,
+      "text": "NOTICE\nTrash and Recycling Schedule\nTrash pickup: Mondays and Thursdays\nRecycling pickup: Wednesdays\nPlease place bins at the curb by 7 a.m. on your pickup day. Bins should be removed by 8 p.m. the same day. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-130-q1",
+          "questionText": "What days is trash picked up?",
+          "options": ["Mondays and Wednesdays", "Mondays and Thursdays", "Tuesdays and Thursdays", "Wednesdays and Fridays"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-130-q2",
+          "questionText": "What time should bins be placed at the curb?",
+          "options": ["By 6 a.m.", "By 7 a.m.", "By 8 a.m.", "By 9 a.m."],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-131",
+      "part": 7,
+      "text": "EMAIL\nTo: team@project.com\nFrom: client@email.com\nSubject: Change request\n\nI would like to request a change to the project scope. We need to add a reporting feature that was not in the original plan. Please let me know how this will affect the timeline and budget. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-131-q1",
+          "questionText": "What change does the client request?",
+          "options": ["New design", "Reporting feature", "Mobile app", "User testing"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-131-q2",
+          "questionText": "What does the client want to know?",
+          "options": ["Who will do the work", "Effect on timeline and budget", "When it can start", "Who approved it"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-132",
+      "part": 7,
+      "text": "SIGN\nPrivate Property\nNo Trespassing\nViolators will be prosecuted\nThis area is under video surveillance\nBy entering, you consent to recording\nAuthorized personnel only",
+      "subQuestions": [
+        {
+          "id": "p7-132-q1",
+          "questionText": "What happens to violators?",
+          "options": ["Fined", "Prosecuted", "Warned", "Banned"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-132-q2",
+          "questionText": "What is mentioned about surveillance?",
+          "options": ["Audio only", "Video surveillance", "No cameras", "Cameras are broken"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-133",
+      "part": 7,
+      "text": "TEXT MESSAGE\nMom: Did you eat dinner?\nSon: Not yet. I'm still at work.\nMom: Don't work too late. There's leftover chicken in the fridge.\nSon: Thanks. I'll heat it up when I get home.\nMom: Drive safely.",
+      "subQuestions": [
+        {
+          "id": "p7-133-q1",
+          "questionText": "What food is in the fridge?",
+          "options": ["Pizza", "Chicken", "Pasta", "Soup"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-133-q2",
+          "questionText": "Why hasn't the son eaten yet?",
+          "options": ["Not hungry", "Still at work", "Out with friends", "Cooking"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-134",
+      "part": 7,
+      "text": "REVIEW\nI took my dog to this vet for the first time. The staff was friendly and the doctor was knowledgeable. The waiting area was clean. Prices were reasonable. I will definitely bring my dog back here.",
+      "subQuestions": [
+        {
+          "id": "p7-134-q1",
+          "questionText": "What is the reviewer's overall opinion?",
+          "options": ["Negative", "Neutral", "Positive", "Mixed"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-134-q2",
+          "questionText": "What is mentioned as positive?",
+          "options": ["Parking", "Prices", "Location", "Hours"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-135",
+      "part": 7,
+      "text": "MEMO\nTO: Research Department\nFROM: Director\nSUBJECT: New equipment\n\nNew microscopes will arrive on September 10th. Please clear space in Lab B for installation. Training sessions will be held on September 12th at 10 a.m. and 2 p.m. Attendance is required for all research staff.",
+      "subQuestions": [
+        {
+          "id": "p7-135-q1",
+          "questionText": "What new equipment is arriving?",
+          "options": ["Computers", "Microscopes", "Centrifuges", "Freezers"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-135-q2",
+          "questionText": "When are the training sessions?",
+          "options": ["September 10th", "September 11th", "September 12th", "September 13th"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-136",
+      "part": 7,
+      "text": "FLYER\nBlood Pressure Screening\nFree for seniors (age 65+)\nWednesday, September 17th\n9 a.m. - 12 p.m.\nAt the Senior Community Center\nNo appointment needed",
+      "subQuestions": [
+        {
+          "id": "p7-136-q1",
+          "questionText": "Who is eligible for free screening?",
+          "options": ["All adults", "Seniors age 65+", "Children", "Pregnant women"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-136-q2",
+          "questionText": "What is required to attend?",
+          "options": ["Appointment", "Insurance card", "No appointment needed", "Referral"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-137",
+      "part": 7,
+      "text": "EMAIL\nTo: All Staff\nFrom: HR\nSubject: Flu shots\n\nFree flu shots will be available on October 10th from 9 a.m. to 4 p.m. in Conference Room A. No appointment necessary. Please bring your insurance card. Consent forms are available at the front desk.",
+      "subQuestions": [
+        {
+          "id": "p7-137-q1",
+          "questionText": "What is being offered?",
+          "options": ["COVID test", "Flu shots", "Blood test", "Physical exam"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-137-q2",
+          "questionText": "What should employees bring?",
+          "options": ["ID badge", "Insurance card", "Driver's license", "Passport"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-138",
+      "part": 7,
+      "text": "CHAT\nA: The client wants a refund.\nB: Why? What's the problem?\nA: They say the product doesn't work as advertised.\nB: Did they follow the instructions?\nA: I'm not sure. I'll ask.\nB: Let's offer a replacement first before refunding.",
+      "subQuestions": [
+        {
+          "id": "p7-138-q1",
+          "questionText": "What does the client want?",
+          "options": ["Replacement", "Refund", "Discount", "Upgrade"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-138-q2",
+          "questionText": "What does B suggest offering first?",
+          "options": ["Refund", "Replacement", "Store credit", "Apology"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-139",
+      "part": 7,
+      "text": "NOTICE\nOffice Move\nThe office will be moving to 500 Market Street on October 1st. The building will be closed September 28th-30th for the move. Please pack your personal items by September 27th. Labels will be provided.",
+      "subQuestions": [
+        {
+          "id": "p7-139-q1",
+          "questionText": "What is the new address?",
+          "options": ["400 Main Street", "500 Market Street", "600 Oak Avenue", "700 Pine Street"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-139-q2",
+          "questionText": "When should employees pack personal items?",
+          "options": ["By September 25th", "By September 27th", "By September 28th", "By October 1st"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-140",
+      "part": 7,
+      "text": "ADVERTISEMENT\nHalloween Sale!\nCostumes: 30% off\nCandy: Buy 2, get 1 free\nDecorations: 40% off\nPumpkins: $5 each\nSale ends October 31st\nWhile supplies last",
+      "subQuestions": [
+        {
+          "id": "p7-140-q1",
+          "questionText": "What is the discount on costumes?",
+          "options": ["20%", "25%", "30%", "40%"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-140-q2",
+          "questionText": "How much are pumpkins?",
+          "options": ["$3", "$4", "$5", "$6"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-141",
+      "part": 7,
+      "text": "WEBSITE\nMembership Levels\nBasic: $10/month - Access to gym only\nPremium: $25/month - Gym + classes\nElite: $40/month - Gym + classes + personal trainer\nAll levels include locker access and free parking. Cancel anytime with 30 days notice.",
+      "subQuestions": [
+        {
+          "id": "p7-141-q1",
+          "questionText": "What does the Premium level include?",
+          "options": ["Gym only", "Gym + classes", "Gym + classes + trainer", "All of the above"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-141-q2",
+          "questionText": "How much notice is required to cancel?",
+          "options": ["14 days", "30 days", "45 days", "60 days"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-142",
+      "part": 7,
+      "text": "REVIEW\nThis is my favorite coffee shop. The coffee is always fresh, and the pastries are delicious. The staff remembers my order. The only downside is it's always crowded, so it's hard to find a seat. Still, I go here every day.",
+      "subQuestions": [
+        {
+          "id": "p7-142-q1",
+          "questionText": "What is the downside of the coffee shop?",
+          "options": ["Expensive", "Slow service", "Always crowded", "Limited hours"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-142-q2",
+          "questionText": "How often does the reviewer go?",
+          "options": ["Once a week", "Several times a week", "Every day", "Once a month"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-143",
+      "part": 7,
+      "text": "EMAIL\nTo: All Employees\nFrom: IT Department\nSubject: Software update\n\nA critical security update will be pushed to all computers tonight at 10 p.m. Please save your work and log off before leaving today. Your computer will restart automatically. Do not turn off your computer during the update.",
+      "subQuestions": [
+        {
+          "id": "p7-143-q1",
+          "questionText": "What time will the update occur?",
+          "options": ["8 p.m.", "9 p.m.", "10 p.m.", "11 p.m."],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-143-q2",
+          "questionText": "What should employees do before leaving?",
+          "options": ["Back up files", "Save work and log off", "Unplug computers", "Call IT"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-144",
+      "part": 7,
+      "text": "TEXT MESSAGE\nFriend: Are you going to the concert?\nYou: Yes, I have tickets.\nFriend: What time does it start?\nYou: 8 p.m. Want to meet for dinner first?\nFriend: Sure. Where?\nYou: How about the pizza place at 6:30?",
+      "subQuestions": [
+        {
+          "id": "p7-144-q1",
+          "questionText": "What time does the concert start?",
+          "options": ["6:30 p.m.", "7:00 p.m.", "7:30 p.m.", "8:00 p.m."],
+          "correctIndex": 3
+        },
+        {
+          "id": "p7-144-q2",
+          "questionText": "Where will they meet for dinner?",
+          "options": ["Burger place", "Pizza place", "Sushi place", "Italian place"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-145",
+      "part": 7,
+      "text": "NOTICE\nWinter Parking Ban\nNo parking on the street from December 1st to March 31st between 2 a.m. and 6 a.m. for snow plowing. Vehicles parked during these hours will be ticketed and towed. Parking is available in the municipal garage for $5 per night.",
+      "subQuestions": [
+        {
+          "id": "p7-145-q1",
+          "questionText": "When does the parking ban start?",
+          "options": ["November 1st", "December 1st", "January 1st", "February 1st"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-145-q2",
+          "questionText": "What happens to vehicles parked during the ban?",
+          "options": ["Warned only", "Ticketed and towed", "Booted", "Photographed"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-146",
+      "part": 7,
+      "text": "ARTICLE\nThe annual holiday market will open on November 25th at City Plaza. Over 50 vendors will sell gifts, food, and crafts. The market is open daily from 10 a.m. to 8 p.m. through December 23rd. Admission is free. Parking is available nearby.",
+      "subQuestions": [
+        {
+          "id": "p7-146-q1",
+          "questionText": "When does the holiday market open?",
+          "options": ["November 20th", "November 25th", "December 1st", "December 10th"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-146-q2",
+          "questionText": "What is the admission cost?",
+          "options": ["$5", "$10", "$15", "Free"],
+          "correctIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "p7-147",
+      "part": 7,
+      "text": "CHAT\nManager: Did you send the proposal to the client?\nEmployee: Yes, I sent it yesterday.\nManager: They haven't responded yet.\nEmployee: I'll follow up tomorrow morning.\nManager: Please do. The deadline is Friday.",
+      "subQuestions": [
+        {
+          "id": "p7-147-q1",
+          "questionText": "When did the employee send the proposal?",
+          "options": ["Today", "Yesterday", "Two days ago", "Last week"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-147-q2",
+          "questionText": "What is the deadline?",
+          "options": ["Wednesday", "Thursday", "Friday", "Monday"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-148",
+      "part": 7,
+      "text": "INVOICE\nService: Website maintenance\nDate: November 1, 2025\nHours: 5 hours at $150/hour\nTotal: $750\nPayment status: Paid in full\nNext maintenance: December 1, 2025",
+      "subQuestions": [
+        {
+          "id": "p7-148-q1",
+          "questionText": "What is the hourly rate?",
+          "options": ["$100", "$125", "$150", "$175"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-148-q2",
+          "questionText": "When is the next maintenance?",
+          "options": ["November 15th", "December 1st", "December 15th", "January 1st"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-149",
+      "part": 7,
+      "text": "SIGN\nCaution: Wet floor\nCleaning in progress\nPlease use alternate route\nThank you for your patience\nWe apologize for the inconvenience",
+      "subQuestions": [
+        {
+          "id": "p7-149-q1",
+          "questionText": "What should people do?",
+          "options": ["Walk slowly", "Use alternate route", "Wait here", "Come back later"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-149-q2",
+          "questionText": "Why is the floor wet?",
+          "options": ["Spilled water", "Cleaning in progress", "Leak", "Rain"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-150",
+      "part": 7,
+      "text": "EMAIL\nTo: support@software.com\nFrom: user@email.com\nSubject: Account locked\n\nMy account has been locked after three failed login attempts. I think I forgot my password. Can you please reset it? My username is johndoe. Thank you for your help.",
+      "subQuestions": [
+        {
+          "id": "p7-150-q1",
+          "questionText": "Why is the account locked?",
+          "options": ["Inactivity", "Suspicious activity", "Three failed login attempts", "Expired password"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-150-q2",
+          "questionText": "What does the user want?",
+          "options": ["New account", "Password reset", "Refund", "Tech support call"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-151",
+      "part": 7,
+      "text": "NEWSLETTER\nDecember 2025\nHoliday Party: December 20th at 6 p.m. in the Grand Ballroom. Food, drinks, and dancing. Ugly sweater contest with prizes. Please RSVP by December 10th to catering@company.com.",
+      "subQuestions": [
+        {
+          "id": "p7-151-q1",
+          "questionText": "When is the holiday party?",
+          "options": ["December 10th", "December 15th", "December 20th", "December 25th"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-151-q2",
+          "questionText": "What is the RSVP deadline?",
+          "options": ["December 5th", "December 10th", "December 15th", "December 20th"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-152",
+      "part": 7,
+      "text": "TEXT MESSAGE\nA: I'm running 10 minutes late.\nB: No problem. I'll wait.\nA: Traffic is worse than I expected.\nB: Take your time. Drive safely.\nA: Thanks. See you soon.",
+      "subQuestions": [
+        {
+          "id": "p7-152-q1",
+          "questionText": "How late will A be?",
+          "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-152-q2",
+          "questionText": "Why is A late?",
+          "options": ["Overslept", "Traffic", "Wrong directions", "Meeting ran long"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-153",
+      "part": 7,
+      "text": "NOTICE\nHoliday Hours\nDecember 24th: Close at 3 p.m.\nDecember 25th: Closed\nDecember 26th: Closed\nDecember 27th: Resume normal hours (9 a.m. - 5 p.m.)\nHappy Holidays!",
+      "subQuestions": [
+        {
+          "id": "p7-153-q1",
+          "questionText": "What time does the office close on December 24th?",
+          "options": ["12 p.m.", "1 p.m.", "2 p.m.", "3 p.m."],
+          "correctIndex": 3
+        },
+        {
+          "id": "p7-153-q2",
+          "questionText": "When does the office reopen?",
+          "options": ["December 26th", "December 27th", "December 28th", "January 2nd"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-154",
+      "part": 7,
+      "text": "REVIEW\nI ordered a gift for my sister from this website. The shipping was free and arrived in 3 days. The packaging was nice. The product was exactly as described. I will definitely order from here again.",
+      "subQuestions": [
+        {
+          "id": "p7-154-q1",
+          "questionText": "How long did shipping take?",
+          "options": ["2 days", "3 days", "4 days", "5 days"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-154-q2",
+          "questionText": "What is mentioned about shipping?",
+          "options": ["Expensive", "Free", "Slow", "Not available"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-155",
+      "part": 7,
+      "text": "MEMO\nTO:全体员工\nFROM:财务部\nSUBJECT:年终奖金\n\n今年的年终奖金将于12月20日发放。奖金金额基于个人和公司业绩。请确保您的银行信息在12月15日前更新。如有疑问，请联系HR。",
+      "subQuestions": [
+        {
+          "id": "p7-155-q1",
+          "questionText": "When will bonuses be paid?",
+          "options": ["December 15th", "December 20th", "December 25th", "December 31st"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-155-q2",
+          "questionText": "What should employees do by December 15th?",
+          "options": ["Submit timesheets", "Update bank information", "Complete reviews", "Sign forms"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-156",
+      "part": 7,
+      "text": "ADVERTISEMENT\nNew Year's Eve Party at Grand Hotel\nDecember 31st, 8 p.m. - 1 a.m.\n$100 per person includes dinner, drinks, and champagne toast\nLive music and dancing\nDress code: Formal\nReservations required by December 28th",
+      "subQuestions": [
+        {
+          "id": "p7-156-q1",
+          "questionText": "How much does the party cost?",
+          "options": ["$50", "$75", "$100", "$125"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-156-q2",
+          "questionText": "What is the dress code?",
+          "options": ["Casual", "Business", "Formal", "Costume"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-157",
+      "part": 7,
+      "text": "CHAT\nA: The server is down again.\nB: I noticed. I can't access my files.\nA: I called IT. They said it will be back up in 30 minutes.\nB: Good. I'll take a break until then.\nA: Same here. Let me know when it's back.",
+      "subQuestions": [
+        {
+          "id": "p7-157-q1",
+          "questionText": "What is the problem?",
+          "options": ["Internet is slow", "Server is down", "Computer is broken", "Power outage"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-157-q2",
+          "questionText": "How long until the server is back?",
+          "options": ["15 minutes", "30 minutes", "45 minutes", "1 hour"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-158",
+      "part": 7,
+      "text": "WEBSITE\nWinter Sale\nUp to 60% off\nUse code: WINTER60 at checkout\nFree shipping on orders over $75\nSale ends January 15th\nExcludes clearance items",
+      "subQuestions": [
+        {
+          "id": "p7-158-q1",
+          "questionText": "What is the discount code?",
+          "options": ["WINTER50", "WINTER60", "WINTER70", "WINTER80"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-158-q2",
+          "questionText": "When does the sale end?",
+          "options": ["January 5th", "January 10th", "January 15th", "January 31st"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-159",
+      "part": 7,
+      "text": "LETTER\nDear Customer,\n\nYour warranty expires on January 31, 2026. You have the option to extend your warranty for an additional year for $49.99. Please contact our customer service department by January 15th to purchase the extension. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-159-q1",
+          "questionText": "When does the current warranty expire?",
+          "options": ["December 31, 2025", "January 15, 2026", "January 31, 2026", "February 28, 2026"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-159-q2",
+          "questionText": "How much does the warranty extension cost?",
+          "options": ["$29.99", "$39.99", "$49.99", "$59.99"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-160",
+      "part": 7,
+      "text": "NOTICE\nOffice Closed January 1st\nIn observance of New Year's Day, the office will be closed on Wednesday, January 1st. We will reopen on Thursday, January 2nd at 9 a.m. Have a happy and safe New Year!",
+      "subQuestions": [
+        {
+          "id": "p7-160-q1",
+          "questionText": "What day is the office closed?",
+          "options": ["December 31st", "January 1st", "January 2nd", "January 3rd"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-160-q2",
+          "questionText": "When does the office reopen?",
+          "options": ["January 1st", "January 2nd", "January 3rd", "January 4th"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-161",
+      "part": 7,
+      "text": "REVIEW\nI stayed at this hotel for a business trip. The room was clean and the bed was comfortable. The Wi-Fi was free and fast. The only complaint is the thin walls - I could hear my neighbors talking. I would stay again but bring earplugs.",
+      "subQuestions": [
+        {
+          "id": "p7-161-q1",
+          "questionText": "What is the reviewer's complaint?",
+          "options": ["Dirty room", "Slow Wi-Fi", "Thin walls", "Poor location"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-161-q2",
+          "questionText": "What would the reviewer bring next time?",
+          "options": ["Sleep mask", "Earplugs", "Pillow", "Blanket"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-162",
+      "part": 7,
+      "text": "EMAIL\nTo: team@project.com\nFrom: client@email.com\nSubject: Final approval\n\nI have reviewed the final deliverables. Everything looks great. Thank you for your hard work on this project. I look forward to working with you again. Please send the final invoice. Approved.",
+      "subQuestions": [
+        {
+          "id": "p7-162-q1",
+          "questionText": "What is the client's decision?",
+          "options": ["Rejected", "Needs changes", "Approved", "Under review"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-162-q2",
+          "questionText": "What does the client request?",
+          "options": ["More work", "Final invoice", "Meeting", "Presentation"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-163",
+      "part": 7,
+      "text": "TEXT MESSAGE\nLandlord: The heat is not working in the building.\nTenant: When will it be fixed?\nLandlord: The repair person is coming tomorrow at 9 a.m.\nTenant: I'll be at work. Can you let them in?\nLandlord: Yes, I have a key. I'll handle it.",
+      "subQuestions": [
+        {
+          "id": "p7-163-q1",
+          "questionText": "What is the problem?",
+          "options": ["Water leak", "Heat not working", "No electricity", "Elevator broken"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-163-q2",
+          "questionText": "Who will let the repair person in?",
+          "options": ["Tenant", "Landlord", "Neighbor", "Superintendent"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-164",
+      "part": 7,
+      "text": "FLYER\nVolunteer Opportunity\nHelp at the animal shelter\nTasks: Walking dogs, cleaning kennels, feeding animals\nWeekends only, 9 a.m. - 12 p.m.\nTraining provided\nSign up at the front desk",
+      "subQuestions": [
+        {
+          "id": "p7-164-q1",
+          "questionText": "What tasks are mentioned?",
+          "options": ["Bathing animals", "Walking dogs and cleaning", "Vet assistance", "Adoption events"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-164-q2",
+          "questionText": "What days are volunteers needed?",
+          "options": ["Weekdays", "Weekends", "Holidays", "Evenings"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-165",
+      "part": 7,
+      "text": "ARTICLE\nThe local library will offer free tutoring for students in grades K-12 starting in February. Tutoring is available in math, reading, and science. Sessions are held Tuesdays and Thursdays from 4 p.m. to 6 p.m. Registration is required.",
+      "subQuestions": [
+        {
+          "id": "p7-165-q1",
+          "questionText": "What subjects are offered?",
+          "options": ["History and art", "Math, reading, and science", "Music and drama", "Foreign languages"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-165-q2",
+          "questionText": "What is required to participate?",
+          "options": ["Fee", "Registration", "Parent permission", "School approval"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-166",
+      "part": 7,
+      "text": "CHAT\nA: The printer is jammed again.\nB: I'll take a look. Which tray?\nA: Tray 2.\nB: I see the problem. There's a crumpled paper.\nA: Can you fix it?\nB: Done. It should work now.",
+      "subQuestions": [
+        {
+          "id": "p7-166-q1",
+          "questionText": "What is the problem?",
+          "options": ["Out of paper", "Printer jam", "No toner", "Offline"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-166-q2",
+          "questionText": "Which tray had the problem?",
+          "options": ["Tray 1", "Tray 2", "Tray 3", "Tray 4"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-167",
+      "part": 7,
+      "text": "INVOICE\nService: Legal consultation\nDate: February 1, 2026\nHours: 2 hours at $300/hour\nTotal: $600\nPayment due: February 28, 2026\nLate fee: 5% per month",
+      "subQuestions": [
+        {
+          "id": "p7-167-q1",
+          "questionText": "What is the hourly rate?",
+          "options": ["$200", "$250", "$300", "$350"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-167-q2",
+          "questionText": "What is the late fee?",
+          "options": ["2% per month", "3% per month", "5% per month", "10% per month"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-168",
+      "part": 7,
+      "text": "SIGN\nEmployees Only\nThis area is restricted to authorized personnel\nBadge access required\nVisitors must be escorted\nUnauthorized entry will be reported",
+      "subQuestions": [
+        {
+          "id": "p7-168-q1",
+          "questionText": "What is required to enter?",
+          "options": ["Key", "Badge access", "Password", "Supervisor approval"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-168-q2",
+          "questionText": "What is required for visitors?",
+          "options": ["Appointment", "Escort", "ID", "Background check"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-169",
+      "part": 7,
+      "text": "EMAIL\nTo: All Staff\nFrom: Facilities\nSubject: Heating issue\n\nThe heating system is being repaired. The building may be colder than usual today. Please dress warmly. We expect the issue to be resolved by 5 p.m. Thank you for your patience.",
+      "subQuestions": [
+        {
+          "id": "p7-169-q1",
+          "questionText": "What is the problem?",
+          "options": ["No electricity", "Heating issue", "Water leak", "Elevator broken"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-169-q2",
+          "questionText": "When will the issue be resolved?",
+          "options": ["By 12 p.m.", "By 3 p.m.", "By 5 p.m.", "By 7 p.m."],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-170",
+      "part": 7,
+      "text": "ADVERTISEMENT\nValentine's Day Special\nRomantic dinner for two: $80\nIncludes appetizer, main course, dessert, and a bottle of wine\nReservations required\nFebruary 14th only\nCall 555-1234 to book",
+      "subQuestions": [
+        {
+          "id": "p7-170-q1",
+          "questionText": "How much is the dinner for two?",
+          "options": ["$60", "$70", "$80", "$90"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-170-q2",
+          "questionText": "What is required to book?",
+          "options": ["Deposit", "Reservation", "Credit card", "Coupon"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-171",
+      "part": 7,
+      "text": "WEBSITE\nProduct Warranty\nOne-year limited warranty\nCovers defects in materials and workmanship\nDoes not cover accidental damage or normal wear and tear\nTo file a claim, contact customer support with your receipt",
+      "subQuestions": [
+        {
+          "id": "p7-171-q1",
+          "questionText": "How long is the warranty?",
+          "options": ["6 months", "1 year", "2 years", "3 years"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-171-q2",
+          "questionText": "What is NOT covered?",
+          "options": ["Defects in materials", "Workmanship issues", "Accidental damage", "Manufacturing errors"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-172",
+      "part": 7,
+      "text": "TEXT MESSAGE\nA: Are you coming to the gym today?\nB: Yes, what time?\nA: I'll be there at 6 p.m.\nB: I can do 6:30. Is that okay?\nA: Sure. I'll warm up until you get there.\nB: Great. See you then.",
+      "subQuestions": [
+        {
+          "id": "p7-172-q1",
+          "questionText": "What time will B arrive?",
+          "options": ["6:00 p.m.", "6:15 p.m.", "6:30 p.m.", "7:00 p.m."],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-172-q2",
+          "questionText": "What will A do while waiting?",
+          "options": ["Leave", "Warm up", "Cancel", "Go home"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-173",
+      "part": 7,
+      "text": "NOTICE\nTax documents are ready\nYour W-2 forms are available in the employee portal\nPlease download by February 15th\nContact payroll if you need a paper copy\nThank you",
+      "subQuestions": [
+        {
+          "id": "p7-173-q1",
+          "questionText": "What document is available?",
+          "options": ["Paystub", "W-2 form", "1099 form", "Timesheet"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-173-q2",
+          "questionText": "What is the deadline to download?",
+          "options": ["January 31st", "February 15th", "February 28th", "March 15th"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-174",
+      "part": 7,
+      "text": "REVIEW\nI took my car to this mechanic for an oil change and tire rotation. The service was quick - only 45 minutes. The staff was friendly. The price was fair at $85. I will definitely come back for future repairs.",
+      "subQuestions": [
+        {
+          "id": "p7-174-q1",
+          "questionText": "How long did the service take?",
+          "options": ["30 minutes", "45 minutes", "1 hour", "1.5 hours"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-174-q2",
+          "questionText": "How much did the service cost?",
+          "options": ["$65", "$75", "$85", "$95"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-175",
+      "part": 7,
+      "text": "MEMO\nTO: IT Team\nFROM: CTO\nSUBJECT: New computers\n\nNew computers will be deployed starting March 1st. The schedule will be sent by department. Please back up your files before your scheduled date. Training videos are available on the intranet. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-175-q1",
+          "questionText": "When will new computers be deployed?",
+          "options": ["February 15th", "March 1st", "March 15th", "April 1st"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-175-q2",
+          "questionText": "What should employees do before their scheduled date?",
+          "options": ["Clean their desk", "Back up files", "Update software", "Return old computer"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-176",
+      "part": 7,
+      "text": "CHAT\nA: Did you see the email about the new policy?\nB: Yes, but I'm confused about the vacation accrual.\nA: It says you earn 1 day per month.\nB: So 12 days per year?\nA: Yes, that's correct.\nB: Thanks for clarifying.",
+      "subQuestions": [
+        {
+          "id": "p7-176-q1",
+          "questionText": "How many vacation days are earned per month?",
+          "options": ["0.5 days", "1 day", "1.5 days", "2 days"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-176-q2",
+          "questionText": "What is B confused about?",
+          "options": ["Holiday pay", "Vacation accrual", "Sick leave", "Overtime"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-177",
+      "part": 7,
+      "text": "FLYER\nSpring Flower Show\nMarch 15th - March 30th\n9 a.m. - 6 p.m. daily\nAt the Botanical Garden\nAdmission: $12 adults, $8 seniors, $5 children\nFree parking on site",
+      "subQuestions": [
+        {
+          "id": "p7-177-q1",
+          "questionText": "How much is senior admission?",
+          "options": ["$5", "$8", "$10", "$12"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-177-q2",
+          "questionText": "What is mentioned about parking?",
+          "options": ["Paid", "Free on site", "Limited", "Street parking only"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-178",
+      "part": 7,
+      "text": "EMAIL\nTo: customer@email.com\nFrom: store@retail.com\nSubject: Back in stock\n\nThe item you requested is now back in stock! We have 10 units available. Please visit our website to place your order. Use code WELCOME10 for 10% off. This offer expires in 7 days.",
+      "subQuestions": [
+        {
+          "id": "p7-178-q1",
+          "questionText": "How many units are available?",
+          "options": ["5", "8", "10", "12"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-178-q2",
+          "questionText": "What is the discount code?",
+          "options": ["SAVE10", "WELCOME10", "FIRST10", "TENOFF"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-179",
+      "part": 7,
+      "text": "SIGN\nRestrooms closed for cleaning\nPlease use restrooms on the second floor\nWe apologize for the inconvenience\nCleaning will be completed by 4 p.m.\nThank you for your understanding",
+      "subQuestions": [
+        {
+          "id": "p7-179-q1",
+          "questionText": "Why are the restrooms closed?",
+          "options": ["Repairs", "Cleaning", "Renovation", "Inspection"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-179-q2",
+          "questionText": "Where are alternate restrooms located?",
+          "options": ["First floor", "Second floor", "Third floor", "Basement"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-180",
+      "part": 7,
+      "text": "ARTICLE\nThe city will open a new public pool this summer. The pool is located at 1000 Park Avenue. Features include a lap pool, children's area, and a concession stand. Opening day is June 1st. Admission is $5 for adults and $3 for children.",
+      "subQuestions": [
+        {
+          "id": "p7-180-q1",
+          "questionText": "Where is the new pool located?",
+          "options": ["500 Main Street", "1000 Park Avenue", "2000 Oak Street", "3000 Maple Drive"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-180-q2",
+          "questionText": "How much is adult admission?",
+          "options": ["$3", "$4", "$5", "$6"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-181",
+      "part": 7,
+      "text": "TEXT MESSAGE\nBoss: Can you send me the sales numbers?\nEmployee: Yes, I'll email them now.\nBoss: Thanks. Also, please prepare the presentation for tomorrow.\nEmployee: I already finished it.\nBoss: Great. Send that too.",
+      "subQuestions": [
+        {
+          "id": "p7-181-q1",
+          "questionText": "What has the employee already finished?",
+          "options": ["Sales report", "Presentation", "Budget", "Meeting agenda"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-181-q2",
+          "questionText": "What will the employee send now?",
+          "options": ["Sales numbers", "Presentation", "Both", "Neither"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "p7-182",
+      "part": 7,
+      "text": "NOTICE\nPlease remove all food from the refrigerator by Friday at 5 p.m. The refrigerator will be cleaned over the weekend. Any unlabeled or expired items will be thrown away. Thank you for your cooperation.",
+      "subQuestions": [
+        {
+          "id": "p7-182-q1",
+          "questionText": "What is the deadline to remove food?",
+          "options": ["Thursday 5 p.m.", "Friday 5 p.m.", "Saturday 5 p.m.", "Sunday 5 p.m."],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-182-q2",
+          "questionText": "What will happen to unlabeled items?",
+          "options": ["Moved", "Labeled", "Thrown away", "Donated"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-183",
+      "part": 7,
+      "text": "REVIEW\nI ordered a desk from this company. Assembly was difficult - the instructions were unclear. It took me 3 hours to put together. However, the desk is sturdy and looks nice. I'm happy with the final product.",
+      "subQuestions": [
+        {
+          "id": "p7-183-q1",
+          "questionText": "What was the problem?",
+          "options": ["Missing parts", "Unclear instructions", "Damaged product", "Late delivery"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-183-q2",
+          "questionText": "How long did assembly take?",
+          "options": ["1 hour", "2 hours", "3 hours", "4 hours"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-184",
+      "part": 7,
+      "text": "MEMO\nTO: All Departments\nFROM: Finance\nSUBJECT: Budget planning\n\nPlease submit your proposed budgets for the next fiscal year by April 15th. Use the template provided on the intranet. Include justification for any increases over 5%. Late submissions will not be accepted.",
+      "subQuestions": [
+        {
+          "id": "p7-184-q1",
+          "questionText": "What is the deadline?",
+          "options": ["April 1st", "April 15th", "April 30th", "May 15th"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-184-q2",
+          "questionText": "What is required for increases over 5%?",
+          "options": ["Manager approval", "Justification", "Board review", "Additional forms"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-185",
+      "part": 7,
+      "text": "CHAT\nA: I can't find the meeting link.\nB: It was in the calendar invite.\nA: I must have deleted it.\nB: I'll send it to you again.\nA: Thanks. Sorry for the trouble.\nB: No problem. See you online.",
+      "subQuestions": [
+        {
+          "id": "p7-185-q1",
+          "questionText": "What did A lose?",
+          "options": ["Password", "Meeting link", "Agenda", "Notes"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-185-q2",
+          "questionText": "What will B do?",
+          "options": ["Cancel the meeting", "Send the link again", "Call A", "Reschedule"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-186",
+      "part": 7,
+      "text": "FLYER\nEarth Day Cleanup\nSaturday, April 22nd\n9 a.m. - 12 p.m.\nMeet at Central Park entrance\nGloves and bags provided\nFree t-shirt for volunteers\nRegister at citywebsite.com/earthday",
+      "subQuestions": [
+        {
+          "id": "p7-186-q1",
+          "questionText": "What is provided for volunteers?",
+          "options": ["Snacks", "Gloves and bags", "Transportation", "Water bottles"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-186-q2",
+          "questionText": "What do volunteers receive for free?",
+          "options": ["Lunch", "T-shirt", "Hat", "Water bottle"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-187",
+      "part": 7,
+      "text": "EMAIL\nTo: support@software.com\nFrom: user@email.com\nSubject: Billing error\n\nI was charged $99.99 for my monthly subscription, but my plan is only $49.99 per month. Please correct this error and refund the overcharge. My account number is 88421. Thank you.",
+      "subQuestions": [
+        {
+          "id": "p7-187-q1",
+          "questionText": "What was the user charged?",
+          "options": ["$49.99", "$59.99", "$79.99", "$99.99"],
+          "correctIndex": 3
+        },
+        {
+          "id": "p7-187-q2",
+          "questionText": "What does the user want?",
+          "options": ["Cancel subscription", "Refund the overcharge", "Upgrade plan", "Change account"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-188",
+      "part": 7,
+      "text": "SIGN\nNo food or drinks beyond this point\nThis rule applies to all visitors\nPlease finish your snacks before entering\nWater bottles are allowed\nThank you for your cooperation",
+      "subQuestions": [
+        {
+          "id": "p7-188-q1",
+          "questionText": "What is allowed?",
+          "options": ["Food", "Coffee", "Water bottles", "Snacks"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-188-q2",
+          "questionText": "What should visitors do with snacks?",
+          "options": ["Throw them away", "Finish before entering", "Leave them at the door", "Hide them"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-189",
+      "part": 7,
+      "text": "ARTICLE\nThe company's stock price reached an all-time high yesterday, closing at $85.50. This represents a 15% increase from last month. The CEO attributed the growth to strong sales in the Asian market. Analysts predict continued growth next quarter.",
+      "subQuestions": [
+        {
+          "id": "p7-189-q1",
+          "questionText": "What was the stock price at closing?",
+          "options": ["$75.50", "$80.50", "$85.50", "$90.50"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-189-q2",
+          "questionText": "What caused the growth according to the CEO?",
+          "options": ["New product", "Strong sales in Asia", "Cost cutting", "Marketing campaign"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-190",
+      "part": 7,
+      "text": "TEXT MESSAGE\nA: I need to reschedule our appointment.\nB: No problem. When works for you?\nA: How about next Tuesday at 2 p.m.?\nB: I have a meeting then. Can we do 4 p.m.?\nA: 4 p.m. is fine. See you then.",
+      "subQuestions": [
+        {
+          "id": "p7-190-q1",
+          "questionText": "What is the new appointment time?",
+          "options": ["2 p.m.", "3 p.m.", "4 p.m.", "5 p.m."],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-190-q2",
+          "questionText": "Why can't B do 2 p.m.?",
+          "options": ["Out of town", "Has a meeting", "Doctor appointment", "Vacation"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-191",
+      "part": 7,
+      "text": "NOTICE\nSummer internship applications are now open. Deadline is May 15th. Applicants must be currently enrolled in college. To apply, submit your resume and cover letter to internships@company.com. Interviews will be held in June.",
+      "subQuestions": [
+        {
+          "id": "p7-191-q1",
+          "questionText": "What is the deadline?",
+          "options": ["April 30th", "May 15th", "June 1st", "June 15th"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-191-q2",
+          "questionText": "What is required to apply?",
+          "options": ["References", "Resume and cover letter", "Portfolio", "Transcript"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-192",
+      "part": 7,
+      "text": "REVIEW\nThis is the best gym in the neighborhood. The equipment is new and well-maintained. The staff is friendly. The only downside is it gets crowded after 5 p.m. I go in the morning when it's quiet. Highly recommend.",
+      "subQuestions": [
+        {
+          "id": "p7-192-q1",
+          "questionText": "What is the downside?",
+          "options": ["Expensive", "Limited equipment", "Crowded after 5 p.m.", "Unfriendly staff"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-192-q2",
+          "questionText": "When does the reviewer go?",
+          "options": ["Morning", "Afternoon", "Evening", "Weekends"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "p7-193",
+      "part": 7,
+      "text": "EMAIL\nTo: All Employees\nFrom: HR\nSubject: New benefits\n\nWe are pleased to announce that dental insurance will be added to our benefits package starting June 1st. Enrollment will take place from May 15th to May 30th. Please attend the information session on May 10th at 2 p.m.",
+      "subQuestions": [
+        {
+          "id": "p7-193-q1",
+          "questionText": "When does dental insurance start?",
+          "options": ["May 10th", "May 15th", "June 1st", "June 15th"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-193-q2",
+          "questionText": "When is the information session?",
+          "options": ["May 5th", "May 10th", "May 15th", "May 30th"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-194",
+      "part": 7,
+      "text": "CHAT\nA: The project is behind schedule.\nB: I know. The client keeps requesting changes.\nA: We need to push back on some of them.\nB: I agree. Let's make a list of what's reasonable.\nA: Good idea. Let's meet at 2 p.m. to discuss.",
+      "subQuestions": [
+        {
+          "id": "p7-194-q1",
+          "questionText": "Why is the project behind schedule?",
+          "options": ["Staff shortage", "Client keeps requesting changes", "Technical issues", "Budget cuts"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-194-q2",
+          "questionText": "What will they do at 2 p.m.?",
+          "options": ["Call the client", "Meet to discuss", "Work on the project", "Take a break"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-195",
+      "part": 7,
+      "text": "INVOICE\nService: Accounting services\nDate: May 1, 2026\nHours: 10 hours at $120/hour\nTotal: $1,200\nPaid: $600\nBalance: $600\nDue: June 1, 2026",
+      "subQuestions": [
+        {
+          "id": "p7-195-q1",
+          "questionText": "What is the total amount?",
+          "options": ["$600", "$1,000", "$1,200", "$1,400"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-195-q2",
+          "questionText": "What is the balance due?",
+          "options": ["$400", "$500", "$600", "$700"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-196",
+      "part": 7,
+      "text": "SIGN\nPlease silence your cell phones\nThis is a quiet study area\nPhone calls are not permitted\nTexting is allowed\nThank you for respecting other visitors",
+      "subQuestions": [
+        {
+          "id": "p7-196-q1",
+          "questionText": "What is not permitted?",
+          "options": ["Texting", "Silent mode", "Phone calls", "Reading"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-196-q2",
+          "questionText": "What is allowed?",
+          "options": ["Phone calls", "Loud music", "Texting", "Eating"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-197",
+      "part": 7,
+      "text": "ADVERTISEMENT\nMemorial Day Sale\nAll furniture 25% off\nFree delivery on orders over $500\nExtra 10% off for military and veterans\nSale ends May 27th\nIn-store and online",
+      "subQuestions": [
+        {
+          "id": "p7-197-q1",
+          "questionText": "What is the discount on furniture?",
+          "options": ["15%", "20%", "25%", "30%"],
+          "correctIndex": 2
+        },
+        {
+          "id": "p7-197-q2",
+          "questionText": "Who gets an extra 10% off?",
+          "options": ["Students", "Seniors", "Military and veterans", "First responders"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-198",
+      "part": 7,
+      "text": "TEXT MESSAGE\nA: Did you finish the assignment?\nB: Almost done. Just need to proofread.\nA: Can you send it to me when you're done?\nB: Yes, I'll email it within the hour.\nA: Thanks. No rush, just before 5 p.m.\nB: Got it.",
+      "subQuestions": [
+        {
+          "id": "p7-198-q1",
+          "questionText": "What does B still need to do?",
+          "options": ["Write conclusion", "Proofread", "Add citations", "Create cover page"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-198-q2",
+          "questionText": "What is the deadline?",
+          "options": ["Within the hour", "Before 5 p.m.", "Today", "Tomorrow"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "p7-199",
+      "part": 7,
+      "text": "NOTICE\nGraduation ceremony\nDate: June 15th\nTime: 10 a.m.\nLocation: City Auditorium\nDoors open at 9 a.m.\nNo tickets required\nSeating is first come, first served",
+      "subQuestions": [
+        {
+          "id": "p7-199-q1",
+          "questionText": "What time does the ceremony start?",
+          "options": ["9 a.m.", "10 a.m.", "11 a.m.", "12 p.m."],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-199-q2",
+          "questionText": "What is required for entry?",
+          "options": ["Tickets", "ID", "No tickets required", "Reservation"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "p7-200",
+      "part": 7,
+      "text": "EMAIL\nTo: All Staff\nFrom: CEO\nSubject: Thank you\n\nI want to thank everyone for their hard work this year. We achieved our goals despite many challenges. I wish you and your families a happy holiday season. The office will be closed December 24th - January 1st. See you in the new year!",
+      "subQuestions": [
+        {
+          "id": "p7-200-q1",
+          "questionText": "What is the purpose of the email?",
+          "options": ["To announce layoffs", "To thank employees", "To schedule meetings", "To report earnings"],
+          "correctIndex": 1
+        },
+        {
+          "id": "p7-200-q2",
+          "questionText": "How long will the office be closed?",
+          "options": ["December 24th only", "December 25th only", "December 24th - January 1st", "December 31st - January 2nd"],
+          "correctIndex": 2
+        }
+      ]
+    }
+  ]
+}

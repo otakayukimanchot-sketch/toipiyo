@@ -1,6 +1,8 @@
-import { Part, UserProgress } from "../types";
+import { Part, UserProgress, ReviewItem, AppSettings } from "../types";
 
 const STORAGE_KEY = "toipiyo_user_progress";
+const REVIEW_KEY = "toipiyo_review_items";
+const SETTINGS_KEY = "toipiyo_app_settings";
 
 export function getJSTDate(): string {
   const now = new Date();
@@ -61,4 +63,55 @@ export function completePart(part: Part) {
     
     saveProgress(progress);
   }
+}
+
+export function saveIncorrectQuestion(question: any) {
+  const stored = localStorage.getItem(REVIEW_KEY);
+  let reviews: ReviewItem[] = stored ? JSON.parse(stored) : [];
+  
+  // Check if already exists
+  if (reviews.some(r => r.id === question.id)) return;
+
+  const newItem: ReviewItem = {
+    id: question.id,
+    question,
+    timestamp: Date.now()
+  };
+
+  reviews.unshift(newItem); // Add to beginning
+  
+  // Keep only last 30 items
+  if (reviews.length > 30) {
+    reviews = reviews.slice(0, 30);
+  }
+
+  localStorage.setItem(REVIEW_KEY, JSON.stringify(reviews));
+}
+
+export function getReviewItems(): ReviewItem[] {
+  const stored = localStorage.getItem(REVIEW_KEY);
+  return stored ? JSON.parse(stored) : [];
+}
+
+export function removeReviewItem(id: string) {
+  const stored = localStorage.getItem(REVIEW_KEY);
+  if (!stored) return;
+  let reviews: ReviewItem[] = JSON.parse(stored);
+  reviews = reviews.filter(r => r.id !== id);
+  localStorage.setItem(REVIEW_KEY, JSON.stringify(reviews));
+}
+
+export function getSettings(): AppSettings {
+  const stored = localStorage.getItem(SETTINGS_KEY);
+  if (stored) return JSON.parse(stored);
+  
+  const defaultSettings: AppSettings = {
+    isAudioEnabled: true
+  };
+  saveSettings(defaultSettings);
+  return defaultSettings;
+}
+
+export function saveSettings(settings: AppSettings) {
+  localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
 }

@@ -1,14 +1,16 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Part, Question, SubQuestion } from "../types";
 import { speak, speakMultiple } from "../utils/audio";
+import { saveIncorrectQuestion } from "../utils/storage";
 import { motion, AnimatePresence } from "motion/react";
-import { Clock, CheckCircle, XCircle, ChevronRight, Home, ArrowLeft, RotateCcw, Volume2 } from "lucide-react";
+import { Clock, CheckCircle, XCircle, ChevronRight, Home, ArrowLeft, RotateCcw, Volume2, VolumeX, Save } from "lucide-react";
 
 interface QuizViewProps {
   part: Part;
   question: Question;
   onComplete: (isCorrect: boolean) => void;
   onCancel: () => void;
+  isAudioEnabled: boolean;
 }
 
 const PART_TIMERS: Record<Part, number> = {
@@ -21,14 +23,15 @@ const PART_TIMERS: Record<Part, number> = {
   7: 60,
 };
 
-const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCancel }) => {
+const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCancel, isAudioEnabled }) => {
   const [phase, setPhase] = useState<"countdown" | "quiz" | "result">("countdown");
   const [countdown, setCountdown] = useState(3);
   const [timeLeft, setTimeLeft] = useState(PART_TIMERS[part]);
   const [selectedAnswers, setSelectedAnswers] = useState<Record<string, number>>({});
   const [isConfirmed, setIsConfirmed] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
-  const [isAudioFinished, setIsAudioFinished] = useState(![1, 2, 3, 4].includes(part));
+  const [isAudioFinished, setIsAudioFinished] = useState(![1, 2, 3, 4].includes(part) || !isAudioEnabled);
+  const [isSaved, setIsSaved] = useState(false);
   const [error, setError] = useState<string | null>(null);
   
   const timerRef = useRef<NodeJS.Timeout | null>(null);
@@ -48,7 +51,7 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
 
   // Audio logic
   useEffect(() => {
-    if (phase === "quiz" && [1, 2, 3, 4].includes(part) && !audioStarted.current) {
+    if (phase === "quiz" && [1, 2, 3, 4].includes(part) && !audioStarted.current && isAudioEnabled) {
       audioStarted.current = true;
       const playAudio = async () => {
         try {
@@ -81,7 +84,8 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
           setTimeout(() => setIsAudioFinished(true), 1000);
         } catch (err) {
           console.error(err);
-          setError("音声の再生に失敗しました");
+          // If audio fails, just skip to quiz phase instead of showing error screen
+          setIsAudioFinished(true);
         }
       };
       playAudio();
@@ -185,24 +189,48 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
 
         <div className="flex-1 overflow-y-auto space-y-6">
           {/* Audio Status Overlay during Quiz */}
-          {[1, 2, 3, 4].includes(part) && !isAudioFinished && (
-            <div className="flex items-center justify-center space-x-3 p-3 bg-blue-50 rounded-xl border border-blue-100">
-              <div className="flex space-x-1">
-                <motion.div animate={{ height: [4, 12, 4] }} transition={{ repeat: Infinity, duration: 0.5 }} className="w-1 bg-blue-500 rounded-full" />
-                <motion.div animate={{ height: [8, 16, 8] }} transition={{ repeat: Infinity, duration: 0.5, delay: 0.1 }} className="w-1 bg-blue-500 rounded-full" />
-                <motion.div animate={{ height: [4, 12, 4] }} transition={{ repeat: Infinity, duration: 0.5, delay: 0.2 }} className="w-1 bg-blue-500 rounded-full" />
-              </div>
-              <span className="text-xs font-bold text-blue-600 uppercase tracking-wider">Audio Playing...</span>
-              <button
-                onClick={() => {
-                  audioStarted.current = false;
-                  setIsAudioFinished(false);
-                }}
-                className="ml-auto p-1 text-blue-400 hover:text-blue-600"
-                title="Replay"
-              >
-                <Volume2 size={16} />
-              </button>
+          {[1, 2, 3, 4].includes(part) && (
+            <div className={`flex items-center justify-center space-x-3 p-3 rounded-xl border ${!isAudioEnabled ? "bg-gray-50 border-gray-100" : "bg-blue-50 border-blue-100"}`}>
+              {!isAudioEnabled ? (
+                <>
+                  <VolumeX size={16} className="text-gray-400" />
+                  <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">Audio Disabled</span>
+                </>
+              ) : !isAudioFinished ? (
+                <>
+                  <div className="flex space-x-1">
+                    <motion.div animate={{ height: [4, 12, 4] }} transition={{ repeat: Infinity, duration: 0.5 }} className="w-1 bg-blue-500 rounded-full" />
+                    <motion.div animate={{ height: [8, 16, 8] }} transition={{ repeat: Infinity, duration: 0.5, delay: 0.1 }} className="w-1 bg-blue-500 rounded-full" />
+                    <motion.div animate={{ height: [4, 12, 4] }} transition={{ repeat: Infinity, duration: 0.5, delay: 0.2 }} className="w-1 bg-blue-500 rounded-full" />
+                  </div>
+                  <span className="text-xs font-bold text-blue-600 uppercase tracking-wider">Audio Playing...</span>
+                  <button
+                    onClick={() => {
+                      audioStarted.current = false;
+                      setIsAudioFinished(false);
+                    }}
+                    className="ml-auto p-1 text-blue-400 hover:text-blue-600"
+                    title="Replay"
+                  >
+                    <Volume2 size={16} />
+                  </button>
+                </>
+              ) : (
+                <>
+                  <Volume2 size={16} className="text-blue-500" />
+                  <span className="text-xs font-bold text-blue-500 uppercase tracking-wider">Audio Finished</span>
+                  <button
+                    onClick={() => {
+                      audioStarted.current = false;
+                      setIsAudioFinished(false);
+                    }}
+                    className="ml-auto p-1 text-blue-400 hover:text-blue-600"
+                    title="Replay"
+                  >
+                    <Volume2 size={16} />
+                  </button>
+                </>
+              )}
             </div>
           )}
 
@@ -214,6 +242,13 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
               className="w-full rounded-xl shadow-md object-cover max-h-64"
               referrerPolicy="no-referrer"
             />
+          )}
+
+          {question.imageDescriptionJa && (
+            <div className="p-4 bg-blue-50 rounded-xl border border-blue-100 text-blue-800 font-medium">
+              <p className="text-[10px] font-bold text-blue-400 uppercase tracking-widest mb-1">Scene Description</p>
+              {question.imageDescriptionJa}
+            </div>
           )}
           
           {question.text && (
@@ -244,7 +279,7 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
                       }`}
                     >
                       <span className="inline-block w-8 font-bold">{String.fromCharCode(65 + optIdx)}.</span>
-                      {opt}
+                      {part === 1 ? "" : opt}
                     </button>
                   );
                 })}
@@ -339,6 +374,20 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
               <ChevronRight />
             </button>
           )}
+          
+          <button
+            onClick={() => {
+              saveIncorrectQuestion(question);
+              setIsSaved(true);
+            }}
+            disabled={isSaved}
+            className={`w-full py-4 rounded-2xl font-bold text-lg shadow-lg flex items-center justify-center space-x-2 transition-colors ${
+              isSaved ? "bg-gray-200 text-gray-400" : "bg-white border-2 border-blue-500 text-blue-500"
+            }`}
+          >
+            <Save className="w-5 h-5" />
+            <span>{isSaved ? "保存済み" : "復習リストに保存"}</span>
+          </button>
           
           <button
             onClick={handleCancel}

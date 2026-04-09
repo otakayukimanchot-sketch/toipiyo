@@ -9,7 +9,7 @@ const StreakDisplay: React.FC<StreakDisplayProps> = ({ streak }) => {
   const isActive = streak > 0;
 
   return (
-    <div className="flex flex-col items-center justify-center py-4">
+    <div className="flex flex-col items-center justify-center pt-4 pb-0">
       <Flame
         size={48}
         className={`transition-colors duration-500 ${
