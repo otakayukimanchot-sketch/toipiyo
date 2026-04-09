@@ -181,7 +181,7 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
             className="absolute z-20 bg-white border-2 border-gray-100 rounded-2xl shadow-2xl p-4 w-48 text-center"
             style={{
               left: `${(getPopupPosition(selectedPart).x / size) * 100}%`,
-              top: `${(getPopupPosition(selectedPart).y / size) * 100 - 35}%`,
+              top: `${(getPopupPosition(selectedPart).y / size) * 100 - 45}%`,
               transform: "translateX(-50%)",
             }}
           >
