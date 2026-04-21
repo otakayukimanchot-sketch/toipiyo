@@ -13,31 +13,37 @@ export function getJSTDate(): string {
 
 export function getInitialProgress(): UserProgress {
   const stored = localStorage.getItem(STORAGE_KEY);
+  const today = getJSTDate();
+
   if (stored) {
     const progress: UserProgress = JSON.parse(stored);
-    const today = getJSTDate();
     
     // If it's a new day, reset today's completed parts
     // and check if streak should be reset
-    const lastDate = progress.lastCompletedDate;
-    if (lastDate && lastDate !== today) {
+    const lastActive = progress.lastActiveDate;
+    const lastCompleted = progress.lastCompletedDate;
+
+    if (lastActive && lastActive !== today) {
+      // It's a new day! Reset today's parts
+      progress.completedPartsToday = [];
+      
       const yesterday = new Date(new Date(today).getTime() - (24 * 60 * 60 * 1000)).toISOString().split("T")[0];
       
-      // If last completed was not yesterday, reset streak
-      if (lastDate !== yesterday) {
+      // If last COMPLETED was not yesterday or today, reset streak
+      if (lastCompleted && lastCompleted !== yesterday && lastCompleted !== today) {
         progress.streak = 0;
       }
-      
-      // Reset today's progress
-      progress.completedPartsToday = [];
     }
     
+    progress.lastActiveDate = today;
+    saveProgress(progress);
     return progress;
   }
 
   const newProgress: UserProgress = {
     userId: Math.random().toString(36).substring(2, 15),
     lastCompletedDate: null,
+    lastActiveDate: today,
     streak: 0,
     completedPartsToday: [],
   };

@@ -83,7 +83,34 @@ export default function App() {
 
     // Pick a random question
     const randomIndex = Math.floor(Math.random() * partQuestions.length);
-    const question = partQuestions[randomIndex];
+    const rawQuestion = partQuestions[randomIndex];
+    
+    // Create a deep copy to shuffle
+    const question = JSON.parse(JSON.stringify(rawQuestion));
+
+    // Shuffle options for each subquestion
+    question.subQuestions = question.subQuestions.map((sq: any) => {
+      const originalOptions = [...sq.options];
+      const correctOption = originalOptions[sq.correctIndex];
+      
+      // Fisher-Yates shuffle
+      for (let i = originalOptions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [originalOptions[i], originalOptions[j]] = [originalOptions[j], originalOptions[i]];
+      }
+      
+      sq.options = originalOptions;
+      sq.correctIndex = originalOptions.indexOf(correctOption);
+      return sq;
+    });
+
+    // Sync audioTexts if necessary (e.g., Part 1 and Part 2 where audioTexts are the options)
+    if (part === 1) {
+      question.audioTexts = question.subQuestions[0].options;
+    } else if (part === 2) {
+      // In Part 2, audioTexts[0] is the question, [1:] are the options
+      question.audioTexts = [rawQuestion.audioTexts[0], ...question.subQuestions[0].options];
+    }
     
     setActivePart(part);
     setCurrentQuestion(question);

@@ -21,6 +21,7 @@ export interface SubQuestion {
 export interface UserProgress {
   userId: string;
   lastCompletedDate: string | null; // YYYY-MM-DD
+  lastActiveDate: string | null; // YYYY-MM-DD
   streak: number;
   completedPartsToday: Part[];
 }

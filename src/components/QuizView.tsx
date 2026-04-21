@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Part, Question, SubQuestion } from "../types";
-import { speak, speakMultiple } from "../utils/audio";
+import { speak, speakMultiple, unlockAudio, cancelAudio } from "../utils/audio";
 import { saveIncorrectQuestion } from "../utils/storage";
 import { motion, AnimatePresence } from "motion/react";
 import { Clock, CheckCircle, XCircle, ChevronRight, Home, ArrowLeft, RotateCcw, Volume2, VolumeX, Save } from "lucide-react";
@@ -40,6 +40,11 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
   // Countdown logic
   useEffect(() => {
     if (phase === "countdown") {
+      // Small unlock attempt during countdown in case the initial one failed
+      const unlock = () => unlockAudio();
+      window.addEventListener('touchstart', unlock, { once: true });
+      window.addEventListener('click', unlock, { once: true });
+
       if (countdown > 0) {
         const timer = setTimeout(() => setCountdown(countdown - 1), 1000);
         return () => clearTimeout(timer);
@@ -51,45 +56,78 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
 
   // Audio logic
   useEffect(() => {
+    let isCancelled = false;
+    
     if (phase === "quiz" && [1, 2, 3, 4].includes(part) && !audioStarted.current && isAudioEnabled) {
       audioStarted.current = true;
       const playAudio = async () => {
         try {
+          if (isCancelled) return;
+
           if (part === 1 && question.audioTexts) {
             // Speak options A, B, C, D
-            const textsToSpeak = question.audioTexts.map((t, i) => `Option ${String.fromCharCode(65 + i)}. ${t}`);
-            await speakMultiple(textsToSpeak);
+            for (let i = 0; i < question.audioTexts.length; i++) {
+              if (isCancelled) break;
+              await speak(`Option ${String.fromCharCode(65 + i)}. ${question.audioTexts[i]}`);
+              if (i < question.audioTexts.length - 1 && !isCancelled) {
+                await new Promise(r => setTimeout(r, 1000));
+              }
+            }
           } else if (part === 2 && question.audioTexts) {
             // Speak question, then options A, B, C
             await speak(question.audioTexts[0]);
+            if (isCancelled) return;
             await new Promise(r => setTimeout(r, 500));
-            const optionsToSpeak = question.audioTexts.slice(1).map((t, i) => `Option ${String.fromCharCode(65 + i)}. ${t}`);
-            await speakMultiple(optionsToSpeak);
+            
+            for (let i = 1; i < question.audioTexts.length; i++) {
+              if (isCancelled) break;
+              await speak(`Option ${String.fromCharCode(64 + i)}. ${question.audioTexts[i]}`);
+              if (i < question.audioTexts.length - 1 && !isCancelled) {
+                await new Promise(r => setTimeout(r, 1000));
+              }
+            }
           } else if ((part === 3 || part === 4) && question.audioText) {
             // Speak conversation/talk
             await speak(question.audioText);
             
             // Speak questions and their options
             for (let i = 0; i < question.subQuestions.length; i++) {
+              if (isCancelled) break;
               const sq = question.subQuestions[i];
               if (sq.questionText) {
                 await speak(`Question ${i + 1}. ${sq.questionText}`);
               }
-              const optionsToSpeak = sq.options.map((opt, j) => `Option ${String.fromCharCode(65 + j)}. ${opt}`);
-              await speakMultiple(optionsToSpeak);
+              
+              for (let j = 0; j < sq.options.length; j++) {
+                if (isCancelled) break;
+                await speak(`Option ${String.fromCharCode(65 + j)}. ${sq.options[j]}`);
+                if (j < sq.options.length - 1 && !isCancelled) {
+                  await new Promise(r => setTimeout(r, 1000));
+                }
+              }
+              if (i < question.subQuestions.length - 1 && !isCancelled) {
+                await new Promise(r => setTimeout(r, 1000));
+              }
             }
           }
           
-          // Wait 1 second after audio ends before starting timer
-          setTimeout(() => setIsAudioFinished(true), 1000);
+          if (!isCancelled) {
+            setTimeout(() => {
+              if (!isCancelled) setIsAudioFinished(true);
+            }, 1000);
+          }
         } catch (err) {
           console.error(err);
-          // If audio fails, just skip to quiz phase instead of showing error screen
-          setIsAudioFinished(true);
+          if (!isCancelled) setIsAudioFinished(true);
         }
       };
       playAudio();
     }
+
+    return () => {
+      isCancelled = true;
+      cancelAudio();
+    };
   }, [phase, part, question]);
 
   // Timer logic
@@ -117,8 +155,8 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
   const handleConfirm = () => {
     if (isConfirmed) return;
     if (timerRef.current) clearInterval(timerRef.current);
-    // Stop any ongoing speech
-    window.speechSynthesis.cancel();
+    // Stop all ongoing audio playback
+    cancelAudio();
     
     setIsConfirmed(true);
     
@@ -132,7 +170,7 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
   };
 
   const handleCancel = () => {
-    window.speechSynthesis.cancel();
+    cancelAudio();
     onCancel();
   };
 
@@ -312,32 +350,65 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
           {isCorrect ? "素晴らしい！その調子です。" : "残念。次は頑張りましょう。"}
         </p>
 
-        <div className={`w-full max-w-xs mb-10 p-4 rounded-2xl border text-left ${isCorrect ? "bg-green-50 border-green-100" : "bg-red-50 border-red-100"}`}>
-          <p className={`text-xs font-bold uppercase tracking-wider mb-2 ${isCorrect ? "text-green-400" : "text-red-400"}`}>
-            {isCorrect ? "Review" : "Correct Answer"}
-          </p>
+        <div className="w-full max-w-sm mb-10 space-y-3 text-left">
           {question.text && (
-            <p className={`text-xs font-bold mb-3 pb-2 border-b ${isCorrect ? "text-green-800 border-green-100" : "text-red-800 border-red-100"}`}>
+            <div className="p-4 bg-white rounded-2xl shadow-sm border border-gray-100 text-gray-800 mb-4 text-xs whitespace-pre-wrap leading-relaxed">
+              <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1 pb-1 border-b">Problem Text</p>
               {question.text}
-            </p>
-          )}
-          {question.subQuestions.map((sq, i) => (
-            <div key={sq.id} className="mb-3 last:mb-0">
-              {sq.questionText && (
-                <p className={`text-xs font-bold mb-1 ${isCorrect ? "text-green-800" : "text-red-800"}`}>
-                  Q{i+1}: {sq.questionText}
-                </p>
-              )}
-              <div className="flex items-start">
-                <span className={`font-bold mr-2 shrink-0 ${isCorrect ? "text-green-700" : "text-red-700"}`}>
-                  ({String.fromCharCode(65 + sq.correctIndex)})
-                </span>
-                <span className={`text-sm ${isCorrect ? "text-green-600" : "text-red-600"}`}>
-                  {sq.options[sq.correctIndex]}
-                </span>
-              </div>
             </div>
-          ))}
+          )}
+          
+          {question.subQuestions.map((sq, i) => {
+            const userChoice = selectedAnswers[sq.id];
+            const isSubCorrect = userChoice === sq.correctIndex;
+            return (
+              <div key={sq.id} className={`p-4 rounded-2xl border-2 transition-all ${isSubCorrect ? "bg-green-50 border-green-100" : "bg-red-50 border-red-100"}`}>
+                <div className="flex justify-between items-center mb-3">
+                  <div className="flex items-center space-x-2">
+                    {isSubCorrect ? (
+                      <CheckCircle size={18} className="text-green-500" />
+                    ) : (
+                      <XCircle size={18} className="text-red-500" />
+                    )}
+                    <span className={`text-xs font-black px-2 py-0.5 rounded-md ${isSubCorrect ? "bg-green-500 text-white" : "bg-red-500 text-white"}`}>
+                      {isSubCorrect ? "正解" : "不正解"}
+                    </span>
+                  </div>
+                  <span className="text-[10px] font-bold text-gray-400">Q{i + 1}</span>
+                </div>
+
+                {sq.questionText && (
+                  <p className={`text-sm font-bold mb-2 ${isSubCorrect ? "text-green-900" : "text-red-900"}`}>
+                    {sq.questionText}
+                  </p>
+                )}
+
+                <div className="space-y-1">
+                  <div className="flex items-start">
+                    <span className={`font-bold mr-2 shrink-0 ${isSubCorrect ? "text-green-700" : "text-red-700"}`}>
+                      正解:
+                    </span>
+                    <span className={`font-bold mr-2 shrink-0 ${isSubCorrect ? "text-green-700" : "text-red-700"}`}>
+                      ({String.fromCharCode(65 + sq.correctIndex)})
+                    </span>
+                    <span className={`text-sm ${isSubCorrect ? "text-green-600" : "text-red-600"}`}>
+                      {sq.options[sq.correctIndex]}
+                    </span>
+                  </div>
+
+                  {!isSubCorrect && (
+                    <div className="flex items-start opacity-70">
+                      <span className="text-red-400 font-bold mr-2 shrink-0">あなたの回答:</span>
+                      <span className="text-red-400 font-bold mr-2 shrink-0">({String.fromCharCode(65 + userChoice)})</span>
+                      <span className="text-sm text-red-400">
+                        {sq.options[userChoice] || "未回答"}
+                      </span>
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
         </div>
 
         <div className="w-full max-w-xs space-y-4">

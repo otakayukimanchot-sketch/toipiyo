@@ -2,6 +2,7 @@ import React from "react";
 import { Part } from "../types";
 import { Check, Play } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+import { unlockAudio } from "../utils/audio";
 
 interface HeptagonNavProps {
   completedParts: Part[];
@@ -198,6 +199,7 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
               <button
                 onClick={(e) => {
                   e.stopPropagation();
+                  unlockAudio();
                   onStartQuiz(selectedPart);
                 }}
                 className="w-full py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-xl font-black text-sm shadow-lg shadow-blue-200 transition-all active:scale-95 flex items-center justify-center space-x-2"
