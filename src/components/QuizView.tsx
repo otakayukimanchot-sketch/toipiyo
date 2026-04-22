@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Part, Question, SubQuestion } from "../types";
-import { speak, speakMultiple, unlockAudio, cancelAudio } from "../utils/audio";
+import { speak, speakMultiple, unlockAudio, cancelAudio, playChime } from "../utils/audio";
 import { saveIncorrectQuestion } from "../utils/storage";
 import { motion, AnimatePresence } from "motion/react";
 import { Clock, CheckCircle, XCircle, ChevronRight, Home, ArrowLeft, RotateCcw, Volume2, VolumeX, Save } from "lucide-react";
@@ -23,9 +23,18 @@ const PART_TIMERS: Record<Part, number> = {
   7: 60,
 };
 
+const PART_LABELS: Record<Part, string> = {
+  1: "写真描写問題",
+  2: "応答問題",
+  3: "会話問題",
+  4: "説明文問題",
+  5: "短文穴埋め問題",
+  6: "長文穴埋め問題",
+  7: "読解問題",
+};
+
 const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCancel, isAudioEnabled }) => {
   const [phase, setPhase] = useState<"countdown" | "quiz" | "result">("countdown");
-  const [countdown, setCountdown] = useState(3);
   const [timeLeft, setTimeLeft] = useState(PART_TIMERS[part]);
   const [selectedAnswers, setSelectedAnswers] = useState<Record<string, number>>({});
   const [isConfirmed, setIsConfirmed] = useState(false);
@@ -45,14 +54,12 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
       window.addEventListener('touchstart', unlock, { once: true });
       window.addEventListener('click', unlock, { once: true });
 
-      if (countdown > 0) {
-        const timer = setTimeout(() => setCountdown(countdown - 1), 1000);
-        return () => clearTimeout(timer);
-      } else {
+      const timer = setTimeout(() => {
         setPhase("quiz");
-      }
+      }, 1500);
+      return () => clearTimeout(timer);
     }
-  }, [countdown, phase]);
+  }, [phase]);
 
   // Audio logic
   useEffect(() => {
@@ -62,6 +69,10 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
       audioStarted.current = true;
       const playAudio = async () => {
         try {
+          if (isCancelled) return;
+          
+          // Play chime before starting any speech
+          await playChime();
           if (isCancelled) return;
 
           if (part === 1 && question.audioTexts) {
@@ -93,6 +104,11 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
             // Speak questions and their options
             for (let i = 0; i < question.subQuestions.length; i++) {
               if (isCancelled) break;
+              
+              // Chime before each new question
+              await playChime();
+              if (isCancelled) break;
+              
               const sq = question.subQuestions[i];
               if (sq.questionText) {
                 await speak(`Question ${i + 1}. ${sq.questionText}`);
@@ -191,15 +207,27 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
 
   if (phase === "countdown") {
     return (
-      <div className="flex items-center justify-center min-h-[400px]">
+      <div className="flex flex-col items-center justify-center min-h-[400px]">
         <motion.div
-          key={countdown}
-          initial={{ scale: 0.5, opacity: 0 }}
-          animate={{ scale: 1.5, opacity: 1 }}
-          exit={{ scale: 2, opacity: 0 }}
-          className="text-8xl font-black text-blue-500"
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="mb-4 text-center"
         >
-          {countdown}
+          <span className="inline-block px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-xs font-black uppercase tracking-widest mb-2">
+            Part {part}
+          </span>
+          <h2 className="text-2xl font-black text-gray-800 tracking-tight">
+            {PART_LABELS[part]}
+          </h2>
+        </motion.div>
+        
+        <motion.div
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1.1, opacity: 1 }}
+          exit={{ scale: 1.3, opacity: 0 }}
+          className="text-6xl font-black text-blue-500 italic tracking-wider"
+        >
+          READY...
         </motion.div>
       </div>
     );
@@ -416,7 +444,6 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
             <button
               onClick={() => {
                 setPhase("countdown");
-                setCountdown(3);
                 setTimeLeft(PART_TIMERS[part]);
                 setSelectedAnswers({});
                 setIsConfirmed(false);

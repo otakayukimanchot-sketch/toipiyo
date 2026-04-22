@@ -118,11 +118,14 @@ export default function App() {
 
   const handleQuizComplete = (isCorrect: boolean) => {
     if (activePart) {
+      let updatedProgress: UserProgress;
       if (isCorrect) {
-        completePart(activePart);
+        updatedProgress = completePart(activePart);
+      } else {
+        updatedProgress = getInitialProgress();
       }
-      const updatedProgress = getInitialProgress();
-      setProgress(updatedProgress);
+      
+      setProgress({ ...updatedProgress });
       
       if (updatedProgress.completedPartsToday.length === 7) {
         setIsAllDone(true);

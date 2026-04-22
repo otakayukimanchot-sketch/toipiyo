@@ -15,11 +15,15 @@ export function getInitialProgress(): UserProgress {
   const stored = localStorage.getItem(STORAGE_KEY);
   const today = getJSTDate();
 
+  let progress: UserProgress;
+
   if (stored) {
-    const progress: UserProgress = JSON.parse(stored);
+    try {
+      progress = JSON.parse(stored);
+    } catch (e) {
+      progress = createNewProgress(today);
+    }
     
-    // If it's a new day, reset today's completed parts
-    // and check if streak should be reset
     const lastActive = progress.lastActiveDate;
     const lastCompleted = progress.lastCompletedDate;
 
@@ -27,38 +31,46 @@ export function getInitialProgress(): UserProgress {
       // It's a new day! Reset today's parts
       progress.completedPartsToday = [];
       
-      const yesterday = new Date(new Date(today).getTime() - (24 * 60 * 60 * 1000)).toISOString().split("T")[0];
+      // Calculate yesterday in JST
+      const todayDate = new Date(today);
+      const yesterdayDate = new Date(todayDate.getTime() - (24 * 60 * 60 * 1000));
+      const yesterday = yesterdayDate.toISOString().split("T")[0];
       
       // If last COMPLETED was not yesterday or today, reset streak
       if (lastCompleted && lastCompleted !== yesterday && lastCompleted !== today) {
         progress.streak = 0;
       }
     }
-    
-    progress.lastActiveDate = today;
-    saveProgress(progress);
-    return progress;
+  } else {
+    progress = createNewProgress(today);
   }
+  
+  progress.lastActiveDate = today;
+  saveProgress(progress);
+  return progress;
+}
 
-  const newProgress: UserProgress = {
+function createNewProgress(today: string): UserProgress {
+  return {
     userId: Math.random().toString(36).substring(2, 15),
     lastCompletedDate: null,
     lastActiveDate: today,
     streak: 0,
     completedPartsToday: [],
   };
-  saveProgress(newProgress);
-  return newProgress;
 }
 
 export function saveProgress(progress: UserProgress) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
 }
 
-export function completePart(part: Part) {
+export function completePart(part: Part): UserProgress {
   const progress = getInitialProgress();
-  if (!progress.completedPartsToday.includes(part)) {
-    progress.completedPartsToday.push(part);
+  // Ensure part is treated as a number
+  const partNum = Number(part) as Part;
+  
+  if (!progress.completedPartsToday.includes(partNum)) {
+    progress.completedPartsToday.push(partNum);
     
     // Check if all parts 1-7 are completed today
     if (progress.completedPartsToday.length === 7) {
@@ -69,6 +81,7 @@ export function completePart(part: Part) {
     
     saveProgress(progress);
   }
+  return progress;
 }
 
 export function saveIncorrectQuestion(question: any) {
