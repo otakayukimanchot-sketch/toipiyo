@@ -58,15 +58,23 @@ export function cancelAudio() {
 
 export async function unlockAudio(): Promise<void> {
   const synth = window.speechSynthesis;
+  
+  // Unlock Web Audio API
   const ctx = getAudioContext();
   if (ctx.state === 'suspended') {
-    await ctx.resume();
+    ctx.resume().catch(err => console.error("AudioContext resume failed:", err));
   }
 
+  // Unlock SpeechSynthesis
   if (synth) {
-    const utterance = new SpeechSynthesisUtterance("");
-    utterance.volume = 0;
+    // Safari/iOS fix: Must speak something non-empty to unlock
+    const utterance = new SpeechSynthesisUtterance("Welcome");
+    utterance.volume = 0.001; // Almost silent but not 0
+    utterance.rate = 2;
     synth.speak(utterance);
+    
+    // Warm up voices
+    synth.getVoices();
   }
 }
 
@@ -87,66 +95,73 @@ export async function speak(text: string, withChime: boolean = false): Promise<v
       return;
     }
 
-    // Cancel any ongoing speech
-    synth.cancel();
-
-    setTimeout(() => {
+    const startSpeaking = () => {
+      // Final check for cancellation
       if (shouldStopAudio) {
         resolve();
         return;
       }
 
-      let voices = synth.getVoices();
+      const voices = synth.getVoices();
+      // Prepend dots/pauses to give Safari a moment to buffer
+      const utterance = new SpeechSynthesisUtterance(". . " + text);
       
-      const startSpeaking = () => {
-        // Prepend a small delay using punctuation to avoid clipping the start
-        const utterance = new SpeechSynthesisUtterance(", , " + text);
-        
-        // Filter for English voices
-        const enVoices = voices.filter(v => v.lang.startsWith("en"));
-        
-        // Try to find US or UK voices
-        const targetVoices = enVoices.filter(v => v.lang.toLowerCase().includes("en-us") || v.lang.toLowerCase().includes("en-gb"));
-        
-        if (targetVoices.length > 0) {
-          // Randomly pick one
-          utterance.voice = targetVoices[Math.floor(Math.random() * targetVoices.length)];
-        } else if (enVoices.length > 0) {
-          utterance.voice = enVoices[0];
-        }
-
-        utterance.rate = 1.0; 
-        utterance.pitch = 1.0;
-        utterance.volume = 1.0;
-        utterance.onend = () => resolve();
-        utterance.onerror = (e) => {
-          console.error("SpeechSynthesis error:", e);
-          resolve(); // Resolve anyway to avoid hanging
-        };
-        
-        synth.speak(utterance);
-      };
-
-      if (voices.length === 0) {
-        // Fallback for browsers where getVoices is async
-        const voiceHandler = () => {
-          voices = synth.getVoices();
-          if (voices.length > 0) {
-            synth.removeEventListener('voiceschanged', voiceHandler);
-            startSpeaking();
-          }
-        };
-        synth.addEventListener('voiceschanged', voiceHandler);
-        
-        // Timeout if voices never load
-        setTimeout(() => {
-          synth.removeEventListener('voiceschanged', voiceHandler);
-          if (voices.length === 0) startSpeaking(); 
-        }, 1000);
-      } else {
-        startSpeaking();
+      const enVoices = voices.filter(v => v.lang.startsWith("en"));
+      // Prioritize natural sounding voices
+      const targetVoices = enVoices.filter(v => 
+        (v.lang.toLowerCase().includes("en-us") || 
+         v.lang.toLowerCase().includes("en-gb") || 
+         v.lang.toLowerCase().includes("en-au")) &&
+        !v.name.toLowerCase().includes("compact")
+      );
+      
+      if (targetVoices.length > 0) {
+        // Try to pick a consistent voice or random
+        utterance.voice = targetVoices[0];
+      } else if (enVoices.length > 0) {
+        utterance.voice = enVoices[0];
       }
-    }, 250); // Increased delay to ensure cancellation and readiness
+
+      utterance.rate = 1.0; 
+      utterance.pitch = 1.0;
+      utterance.volume = 1.0;
+      
+      utterance.onend = () => resolve();
+      utterance.onerror = (e) => {
+        console.error("SpeechSynthesis error:", e);
+        // Important for Safari: if it fails, try to resolve to allow the quiz to continue
+        resolve(); 
+      };
+      
+      // Some versions of Safari need synth.cancel() before every speak to avoid queue hangs
+      synth.cancel();
+      
+      // Delay slightly after cancel for Safari stability
+      setTimeout(() => {
+        if (!shouldStopAudio) {
+          synth.speak(utterance);
+        } else {
+          resolve();
+        }
+      }, 50);
+    };
+
+    // Wait for voices if needed (common in Chrome but also Safari)
+    if (synth.getVoices().length === 0) {
+      const voiceHandler = () => {
+        if (synth.getVoices().length > 0) {
+          synth.removeEventListener('voiceschanged', voiceHandler);
+          startSpeaking();
+        }
+      };
+      synth.addEventListener('voiceschanged', voiceHandler);
+      setTimeout(() => {
+        synth.removeEventListener('voiceschanged', voiceHandler);
+        startSpeaking();
+      }, 500);
+    } else {
+      startSpeaking();
+    }
   });
 }
 
