@@ -106,18 +106,23 @@ export async function speak(text: string, withChime: boolean = false): Promise<v
       // Prepend dots/pauses to give Safari a moment to buffer
       const utterance = new SpeechSynthesisUtterance(". . " + text);
       
+      // CRITICAL: Set language explicitly to avoid system fallback (e.g. Japanese voice reading English)
+      utterance.lang = "en-US";
+      
       const enVoices = voices.filter(v => v.lang.startsWith("en"));
-      // Prioritize natural sounding voices
+      
+      // Prioritize natural sounding premium voices over system/compact ones
       const targetVoices = enVoices.filter(v => 
         (v.lang.toLowerCase().includes("en-us") || 
          v.lang.toLowerCase().includes("en-gb") || 
          v.lang.toLowerCase().includes("en-au")) &&
-        !v.name.toLowerCase().includes("compact")
+        !v.name.toLowerCase().includes("compact") &&
+        !v.name.toLowerCase().includes("low quality")
       );
       
       if (targetVoices.length > 0) {
-        // Try to pick a consistent voice or random
-        utterance.voice = targetVoices[0];
+        // Try to pick a non-default voice if possible, as sometimes defaults glitch on mobile
+        utterance.voice = targetVoices.find(v => v.name.includes("Samantha") || v.name.includes("Google") || v.name.includes("Enhanced")) || targetVoices[0];
       } else if (enVoices.length > 0) {
         utterance.voice = enVoices[0];
       }
@@ -129,21 +134,19 @@ export async function speak(text: string, withChime: boolean = false): Promise<v
       utterance.onend = () => resolve();
       utterance.onerror = (e) => {
         console.error("SpeechSynthesis error:", e);
-        // Important for Safari: if it fails, try to resolve to allow the quiz to continue
         resolve(); 
       };
       
-      // Some versions of Safari need synth.cancel() before every speak to avoid queue hangs
+      // Robust cancel/speak pattern for Mobile Safari
       synth.cancel();
       
-      // Delay slightly after cancel for Safari stability
       setTimeout(() => {
         if (!shouldStopAudio) {
           synth.speak(utterance);
         } else {
           resolve();
         }
-      }, 50);
+      }, 100); // Increased delay for mobile stability
     };
 
     // Wait for voices if needed (common in Chrome but also Safari)
