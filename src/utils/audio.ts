@@ -10,6 +10,8 @@ function getAudioContext() {
 
 export async function playChime(): Promise<void> {
   const ctx = getAudioContext();
+  
+  // Ensure context is running - critical for mobile
   if (ctx.state === 'suspended') {
     await ctx.resume();
   }
@@ -21,8 +23,9 @@ export async function playChime(): Promise<void> {
     oscillator.type = 'sine';
     oscillator.frequency.setValueAtTime(freq, startTime);
     
+    // Slight ease-in to prevent popping, and a nice decay
     gainNode.gain.setValueAtTime(0, startTime);
-    gainNode.gain.linearRampToValueAtTime(0.1, startTime + 0.05);
+    gainNode.gain.linearRampToValueAtTime(0.15, startTime + 0.05); // Slightly louder for mobile
     gainNode.gain.exponentialRampToValueAtTime(0.001, startTime + duration);
 
     oscillator.connect(gainNode);
@@ -33,8 +36,10 @@ export async function playChime(): Promise<void> {
   };
 
   const now = ctx.currentTime;
-  playTone(659.25, now, 0.4); // E5
-  playTone(783.99, now + 0.15, 0.4); // G5 
+  // Use a slight offset from 'now' to ensure accuracy
+  const start = now + 0.05;
+  playTone(659.25, start, 0.4); // E5
+  playTone(783.99, start + 0.15, 0.4); // G5 
 
   return new Promise(resolve => setTimeout(resolve, 800));
 }
@@ -45,10 +50,7 @@ export function cancelAudio() {
     synth.cancel();
   }
   
-  if (audioCtx && audioCtx.state !== 'closed') {
-    // We don't necessarily want to close it, just stop any future sound
-  }
-  
+  // We don't close AudioContext but we ensure shouldStopAudio is handled
   shouldStopAudio = true;
   // Reset after a bit more delay to ensure all async loops have seen it
   setTimeout(() => {
@@ -59,18 +61,24 @@ export function cancelAudio() {
 export async function unlockAudio(): Promise<void> {
   const synth = window.speechSynthesis;
   
-  // Unlock Web Audio API
+  // Unlock Web Audio API by playing a tiny bit of silence
   const ctx = getAudioContext();
   if (ctx.state === 'suspended') {
     ctx.resume().catch(err => console.error("AudioContext resume failed:", err));
   }
+  
+  // Create a tiny silent buffer and play it to truly unlock audio output
+  const buffer = ctx.createBuffer(1, 1, 22050);
+  const source = ctx.createBufferSource();
+  source.buffer = buffer;
+  source.connect(ctx.destination);
+  source.start(0);
 
   // Unlock SpeechSynthesis
   if (synth) {
     // Safari/iOS fix: Must speak something non-empty to unlock
-    const utterance = new SpeechSynthesisUtterance("Welcome");
-    utterance.volume = 0.001; // Almost silent but not 0
-    utterance.rate = 2;
+    const utterance = new SpeechSynthesisUtterance(" ");
+    utterance.volume = 0;
     synth.speak(utterance);
     
     // Warm up voices
