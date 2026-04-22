@@ -1673,5 +1673,485 @@
         "correctIndex": 2
       }
     ]
+  },
+  {
+  "id": "p4-68",
+  "part": 4,
+  "audioText": "Hello, this is the dental clinic calling to remind you of your appointment tomorrow at 2 PM. Please arrive 10 minutes early to fill out a form if it's your first visit. If you need to reschedule, call us before noon today. We look forward to seeing you.",
+  "subQuestions": [
+    {
+      "id": "p4-68-q1",
+      "questionText": "What is the purpose of this call?",
+      "options": ["To confirm a payment", "To remind about an appointment", "To give medical advice", "To cancel a visit"],
+      "correctIndex": 1
+    },
+    {
+      "id": "p4-68-q2",
+      "questionText": "What should the listener do if it is their first visit?",
+      "options": ["Bring a friend", "Arrive early", "Call the clinic", "Pay in advance"],
+      "correctIndex": 1
+    },
+    {
+      "id": "p4-68-q3",
+      "questionText": "By when should the listener call to reschedule?",
+      "options": ["Before 10 AM", "Before noon today", "Tomorrow morning", "After 2 PM"],
+      "correctIndex": 1
+    }
+  ]
+},
+{
+  "id": "p4-69",
+  "part": 4,
+  "audioText": "Good evening. This is a message from the community center. Due to heavy rain, tonight's yoga class has been canceled. The class will be held at the same time next week. For more updates, please check our social media page. Thank you for your understanding.",
+  "subQuestions": [
+    {
+      "id": "p4-69-q1",
+      "questionText": "What is the main purpose of this message?",
+      "options": ["To promote a class", "To announce a cancellation", "To change a location", "To request feedback"],
+      "correctIndex": 1
+    },
+    {
+      "id": "p4-69-q2",
+      "questionText": "Why has the class been canceled?",
+      "options": ["Instructor illness", "Low attendance", "Heavy rain", "Equipment issues"],
+      "correctIndex": 2
+    },
+    {
+      "id": "p4-69-q3",
+      "questionText": "When will the class take place instead?",
+      "options": ["Tomorrow", "Next week", "Next month", "Later today"],
+      "correctIndex": 1
+    }
+  ]
+},
+  {
+    "id": "p4-70",
+    "part": 4,
+    "audioText": "Hello, this is the library calling. The book you reserved is now available for pickup. Please come within three days, or it will be returned to the shelf. Our hours are 9 AM to 6 PM on weekdays.",
+    "subQuestions": [
+      {
+        "id": "p4-70-q1",
+        "questionText": "What is the purpose of this call?",
+        "options": ["To extend a loan", "To announce availability", "To collect a fine", "To close the library"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-70-q2",
+        "questionText": "How long will the book be held?",
+        "options": ["Two days", "Three days", "Five days", "One week"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-70-q3",
+        "questionText": "When is the library open on weekdays?",
+        "options": ["8 AM–5 PM", "9 AM–6 PM", "10 AM–7 PM", "9 AM–5 PM"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-71",
+    "part": 4,
+    "audioText": "Thank you for contacting Tech Support. Our offices are currently closed. Please call back between 8 AM and 5 PM, Monday through Friday, or visit our website for assistance.",
+    "subQuestions": [
+      {
+        "id": "p4-71-q1",
+        "questionText": "What is this message?",
+        "options": ["A complaint", "A service offer", "An automated message", "A personal call"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-71-q2",
+        "questionText": "When are the offices open?",
+        "options": ["Every day", "Weekends only", "Weekdays 8–5", "Evenings"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-71-q3",
+        "questionText": "What can callers do for help?",
+        "options": ["Send a letter", "Visit the website", "Wait on hold", "Call another number"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-72",
+    "part": 4,
+    "audioText": "Good afternoon. This is a reminder from Green Gym. Your membership will expire at the end of this month. Please renew it at the front desk or online to continue using our facilities.",
+    "subQuestions": [
+      {
+        "id": "p4-72-q1",
+        "questionText": "What is the purpose of this message?",
+        "options": ["To cancel a membership", "To remind about expiration", "To promote a class", "To change hours"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-72-q2",
+        "questionText": "When will the membership expire?",
+        "options": ["Today", "Next week", "End of the month", "Next year"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-72-q3",
+        "questionText": "Where can the listener renew?",
+        "options": ["By phone only", "At the front desk or online", "At another gym", "By mail"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-73",
+    "part": 4,
+    "audioText": "Hello, this is the airline calling. Your flight scheduled for tomorrow morning has been delayed by two hours. The new departure time is 11 AM. We apologize for the inconvenience.",
+    "subQuestions": [
+      {
+        "id": "p4-73-q1",
+        "questionText": "What is the purpose of the call?",
+        "options": ["To cancel a flight", "To confirm a booking", "To announce a delay", "To change a seat"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-73-q2",
+        "questionText": "How long is the delay?",
+        "options": ["One hour", "Two hours", "Three hours", "Four hours"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-73-q3",
+        "questionText": "What is the new departure time?",
+        "options": ["9 AM", "10 AM", "11 AM", "12 PM"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-74",
+    "part": 4,
+    "audioText": "Thank you for calling the hotel front desk. Check-out time is 11 AM. Late check-out is available upon request for an additional fee. Please contact us if you need assistance.",
+    "subQuestions": [
+      {
+        "id": "p4-74-q1",
+        "questionText": "What is this message about?",
+        "options": ["Room service", "Check-out policy", "Reservation change", "Hotel location"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-74-q2",
+        "questionText": "What time is check-out?",
+        "options": ["10 AM", "11 AM", "12 PM", "1 PM"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-74-q3",
+        "questionText": "What is required for late check-out?",
+        "options": ["Approval only", "No fee", "Extra fee", "New reservation"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-75",
+    "part": 4,
+    "audioText": "Good morning. This is a notice from your bank. There has been unusual activity on your account. Please contact us immediately to verify your recent transactions.",
+    "subQuestions": [
+      {
+        "id": "p4-75-q1",
+        "questionText": "What is the purpose of the message?",
+        "options": ["To offer a loan", "To warn about account activity", "To advertise services", "To confirm a payment"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-75-q2",
+        "questionText": "What was detected?",
+        "options": ["A large deposit", "A closed account", "Unusual activity", "A new account"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-75-q3",
+        "questionText": "What should the listener do?",
+        "options": ["Ignore it", "Visit a branch next week", "Contact the bank immediately", "Change address"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p4-76",
+    "part": 4,
+    "audioText": "Hello, this is the school office. Tomorrow's field trip will depart at 8 AM instead of 9 AM. Please make sure students arrive by 7:45. Lunch will be provided.",
+    "subQuestions": [
+      {
+        "id": "p4-76-q1",
+        "questionText": "What is being announced?",
+        "options": ["A cancellation", "A schedule change", "A lunch menu", "A new class"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-76-q2",
+        "questionText": "What time will the trip depart?",
+        "options": ["7:45", "8:00", "8:30", "9:00"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-76-q3",
+        "questionText": "What is provided?",
+        "options": ["Transportation only", "Lunch", "Tickets", "Uniforms"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-77",
+    "part": 4,
+    "audioText": "Thank you for calling the repair center. Your laptop is ready for pickup. Please bring your receipt and collect it within five days.",
+    "subQuestions": [
+      {
+        "id": "p4-77-q1",
+        "questionText": "What is the purpose of the call?",
+        "options": ["To request repair", "To confirm damage", "To announce completion", "To cancel service"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-77-q2",
+        "questionText": "What should the customer bring?",
+        "options": ["ID only", "Receipt", "Warranty card", "Nothing"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-77-q3",
+        "questionText": "How long will the item be held?",
+        "options": ["3 days", "5 days", "7 days", "10 days"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-78",
+    "part": 4,
+    "audioText": "Good evening. This is the movie theater. The 7 PM show has been sold out. Tickets are still available for the 9 PM screening.",
+    "subQuestions": [
+      {
+        "id": "p4-78-q1",
+        "questionText": "What is the message about?",
+        "options": ["A movie review", "Ticket availability", "A new film", "A schedule change"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-78-q2",
+        "questionText": "Which show is sold out?",
+        "options": ["5 PM", "7 PM", "8 PM", "9 PM"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-78-q3",
+        "questionText": "What time still has tickets?",
+        "options": ["6 PM", "7 PM", "8 PM", "9 PM"],
+        "correctIndex": 3
+      }
+    ]
+  },
+  {
+    "id": "p4-79",
+    "part": 4,
+    "audioText": "Hello, this is the office manager. The staff meeting scheduled for this afternoon has been moved to tomorrow morning at 10 AM. Please update your calendars.",
+    "subQuestions": [
+      {
+        "id": "p4-79-q1",
+        "questionText": "What is being changed?",
+        "options": ["Location", "Participants", "Meeting schedule", "Agenda"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-79-q2",
+        "questionText": "When was the meeting originally planned?",
+        "options": ["This morning", "This afternoon", "Tomorrow morning", "Next week"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-79-q3",
+        "questionText": "When is the new meeting time?",
+        "options": ["9 AM", "10 AM", "11 AM", "12 PM"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-80",
+    "part": 4,
+    "audioText": "Hello, this is the delivery service. Your package will arrive tomorrow between 1 PM and 3 PM. Please make sure someone is available to receive it.",
+    "subQuestions": [
+      {
+        "id": "p4-80-q1",
+        "questionText": "What is the purpose of the call?",
+        "options": ["To confirm an order", "To announce delivery time", "To cancel shipment", "To request payment"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-80-q2",
+        "questionText": "When will the package arrive?",
+        "options": ["Morning", "Noon", "1–3 PM", "Evening"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-80-q3",
+        "questionText": "What should the listener do?",
+        "options": ["Call back", "Be available", "Pay online", "Visit office"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p4-81",
+    "part": 4,
+    "audioText": "Thank you for calling the restaurant. We are fully booked tonight. However, we have openings tomorrow after 7 PM.",
+    "subQuestions": [
+      {
+        "id": "p4-81-q1",
+        "questionText": "What is the message about?",
+        "options": ["Menu", "Reservation status", "Location", "Staff hiring"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-81-q2",
+        "questionText": "What is true about tonight?",
+        "options": ["Open seats available", "Fully booked", "Closed early", "Discount offered"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-81-q3",
+        "questionText": "When are seats available?",
+        "options": ["Tonight", "Tomorrow after 7 PM", "Tomorrow morning", "Next week"],
+        "correctIndex": 1
+      }
+    ]
+  },
+
+  {
+    "id": "p4-82",
+    "part": 4,
+    "audioText": "Good morning. This is a reminder that your utility bill is due this Friday. Late payments may result in an additional fee.",
+    "subQuestions": [
+      {
+        "id": "p4-82-q1",
+        "questionText": "What is the purpose?",
+        "options": ["To offer a discount", "To remind about payment", "To cancel service", "To change billing address"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-82-q2",
+        "questionText": "When is the bill due?",
+        "options": ["Today", "Tomorrow", "Friday", "Next week"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-82-q3",
+        "questionText": "What happens if payment is late?",
+        "options": ["Service stops immediately", "Extra fee", "Account closed", "Nothing"],
+        "correctIndex": 1
+      }
+    ]
+  },
+
+  {
+    "id": "p4-83",
+    "part": 4,
+    "audioText": "Hello, this is the conference office. The keynote speech will begin at 10 AM in Room A instead of Room B.",
+    "subQuestions": [
+      {
+        "id": "p4-83-q1",
+        "questionText": "What is being announced?",
+        "options": ["A cancellation", "A room change", "A speaker change", "A delay"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-83-q2",
+        "questionText": "When does the speech begin?",
+        "options": ["9 AM", "10 AM", "11 AM", "12 PM"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-83-q3",
+        "questionText": "Where will it be held?",
+        "options": ["Room B", "Room A", "Main hall", "Lobby"],
+        "correctIndex": 1
+      }
+    ]
+  },
+
+  {
+    "id": "p4-84",
+    "part": 4,
+    "audioText": "Thank you for calling the gym. The swimming pool will be closed this weekend for maintenance.",
+    "subQuestions": [
+      {
+        "id": "p4-84-q1",
+        "questionText": "What is closed?",
+        "options": ["Gym", "Pool", "Locker room", "Sauna"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-84-q2",
+        "questionText": "When?",
+        "options": ["Today", "This weekend", "Next week", "Tonight"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-84-q3",
+        "questionText": "Why?",
+        "options": ["Holiday", "Maintenance", "Event", "Weather"],
+        "correctIndex": 1
+      }
+    ]
+  },
+
+  {
+    "id": "p4-85",
+    "part": 4,
+    "audioText": "Hello, this is your doctor's office. Your test results are ready. Please log in to your account to view them.",
+    "subQuestions": [
+      {
+        "id": "p4-85-q1",
+        "questionText": "What is the message about?",
+        "options": ["Appointment", "Test results", "Payment", "Prescription"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-85-q2",
+        "questionText": "What should the listener do?",
+        "options": ["Visit office", "Call doctor", "Log in online", "Wait"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-85-q3",
+        "questionText": "Where are the results?",
+        "options": ["By mail", "At clinic", "Online account", "Phone"],
+        "correctIndex": 2
+      }
+    ]
+  },
+
+  {
+    "id": "p4-86",
+    "part": 4,
+    "audioText": "Good afternoon. This is the train station announcement. The 3 PM train to Osaka is delayed by 20 minutes.",
+    "subQuestions": [
+      {
+        "id": "p4-86-q1",
+        "questionText": "What is delayed?",
+        "options": ["Bus", "Flight", "Train", "Taxi"],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-86-q2",
+        "questionText": "Which train?",
+        "options": ["2 PM", "3 PM", "4 PM", "5 PM"],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-86-q3",
+        "questionText": "How long is the delay?",
+        "options": ["10 min", "20 min", "30 min", "40 min"],
+        "correctIndex": 1
+      }
+    ]
   }
 ]

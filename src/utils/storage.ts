@@ -109,7 +109,22 @@ export function saveIncorrectQuestion(question: any) {
 
 export function getReviewItems(): ReviewItem[] {
   const stored = localStorage.getItem(REVIEW_KEY);
-  return stored ? JSON.parse(stored) : [];
+  if (!stored) return [];
+  
+  let reviews: ReviewItem[] = JSON.parse(stored);
+  
+  // Filter out items older than 3 days
+  const THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000;
+  const now = Date.now();
+  
+  const filteredReviews = reviews.filter(item => (now - item.timestamp) < THREE_DAYS_MS);
+  
+  // If we filtered some out, update storage
+  if (filteredReviews.length !== reviews.length) {
+    localStorage.setItem(REVIEW_KEY, JSON.stringify(filteredReviews));
+  }
+  
+  return filteredReviews;
 }
 
 export function removeReviewItem(id: string) {

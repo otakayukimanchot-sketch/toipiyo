@@ -11,6 +11,7 @@ import part7Data from "./data/part7.json";
 import HeptagonNav from "./components/HeptagonNav";
 import StreakDisplay from "./components/StreakDisplay";
 import QuizView from "./components/QuizView";
+import ReviewNews from "./components/ReviewNews";
 import { motion, AnimatePresence } from "motion/react";
 import { Trophy, Info, Settings, User, Bird, RotateCcw, Loader2, Menu, X, BookOpen, Volume2, VolumeX, HelpCircle, Trash2, ChevronLeft } from "lucide-react";
 
@@ -38,6 +39,7 @@ export default function App() {
     // Simulate loading for splash screen
     const timer = setTimeout(() => {
       setIsLoading(false);
+      setReviewItems(getReviewItems());
     }, 1500);
 
     return () => clearTimeout(timer);
@@ -126,6 +128,7 @@ export default function App() {
       }
       
       setProgress({ ...updatedProgress });
+      setReviewItems(getReviewItems());
       
       if (updatedProgress.completedPartsToday.length === 7) {
         setIsAllDone(true);
@@ -231,6 +234,16 @@ export default function App() {
                   ? "今日の学習はすべて完了しました！" 
                   : "Partをタップして学習を始めましょう"}
               </p>
+
+              {!activePart && !isAllDone && (
+                <ReviewNews 
+                  items={reviewItems} 
+                  onItemClick={(item) => {
+                    setActivePart(item.question.part);
+                    setCurrentQuestion(item.question);
+                  }} 
+                />
+              )}
             </div>
 
             {/* Footer Stats - Removed Progress, kept layout if needed but user said PROGRESS is not needed and move date to top right */}

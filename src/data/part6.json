@@ -1095,8 +1095,117 @@
     "subQuestions": [
       { "id": "p6-100-q1", "questionText": "[1]", "options": ["Together", "Together", "Together", "Together"], "correctIndex": 0 },
       { "id": "p6-100-q2", "questionText": "[2]", "options": ["As a reminder", "As a warning", "As a notice", "As a request"], "correctIndex": 0 },
-      { "id": "p6-100-q3", "questionText": "[3]", "options": ["restful and joyful", "restfully and joyfully", "restfulness and joyfulness", "restful and joy"], "correctIndex": 0 },
       { "id": "p6-100-q4", "questionText": "[4]", "options": ["seeing", "see", "saw", "seen"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-101",
+    "part": 6,
+    "text": "Dear Employees, Thank you for your continued efforts this quarter. [1] _______, our sales have increased by 15 percent compared to last year. [2] _______, please remember to submit your reports by Friday. We appreciate your [3] _______ to excellence. I look forward to [4] _______ your progress.",
+    "subQuestions": [
+      { "id": "p6-101-q1", "questionText": "[1]", "options": ["As a result", "However", "In contrast", "Meanwhile"], "correctIndex": 0 },
+      { "id": "p6-101-q2", "questionText": "[2]", "options": ["In addition", "For example", "On the other hand", "At least"], "correctIndex": 0 },
+      { "id": "p6-101-q3", "questionText": "[3]", "options": ["commitment", "committing", "committed", "commit"], "correctIndex": 0 },
+      { "id": "p6-101-q4", "questionText": "[4]", "options": ["reviewing", "review", "reviewed", "reviews"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-102",
+    "part": 6,
+    "text": "Dear Customer, We are pleased to inform you that your order has been shipped. [1] _______, it should arrive within three business days. [2] _______, you can track your package using the link provided. Thank you for your [3] _______. We hope you enjoy your purchase and look forward to [4] _______ you again.",
+    "subQuestions": [
+      { "id": "p6-102-q1", "questionText": "[1]", "options": ["Therefore", "Otherwise", "Instead", "Similarly"], "correctIndex": 0 },
+      { "id": "p6-102-q2", "questionText": "[2]", "options": ["In addition", "However", "For instance", "At last"], "correctIndex": 0 },
+      { "id": "p6-102-q3", "questionText": "[3]", "options": ["patience", "patient", "patiently", "patients"], "correctIndex": 0 },
+      { "id": "p6-102-q4", "questionText": "[4]", "options": ["serving", "serve", "served", "serves"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-103",
+    "part": 6,
+    "text": "Dear Staff, The office renovation will begin next Monday. [1] _______, some areas will be temporarily unavailable. [2] _______, please use the meeting rooms on the second floor. We apologize for any [3] _______ this may cause. Thank you for your [4] _______.",
+    "subQuestions": [
+      { "id": "p6-103-q1", "questionText": "[1]", "options": ["As a result", "For example", "In contrast", "At least"], "correctIndex": 0 },
+      { "id": "p6-103-q2", "questionText": "[2]", "options": ["Instead", "Otherwise", "Likewise", "Similarly"], "correctIndex": 0 },
+      { "id": "p6-103-q3", "questionText": "[3]", "options": ["inconvenience", "inconvenient", "inconveniently", "inconveniences"], "correctIndex": 0 },
+      { "id": "p6-103-q4", "questionText": "[4]", "options": ["cooperation", "cooperate", "cooperating", "cooperative"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-104",
+    "part": 6,
+    "text": "Dear Members, We are excited to announce a new fitness program starting next month. [1] _______, it includes personalized training sessions. [2] _______, early registration is recommended as space is limited. We hope you will [3] _______ advantage of this opportunity. We look forward to [4] _______ you soon.",
+    "subQuestions": [
+      { "id": "p6-104-q1", "questionText": "[1]", "options": ["In particular", "However", "Otherwise", "Meanwhile"], "correctIndex": 0 },
+      { "id": "p6-104-q2", "questionText": "[2]", "options": ["Therefore", "For example", "At last", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-104-q3", "questionText": "[3]", "options": ["take", "taking", "taken", "takes"], "correctIndex": 0 },
+      { "id": "p6-104-q4", "questionText": "[4]", "options": ["seeing", "see", "seen", "saw"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-105",
+    "part": 6,
+    "text": "Dear Clients, We would like to inform you of a scheduled system update this weekend. [1] _______, our services may be temporarily unavailable. [2] _______, we recommend completing any urgent transactions in advance. Thank you for your [3] _______ and understanding. We appreciate your continued [4] _______.",
+    "subQuestions": [
+      { "id": "p6-105-q1", "questionText": "[1]", "options": ["During this time", "On the contrary", "At once", "In short"], "correctIndex": 0 },
+      { "id": "p6-105-q2", "questionText": "[2]", "options": ["Therefore", "Likewise", "For instance", "Meanwhile"], "correctIndex": 0 },
+      { "id": "p6-105-q3", "questionText": "[3]", "options": ["patience", "patient", "patiently", "patients"], "correctIndex": 0 },
+      { "id": "p6-105-q4", "questionText": "[4]", "options": ["support", "supporting", "supported", "supports"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-106",
+    "part": 6,
+    "text": "Dear Colleagues, Over the past quarter, our department has faced several unexpected challenges. [1] _______, we were able to meet all project deadlines through effective collaboration. [2] _______, management has decided to allocate additional resources to support future initiatives. Your continued [3] _______ has been essential to our success. I appreciate your efforts and look forward to [4] _______ together moving forward.",
+    "subQuestions": [
+      { "id": "p6-106-q1", "questionText": "[1]", "options": ["Nevertheless", "For instance", "Similarly", "In addition"], "correctIndex": 0 },
+      { "id": "p6-106-q2", "questionText": "[2]", "options": ["Accordingly", "Otherwise", "Meanwhile", "For example"], "correctIndex": 0 },
+      { "id": "p6-106-q3", "questionText": "[3]", "options": ["dedication", "dedicated", "dedicating", "dedicate"], "correctIndex": 0 },
+      { "id": "p6-106-q4", "questionText": "[4]", "options": ["working", "work", "worked", "works"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-107",
+    "part": 6,
+    "text": "Dear Customer, We regret to inform you that your recent order has been delayed due to supply chain disruptions. [1] _______, we are actively working with our partners to resolve the issue as quickly as possible. [2] _______, a revised delivery estimate will be provided within two business days. We sincerely apologize for any inconvenience this may [3] _______. Thank you for your patience and for [4] _______ our services.",
+    "subQuestions": [
+      { "id": "p6-107-q1", "questionText": "[1]", "options": ["However", "Likewise", "For instance", "Otherwise"], "correctIndex": 0 },
+      { "id": "p6-107-q2", "questionText": "[2]", "options": ["In the meantime", "On the contrary", "At least", "For example"], "correctIndex": 0 },
+      { "id": "p6-107-q3", "questionText": "[3]", "options": ["cause", "caused", "causing", "causes"], "correctIndex": 0 },
+      { "id": "p6-107-q4", "questionText": "[4]", "options": ["choosing", "choose", "chosen", "chooses"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-108",
+    "part": 6,
+    "text": "Dear Team, Please be advised that the upcoming system upgrade will require temporary downtime. [1] _______, access to internal platforms will be unavailable for approximately three hours. [2] _______, we recommend saving your work in advance to avoid data loss. Your cooperation is greatly [3] _______. We apologize for any disruption and appreciate your [4] _______.",
+    "subQuestions": [
+      { "id": "p6-108-q1", "questionText": "[1]", "options": ["During this period", "In contrast", "For instance", "Likewise"], "correctIndex": 0 },
+      { "id": "p6-108-q2", "questionText": "[2]", "options": ["Therefore", "Meanwhile", "On the other hand", "At least"], "correctIndex": 0 },
+      { "id": "p6-108-q3", "questionText": "[3]", "options": ["appreciated", "appreciate", "appreciating", "appreciation"], "correctIndex": 0 },
+      { "id": "p6-108-q4", "questionText": "[4]", "options": ["understanding", "understand", "understood", "understands"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-109",
+    "part": 6,
+    "text": "Dear Applicants, Thank you for your interest in our internship program. Due to the high volume of applications, only shortlisted candidates will be contacted. [1] _______, all applicants will receive notification regarding their status by the end of the month. [2] _______, we encourage you to continue pursuing other opportunities. We appreciate the time and effort you have [3] _______ in your application. We wish you the best in your future [4] _______.",
+    "subQuestions": [
+      { "id": "p6-109-q1", "questionText": "[1]", "options": ["Nevertheless", "For example", "Similarly", "Otherwise"], "correctIndex": 0 },
+      { "id": "p6-109-q2", "questionText": "[2]", "options": ["In the meantime", "On the contrary", "At once", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-109-q3", "questionText": "[3]", "options": ["invested", "invest", "investing", "investment"], "correctIndex": 0 },
+      { "id": "p6-109-q4", "questionText": "[4]", "options": ["endeavors", "endeavor", "endeavored", "endeavoring"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-110",
+    "part": 6,
+    "text": "Dear Residents, We would like to inform you of upcoming maintenance work in your building. [1] _______, water service will be temporarily suspended on Tuesday morning. [2] _______, please store sufficient water in advance. We apologize for any inconvenience this may [3] _______. Thank you for your cooperation and for [4] _______ with us during this time.",
+    "subQuestions": [
+      { "id": "p6-110-q1", "questionText": "[1]", "options": ["As a result", "In contrast", "For instance", "Meanwhile"], "correctIndex": 0 },
+      { "id": "p6-110-q2", "questionText": "[2]", "options": ["Accordingly", "Otherwise", "Similarly", "For example"], "correctIndex": 0 },
+      { "id": "p6-110-q3", "questionText": "[3]", "options": ["cause", "caused", "causing", "causes"], "correctIndex": 0 },
+      { "id": "p6-110-q4", "questionText": "[4]", "options": ["bearing", "bear", "borne", "bears"], "correctIndex": 0 }
     ]
   }
 ]
