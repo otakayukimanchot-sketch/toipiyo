@@ -175,9 +175,6 @@ export default function App() {
           <h1 className="text-5xl font-black tracking-tight text-blue-600 font-cute drop-shadow-sm">
             といぴよ
           </h1>
-          <p className="text-sm font-bold text-blue-400 mt-2">
-            スコアアップ特化のウェブ対策アプリ
-          </p>
         </motion.div>
         <motion.div 
           initial={{ opacity: 0 }}
@@ -211,7 +208,6 @@ export default function App() {
                 </div>
                 <div className="flex flex-col">
                   <h1 className="text-2xl font-black tracking-tight text-blue-600 font-cute">といぴよ</h1>
-                  <p className="text-[10px] font-bold text-blue-400 leading-none">スコアアップ特化のウェブ対策アプリ</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">

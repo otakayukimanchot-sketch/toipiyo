@@ -80,7 +80,11 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
             // Speak options A, B, C, D
             for (let i = 0; i < question.audioTexts.length; i++) {
               if (isCancelled) break;
-              await speak(`${String.fromCharCode(65 + i)}. ${question.audioTexts[i]}`);
+              await speak(`${String.fromCharCode(65 + i)}`);
+              if (isCancelled) break;
+              await new Promise(r => setTimeout(r, 800));
+              if (isCancelled) break;
+              await speak(question.audioTexts[i]);
               if (i < question.audioTexts.length - 1 && !isCancelled) {
                 await new Promise(r => setTimeout(r, 1000));
               }
@@ -93,7 +97,11 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
             
             for (let i = 1; i < question.audioTexts.length; i++) {
               if (isCancelled) break;
-              await speak(`${String.fromCharCode(64 + i)}. ${question.audioTexts[i]}`);
+              await speak(`${String.fromCharCode(64 + i)}`);
+              if (isCancelled) break;
+              await new Promise(r => setTimeout(r, 800));
+              if (isCancelled) break;
+              await speak(question.audioTexts[i]);
               if (i < question.audioTexts.length - 1 && !isCancelled) {
                 await new Promise(r => setTimeout(r, 1000));
               }
@@ -112,12 +120,20 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
               
               const sq = question.subQuestions[i];
               if (sq.questionText) {
-                await speak(`${i + 1}. ${sq.questionText}`);
+                await speak(`${i + 1}`);
+                if (isCancelled) break;
+                await new Promise(r => setTimeout(r, 800));
+                if (isCancelled) break;
+                await speak(sq.questionText);
               }
               
               for (let j = 0; j < sq.options.length; j++) {
                 if (isCancelled) break;
-                await speak(`${String.fromCharCode(65 + j)}. ${sq.options[j]}`);
+                await speak(`${String.fromCharCode(65 + j)}`);
+                if (isCancelled) break;
+                await new Promise(r => setTimeout(r, 800));
+                if (isCancelled) break;
+                await speak(sq.options[j]);
                 if (j < sq.options.length - 1 && !isCancelled) {
                   await new Promise(r => setTimeout(r, 1000));
                 }
