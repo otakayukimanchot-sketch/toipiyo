@@ -8,6 +8,7 @@ import part4Data from "./data/part4.json";
 import part5Data from "./data/part5.json";
 import part6Data from "./data/part6.json";
 import part7Data from "./data/part7.json";
+import { unlockAudio } from "./utils/audio";
 import HeptagonNav from "./components/HeptagonNav";
 import StreakDisplay from "./components/StreakDisplay";
 import QuizView from "./components/QuizView";
@@ -56,6 +57,7 @@ export default function App() {
   };
 
   const handleStartQuiz = (part: Part) => {
+    unlockAudio();
     setSelectedPart(null);
     // Select questions based on the part
     let partQuestions: Question[] = [];
@@ -130,13 +132,20 @@ export default function App() {
       setProgress({ ...updatedProgress });
       setReviewItems(getReviewItems());
       
-      if (updatedProgress.completedPartsToday.length === 7) {
+      const allDoneStatus = updatedProgress.completedPartsToday.length === 7;
+      if (allDoneStatus) {
         setIsAllDone(true);
       }
 
-      // Automatically move to next part (1->2, ..., 7->1)
-      const nextPart = (activePart % 7 + 1) as Part;
-      handleStartQuiz(nextPart);
+      // If all parts are done today, return to home to show celebration
+      if (allDoneStatus && isCorrect) {
+        setActivePart(null);
+        setCurrentQuestion(null);
+      } else {
+        // Automatically move to next part (1->2, ..., 7->1)
+        const nextPart = (activePart % 7 + 1) as Part;
+        handleStartQuiz(nextPart);
+      }
     }
   };
 
@@ -239,6 +248,7 @@ export default function App() {
                 <ReviewNews 
                   items={reviewItems} 
                   onItemClick={(item) => {
+                    unlockAudio();
                     setActivePart(item.question.part);
                     setCurrentQuestion(item.question);
                   }} 

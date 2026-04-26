@@ -11,37 +11,46 @@ function getAudioContext() {
 export async function playChime(): Promise<void> {
   const ctx = getAudioContext();
   
-  // Ensure context is running - critical for mobile
   if (ctx.state === 'suspended') {
     await ctx.resume();
   }
 
-  const playTone = (freq: number, startTime: number, duration: number) => {
+  const playChimeTone = (freq: number, startTime: number, duration: number) => {
     const oscillator = ctx.createOscillator();
+    const overtone = ctx.createOscillator();
     const gainNode = ctx.createGain();
 
-    oscillator.type = 'sine';
+    // Use triangle for a softer, more musical body
+    oscillator.type = 'triangle';
     oscillator.frequency.setValueAtTime(freq, startTime);
-    
-    // Slight ease-in to prevent popping, and a nice decay
+
+    // Add a sine overtone for that 'chime' clarity
+    overtone.type = 'sine';
+    overtone.frequency.setValueAtTime(freq * 2.01, startTime); // Slightly off for thickness
+
     gainNode.gain.setValueAtTime(0, startTime);
-    gainNode.gain.linearRampToValueAtTime(0.15, startTime + 0.05); // Slightly louder for mobile
+    gainNode.gain.linearRampToValueAtTime(0.2, startTime + 0.02);
     gainNode.gain.exponentialRampToValueAtTime(0.001, startTime + duration);
 
     oscillator.connect(gainNode);
+    overtone.connect(gainNode);
     gainNode.connect(ctx.destination);
 
     oscillator.start(startTime);
+    overtone.start(startTime);
     oscillator.stop(startTime + duration);
+    overtone.stop(startTime + duration);
   };
 
   const now = ctx.currentTime;
-  // Use a slight offset from 'now' to ensure accuracy
   const start = now + 0.05;
-  playTone(659.25, start, 0.4); // E5
-  playTone(783.99, start + 0.15, 0.4); // G5 
+  
+  // A simple pleasant chime sequence (Arpeggio)
+  playChimeTone(523.25, start, 0.6);        // C5
+  playChimeTone(659.25, start + 0.12, 0.6); // E5
+  playChimeTone(783.99, start + 0.24, 0.8); // G5 
 
-  return new Promise(resolve => setTimeout(resolve, 800));
+  return new Promise(resolve => setTimeout(resolve, 1000));
 }
 
 export function cancelAudio() {
@@ -86,6 +95,9 @@ export async function unlockAudio(): Promise<void> {
   }
 }
 
+// Keep a reference to utterances to prevent garbage collection in Safari
+const utteranceCache = new Set<SpeechSynthesisUtterance>();
+
 export async function speak(text: string, withChime: boolean = false): Promise<void> {
   if (withChime && !shouldStopAudio) {
     await playChime();
@@ -110,16 +122,21 @@ export async function speak(text: string, withChime: boolean = false): Promise<v
         return;
       }
 
+      // Safari Fix: Resume if paused (sometimes gets stuck)
+      if (synth.paused) {
+        synth.resume();
+      }
+
       const voices = synth.getVoices();
-      // Prepend dots/pauses to give Safari a moment to buffer
-      const utterance = new SpeechSynthesisUtterance(". . " + text);
+      // Use the text directly to avoid reading punctuation aloud
+      const utterance = new SpeechSynthesisUtterance(text);
       
-      // CRITICAL: Set language explicitly to avoid system fallback (e.g. Japanese voice reading English)
+      // Prevent GC on Safari
+      utteranceCache.add(utterance);
+      
       utterance.lang = "en-US";
       
       const enVoices = voices.filter(v => v.lang.startsWith("en"));
-      
-      // Prioritize natural sounding premium voices over system/compact ones
       const targetVoices = enVoices.filter(v => 
         (v.lang.toLowerCase().includes("en-us") || 
          v.lang.toLowerCase().includes("en-gb") || 
@@ -129,7 +146,6 @@ export async function speak(text: string, withChime: boolean = false): Promise<v
       );
       
       if (targetVoices.length > 0) {
-        // Try to pick a non-default voice if possible, as sometimes defaults glitch on mobile
         utterance.voice = targetVoices.find(v => v.name.includes("Samantha") || v.name.includes("Google") || v.name.includes("Enhanced")) || targetVoices[0];
       } else if (enVoices.length > 0) {
         utterance.voice = enVoices[0];
@@ -139,22 +155,42 @@ export async function speak(text: string, withChime: boolean = false): Promise<v
       utterance.pitch = 1.0;
       utterance.volume = 1.0;
       
-      utterance.onend = () => resolve();
+      utterance.onend = () => {
+        utteranceCache.delete(utterance);
+        resolve();
+      };
+      
       utterance.onerror = (e) => {
         console.error("SpeechSynthesis error:", e);
+        utteranceCache.delete(utterance);
         resolve(); 
       };
       
-      // Robust cancel/speak pattern for Mobile Safari
-      synth.cancel();
+      // Safari/iOS fix: Multiple calls to speak() can fail if not preceded by cancel()
+      // but if we are already speaking, cancel() might break the gesture.
+      // We use a shorter timeout or immediate call for better Safari stability.
+      if (synth.speaking) {
+        synth.cancel();
+      }
+      
+      // Reduced delay to keep user gesture context active
+      const delay = (navigator.userAgent.includes('Safari') && !navigator.userAgent.includes('Chrome')) ? 20 : 50;
       
       setTimeout(() => {
         if (!shouldStopAudio) {
           synth.speak(utterance);
+          
+          // Safari hack: If it doesn't start speaking within 100ms, try a resume
+          setTimeout(() => {
+            if (!synth.speaking && !shouldStopAudio) {
+              synth.resume();
+            }
+          }, 100);
         } else {
+          utteranceCache.delete(utterance);
           resolve();
         }
-      }, 100); // Increased delay for mobile stability
+      }, delay);
     };
 
     // Wait for voices if needed (common in Chrome but also Safari)
