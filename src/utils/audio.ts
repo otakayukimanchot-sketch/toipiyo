@@ -59,38 +59,44 @@ export function cancelAudio() {
     synth.cancel();
   }
   
-  // We don't close AudioContext but we ensure shouldStopAudio is handled
+  // Clear the cache to allow GC
+  utteranceCache.clear();
+  
+  // Set flag to stop current loops
   shouldStopAudio = true;
-  // Reset after a bit more delay to ensure all async loops have seen it
+  // Reset flag after delay
   setTimeout(() => {
     shouldStopAudio = false;
-  }, 500);
+  }, 1000);
 }
 
 export async function unlockAudio(): Promise<void> {
   const synth = window.speechSynthesis;
+  if (synth) {
+    synth.cancel(); 
+  }
   
-  // Unlock Web Audio API by playing a tiny bit of silence
   const ctx = getAudioContext();
   if (ctx.state === 'suspended') {
     ctx.resume().catch(err => console.error("AudioContext resume failed:", err));
   }
   
-  // Create a tiny silent buffer and play it to truly unlock audio output
   const buffer = ctx.createBuffer(1, 1, 22050);
   const source = ctx.createBufferSource();
   source.buffer = buffer;
   source.connect(ctx.destination);
   source.start(0);
 
-  // Unlock SpeechSynthesis
   if (synth) {
-    // Safari/iOS fix: Must speak something non-empty to unlock
-    const utterance = new SpeechSynthesisUtterance(" ");
-    utterance.volume = 0;
-    synth.speak(utterance);
+    const utterance = new SpeechSynthesisUtterance("a"); 
+    utterance.volume = 0.01; // Tiny volume instead of 0 for some browser compatibility
+    utterance.rate = 10.0; // Extremely fast
     
-    // Warm up voices
+    setTimeout(() => {
+      synth.cancel();
+    }, 300);
+
+    synth.speak(utterance);
     synth.getVoices();
   }
 }
@@ -111,7 +117,7 @@ export async function speak(text: string, withChime: boolean = false): Promise<v
 
     const synth = window.speechSynthesis;
     if (!synth) {
-      reject(new Error("Web Speech API not supported"));
+      resolve(); // Don't hang if no synth
       return;
     }
 
@@ -155,29 +161,39 @@ export async function speak(text: string, withChime: boolean = false): Promise<v
       utterance.pitch = 1.0;
       utterance.volume = 1.0;
       
+      const utteranceTimeout = setTimeout(() => {
+        console.warn("SpeechSynthesis timeout - forcing resolve");
+        utteranceCache.delete(utterance);
+        resolve();
+      }, 20000); // 20s absolute limit for any single utterance
+
       utterance.onend = () => {
+        clearTimeout(utteranceTimeout);
         utteranceCache.delete(utterance);
         resolve();
       };
       
       utterance.onerror = (e) => {
+        clearTimeout(utteranceTimeout);
         console.error("SpeechSynthesis error:", e);
         utteranceCache.delete(utterance);
         resolve(); 
       };
-      
-      // Safari/iOS fix: Multiple calls to speak() can fail if not preceded by cancel()
-      // but if we are already speaking, cancel() might break the gesture.
-      // We use a shorter timeout or immediate call for better Safari stability.
-      if (synth.speaking) {
-        synth.cancel();
-      }
       
       // Reduced delay to keep user gesture context active
       const delay = (navigator.userAgent.includes('Safari') && !navigator.userAgent.includes('Chrome')) ? 20 : 50;
       
       setTimeout(() => {
         if (!shouldStopAudio) {
+          // If already speaking, it might be stuck or queued.
+          // For sequential speak(), we rely on browser queue or our manual await.
+          // In Safari, if we don't cancel, it might hang. But if we do cancel, we lose queue.
+          // Since we use manual async queue (awaiting each speak), we can call cancel once per speak
+          // to ensure it starts immediately.
+          if (navigator.userAgent.includes('Safari')) {
+             synth.cancel(); 
+          }
+          
           synth.speak(utterance);
           
           // Safari hack: If it doesn't start speaking within 100ms, try a resume
@@ -187,6 +203,7 @@ export async function speak(text: string, withChime: boolean = false): Promise<v
             }
           }, 100);
         } else {
+          clearTimeout(utteranceTimeout);
           utteranceCache.delete(utterance);
           resolve();
         }

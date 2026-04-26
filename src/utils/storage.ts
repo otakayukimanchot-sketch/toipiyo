@@ -140,7 +140,8 @@ export function getSettings(): AppSettings {
   if (stored) return JSON.parse(stored);
   
   const defaultSettings: AppSettings = {
-    isAudioEnabled: true
+    isAudioEnabled: true,
+    isDarkMode: false
   };
   saveSettings(defaultSettings);
   return defaultSettings;

@@ -179,7 +179,7 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
             initial={{ opacity: 0, y: 10, scale: 0.9, x: "-50%" }}
             animate={{ opacity: 1, y: 0, scale: 1, x: "-50%" }}
             exit={{ opacity: 0, y: 10, scale: 0.9, x: "-50%" }}
-            className="absolute z-20 bg-white border-2 border-gray-100 rounded-2xl shadow-2xl p-4 w-48 text-center"
+            className="absolute z-20 bg-white dark:bg-slate-800 border-2 border-gray-100 dark:border-slate-700 rounded-2xl shadow-2xl p-4 w-48 text-center"
             style={{
               left: `${(getPopupPosition(selectedPart).x / size) * 100}%`,
               top: `${(getPopupPosition(selectedPart).y / size) * 100 - 45}%`,
@@ -187,13 +187,13 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
             }}
           >
             {/* Arrow */}
-            <div className="absolute bottom-[-10px] left-1/2 -translate-x-1/2 w-4 h-4 bg-white border-r-2 border-b-2 border-gray-100 rotate-45 shadow-sm" />
+            <div className="absolute bottom-[-10px] left-1/2 -translate-x-1/2 w-4 h-4 bg-white dark:bg-slate-800 border-r-2 border-b-2 border-gray-100 dark:border-slate-700 rotate-45 shadow-sm" />
             
             <div className="relative z-10">
-              <div className="text-xs font-black text-blue-500 uppercase tracking-tighter mb-1">
+              <div className="text-xs font-black text-blue-500 dark:text-blue-400 uppercase tracking-tighter mb-1">
                 Part {selectedPart}
               </div>
-              <div className="text-sm font-bold text-gray-800 mb-3 leading-tight">
+              <div className="text-sm font-bold text-gray-800 dark:text-slate-100 mb-3 leading-tight">
                 {PART_NAMES[selectedPart]}
               </div>
               <button
@@ -202,7 +202,7 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
                   unlockAudio();
                   onStartQuiz(selectedPart);
                 }}
-                className="w-full py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-xl font-black text-sm shadow-lg shadow-blue-200 transition-all active:scale-95 flex items-center justify-center space-x-2"
+                className="w-full py-2 bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-500 text-white rounded-xl font-black text-sm shadow-lg shadow-blue-200 dark:shadow-none transition-all active:scale-95 flex items-center justify-center space-x-2"
               >
                 <Play size={14} fill="currentColor" />
                 <span>始める</span>

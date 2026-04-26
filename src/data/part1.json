@@ -1190,17 +1190,611 @@
       "audioTexts": ["Many people are dancing in a Zumba class.", "The class has only one person.", "The mirrors are covered.", "The instructor is sitting down."],
       "correctIndex": 0
     },
-    {
-      "id": "p1-199",
-      "imageDescriptionJa": "本屋の雑誌コーナー。立ち読みしている人が何人もいる。最新号の雑誌が表紙を向けて並べられている。",
-      "audioTexts": ["People are browsing magazines at a bookstore.", "The magazine section is empty.", "All magazines are covered.", "No one is standing."],
-      "correctIndex": 0
-    },
-    {
-      "id": "p1-200",
-      "imageDescriptionJa": "道路工事の夜間作業。照明灯が明るく照らしている。作業員がアスファルトを敷いている。ローラー車が走っている。",
-      "audioTexts": ["Workers are paving asphalt at night under bright lights.", "The workers are sleeping.", "No construction vehicles are present.", "It is daytime."],
-      "correctIndex": 0
-    }
-  ]
+  {
+    "id": "p1-199",
+    "imageDescriptionJa": "本屋の雑誌コーナー。立ち読みしている人が何人もいる。最新号の雑誌が表紙を向けて並べられている。",
+    "audioTexts": ["People are browsing magazines at a bookstore.", "The magazine section is empty.", "All magazines are covered.", "No one is standing."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-200",
+    "imageDescriptionJa": "道路工事の夜間作業。照明灯が明るく照らしている。作業員がアスファルトを敷いている。ローラー車が走っている。",
+    "audioTexts": ["Workers are paving asphalt at night under bright lights.", "The workers are sleeping.", "No construction vehicles are present.", "It is daytime."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-201",
+    "imageDescriptionJa": "朝の通勤ラッシュ時の駅のホーム。満員電車を待つスーツ姿のサラリーマンや学生が列を作っているが、一番前の男性だけがスマートフォンではなく文庫本を読んでいる。",
+    "audioTexts": ["Most people are looking at their phones, but the man at the very front is reading a book.", "Everyone on the platform is using a smartphone.", "The train has already arrived and people are boarding.", "The platform is nearly empty except for one student."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-202",
+    "imageDescriptionJa": "公園のベンチに座る老夫婦。紅葉した木々を背景に、妻が夫の肩にそっと頭を預けている。足元には一匹の柴犬が伏せをしている。",
+    "audioTexts": ["An elderly couple is sitting on a bench with a dog resting at their feet.", "The couple is walking their dog through the park.", "The wife is reading a book while the husband feeds the birds.", "There are no trees visible in the park."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-203",
+    "imageDescriptionJa": "カフェのカウンター席。若い女性がノートパソコンを開いて作業しているが、肝心のコーヒーカップが手から離れた場所に置かれ、湯気も立っておらず、完全に冷めてしまっているように見える。",
+    "audioTexts": ["The woman is so focused on her work that her coffee has apparently gone cold.", "She is actively drinking her hot coffee while typing.", "The woman just ordered her coffee and is waiting for it.", "She is closing her laptop and getting ready to leave."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-204",
+    "imageDescriptionJa": "スーパーの青果コーナー。店員がリンゴを山積みにしている最中で、かごから落ちた一個のリンゴが床を転がっている。",
+    "audioTexts": ["A worker is stacking apples while one has fallen and is rolling on the floor.", "All the apples are neatly arranged on the shelf.", "A customer is picking up an apple from the floor.", "The store is completely closed with no one inside."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-205",
+    "imageDescriptionJa": "図書館の静かな閲覧室。ほとんどの席が埋まっているが、中央の大きなテーブルに開かれたまま放置された分厚い辞典と誰もいない椅子がある。",
+    "audioTexts": ["A thick dictionary is left open on a table in the middle of a crowded reading room.", "The library is completely empty with all chairs vacant.", "A librarian is closing a dictionary on the central table.", "Someone is sitting at every single table in the room."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-206",
+    "imageDescriptionJa": "小雨の降る交差点。信号待ちをする人々の中で、一人の子供だけが黄色い長靴を履き、水たまりをぴょんぴょん跳ねている。",
+    "audioTexts": ["Among the people waiting at the crosswalk, a child in yellow boots is hopping in a puddle.", "All the pedestrians are crossing the street at once.", "It is raining heavily and everyone is running.", "The child is crying because the boots are too small."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-207",
+    "imageDescriptionJa": "病院の待合室。多くの患者が座っているが、壁際の観葉植物の鉢のすぐ横で、小さな男の子がおもちゃの注射器をテディベアに向けている。",
+    "audioTexts": ["A little boy near a potted plant is giving a teddy bear a shot with a toy syringe.", "The waiting room is empty except for one nurse.", "The boy is watering the plant with a toy watering can.", "The teddy bear is sitting on the reception counter."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-208",
+    "imageDescriptionJa": "旅館の大広間。布団が敷き詰められているが、窓際の一組だけ枕が左右逆に置かれている。窓の外には満月が見える。",
+    "audioTexts": ["Futons are laid out in a Japanese-style room, but one pillow pair is reversed, with a full moon visible outside.", "All the futons are perfectly arranged with no mistakes.", "Guests are already sleeping in all the futons.", "The window curtains are completely shut."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-209",
+    "imageDescriptionJa": "料理教室。エプロン姿の参加者たちがまな板の前に立っているが、一人だけ包丁を逆手に持っており、講師が驚いた顔でそれを指さしている。",
+    "audioTexts": ["The instructor looks shocked and is pointing at a participant who is holding the knife backwards.", "Everyone is chopping vegetables perfectly.", "The instructor is demonstrating the correct way to hold a knife.", "The classroom is empty and all lights are off."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-210",
+    "imageDescriptionJa": "空港の出発ロビー。フライト案内板の下で、スーツケースにまたがって必死に荷物を押さえている男性。周りの人々は搭乗口へ急いでいる。",
+    "audioTexts": ["Under the departure board, a man is straddling his suitcase trying to close it, while others rush to their gates.", "The departure board is blank and no flights are listed.", "A man is calmly reading a newspaper on top of his suitcase.", "Everyone in the lobby is sitting and waiting quietly."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-211",
+    "imageDescriptionJa": "結婚式の披露宴会場。新郎新婦がケーキ入刀しようとしているが、新婦のブーケから一輪のバラが落ちそうになっている。",
+    "audioTexts": ["As the couple is about to cut the wedding cake, a single rose is about to fall from the bride's bouquet.", "The bouquet is perfectly intact and secure.", "The couple has already finished cutting the cake.", "There is no wedding cake on the table."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-212",
+    "imageDescriptionJa": "銭湯の脱衣所。ロッカーの前に立つ老人。鍵をかけたのは良いが、手首に鍵のリストバンドをつけたまま、別のロッカーを必死に開けようとしている。",
+    "audioTexts": ["An elderly man with the key band still on his wrist is trying to open the wrong locker.", "The man is successfully unlocking his own locker.", "The changing room is completely empty.", "The man is helping another person open their locker."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-213",
+    "imageDescriptionJa": "ペットショップのショーウィンドウ。子犬たちがじゃれ合っている中、一匹だけ水飲みボウルに前足を突っ込んで水をバシャバシャこぼしている。",
+    "audioTexts": ["While the other puppies are playing, one is spilling water by splashing its paws in the bowl.", "All the puppies are sleeping quietly.", "The water bowl is empty and upside down.", "A shop assistant is refilling the water bowl carefully."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-214",
+    "imageDescriptionJa": "オフィスの会議室。プロジェクターでグラフを映しているプレゼン中だが、スクリーンの前に立った発表者のシャツに、グラフの一部が映り込んで数字が読めなくなっている。",
+    "audioTexts": ["The presenter is standing in front of the screen, and the projected graph is falling on his shirt, making the numbers unreadable.", "The presenter is standing to the side, so the graph is clearly visible.", "The projector is turned off and the screen is white.", "The meeting has ended and the room is being cleaned."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-215",
+    "imageDescriptionJa": "雪景色の公園。雪だるまが二つ並んでいるが、右側の雪だるまの鼻のニンジンが、近くにいるリスの口元にあり、かじられている。",
+    "audioTexts": ["A squirrel is nibbling on the carrot nose of one of the two snowmen in the snowy park.", "Both snowmen have perfectly intact carrot noses.", "The squirrel is burying a nut near the snowman.", "The park has no snowmen, only snow-covered benches."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-216",
+    "imageDescriptionJa": "寿司屋のカウンター。職人が握っている最中、一貫だけ軍艦巻きの海苔が湿気でしんなりして崩れかけている。客はそれに気づいていない。",
+    "audioTexts": ["A sushi chef is making nigiri, but one gunkan-maki's seaweed is getting soggy and collapsing; the customer hasn't noticed.", "All the sushi looks perfectly fresh and firm.", "The customer is pointing at the collapsed sushi.", "The chef is taking a break and not making sushi."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-217",
+    "imageDescriptionJa": "コンサート会場。熱狂的な観客がペンライトを振っている中、最後列の男性だけがペンライトの電池が切れたのか、一人だけ暗い棒を振っている。",
+    "audioTexts": ["In a sea of glowing penlights, one man at the very back is waving a dark, unlit stick.", "Every single person in the audience has a brightly lit penlight.", "The concert has ended and the audience is leaving.", "The man at the back is holding two bright penlights."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-218",
+    "imageDescriptionJa": "朝の住宅街。ゴミ出し場所にカラスが群がっているが、一羽だけ黄色い帽子をくわえて飛び去ろうとしている。",
+    "audioTexts": ["Crows are gathered at a garbage collection point, and one is flying away with a yellow hat in its beak.", "All the crows are sitting quietly on a power line.", "A person in a yellow hat is chasing the crows away.", "The garbage area is perfectly clean with no birds."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-219",
+    "imageDescriptionJa": "美術館の展示室。有名な絵画の前に人だかりができているが、警備員はそれよりも、絵に触ろうとしている小さな子供の手を凝視している。",
+    "audioTexts": ["The security guard is staring intently at a child's hand reaching out to touch a painting, ignoring the crowd.", "The security guard is explaining the painting to the visitors.", "The child is standing quietly with hands behind the back.", "The exhibition room is closed and empty."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-220",
+    "imageDescriptionJa": "夏祭りの屋台。金魚すくいをしている浴衣姿の少女。ポイの紙はすでに破れているのに、彼女はまだ破れたポイで必死に金魚を追っている。",
+    "audioTexts": ["A girl in a yukata is chasing goldfish with a paper scoop that is already torn.", "The girl has just started and her paper scoop is completely intact.", "She is holding a goldfish in a plastic bag, having finished the game.", "The festival stall is closed and covered with a tarp."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-221",
+    "imageDescriptionJa": "地下鉄の車内。優先席の前に立つサラリーマン。リュックを前に抱えているが、そのリュックのファスナーが少し開いており、書類が一枚はみ出している。",
+    "audioTexts": ["A businessman is standing near the priority seats, and a document is sticking out of his slightly open backpack zipper.", "His backpack is perfectly zipped and secure.", "He is sitting in a priority seat, sleeping.", "The train car is empty except for the driver."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-222",
+    "imageDescriptionJa": "和菓子屋の店先。ショーケースに並ぶ練り切りのうち、桜の形をした一つだけ、花びらの先端がほんの少し欠けている。",
+    "audioTexts": ["Among the beautifully displayed nerikiri sweets, one cherry blossom-shaped piece has a tiny chip missing from a petal tip.", "All the nerikiri sweets are in perfect, flawless condition.", "The shop is sold out and the display case is empty.", "A customer is eating the cherry blossom sweet."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-223",
+    "imageDescriptionJa": "大学の講義室。大教室で講義が行われているが、最前列の学生のノートパソコンの画面に、講義内容とは全く関係のない映画が映っている。後ろの席の学生がそれを笑っている。",
+    "audioTexts": ["A student in the front row is watching a movie on his laptop, and a student behind him is laughing at it.", "All students are diligently taking notes on the lecture.", "The lecture hall is dark and the professor hasn't arrived yet.", "The front row student's laptop screen is showing the lecture slides."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-224",
+    "imageDescriptionJa": "工事現場の前を通る親子。母親は足早に通り過ぎるが、小さな男の子は立ち止まり、フェンスの隙間からショベルカーの動きを目を輝かせて見つめている。",
+    "audioTexts": ["The mother is walking ahead, but her little boy has stopped and is gazing through the fence at the excavator, eyes sparkling.", "The child is crying and pulling his mother away from the construction site.", "Both the mother and child are looking at the excavator together.", "The construction site is completely quiet with no machinery moving."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-225",
+    "imageDescriptionJa": "ビアガーデン。賑わうテーブルの中で、一つだけ誰もいないテーブルがある。ジョッキが二つと枝豆が置かれているが、ビールの泡は完全に消え、枝豆の塩が溶けて皿が濡れている。",
+    "audioTexts": ["An abandoned table has two beer mugs with foam completely gone and edamame with salt melted into the plate, suggesting someone has been gone for a while.", "The table is being actively used by two people chatting happily.", "The table is perfectly clean and just set for new customers.", "A waiter is clearing the empty mugs from the table."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-226",
+    "imageDescriptionJa": "海辺の砂浜。ビーチパラソルがいくつも開いているが、一本だけ強風にあおられて根元から抜け、砂浜を転がっていく寸前である。近くの人がそれに気づいて手を伸ばしている。",
+    "audioTexts": ["One beach umbrella is about to be blown away by the wind, and a person nearby is reaching out to catch it.", "All the beach umbrellas are firmly planted in the sand.", "There is no wind, and the sea is perfectly calm.", "The beach is completely deserted with no people."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-227",
+    "imageDescriptionJa": "自動販売機の前。若い男性が硬貨を入れボタンを押したが、商品が取り出し口に引っかかって落ちてこない。彼はしゃがみこんで取り出し口を覗き込み、困った顔で頭をかいている。",
+    "audioTexts": ["A man is crouching and peering into the vending machine slot with a troubled face because his item is stuck.", "The man is happily drinking a bottle he just got from the machine.", "The vending machine is being restocked by a worker.", "The man is putting up an 'out of order' sign on the machine."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-228",
+    "imageDescriptionJa": "神社の境内。参拝客が数人いる中、一羽のハトが賽銭箱のすぐ横にある手水舎の水を飲んでいる。柄杓のすぐ隣にハトがとまっている。",
+    "audioTexts": ["A pigeon is drinking water right next to the ladle at the purification fountain near the offering box.", "The pigeon is perched on top of the torii gate.", "A visitor is using the ladle to wash their hands.", "The offering box area is empty except for fallen leaves."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-229",
+    "imageDescriptionJa": "ラーメン屋のカウンター。食べ終わった丼が積み重ねられているが、一番上の丼の底に書かれた「当たり」の文字が見えている。しかし店員は忙しくて気づいていない。",
+    "audioTexts": ["Empty bowls are stacked, and the word 'winner' is visible on the bottom of the top bowl, but the busy staff hasn't noticed.", "The staff member is congratulating a customer on winning.", "All the bowls are clean and being dried.", "The ramen shop has no customers and is about to close."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-230",
+    "imageDescriptionJa": "結婚式の集合写真。全員がカメラ目線で笑顔の中、末席に座る新郎の弟だけが、タイミングを外してくしゃみをしている瞬間が撮られている。",
+    "audioTexts": ["In the wedding group photo, the groom's younger brother at the end is captured mid-sneeze, ruining his smile.", "Everyone in the photo has a perfect smile and posture.", "The photo is being taken, and the photographer is giving instructions.", "The wedding ceremony hasn't started yet, and guests are still arriving."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-231",
+    "imageDescriptionJa": "電器店のテレビ売り場。数十台のテレビに同じ映像が映っているが、一台だけ設定ミスで画面が白黒反転しており、他のテレビと微妙に色が違う。",
+    "audioTexts": ["One of the many TVs in the store displays an inverted black-and-white image, unlike all the others showing the normal broadcast.", "Every single TV is showing the exact same picture perfectly.", "All the TVs are turned off and the screens are dark.", "A customer is buying the incorrectly set TV."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-232",
+    "imageDescriptionJa": "ファミレスのドリンクバー。少女がジュースを注ごうとレバーを引くが、勢い余ってカップから溢れさせてしまい、床に水たまりができている。彼女は慌ててナプキンを取ろうとしている。",
+    "audioTexts": ["A girl has overfilled her cup at the drink bar, creating a puddle on the floor, and is hastily reaching for napkins.", "The girl is calmly pouring the perfect amount of juice into her cup.", "The drink bar area is spotlessly clean with no one around.", "A staff member is refilling the juice dispenser."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-233",
+    "imageDescriptionJa": "古本まつりの会場。ワゴンに無造作に積まれた文庫本の中に、一冊だけ上下逆さまに挟まっており、その背表紙のタイトルが逆立ちしている。",
+    "audioTexts": ["Among the stacked paperbacks at a used book fair, one book is inserted upside down with its title on the spine inverted.", "All the books are neatly arranged in alphabetical order.", "The book fair is over, and the wagons are empty.", "A customer is carefully selecting a book from the top of the pile."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-234",
+    "imageDescriptionJa": "バス停。ベンチに三人が座っているが、真ん中の男性だけ傘を杖代わりにして居眠りをしており、傘の先が隣の女性の買い物袋に刺さりそうになっている。",
+    "audioTexts": ["A man in the middle of the bench is dozing while his umbrella tip is about to poke into a woman's shopping bag next to him.", "All three people on the bench are chatting loudly.", "The bench is empty and the bus has just arrived.", "The man is holding an umbrella to shade the woman next to him."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-235",
+    "imageDescriptionJa": "映画館のスクリーン。エンドロールが流れ始めたが、ほとんどの観客が立ち上がる中、最前列の一人だけがまだ座ったまま涙を拭いている。",
+    "audioTexts": ["As the credits roll and most people get up, only one person in the front row remains seated, wiping away tears.", "The entire audience has left the theater.", "Everyone is still seated and enjoying the end credits.", "The movie is just starting and people are finding their seats."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-236",
+    "imageDescriptionJa": "コインランドリー。洗濯が終わった乾燥機の扉が開けっ放しになっている。中には衣類がまだ残っているが、持ち主は外のベンチでイヤホンをつけてうたた寝している。",
+    "audioTexts": ["The dryer door is open with clothes still inside, while the owner is napping on a bench outside with earphones in.", "The owner is folding the clothes from the dryer on a table.", "All the machines are running and empty of clothes.", "The laundromat is completely closed and dark."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-237",
+    "imageDescriptionJa": "花火大会の河川敷。夜空に大輪の花火が上がる中、観客が一斉に見上げているが、一人だけ花火に背を向け、持参した三脚でその光景を必死に写真に収めようと別の角度から撮影している。",
+    "audioTexts": ["While everyone looks up at the fireworks, one person is facing away from the display to photograph the crowd's reaction with a tripod.", "All the spectators are facing the same direction towards the fireworks.", "The fireworks display has ended and the crowd is packing up.", "The photographer is aiming the camera at the sky like everyone else."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-238",
+    "imageDescriptionJa": "空港の手荷物検査場。トレイに乗せたポケットの中身。他の人は整然と並べているが、ある男性のトレイだけ小銭が散乱し、ベルトが半分垂れ下がっていて、検査官が呼び止めているところ。",
+    "audioTexts": ["At security, a man's tray is messy with scattered coins and a hanging belt, and an officer is stopping him.", "Everyone's trays are perfectly organized and tidy.", "The security checkpoint is closed with no officers present.", "The man is walking through the metal detector without any issues."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-239",
+    "imageDescriptionJa": "移動式クレープ屋のキッチンカー。注文した客にクレープを渡すとき、店員がうっかりしてトッピングのアイスクリームのスクープを手渡す前に落としてしまった瞬間。アイスは空中にある。",
+    "audioTexts": ["The vendor dropped the ice cream scoop in mid-air while passing the crepe to the customer.", "The customer is happily eating a perfectly made crepe.", "The kitchen car's shutter is closed and it is not in service.", "The vendor is putting the ice cream neatly onto the crepe."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-240",
+    "imageDescriptionJa": "冬の早朝の公園。池に薄氷が張っている。誰かが投げ入れた小石が氷の上に乗っており、割れずに表面で止まっている珍しい光景。ジョギング中の人が足を止めて見ている。",
+    "audioTexts": ["A jogger is stopping to look at a pebble resting on thin ice without breaking through in the early winter morning park.", "The jogger is running past the pond without stopping.", "The pond is completely frozen over with thick ice for skating.", "Children are throwing rocks and breaking the ice on purpose."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-241",
+    "imageDescriptionJa": "和室での茶道体験。外国人観光客が正座に苦戦しながら抹茶を点てているが、茶筅を持つ手と反対の手で茶碗を押さえるのを忘れ、茶碗が畳の上でくるくる回っている。",
+    "audioTexts": ["A foreign tourist is whisking matcha but forgot to hold the bowl steady, so it's spinning on the tatami mat.", "The tourist is performing the tea ceremony perfectly with smooth movements.", "The tea room is being prepared and no guests are present yet.", "The bowl is firmly held and the matcha is being poured into cups."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-242",
+    "imageDescriptionJa": "商店街の福引抽選会。ガラガラを回す老人。玉が出てきたが、勢いよく回しすぎて金色の玉が一つ抽選機の外に飛び出し、受け皿ではなく床に落ちている。周囲がどよめいている。",
+    "audioTexts": ["An elderly man spun the lottery wheel so hard a gold ball flew out onto the floor instead of the tray, causing a commotion.", "The gold ball landed perfectly in the tray for a winning prize.", "The lottery event hasn't started and the wheel is covered.", "The man is calmly collecting his prize from the tray."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-243",
+    "imageDescriptionJa": "レストランのテーブル。食事中のカップル。男性が彼女に指輪の箱を差し出そうとしているが、箱を開ける向きが上下逆で、開いた瞬間に指輪がテーブルの下に転がり落ちそうになっている。",
+    "audioTexts": ["A man is proposing but holding the ring box upside down, and the ring is about to fall under the table.", "The couple is toasting with wine glasses, having already gotten engaged.", "The ring box is closed and sitting on the table untouched.", "The ring is safely on the woman's finger."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-244",
+    "imageDescriptionJa": "陶芸教室。生徒がろくろを回している。完成間近の湯呑みが、少し力を入れすぎて縁が波打ってしまい、先生が慌てて生徒の手の上に手を添えようとしている瞬間。",
+    "audioTexts": ["At the pottery wheel, a student's teacup rim has become wavy from too much pressure, and the teacher is rushing to guide their hands.", "The student is smoothly shaping a perfect teacup.", "The pottery classroom is empty and all wheels are covered.", "The teacher is demonstrating on a separate wheel without a student."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-245",
+    "imageDescriptionJa": "雪の降る夜の踏切。遮断機が下りている。電車を待つ自転車の女性。カゴに入れたパン屋の紙袋から、フランスパンの端が飛び出して雪化粧をしている。彼女は気づいていない。",
+    "audioTexts": ["At a snowy crossing, a woman on a bike waits, unaware that a baguette in her basket is sticking out and getting covered in snow.", "The woman is eating the baguette while waiting for the train.", "The crossing gate is up and she is cycling across the tracks.", "It is a sunny day and the train has already passed."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-246",
+    "imageDescriptionJa": "ホテルの朝食ビュッフェ。パンケーキマシンの前で、操作を誤った宿泊客が、一枚目がうまく焼けずにぐちゃぐちゃになった生地を皿に乗せて困っている。後ろに列ができている。",
+    "audioTexts": ["A guest at the breakfast buffet messed up the pancake machine and has a messy blob of batter on the plate, with a line forming behind.", "The pancake machine is producing perfect pancakes continuously.", "The buffet has ended and staff are cleaning the machine.", "There is no line, and the guest is enjoying their pancake at a table."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-247",
+    "imageDescriptionJa": "観光地の記念撮影スポット。像の前で写真を撮ろうとしているが、撮影者が下がりすぎて後ろの噴水に片足を突っ込んでしまっている。モデルが笑いをこらえている。",
+    "audioTexts": ["The photographer backed up too far and has one foot in the fountain, while the model is trying not to laugh.", "The photo is being taken perfectly without any incident.", "The fountain is turned off and dry.", "The photographer is using a tripod safely away from the water."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-248",
+    "imageDescriptionJa": "渋谷のスクランブル交差点。信号が変わった瞬間、一斉に歩き出す群衆の中で、一人の男性だけが靴ひもが解けていることに気づき、立ち止まってしゃがみ込んだため、後ろの人とぶつかりそうになっている。",
+    "audioTexts": ["As the Shibuya crossing signal changes, one man crouches to tie his shoelace, nearly causing a collision with the person behind him.", "Everyone is crossing the intersection smoothly without stopping.", "The man is running ahead of the crowd because his shoes are tied well.", "The intersection is empty and quiet."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-249",
+    "imageDescriptionJa": "ペンギンの水族館。餌付けショーの最中、飼育員が投げた魚をペンギンがジャンプして取ろうとしたが、タイミングがずれて魚がペンギンの頭に当たって跳ね返っている。",
+    "audioTexts": ["During a penguin feeding show, a fish bounces off a penguin's head instead of being caught in its mouth.", "The penguin catches the fish smoothly in mid-air.", "The feeding show has been cancelled and the pool is covered.", "The keeper is just talking to the audience without throwing fish."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-250",
+    "imageDescriptionJa": "ホームセンターのペンキ売り場。色見本を見ながら缶を選ぶ夫婦。しかし、夫が誤って隣の人が置いた塗りかけの見本板を自分たちのサンプルだと勘違いして「これだ」と指さしている。隣の人が困惑している。",
+    "audioTexts": ["A husband mistakes a stranger's painted sample board for a store sample and points to it, confusing the actual owner next to him.", "The couple is correctly identifying paint colors from the official store samples.", "The paint section is closed for inventory.", "The stranger is offering advice on the paint color to the couple."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-251",
+    "imageDescriptionJa": "寄席。落語家が高座で話しているが、一番前の席の老人が気持ちよさそうに舟を漕いでいる。その隣の客が笑いをこらえて落語家と老人を交互に見ている。",
+    "audioTexts": ["At a rakugo performance, an elderly man in the front dozes off, while the person next to him glances between the storyteller and the sleeper, suppressing laughter.", "The front row audience is listening attentively to the performer.", "The theater is empty and a rehearsal is taking place.", "The elderly man is laughing loudly at the jokes."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-252",
+    "imageDescriptionJa": "夜のコンビニ。レジに並ぶ人々。先頭のサラリーマンがおでんの汁がこぼれないように慎重に持ちながら財布を探しているが、スーツのポケットから名刺が一枚落ちている。",
+    "audioTexts": ["At a convenience store checkout, a businessman carefully holds a cup of oden while a business card falls unnoticed from his suit pocket.", "The businessman quickly pays and leaves without any issues.", "The store clerk is picking up the business card for him.", "There is no line at the register and the store is empty."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-253",
+    "imageDescriptionJa": "動物園のフラミンゴ池。大半のフラミンゴが一本足で立っている中、一羽だけ両足をついて、水に映る自分の姿をじっと覗き込んでいる。",
+    "audioTexts": ["While most flamingos stand on one leg, one stands on both legs and stares at its own reflection in the water.", "All the flamingos are standing on one leg in unison.", "The flamingo enclosure is under maintenance and empty.", "The flamingo is stretching its wings ready to fly away."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-254",
+    "imageDescriptionJa": "ピアノの発表会。小さな女の子が演奏している最中、譜面台の楽譜が一枚、エアコンの風でふわりと舞い上がり、観客席に飛んでいく。親が慌てている。",
+    "audioTexts": ["At a piano recital, a sheet of music floats off the stand due to the air conditioner, flying toward the audience as a parent panics.", "The sheet music stays perfectly in place during the performance.", "The girl is not playing; she is taking a bow.", "The recital hall is empty except for the girl on stage."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-255",
+    "imageDescriptionJa": "田舎の無人駅。ホームに降り立った乗客が一人。ベンチに座り込む野良猫と目が合う。乗客がカバンから何かを取り出そうとすると、猫がすっと立ち上がり期待の目を向けている。",
+    "audioTexts": ["At a rural unmanned station, a cat locks eyes with the only passenger and stands up expectantly as the passenger reaches into their bag.", "The cat is running away from the passenger.", "The platform is crowded with waiting commuters.", "The passenger is ignoring the cat and buying a ticket from the machine."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-256",
+    "imageDescriptionJa": "縁日。射的の屋台の前。兄が真剣に狙っている一方、隣の弟は的ではなく、屋台の上の景品のぬいぐるみを指さして「あれが欲しい」と母親にねだっている。",
+    "audioTexts": ["At a shooting gallery, the older brother aims seriously, while the younger brother ignores the target and points at a stuffed animal prize, begging his mother for it.", "Both brothers are concentrating on the target.", "The younger brother is the one holding the rifle.", "The shooting gallery is closed and the prizes are covered."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-257",
+    "imageDescriptionJa": "ファストフード店。店員がトレイにセットしようとしたが、ポテトのケースが倒れて、カウンターに数本こぼれた。次の客がそれを見て笑っている。",
+    "audioTexts": ["The cashier accidentally spills some fries on the counter when the case tips over, and the next customer laughs at the scene.", "The tray is perfectly assembled with nothing out of place.", "The restaurant is closed and the crew is cleaning.", "The customer is helping the cashier arrange the tray."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-258",
+    "imageDescriptionJa": "将棋の街角対局場。真剣な対局を覗き込むギャラリーの中で、一人だけ対局と全く関係ない方向から首を伸ばし、対局者のお茶のペットボトルの中身が空かどうかを気にしている。",
+    "audioTexts": ["At a street shogi game, a spectator ignores the board and cranes his neck to check if a player's tea bottle is empty.", "All the spectators are intently watching the shogi board.", "The shogi match has finished and the board is cleared.", "The player is drinking the tea during their turn."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-259",
+    "imageDescriptionJa": "書道展。長い作品がずらりと掛けられているが、入り口から一番遠い隅の作品だけ、落款のハンコの朱色が少しにじんで文字にかかってしまっている。",
+    "audioTexts": ["In the far corner of a calligraphy exhibition, one piece has a slightly blurred red seal that bleeds into the character.", "All the calligraphy works are perfectly stamped.", "The exhibition corner is empty with nothing on the walls.", "A visitor is adding a seal to the corner piece."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-260",
+    "imageDescriptionJa": "東京タワーの展望台。外の景色を撮影する人で賑わう中、一人だけ外ではなく、床のガラス張りの部分で足がすくんで動けなくなっている女性。友人が手を引こうとしている。",
+    "audioTexts": ["At Tokyo Tower, a woman is frozen on the glass floor, unable to move, while her friend tries to pull her hand.", "The woman is happily jumping on the glass floor.", "The observation deck is empty and closed for the day.", "She is taking pictures of the view through the window."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-261",
+    "imageDescriptionJa": "旅館の朝の廊下。浴衣に丹前姿の老夫婦。部屋に戻ろうとしているが、左右に並ぶ同じような襖の中で、夫が間違えて隣の部屋の襖を開けかけている。妻が袖を引っ張って制止している。",
+    "audioTexts": ["In a ryokan hallway, a husband in a padded kimono is about to open the wrong room door, but his wife is pulling his sleeve to stop him.", "The couple correctly enters their own room.", "The hallway is empty with no guests in sight.", "The wife is opening the door for her husband."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-262",
+    "imageDescriptionJa": "お花見の公園のゴミ集積所。カラスがゴミ袋を突いているそばに、「ゴミはお持ち帰りください」という看板がある。しかし看板の「ください」の文字の上に、まさにカラスの落とし物が白く付着している。",
+    "audioTexts": ["Near a sign reading 'Please take your trash home,' a crow is pecking at a bag, and the sign itself has white droppings on the word 'please'.", "The garbage area is spotless and the sign is perfectly clean.", "A park ranger is cleaning the sign and chasing the crows.", "The cherry blossom viewing hasn't started and the bins are empty."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-263",
+    "imageDescriptionJa": "画廊のレセプション。ワイングラスを持つ人々が絵を鑑賞している。ギャラリーのオーナーが作者を紹介しようとするが、当の芸術家は端のソファでスナック菓子の袋を開けるのに苦戦し、開封口を間違えて中身を少しぶちまけている。",
+    "audioTexts": ["While the gallery owner tries to introduce him, the artist is struggling on a sofa, having ripped the snack bag the wrong way and spilled some contents.", "The artist is standing next to the owner, greeting guests gracefully.", "The reception has ended and cleaners are vacuuming.", "The snack bag is neatly opened and the artist is eating calmly."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-264",
+    "imageDescriptionJa": "路線バスの車内。つり革につかまる乗客。一人の学生が、イヤホンの片方を落としてしまい、コードがつり革に絡まって取れなくなっている。手を挙げたままの姿勢で困っている。",
+    "audioTexts": ["On a bus, a student's earphone cord got tangled in a hanging strap, and they are stuck with their hand raised.", "The student is listening to music comfortably with both earphones in.", "The bus is empty and the driver is on a break.", "Another passenger is helping the student untangle the cord without difficulty."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-265",
+    "imageDescriptionJa": "パン屋の夕方。売り切れが目立つショーケース。パンくずが少し落ちた空のトレイの隅に、「焼きたて」のシールが一枚だけ貼られたまま残っている。店員は奥で掃除を始めている。",
+    "audioTexts": ["In a nearly empty bakery display case, a 'freshly baked' sticker remains on an otherwise empty tray, while staff starts cleaning in the back.", "The display case is fully stocked with fresh bread.", "Customers are lining up to buy the last remaining loaves.", "The 'freshly baked' sticker is being placed on a new batch of bread."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-266",
+    "imageDescriptionJa": "梅雨のあじさい寺。色とりどりのあじさいが咲く参道。女性が写真を撮ろうとしゃがんだ瞬間、足元のぬかるみにスニーカーが沈み、かかとに泥がはねている。",
+    "audioTexts": ["At a hydrangea temple, a woman crouches to take a photo and her sneaker sinks into the mud, splashing dirt on her heel.", "The woman is taking a perfect photo on a dry stone path.", "The hydrangeas are not yet blooming and the bushes are bare.", "She is wearing rain boots that protect her from the mud."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-267",
+    "imageDescriptionJa": "日本のドラッグストア。外国人観光客が通訳アプリで商品のパッケージを翻訳しようとカメラをかざしているが、認識した単語が「激辛」ではなく「激落ちクン」と誤変換され、画面を見つめて首をかしげている。",
+    "audioTexts": ["A tourist is confused, pointing a translation app at a cleaning product, which mistakenly identifies it as 'super spicy'.", "The app correctly translates the product name as 'stain remover'.", "The drugstore has no foreign tourists and is empty.", "The tourist is asking a store clerk for help reading the label."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-268",
+    "imageDescriptionJa": "お正月の神社。長い参拝の列ができている。巫女が破魔矢を配っているが、一人の男性が受け取った破魔矢の白い矢の部分で、うっかり後ろの人の帽子を突いてしまった。",
+    "audioTexts": ["At a New Year's shrine, a man accidentally pokes the hat of the person behind him with the white arrow of the hamaya he just received.", "The man is holding his hamaya carefully without hitting anyone.", "The shrine is empty before the New Year rush.", "The hat fell off and the man is picking it up for the other person."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-269",
+    "imageDescriptionJa": "図書館の返却ポスト。利用者が本を返却口に入れる瞬間、本に挟んでいたしおりがひらりと手前に落ちた。しかし利用者は気づかず、本だけがポストの中へ消えていく。",
+    "audioTexts": ["As a user drops a book into the return slot, a bookmark slips out and falls to the ground unnoticed.", "The bookmark is safely inside the returned book.", "The library return slot is closed and locked.", "A librarian is catching the bookmark before it falls."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-270",
+    "imageDescriptionJa": "道端の自動販売機。午後の光を受けて缶がキラキラしている。買おうとしているサラリーマンの横で、小学生が背伸びして一番上のボタンを押そうとするが、指が数センチ届かず、ジャンプしている。",
+    "audioTexts": ["A schoolchild is jumping to press the top button of a vending machine, missing by just a few centimeters, watched by a nearby businessman.", "The child successfully presses the button while standing flat on the ground.", "The vending machine has a step stool in front of it.", "The businessman is pressing the button for the child."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-271",
+    "imageDescriptionJa": "大学の文化祭。教室を使った喫茶店で、給仕をするメイド服の学生。お盆にコーヒーカップを乗せて運んでいるが、傾きすぎてソーサーの上でカップが滑っている。彼女は笑顔を保っている。",
+    "audioTexts": ["At a school festival cafe, a student in a maid costume smiles while the coffee cup slides precariously on its saucer.", "She is walking steadily with the coffee cup perfectly still.", "The cafe is closed and the chairs are on the tables.", "The customer is helping stabilize the tray."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-272",
+    "imageDescriptionJa": "サッカーの少年団の試合。ベンチで出番を待つ補欠の少年。ユニフォームを着ているが、スパイクではなくサンダルを履いている。監督がそれを見て何か叫んでいる。",
+    "audioTexts": ["A substitute boy on the bench wears sandals instead of cleats, and the coach is yelling about it.", "The boy is wearing his full uniform including cleats.", "The match is over and the team is doing cool-down exercises.", "The boy is tying the laces of his soccer cleats."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-273",
+    "imageDescriptionJa": "デパートの特設バレンタインチョコ売り場。行列の先頭の女性が、試食のチョコを落としそうになってあわてている。彼女の後ろの女性はそれを見て、落とさないようにすでに両手を受け皿にしている。",
+    "audioTexts": ["At a Valentine's chocolate fair, the first woman in line fumbles a sample, and the woman behind her has already cupped her hands to catch it.", "The woman catches the chocolate sample perfectly in her mouth.", "The chocolate fair is over and the booths are empty.", "She is carefully placing the chocolate into a shopping bag."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-274",
+    "imageDescriptionJa": "秋のハイキングコース。落ち葉で滑りやすい坂道。先頭を歩くリーダーが、濡れた落ち葉で足を滑らせ、両手を広げてバランスを取ろうとしている。後続のメンバーはまだ気づいていない。",
+    "audioTexts": ["The hiking leader slips on wet leaves and windmills his arms to keep balance, while the group behind hasn't noticed yet.", "The leader is walking confidently down the dry, safe trail.", "The hiking group has stopped for a lunch break.", "Someone is helping the leader by holding his backpack."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-275",
+    "imageDescriptionJa": "ゲームセンターのUFOキャッチャー。景品の大きなぬいぐるみを取ろうと奮闘するカップル。アームがぬいぐるみを掴みかけたが、力なく滑った。彼女が「もう一回」と彼の腕を叩いている。",
+    "audioTexts": ["A couple is struggling with a claw machine; the claw slipped off the plush toy, and she is hitting his arm saying 'one more time'.", "The claw machine is successfully lifting the plush toy.", "The game center is closed and all machines are turned off.", "They are walking away holding the prize they won."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-276",
+    "imageDescriptionJa": "回転寿司。レーンを流れる寿司の中に、注文品であることを示す「特急レーン」の皿が混ざっているが、それに気づいた隣の客の子供が、誤ってそれを自分のテーブルに下ろそうとして父親に止められている。",
+    "audioTexts": ["A child spots an express lane order on the conveyor belt and tries to take it, but his father stops him, realizing it's someone else's special order.", "The child correctly takes a plate from the regular lane.", "The express lane has no plates on it.", "The father is encouraging the child to take the special order."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-277",
+    "imageDescriptionJa": "早朝の魚市場。競りが行われている。競り人が独特の掛け声で指値を示している中、見学の外国人観光客の集団の中で一人だけ、競りのリズムに合わせて思わず手が動いてしまい、誤って競り落としそうになっている。",
+    "audioTexts": ["At a fish auction, a foreign tourist inadvertently starts moving his hand rhythmically with the auctioneer, almost winning a bid by accident.", "The tourist is silently filming the auction with a camera.", "The auction has finished and the market is clearing out.", "The tourist correctly makes a bid intentionally."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-278",
+    "imageDescriptionJa": "電車の網棚。誰かの忘れ物らしき紙袋が一つ残っている。その紙袋の底から、飴玉が一粒転がり出て、下の座席に座る乗客の肩に落ちそうになっている。乗客は居眠り中。",
+    "audioTexts": ["A forgotten paper bag on the train rack has a candy rolling out of the bottom, about to land on a sleeping passenger's shoulder.", "The paper bag is securely closed and nothing is falling out.", "The train is empty and at the final station.", "The sleeping passenger is holding the candy in their hand."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-279",
+    "imageDescriptionJa": "お寺の座禅会。参加者が目を閉じて座る中、初心者らしき若者が足のしびれに耐え切れず、こっそり片足を崩した瞬間、警策を持った和尚と目が合ってしまい、気まずそうに視線をそらしている。",
+    "audioTexts": ["At a Zen meditation, a beginner secretly uncrosses his numb leg but makes eye contact with the monk holding the keisaku stick and looks away awkwardly.", "The beginner is sitting perfectly still in full lotus position.", "The meditation hall is empty and bright.", "The monk is gently tapping the beginner's back for posture correction."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-280",
+    "imageDescriptionJa": "新幹線のホーム。出発時刻ギリギリに駆け込む男性。しかし、走りながら上着のポケットから飛び出したスマートフォンが、ホームと車両の隙間に吸い込まれていく瞬間。男性はまだ気づいていない。",
+    "audioTexts": ["A man rushes to catch the Shinkansen, unaware that his smartphone has flown out of his pocket and is falling into the gap between the train and platform.", "The man boards the train calmly with his phone in hand.", "The platform is completely empty.", "A station attendant catches the phone before it falls."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-281",
+    "imageDescriptionJa": "クリスマスのイルミネーション。カップルが写真を撮っている。彼女がポーズを決めるが、シャッターを切る直前に、通りすがりのサンタクロースのコスプレ集団が画面の端を横切り、彼氏が苦笑いしている。",
+    "audioTexts": ["Just as a boyfriend is about to take a photo of his girlfriend in front of Christmas lights, a group in Santa costumes photobombs the edge of the frame, making him grin wryly.", "The photo is taken perfectly with only the girlfriend in frame.", "The illuminations are turned off and the area is dark.", "The Santa group stops and poses formally with the couple."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-282",
+    "imageDescriptionJa": "猫カフェ。膝に猫が乗っている客が多い中、アレルギー持ちの客が一人だけマスクとゴーグルで完全防備し、猫に直接触れずに、遠くから猫じゃらしで距離を保って遊んでいる。",
+    "audioTexts": ["In a cat cafe, one allergic customer, fully masked and goggled, plays with a cat from a distance using a wand toy, avoiding direct contact.", "The allergic customer is cuddling a cat on their lap.", "The cat cafe has no cats and is just a regular cafe.", "The customer is serving drinks to other guests."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-283",
+    "imageDescriptionJa": "通勤電車内。優先席に座っていた若者が、お年寄りが乗車してきたのに気づかずにスマホに夢中になっている。しかし、その若者のリュックのチャックは全開で、中身のノートが見えている。お年寄りは若者ではなく、その開いたリュックを気にしている。",
+    "audioTexts": ["A young man in the priority seat is glued to his phone, unaware that an elderly passenger is more concerned about his fully open backpack than the seat itself.", "The young man stands up to offer his seat immediately.", "The backpack is zipped tightly and secure.", "The train car is empty and the priority seat is unoccupied."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-284",
+    "imageDescriptionJa": "和菓子の工場見学。ガラス越しに職人が練り切りを作っている。見学者の子供がガラスに顔を近づけすぎて、くしゃみをした瞬間にガラスが曇り、職人の繊細な手元が見えなくなってしまった。",
+    "audioTexts": ["A child on a factory tour sneezed so close to the glass that it fogged up, blocking the view of a craftsman making nerikiri.", "The glass is perfectly clear and the view is unobstructed.", "The factory tour hasn't started, and the room is dark.", "The craftsman is waving at the child through the glass."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-285",
+    "imageDescriptionJa": "地方の小さな映画館。窓口でチケットを買う客。一枚だけポップコーンの粒を歯に挟めたまま話している女性。売り場のスタッフはそれを見て笑いをこらえている。",
+    "audioTexts": ["At a small cinema box office, a woman talks with a popcorn kernel stuck near her tooth, and the staff member is trying not to laugh.", "The woman has perfect teeth with nothing stuck in them.", "The cinema is closed and the box office is shuttered.", "The staff member is pointing at the woman's teeth openly laughing."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-286",
+    "imageDescriptionJa": "縁側で昼寝をする猫。日向ぼっこで気持ちよさそうに伸びている。そこに落ち葉がひらりと一枚、猫の鼻の頭に着地。猫がくしゃみをしそうな寸前の顔で固まっている。",
+    "audioTexts": ["A cat on the porch is frozen with a pre-sneeze face because a leaf just landed on its nose.", "The cat is sleeping peacefully with nothing on its nose.", "The porch is empty and there is no cat.", "The cat is playing with the leaf, batting it around."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-287",
+    "imageDescriptionJa": "初日の出を見に来た浜辺。地平線をカメラで狙う人々。一人の男性が、水平線に沈む直前の満月を初日の出と勘違いして「出た！」と叫び、周りに訂正されている。",
+    "audioTexts": ["On a beach for the first sunrise of the year, a man mistakenly yells 'There it is!' at the setting full moon and is corrected by the crowd.", "Everyone correctly identifies the first sunrise of the year.", "The beach is empty with no one watching the horizon.", "The sun is rising exactly where the man is pointing."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-288",
+    "imageDescriptionJa": "バレエのレッスン場。鏡の前でレッスンを受ける子供たち。一番後ろの小さな女の子だけが、先生の動きではなく、鏡に映る自分のチュチュをずっと気にしてスカートをふりふりしている。",
+    "audioTexts": ["During a ballet lesson, one little girl at the back ignores the teacher to watch her own tutu in the mirror and wiggle her skirt.", "All the children perfectly follow the teacher's movements.", "The ballet studio is empty and the lights are off.", "The teacher is fixing the girl's tutu for her."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-289",
+    "imageDescriptionJa": "回転しないレコード。レトロな喫茶店。店主が古いレコードに針を落としたが、盤が回っておらず「プツッ」という音だけが流れる。それに気づかず、カウンターの常連客が気持ちよさそうにうなずいている。",
+    "audioTexts": ["At a retro cafe, the master puts the needle on a record that isn't spinning, making only a click, but a regular at the counter nods along, not realizing.", "The record is spinning and playing music beautifully.", "The cafe is closed and the record player is covered.", "The customer notices the mistake and points at the turntable."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-290",
+    "imageDescriptionJa": "縁日のわたあめ屋。店員がふわふわのわたあめを作っているが、機械から風が強く吹き出しすぎて、わたあめが袋に収まりきらず、店員の髪の毛にわたあめの糸がまとわりついている。",
+    "audioTexts": ["At a cotton candy stall, the machine blows too hard, making the candy fly out of the bag and onto the vendor's hair.", "The cotton candy is perfectly wrapped in its bag.", "The festival is over and the stall is packed up.", "The vendor is eating the cotton candy herself."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-291",
+    "imageDescriptionJa": "寿司桶の出前。お祝いの席で蓋を開けた瞬間、蓋の裏にシャリが一粒くっついて持ち上がる。一同が少し笑う中、主賓だけがそれを厳かに箸で取り、「これもご縁だ」と一言。",
+    "audioTexts": ["When a sushi tub lid is lifted, a single grain of rice sticks to it, and the guest of honor solemnly picks it up with chopsticks, saying 'This is fate too.'", "The sushi tub lid is clean and nothing sticks to it.", "The celebration has been cancelled and the sushi is untouched.", "A child flicks the rice grain away from the lid."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-292",
+    "imageDescriptionJa": "真夏のプール。大勢の子供たちが水しぶきを上げている。監視台のライフガードが、プールサイドで走る子供に笛を吹こうとした瞬間、くしゃみが出て笛が吹けず、代わりに「ハクション！」だけが響く。",
+    "audioTexts": ["A lifeguard is about to blow the whistle at a running child but sneezes instead, leaving a loud 'Achoo!' echoing.", "The lifeguard blows the whistle sharply to stop the child.", "The pool is closed for maintenance and drained.", "The child stops running immediately before the whistle is blown."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-293",
+    "imageDescriptionJa": "大晦日の年越しそば。家族でそばをすする中、祖父が一口すするたびに、そばが一本なかなか切れず、立ち上がって丼を持ち上げないといけないほど長く伸びている。家族は笑顔で見守っている。",
+    "audioTexts": ["On New Year's Eve, grandfather's soba noodle is so long he has to stand up and lift the bowl, watched by his smiling family.", "The grandfather easily eats the soba noodles in short bites.", "The family has finished eating and the table is cleared.", "The soba noodles are perfectly cut into small pieces."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-294",
+    "imageDescriptionJa": "深夜のコンビニ駐車場。若者の集団がたむろしている。彼らの足元に、一匹のノラ猫がすり寄ってきているが、猫が首輪をつけており、迷子札がついていることに一人だけが気づき、屈み込んで確認している。",
+    "audioTexts": ["Among a group hanging out in a convenience store parking lot, only one person notices a stray cat has a collar with an ID tag and crouches to check it.", "The cat has no collar and is completely wild.", "The parking lot is empty and quiet.", "Everyone in the group is petting the cat."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-295",
+    "imageDescriptionJa": "文房具店の試し書きコーナー。ボールペンのインクが切れかけてかすれるものも多い中、一人の男性が全色のペンを全て試し、一枚の紙に「いろはにほへと」を書き分けている。店員が呆れ顔。",
+    "audioTexts": ["A man is testing every single pen color on the test paper, writing calligraphy, while a clerk watches with an exasperated face.", "The man quickly tests one pen and buys it.", "The stationery store is closed and dark.", "The clerk is helping the man choose a pen."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-296",
+    "imageDescriptionJa": "自動改札機。Suicaをかざす通勤客。しかし、鞄の中の他のICカードと干渉したのか、エラー音が鳴る。後ろの長蛇の列から「あー」というため息がもれる。",
+    "audioTexts": ["A commuter's IC card causes an error at the ticket gate, and a collective sigh of 'ahh' comes from the long queue behind.", "The commuter passes through the gate smoothly with no error.", "The ticket gate area is empty with no commuters.", "The queue is patiently waiting in silence with no reaction."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-297",
+    "imageDescriptionJa": "お好み焼き屋の鉄板前。友達同士で焼いている。一人がヘラでひっくり返そうとするが、タイミングが早すぎて生地が半分流れ、ハート型に焼くつもりがアメーバ状になってしまった。",
+    "audioTexts": ["At an okonomiyaki restaurant, a person flips too early, turning their intended heart shape into an amoeba-like mess.", "The okonomiyaki is flipped perfectly and keeps its shape.", "The restaurant is closed and the iron griddle is cold.", "A chef is expertly cooking for the group."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-298",
+    "imageDescriptionJa": "満員バス。立っている高校生のヘッドホンから盛大な音漏れ。隣のサラリーマンが迷惑そうな顔をしているが、その音漏れしている曲のリズムに、反対側の席の小さな子供が楽しそうに体を揺らしている。",
+    "audioTexts": ["On a crowded bus, music leaks from a student's headphones, annoying a businessman, but a child on the other side is happily swaying to the beat.", "The student's headphones have no sound leakage.", "The bus is empty and silent.", "The businessman is asking the student to turn down the music."],
+    "correctIndex": 0
+  },
+  {
+    "id": "p1-299",
+    "imageDescriptionJa": "夏の甲子園。スタンドで母校を応援するOBの一群。必死にメガホンを叩くが、一人だけ力が入りすぎてメガホンを叩き割ってしまい、破片が前の席の観客の背中に落ちている。",
+    "audioTexts": ["At Koshien stadium, an alumnus hits his megaphone so hard it breaks, and pieces fall onto the spectator in front.", "The alumnus is waving a perfectly intact megaphone.", "The stadium is empty and the game is over.", "The alumni group is sitting silently, not cheering."],
+    "correctIndex": 0
+  }
+]
 }

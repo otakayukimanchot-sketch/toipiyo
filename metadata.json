@@ -1,5 +1,6 @@
 {
   "name": "といぴよ",
   "description": "毎日Part1〜7を1問ずつ解くTOEIC学習アプリ",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": []
 }

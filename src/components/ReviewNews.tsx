@@ -27,7 +27,7 @@ const ReviewNews: React.FC<ReviewNewsProps> = ({ items, onItemClick }) => {
         </h3>
       </div>
 
-      <div className="bg-gray-50 rounded-3xl border border-gray-100 overflow-hidden divide-y divide-gray-100">
+      <div className="bg-gray-50 dark:bg-slate-800 rounded-3xl border border-gray-100 dark:border-slate-700 overflow-hidden divide-y divide-gray-100 dark:divide-slate-700">
         {items.slice(0, 3).map((item, index) => (
           <motion.button
             key={item.id}
@@ -35,27 +35,27 @@ const ReviewNews: React.FC<ReviewNewsProps> = ({ items, onItemClick }) => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: index * 0.1 }}
             onClick={() => onItemClick(item)}
-            className="w-full p-4 flex items-start text-left hover:bg-gray-100 transition-colors group"
+            className="w-full p-4 flex items-start text-left hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors group"
           >
             <div className={`shrink-0 w-8 h-8 rounded-xl flex items-center justify-center text-[10px] font-black mr-3 ${
-              item.question.part <= 4 ? "bg-blue-100 text-blue-600" : "bg-orange-100 text-orange-600"
+              item.question.part <= 4 ? "bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400" : "bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400"
             }`}>
               P{item.question.part}
             </div>
             <div className="flex-1 min-w-0">
-              <p className="text-xs font-bold text-gray-800 line-clamp-1 group-hover:text-blue-600">
+              <p className="text-xs font-bold text-gray-800 dark:text-slate-200 line-clamp-1 group-hover:text-blue-600 dark:group-hover:text-blue-400">
                 {item.question.text || item.question.imageDescriptionJa || "リスニング問題の復習"}
               </p>
-              <p className="text-[10px] text-gray-400 mt-0.5">
+              <p className="text-[10px] text-gray-400 dark:text-slate-500 mt-0.5">
                 {new Date(item.timestamp).toLocaleDateString("ja-JP")} にミス
               </p>
             </div>
-            <ChevronRight size={16} className="text-gray-300 group-hover:text-blue-500 transition-colors self-center ml-2" />
+            <ChevronRight size={16} className="text-gray-300 dark:text-slate-600 group-hover:text-blue-500 dark:group-hover:text-blue-400 transition-colors self-center ml-2" />
           </motion.button>
         ))}
         {items.length > 3 && (
-          <div className="p-3 bg-gray-100/50 text-center">
-            <p className="text-[10px] font-bold text-gray-400">
+          <div className="p-3 bg-gray-100/50 dark:bg-slate-800/50 text-center">
+            <p className="text-[10px] font-bold text-gray-400 dark:text-slate-500">
               他にも {items.length - 3} 件の復習項目があります
             </p>
           </div>

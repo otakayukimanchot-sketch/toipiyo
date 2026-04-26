@@ -1207,5 +1207,1105 @@
       { "id": "p6-110-q3", "questionText": "[3]", "options": ["cause", "caused", "causing", "causes"], "correctIndex": 0 },
       { "id": "p6-110-q4", "questionText": "[4]", "options": ["bearing", "bear", "borne", "bears"], "correctIndex": 0 }
     ]
+  },
+  {
+    "id": "p6-111",
+    "part": 6,
+    "text": "Dear Valued Customer, We regret to inform you that due to unforeseen supply chain disruptions, the launch of our latest product has been postponed indefinitely. [1] _______, we had anticipated a smooth rollout following the successful beta phase. [2] _______, a critical component shortage has forced us to re-evaluate our timelines. We are diligently working to mitigate this issue and [3] _______ you updated on our progress. We understand this delay may cause frustration, and we ask for your [4] _______ as we navigate these challenges.",
+    "subQuestions": [
+      { "id": "p6-111-q1", "questionText": "[1]", "options": ["Nevertheless", "Initially", "Conversely", "In contrast"], "correctIndex": 1 },
+      { "id": "p6-111-q2", "questionText": "[2]", "options": ["For example", "On the other hand", "However", "Subsequently"], "correctIndex": 2 },
+      { "id": "p6-111-q3", "questionText": "[3]", "options": ["keeping", "keep", "will keep", "have kept"], "correctIndex": 1 },
+      { "id": "p6-111-q4", "questionText": "[4]", "options": ["patience", "patient", "patiently", "impatient"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-112",
+    "part": 6,
+    "text": "To All Employees, As part of our commitment to corporate sustainability, we are implementing a new remote-work policy. [1] _______, this initiative aims to reduce our carbon footprint and improve work-life balance. [2] _______, it will require a significant adjustment in how we communicate and collaborate. [3] ______ employees will need to demonstrate greater autonomy and digital literacy. Your department heads will provide detailed guidelines, and we [4] _______ you to embrace this transition.",
+    "subQuestions": [
+      { "id": "p6-112-q1", "questionText": "[1]", "options": ["Furthermore", "In essence", "Nevertheless", "On the contrary"], "correctIndex": 1 },
+      { "id": "p6-112-q2", "questionText": "[2]", "options": ["Admittedly", "For instance", "In contrast", "As a result"], "correctIndex": 0 },
+      { "id": "p6-112-q3", "questionText": "[3]", "options": ["Consequently", "Otherwise", "Similarly", "In other words"], "correctIndex": 0 },
+      { "id": "p6-112-q4", "questionText": "[4]", "options": ["encourage", "discourage", "enforce", "prohibit"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-113",
+    "part": 6,
+    "text": "Dear Conference Attendees, We are delighted to welcome you to the 15th Annual Tech Summit. [1] _______ the keynote address begins at 9:00 AM sharp, we recommend arriving early to complete registration. [2] _______, there will be a networking session following the opening remarks. [3] _______ the remarkable turnout, we have had to relocate some breakout sessions to the adjacent hall. Please consult the revised agenda which has been [4] _______ to your welcome packet.",
+    "subQuestions": [
+      { "id": "p6-113-q1", "questionText": "[1]", "options": ["Although", "While", "Since", "Unless"], "correctIndex": 2 },
+      { "id": "p6-113-q2", "questionText": "[2]", "options": ["Nevertheless", "Furthermore", "In contrast", "As a result"], "correctIndex": 1 },
+      { "id": "p6-113-q3", "questionText": "[3]", "options": ["In spite of", "Due to", "Regardless of", "In light of"], "correctIndex": 1 },
+      { "id": "p6-113-q4", "questionText": "[4]", "options": ["appended", "assessed", "asserted", "assumed"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-114",
+    "part": 6,
+    "text": "Dear Scholarship Applicant, The selection committee has thoroughly reviewed your submission. [1] _______, your academic record is impeccable and your extracurricular involvement is commendable. [2] _______, we find your personal statement lacking the specific depth required. [3] _______, we are placing your application on hold pending a revised essay. We urge you to [4] _______ this opportunity to strengthen your candidacy.",
+    "subQuestions": [
+      { "id": "p6-114-q1", "questionText": "[1]", "options": ["On the one hand", "Consequently", "Otherwise", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-114-q2", "questionText": "[2]", "options": ["Nevertheless", "For example", "Similarly", "Furthermore"], "correctIndex": 0 },
+      { "id": "p6-114-q3", "questionText": "[3]", "options": ["Otherwise", "Therefore", "In addition", "For instance"], "correctIndex": 1 },
+      { "id": "p6-114-q4", "questionText": "[4]", "options": ["seize", "cease", "release", "decrease"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-115",
+    "part": 6,
+    "text": "Dear Valued Subscriber, Our records indicate that your payment method on file has expired. [1] _______, we were unable to process your monthly subscription fee. [2] _______, your access to premium content will be temporarily restricted. [3] _______ this issue is resolved, you will not be able to stream live events. We kindly request that you update your billing information at your earliest convenience to [4] _______ any interruption in service.",
+    "subQuestions": [
+      { "id": "p6-115-q1", "questionText": "[1]", "options": ["Consequently", "For instance", "Similarly", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-115-q2", "questionText": "[2]", "options": ["In addition", "Until now", "In the meantime", "Conversely"], "correctIndex": 2 },
+      { "id": "p6-115-q3", "questionText": "[3]", "options": ["While", "Unless", "Because", "Although"], "correctIndex": 1 },
+      { "id": "p6-115-q4", "questionText": "[4]", "options": ["avert", "assert", "attain", "assume"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-116",
+    "part": 6,
+    "text": "To the Project Team, The client has expressed reservations about our proposed timeline. [1] _______, they feel the development phase is too compressed to ensure quality control. [2] _______, we must present a revised schedule that allows for more rigorous testing. [3] _______, we should also anticipate a potential negotiation regarding the project's scope. Please prepare your respective reports and ensure they are [4] _______ by Friday.",
+    "subQuestions": [
+      { "id": "p6-116-q1", "questionText": "[1]", "options": ["Specifically", "Vaguely", "Indifferently", "Enthusiastically"], "correctIndex": 0 },
+      { "id": "p6-116-q2", "questionText": "[2]", "options": ["Otherwise", "Conversely", "Hence", "Nonetheless"], "correctIndex": 2 },
+      { "id": "p6-116-q3", "questionText": "[3]", "options": ["Furthermore", "On the contrary", "In other words", "By contrast"], "correctIndex": 0 },
+      { "id": "p6-116-q4", "questionText": "[4]", "options": ["submitted", "surrendered", "subjected", "suppressed"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-117",
+    "part": 6,
+    "text": "Dear Patients, We are writing to inform you that Dr. Everett will be retiring next month. [1] _______, his last day of practice will be the 30th. [2] _______, we have arranged for a highly qualified physician, Dr. Owusu, to assume his caseload. [3] _______ you may feel a sense of loss, rest assured that your care will remain our top priority. We are deeply grateful for the trust you have [4] _______ in our practice.",
+    "subQuestions": [
+      { "id": "p6-117-q1", "questionText": "[1]", "options": ["Accordingly", "Otherwise", "On the contrary", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-117-q2", "questionText": "[2]", "options": ["Nevertheless", "Simultaneously", "However", "Subsequently"], "correctIndex": 1 },
+      { "id": "p6-117-q3", "questionText": "[3]", "options": ["Because", "Although", "Whereas", "Unless"], "correctIndex": 1 },
+      { "id": "p6-117-q4", "questionText": "[4]", "options": ["placed", "invested", "believed", "deposited"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-118",
+    "part": 6,
+    "text": "Dear Faculty Members, The library renovation is now complete. [1] _______, the quiet study area has been expanded to accommodate 100 additional students. [2] _______, a new digital media lab has been added on the second floor. [3] _______, these improvements were made possible by a generous alumni donation. We ask that you encourage your students to [4] _______ the noise regulations strictly.",
+    "subQuestions": [
+      { "id": "p6-118-q1", "questionText": "[1]", "options": ["As a result", "For instance", "In spite of this", "Nevertheless"], "correctIndex": 1 },
+      { "id": "p6-118-q2", "questionText": "[2]", "options": ["In addition", "Conversely", "On the other hand", "Consequently"], "correctIndex": 0 },
+      { "id": "p6-118-q3", "questionText": "[3]", "options": ["Frankly", "Incredibly", "Inevitably", "Undoubtedly"], "correctIndex": 0 },
+      { "id": "p6-118-q4", "questionText": "[4]", "options": ["observe", "abolish", "neglect", "modify"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-119",
+    "part": 6,
+    "text": "To Our Valued Patrons, Given the recent surge in demand, we have decided to extend our operating hours. [1] _______, the restaurant will now open for breakfast service at 7:00 AM. [2] _______, we will continue to close at 10:00 PM. [3] _______ the change, our commitment to using fresh, locally sourced ingredients remains unchanged. We look forward to [4] _______ you a wider array of dining experiences.",
+    "subQuestions": [
+      { "id": "p6-119-q1", "questionText": "[1]", "options": ["Nevertheless", "Specifically", "In contrast", "Conversely"], "correctIndex": 1 },
+      { "id": "p6-119-q2", "questionText": "[2]", "options": ["Otherwise", "Eventually", "However", "Similarly"], "correctIndex": 2 },
+      { "id": "p6-119-q3", "questionText": "[3]", "options": ["Despite", "Due to", "Because of", "Owing to"], "correctIndex": 0 },
+      { "id": "p6-119-q4", "questionText": "[4]", "options": ["offering", "offend", "offset", "offload"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-120",
+    "part": 6,
+    "text": "Dear Event Coordinator, The venue inspection has revealed several safety code violations. [1] _______, the emergency exits are obstructed and the fire extinguishers are outdated. [2] _______, we are unable to issue the required permit for your event. [3] _______ these issues are rectified, the permit will remain suspended. Please coordinate with the facilities manager immediately to [4] _______ compliance.",
+    "subQuestions": [
+      { "id": "p6-120-q1", "questionText": "[1]", "options": ["Specifically", "Broadly", "Theoretically", "Surprisingly"], "correctIndex": 0 },
+      { "id": "p6-120-q2", "questionText": "[2]", "options": ["Furthermore", "Otherwise", "Consequently", "Nevertheless"], "correctIndex": 2 },
+      { "id": "p6-120-q3", "questionText": "[3]", "options": ["Once", "Unless", "Although", "Because"], "correctIndex": 1 },
+      { "id": "p6-120-q4", "questionText": "[4]", "options": ["ensure", "assure", "insure", "endure"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-121",
+    "part": 6,
+    "text": "To the Marketing Department, The latest campaign has underperformed significantly. [1] _______, the click-through rates are down 15% compared to the last quarter. [2] _______, brand awareness has remained stagnant. [3] _______, we need a radical shift in strategy rather than minor adjustments. I expect a comprehensive report analyzing these deficiencies to be [4] _______ on my desk by Monday.",
+    "subQuestions": [
+      { "id": "p6-121-q1", "questionText": "[1]", "options": ["For instance", "On the contrary", "In summary", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-121-q2", "questionText": "[2]", "options": ["Consequently", "Specifically", "Similarly", "In addition"], "correctIndex": 3 },
+      { "id": "p6-121-q3", "questionText": "[3]", "options": ["Clearly", "Vaguely", "Reluctantly", "Randomly"], "correctIndex": 0 },
+      { "id": "p6-121-q4", "questionText": "[4]", "options": ["delivered", "abandoned", "postponed", "withheld"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-122",
+    "part": 6,
+    "text": "Dear Shareholders, The board has voted unanimously against the proposed merger. [1] _______, the financial risks were deemed too substantial relative to the projected gains. [2] _______, the cultural integration of the two firms would have been problematic. [3] _______, we have decided to focus on organic growth for the foreseeable future. We [4] _______ our decision is in the best long-term interest of the company.",
+    "subQuestions": [
+      { "id": "p6-122-q1", "questionText": "[1]", "options": ["Essentially", "Consequently", "Conversely", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-122-q2", "questionText": "[2]", "options": ["In contrast", "Moreover", "Otherwise", "Meanwhile"], "correctIndex": 1 },
+      { "id": "p6-122-q3", "questionText": "[3]", "options": ["Regardless", "On the contrary", "For instance", "Thus"], "correctIndex": 3 },
+      { "id": "p6-122-q4", "questionText": "[4]", "options": ["maintain", "abandon", "suspect", "dispute"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-123",
+    "part": 6,
+    "text": "Dear Research Team, The grant application deadline has been moved forward by two weeks. [1] _______, we must accelerate our literature review process. [2] _______, the principal investigator will be out of the country next week. [3] _______, we need to finalize the core hypothesis by tomorrow. I understand the pressure this creates, but your commitment to [4] _______ obstacles has always been commendable.",
+    "subQuestions": [
+      { "id": "p6-123-q1", "questionText": "[1]", "options": ["Nonetheless", "Consequently", "Conversely", "Otherwise"], "correctIndex": 1 },
+      { "id": "p6-123-q2", "questionText": "[2]", "options": ["For instance", "Nevertheless", "To complicate matters", "In contrast"], "correctIndex": 2 },
+      { "id": "p6-123-q3", "questionText": "[3]", "options": ["Therefore", "Otherwise", "Similarly", "Although"], "correctIndex": 0 },
+      { "id": "p6-123-q4", "questionText": "[4]", "options": ["surmounting", "creating", "avoiding", "discussing"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-124",
+    "part": 6,
+    "text": "Dear Valued Customer, We are writing to inform you about a price adjustment for our services. [1] _______, this decision was not taken lightly. [2] _______, rising operational costs have necessitated this increase. [3] _______, we have enhanced our service package to include priority support at no extra charge. We hope you recognize the added value and continue to [4] _______ on us for your needs.",
+    "subQuestions": [
+      { "id": "p6-124-q1", "questionText": "[1]", "options": ["Furthermore", "Nevertheless", "For instance", "Admittedly"], "correctIndex": 3 },
+      { "id": "p6-124-q2", "questionText": "[2]", "options": ["In contrast", "Conversely", "However", "In essence"], "correctIndex": 2 },
+      { "id": "p6-124-q3", "questionText": "[3]", "options": ["By comparison", "To offset this", "On the other hand", "As a result"], "correctIndex": 1 },
+      { "id": "p6-124-q4", "questionText": "[4]", "options": ["rely", "report", "refund", "resist"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-125",
+    "part": 6,
+    "text": "To All Department Heads, The annual budget review will be held next quarter. [1] _______, you are required to submit your preliminary expenditure reports by the end of this month. [2] _______, any capital expenditure exceeding $10,000 must be pre-approved by the finance committee. [3] _______ our current fiscal stability, we must remain vigilant against unnecessary spending. Please ensure your teams are [4] _______ of these constraints.",
+    "subQuestions": [
+      { "id": "p6-125-q1", "questionText": "[1]", "options": ["In preparation", "In contrast", "As a result", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-125-q2", "questionText": "[2]", "options": ["Similarly", "Nonetheless", "Furthermore", "Otherwise"], "correctIndex": 2 },
+      { "id": "p6-125-q3", "questionText": "[3]", "options": ["Owing to", "Despite", "In addition to", "For lack of"], "correctIndex": 1 },
+      { "id": "p6-125-q4", "questionText": "[4]", "options": ["apprised", "deprived", "comprised", "surprised"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-126",
+    "part": 6,
+    "text": "Dear Citizens, The City Council is proposing a new zoning ordinance. [1] _______, this law would limit the height of new residential buildings to four stories. [2] _______, it aims to preserve the historical character of our neighborhoods. [3] _______, critics argue it may discourage essential urban development. We encourage all residents to [4] _______ the public hearing next Tuesday to voice your opinions.",
+    "subQuestions": [
+      { "id": "p6-126-q1", "questionText": "[1]", "options": ["Essentially", "Conversely", "By contrast", "Nonetheless"], "correctIndex": 0 },
+      { "id": "p6-126-q2", "questionText": "[2]", "options": ["In theory", "On the contrary", "Thus", "Otherwise"], "correctIndex": 0 },
+      { "id": "p6-126-q3", "questionText": "[3]", "options": ["Similarly", "Furthermore", "However", "Consequently"], "correctIndex": 2 },
+      { "id": "p6-126-q4", "questionText": "[4]", "options": ["attend", "boycott", "disregard", "postpone"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-127",
+    "part": 6,
+    "text": "To Our Staff, As you know, the company is navigating a difficult merger. [1] _______, redundancies are inevitable. [2] _______, we are committed to providing comprehensive outplacement services and severance packages to all affected employees. [3] _______ the uncertainty, we urge you to maintain your professionalism and productivity. We will [4] _______ all questions during the town hall meeting on Friday.",
+    "subQuestions": [
+      { "id": "p6-127-q1", "questionText": "[1]", "options": ["Consequently", "Otherwise", "Conversely", "On the contrary"], "correctIndex": 0 },
+      { "id": "p6-127-q2", "questionText": "[2]", "options": ["Furthermore", "Nevertheless", "For instance", "Similarly"], "correctIndex": 1 },
+      { "id": "p6-127-q3", "questionText": "[3]", "options": ["Owing to", "Despite", "Due to", "Because of"], "correctIndex": 1 },
+      { "id": "p6-127-q4", "questionText": "[4]", "options": ["address", "avoid", "suppress", "dismiss"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-128",
+    "part": 6,
+    "text": "Dear Valued Client, We are pleased to announce the acquisition of a boutique design firm. [1] _______, we can now offer in-house creative services. [2] _______, this eliminates the need for third-party contractors. [3] _______, our clients will benefit from a faster turnaround time and more integrated solutions. We [4] _______ you to experience the synergy this brings.",
+    "subQuestions": [
+      { "id": "p6-128-q1", "questionText": "[1]", "options": ["Consequently", "Conversely", "On the contrary", "Otherwise"], "correctIndex": 0 },
+      { "id": "p6-128-q2", "questionText": "[2]", "options": ["In other words", "In contrast", "Moreover", "Nevertheless"], "correctIndex": 2 },
+      { "id": "p6-128-q3", "questionText": "[3]", "options": ["By contrast", "As a result", "On the other hand", "For instance"], "correctIndex": 1 },
+      { "id": "p6-128-q4", "questionText": "[4]", "options": ["invite", "challenge", "dare", "forbid"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-129",
+    "part": 6,
+    "text": "Dear Students, The university has decided to revise the core curriculum starting next fall. [1] _______, statistics will become a mandatory course for all freshmen. [2] _______, the foreign language requirement has been waived for engineering majors. [3] _______ these changes, the total number of credits needed for graduation remain constant. Please consult with your academic advisor to ensure your course plan [4] _______ compliant.",
+    "subQuestions": [
+      { "id": "p6-129-q1", "questionText": "[1]", "options": ["Specifically", "Conversely", "Similarly", "Consequently"], "correctIndex": 0 },
+      { "id": "p6-129-q2", "questionText": "[2]", "options": ["Nevertheless", "Furthermore", "In contrast", "As a result"], "correctIndex": 2 },
+      { "id": "p6-129-q3", "questionText": "[3]", "options": ["Despite", "Due to", "Besides", "Along with"], "correctIndex": 0 },
+      { "id": "p6-129-q4", "questionText": "[4]", "options": ["remains", "remained", "will remain", "remaining"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-130",
+    "part": 6,
+    "text": "Dear Subscribers, Our streaming platform will be undergoing essential server maintenance. [1] _______, the service will be offline from 2:00 AM to 6:00 AM EST. [2] _______, any downloads or bookmarks created during this window may not sync properly. [3] _______ we regret any disruption, this upgrade is necessary to deliver higher quality 4K streams. Please [4] _______ our status page for real-time updates.",
+    "subQuestions": [
+      { "id": "p6-130-q1", "questionText": "[1]", "options": ["During which time", "As a result of which", "In contrast to which", "By means of which"], "correctIndex": 0 },
+      { "id": "p6-130-q2", "questionText": "[2]", "options": ["Similarly", "Additionally", "Nevertheless", "Consequently"], "correctIndex": 1 },
+      { "id": "p6-130-q3", "questionText": "[3]", "options": ["Because", "Unless", "Although", "While"], "correctIndex": 2 },
+      { "id": "p6-130-q4", "questionText": "[4]", "options": ["monitor", "neglect", "abandon", "reject"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-131",
+    "part": 6,
+    "text": "Dear Employees, The annual compliance training must be completed by all staff. [1] _______, failure to complete the modules by the deadline will result in a temporary suspension of system access. [2] _______, the training is mandatory for contractors as well as full-time staff. [3] _______, the modules have been streamlined this year and should take no more than two hours. We appreciate your diligence in [4] _______ to these standards.",
+    "subQuestions": [
+      { "id": "p6-131-q1", "questionText": "[1]", "options": ["Be that as it may", "For example", "In other words", "To clarify"], "correctIndex": 1 },
+      { "id": "p6-131-q2", "questionText": "[2]", "options": ["In contrast", "Furthermore", "Subsequently", "Consequently"], "correctIndex": 1 },
+      { "id": "p6-131-q3", "questionText": "[3]", "options": ["Moreover", "Conversely", "Nevertheless", "On the bright side"], "correctIndex": 3 },
+      { "id": "p6-131-q4", "questionText": "[4]", "options": ["adhering", "objecting", "resigning", "deviating"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-132",
+    "part": 6,
+    "text": "Dear Travelers, Your itinerary has been updated due to a gate change. [1] _______, Flight 749 to Denver will now depart from Gate C22. [2] _______, the departure time has been pushed back by 40 minutes. [3] _______, we recommend you proceed to the new gate immediately to allow ample time for boarding. We apologize for any inconvenience this may [4] _______.",
+    "subQuestions": [
+      { "id": "p6-132-q1", "questionText": "[1]", "options": ["Specifically", "Conversely", "Ironically", "Subsequently"], "correctIndex": 0 },
+      { "id": "p6-132-q2", "questionText": "[2]", "options": ["As a result", "For instance", "Moreover", "Nevertheless"], "correctIndex": 2 },
+      { "id": "p6-132-q3", "questionText": "[3]", "options": ["Unless", "Whereas", "Although", "Therefore"], "correctIndex": 3 },
+      { "id": "p6-132-q4", "questionText": "[4]", "options": ["cause", "pose", "inflict", "infuse"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-133",
+    "part": 6,
+    "text": "To Our Esteemed Faculty, The board of trustees has voted to increase the endowment for research fellowships. [1] _______, we will be able to fund five additional post-doctoral positions next semester. [2] _______, this represents the largest single investment in research in the university's history. [3] _______, the application process will be highly competitive, and we urge interested departments to prepare their proposals meticulously. [4] _______ diligence will be the deciding factor.",
+    "subQuestions": [
+      { "id": "p6-133-q1", "questionText": "[1]", "options": ["Consequently", "Conversely", "Nevertheless", "On the contrary"], "correctIndex": 0 },
+      { "id": "p6-133-q2", "questionText": "[2]", "options": ["In contrast", "In fact", "In other words", "In time"], "correctIndex": 1 },
+      { "id": "p6-133-q3", "questionText": "[3]", "options": ["Nevertheless", "Furthermore", "Subsequently", "Conversely"], "correctIndex": 0 },
+      { "id": "p6-133-q4", "questionText": "[4]", "options": ["Due", "Such", "Owing", "Without"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-134",
+    "part": 6,
+    "text": "Dear Tenants, The building's fire alarm system will be tested this Friday. [1] _______, you may hear intermittent alarms sounding between 10:00 AM and noon. [2] _______, please do not evacuate the building unless the alarm sounds continuously for more than 60 seconds. [3] _______, a false evacuation could disrupt the test. We appreciate your patience in this [4] _______.",
+    "subQuestions": [
+      { "id": "p6-134-q1", "questionText": "[1]", "options": ["As a result", "For instance", "Similarly", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-134-q2", "questionText": "[2]", "options": ["In this case", "On the contrary", "In the meantime", "By contrast"], "correctIndex": 0 },
+      { "id": "p6-134-q3", "questionText": "[3]", "options": ["Conversely", "Moreover", "Otherwise", "Likewise"], "correctIndex": 2 },
+      { "id": "p6-134-q4", "questionText": "[4]", "options": ["matter", "regard", "regards", "matters"], "correctIndex": 1 }
+    ]
+  },
+  {
+    "id": "p6-135",
+    "part": 6,
+    "text": "Dear Volunteers, The charity gala is just three weeks away. [1] _______, we still need to fill several key roles. [2] _______, the silent auction coordinator position remains vacant. [3] _______ we do not urgently find a replacement, we may have to cancel this segment of the evening. Please review the sign-up sheet and commit to a role that [4] _______ your skills.",
+    "subQuestions": [
+      { "id": "p6-135-q1", "questionText": "[1]", "options": ["Nevertheless", "Similarly", "Consequently", "For example"], "correctIndex": 0 },
+      { "id": "p6-135-q2", "questionText": "[2]", "options": ["Specifically", "Broadly", "Conversely", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-135-q3", "questionText": "[3]", "options": ["Because", "If", "Though", "Whereas"], "correctIndex": 1 },
+      { "id": "p6-135-q4", "questionText": "[4]", "options": ["suits", "sues", "suites", "sweets"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-136",
+    "part": 6,
+    "text": "Dear Policyholders, We are writing to clarify the terms of your coverage. [1] _______, natural disasters are not covered under your standard home insurance plan. [2] _______, you must purchase a separate rider for flood or earthquake protection. [3] _______, you have neglected to do so, you are at significant financial risk. We strongly urge you to review your policy and consider [4] _______ your coverage.",
+    "subQuestions": [
+      { "id": "p6-136-q1", "questionText": "[1]", "options": ["To clarify", "In addition", "On the contrary", "As a result"], "correctIndex": 0 },
+      { "id": "p6-136-q2", "questionText": "[2]", "options": ["Similarly", "Subsequently", "Nevertheless", "Consequently"], "correctIndex": 3 },
+      { "id": "p6-136-q3", "questionText": "[3]", "options": ["Unless", "If", "Although", "Whereas"], "correctIndex": 1 },
+      { "id": "p6-136-q4", "questionText": "[4]", "options": ["augmenting", "abolishing", "abandoning", "annulling"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-137",
+    "part": 6,
+    "text": "Dear Members, The board has decided to renovate the clubhouse. [1] _______, the facilities will be closed for the month of August. [2] _______, the swimming pool and tennis courts will remain accessible. [3] _______ the construction noise, we believe the long-term benefits will outweigh the temporary inconvenience. We [4] _______ for your understanding.",
+    "subQuestions": [
+      { "id": "p6-137-q1", "questionText": "[1]", "options": ["Nevertheless", "Conversely", "Accordingly", "On the contrary"], "correctIndex": 2 },
+      { "id": "p6-137-q2", "questionText": "[2]", "options": ["In addition", "Similarly", "Nevertheless", "For instance"], "correctIndex": 2 },
+      { "id": "p6-137-q3", "questionText": "[3]", "options": ["Because of", "Despite", "Due to", "Since"], "correctIndex": 1 },
+      { "id": "p6-137-q4", "questionText": "[4]", "options": ["plead", "appeal", "request", "demand"], "correctIndex": 1 }
+    ]
+  },
+  {
+    "id": "p6-138",
+    "part": 6,
+    "text": "Dear Editors, The manuscript you submitted has been conditionally accepted. [1] _______, the reviewers noted that the methodology section lacks sufficient detail. [2] _______, they praised the statistical analysis as groundbreaking. [3] _______, we require you to submit a revised version addressing the methodological concerns within six weeks. We are confident you can [4] _______ these moderate revisions.",
+    "subQuestions": [
+      { "id": "p6-138-q1", "questionText": "[1]", "options": ["Subsequently", "Nevertheless", "Specifically", "Conversely"], "correctIndex": 1 },
+      { "id": "p6-138-q2", "questionText": "[2]", "options": ["On the other hand", "Moreover", "Consequently", "Similarly"], "correctIndex": 0 },
+      { "id": "p6-138-q3", "questionText": "[3]", "options": ["Furthermore", "Otherwise", "Hence", "However"], "correctIndex": 2 },
+      { "id": "p6-138-q4", "questionText": "[4]", "options": ["execute", "prosecute", "persecute", "institute"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-139",
+    "part": 6,
+    "text": "Dear Valued Member, Your loyalty points balance will expire at the end of this quarter. [1] _______, you have accumulated 15,000 points that can be redeemed for merchandise or travel vouchers. [2] _______, these points cannot be transferred to another account. [3] _______, we recommend logging into your portal immediately to explore the redemption catalog. This is your final opportunity to [4] _______ on this benefit.",
+    "subQuestions": [
+      { "id": "p6-139-q1", "questionText": "[1]", "options": ["Nevertheless", "To date", "In contrast", "On the other hand"], "correctIndex": 1 },
+      { "id": "p6-139-q2", "questionText": "[2]", "options": ["In other words", "Similarly", "Furthermore", "However"], "correctIndex": 3 },
+      { "id": "p6-139-q3", "questionText": "[3]", "options": ["Therefore", "Otherwise", "Whereas", "Because"], "correctIndex": 0 },
+      { "id": "p6-139-q4", "questionText": "[4]", "options": ["capitalize", "capitulate", "categorize", "catapult"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-140",
+    "part": 6,
+    "text": "Dear Team Leads, The quarterly earnings report is due next week. [1] _______, we ask that all data be verified and submitted to the finance department by Thursday. [2] _______, any discrepancies found after submission will be your sole responsibility. [3] _______ the tight deadline, the C-suite expects flawless accuracy. We are counting on your meticulous oversight to [4] _______ the integrity of our report.",
+    "subQuestions": [
+      { "id": "p6-140-q1", "questionText": "[1]", "options": ["Conversely", "Otherwise", "Specifically", "In the interest of"], "correctIndex": 3 },
+      { "id": "p6-140-q2", "questionText": "[2]", "options": ["Nevertheless", "Be advised that", "In contrast", "For example"], "correctIndex": 1 },
+      { "id": "p6-140-q3", "questionText": "[3]", "options": ["Despite", "Because of", "Due to", "Owing to"], "correctIndex": 0 },
+      { "id": "p6-140-q4", "questionText": "[4]", "options": ["uphold", "downgrade", "dismiss", "overlook"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-141",
+    "part": 6,
+    "text": "Dear Patient, Your latest bloodwork has revealed slightly elevated cholesterol levels. [1] _______, your physician does not believe medication is necessary at this stage. [2] _______, she strongly recommends dietary changes and increased exercise. [3] _______, you should schedule a follow-up appointment in three months. We encourage you to view this as a manageable [4] _______ rather than a cause for alarm.",
+    "subQuestions": [
+      { "id": "p6-141-q1", "questionText": "[1]", "options": ["Consequently", "Nevertheless", "Similarly", "For example"], "correctIndex": 1 },
+      { "id": "p6-141-q2", "questionText": "[2]", "options": ["In contrast", "Otherwise", "Instead", "In addition"], "correctIndex": 2 },
+      { "id": "p6-141-q3", "questionText": "[3]", "options": ["Therefore", "Unless", "Although", "Whereas"], "correctIndex": 0 },
+      { "id": "p6-141-q4", "questionText": "[4]", "options": ["setback", "breakthrough", "controversy", "catastrophe"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-142",
+    "part": 6,
+    "text": "To the Logistics Team, We have secured a new freight contract. [1] _______, shipping costs for the Eastern corridor will decrease by 7%. [2] _______, transit times will be reduced by two business days. [3] _______, the new partner has a strict weight limit per pallet. Please update the inventory manifest to ensure all pallets are [4] _______ with these weight restrictions.",
+    "subQuestions": [
+      { "id": "p6-142-q1", "questionText": "[1]", "options": ["Nevertheless", "On the contrary", "As a result", "For instance"], "correctIndex": 2 },
+      { "id": "p6-142-q2", "questionText": "[2]", "options": ["Moreover", "Conversely", "Therefore", "However"], "correctIndex": 0 },
+      { "id": "p6-142-q3", "questionText": "[3]", "options": ["Furthermore", "Consequently", "On the flip side", "In contrast"], "correctIndex": 2 },
+      { "id": "p6-142-q4", "questionText": "[4]", "options": ["compliant", "resistant", "defiant", "ignorant"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-143",
+    "part": 6,
+    "text": "Dear Parents, The school board has voted to adopt a new mathematics curriculum. [1] _______, students will transition from memorization-based learning to conceptual problem solving. [2] _______, this may initially result in lower test scores as students adapt. [3] _______, educational research confirms this approach leads to deeper long-term understanding. We ask you to support your children [4] _______ this transition.",
+    "subQuestions": [
+      { "id": "p6-143-q1", "questionText": "[1]", "options": ["In essence", "In contrast", "Subsequently", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-143-q2", "questionText": "[2]", "options": ["Consequently", "Conversely", "Admittedly", "Furthermore"], "correctIndex": 2 },
+      { "id": "p6-143-q3", "questionText": "[3]", "options": ["Otherwise", "Nevertheless", "Therefore", "For instance"], "correctIndex": 1 },
+      { "id": "p6-143-q4", "questionText": "[4]", "options": ["throughout", "against", "without", "towards"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-144",
+    "part": 6,
+    "text": "Dear Credit Card Holder, We detected unusual activity on your account. [1] _______, three transactions in a foreign country were attempted within the last hour. [2] _______, your card has been temporarily blocked. [3] _______ you verify these charges as legitimate, the block will remain in place. Please call our fraud department immediately to [4] _______ the matter.",
+    "subQuestions": [
+      { "id": "p6-144-q1", "questionText": "[1]", "options": ["Nevertheless", "Subsequently", "Specifically", "Conversely"], "correctIndex": 2 },
+      { "id": "p6-144-q2", "questionText": "[2]", "options": ["As a precaution", "On the contrary", "In contrast", "Similarly"], "correctIndex": 0 },
+      { "id": "p6-144-q3", "questionText": "[3]", "options": ["If", "Unless", "Because", "Although"], "correctIndex": 1 },
+      { "id": "p6-144-q4", "questionText": "[4]", "options": ["resolve", "revolve", "dissolve", "involve"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-145",
+    "part": 6,
+    "text": "To the Engineering Team, The prototype failed the stress test. [1] _______, the material showed microfractures under extreme heat. [2] _______, we must revert to the ceramic composite we used in the previous gen. [3] _______ this is a step backward in terms of weight reduction, it guarantees the structural integrity we require. The project's reputation [4] _______ on this decision.",
+    "subQuestions": [
+      { "id": "p6-145-q1", "questionText": "[1]", "options": ["Consequently", "Specifically", "However", "In contrast"], "correctIndex": 1 },
+      { "id": "p6-145-q2", "questionText": "[2]", "options": ["Nevertheless", "Furthermore", "Conversely", "Therefore"], "correctIndex": 3 },
+      { "id": "p6-145-q3", "questionText": "[3]", "options": ["Because", "Unless", "Although", "If"], "correctIndex": 2 },
+      { "id": "p6-145-q4", "questionText": "[4]", "options": ["hinges", "derails", "skids", "flounders"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-146",
+    "part": 6,
+    "text": "Dear Subscribers, Our magazine is going fully digital next month. [1] _______, you will no longer receive a physical copy in the mail. [2] _______, you will gain access to our exclusive online content and archives. [3] _______, your current subscription rate will be locked in for two years. We hope you embrace this evolution and continue to [4] _______ our growing community.",
+    "subQuestions": [
+      { "id": "p6-146-q1", "questionText": "[1]", "options": ["As a result", "For instance", "Nevertheless", "Conversely"], "correctIndex": 0 },
+      { "id": "p6-146-q2", "questionText": "[2]", "options": ["In compensation", "In contrast", "On the other hand", "Otherwise"], "correctIndex": 0 },
+      { "id": "p6-146-q3", "questionText": "[3]", "options": ["Moreover", "Nevertheless", "However", "Therefore"], "correctIndex": 0 },
+      { "id": "p6-146-q4", "questionText": "[4]", "options": ["enrich", "deplete", "abandon", "dissolve"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-147",
+    "part": 6,
+    "text": "Dear Application Reviewer, The attached portfolio supplements my resume. [1] _______, it contains case studies that demonstrate my analytical skills. [2] _______, the third project was executed under a strict deadline and budget. [3] _______ my technical proficiency, I wish to highlight my collaborative leadership style. I hope these materials [4] _______ my candidacy.",
+    "subQuestions": [
+      { "id": "p6-147-q1", "questionText": "[1]", "options": ["Nonetheless", "Specifically", "Conversely", "In contrast"], "correctIndex": 1 },
+      { "id": "p6-147-q2", "questionText": "[2]", "options": ["For instance", "Nevertheless", "Consequently", "Subsequently"], "correctIndex": 0 },
+      { "id": "p6-147-q3", "questionText": "[3]", "options": ["Beyond", "Despite", "Without", "Because of"], "correctIndex": 0 },
+      { "id": "p6-147-q4", "questionText": "[4]", "options": ["bolster", "sabotage", "negate", "undermine"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-148",
+    "part": 6,
+    "text": "Dear New Hire, Welcome to the company. [1] _______, you must complete the onboarding paperwork before your start date. [2] _______, you are required to attend the safety orientation session on your first day. [3] _______, failure to do so will postpone your access to the laboratory. We look forward to integrating you [4] _______ our research team.",
+    "subQuestions": [
+      { "id": "p6-148-q1", "questionText": "[1]", "options": ["Nevertheless", "First and foremost", "In contrast", "Subsequently"], "correctIndex": 1 },
+      { "id": "p6-148-q2", "questionText": "[2]", "options": ["Otherwise", "Similarly", "Furthermore", "Alternatively"], "correctIndex": 2 },
+      { "id": "p6-148-q3", "questionText": "[3]", "options": ["Whereas", "Nevertheless", "Unless", "Namely"], "correctIndex": 3 },
+      { "id": "p6-148-q4", "questionText": "[4]", "options": ["into", "against", "from", "without"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-149",
+    "part": 6,
+    "text": "Dear Festival Goers, Due to inclement weather, the outdoor concert has been moved indoors. [1] _______, the event will now be held in the Grand Pavilion. [2] _______, seating will be limited and available on a first-come, first-served basis. [3] _______, we ask that you avoid bringing large bags. We appreciate your flexibility as we [4] _______ this unexpected situation.",
+    "subQuestions": [
+      { "id": "p6-149-q1", "questionText": "[1]", "options": ["Nevertheless", "Consequently", "Conversely", "On the contrary"], "correctIndex": 1 },
+      { "id": "p6-149-q2", "questionText": "[2]", "options": ["Furthermore", "Similarly", "Subsequently", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-149-q3", "questionText": "[3]", "options": ["Therefore", "Otherwise", "Because", "However"], "correctIndex": 0 },
+      { "id": "p6-149-q4", "questionText": "[4]", "options": ["navigate", "avoid", "ignore", "delete"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-150",
+    "part": 6,
+    "text": "Dear Alumni, We are launching a capital campaign to fund a new science center. [1] _______, this facility will house state-of-the-art labs and a public observatory. [2] _______, it will provide scholarships for underprivileged STEM students. [3] _______ the ambitious nature of this project, every contribution, regardless of size, brings us closer to our goal. We invite you to [4] _______ to this legacy.",
+    "subQuestions": [
+      { "id": "p6-150-q1", "questionText": "[1]", "options": ["Nevertheless", "Specifically", "In contrast", "On the other hand"], "correctIndex": 1 },
+      { "id": "p6-150-q2", "questionText": "[2]", "options": ["Additionally", "Conversely", "Otherwise", "As a result"], "correctIndex": 0 },
+      { "id": "p6-150-q3", "questionText": "[3]", "options": ["Despite", "Because", "Owing to", "Due to"], "correctIndex": 0 },
+      { "id": "p6-150-q4", "questionText": "[4]", "options": ["contribute", "subtract", "detract", "extract"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-151",
+    "part": 6,
+    "text": "Dear Valued Customer, Our records indicate that you recently canceled your subscription. [1] _______, we would appreciate understanding the reason for your departure. [2] _______, we have attached a brief survey to this email. [3] _______, we would like to extend a 60-day free trial window should you wish to reconsider. Your feedback is invaluable in helping us [4] _______ our services.",
+    "subQuestions": [
+      { "id": "p6-151-q1", "questionText": "[1]", "options": ["Consequently", "To that end", "Similarly", "Nevertheless"], "correctIndex": 1 },
+      { "id": "p6-151-q2", "questionText": "[2]", "options": ["Otherwise", "In contrast", "For your convenience", "To complicate matters"], "correctIndex": 2 },
+      { "id": "p6-151-q3", "questionText": "[3]", "options": ["However", "Furthermore", "In addition", "Although"], "correctIndex": 1 },
+      { "id": "p6-151-q4", "questionText": "[4]", "options": ["refine", "diminish", "negate", "sabotage"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-152",
+    "part": 6,
+    "text": "To the Policy Committee, The draft of the ethics charter has been circulated for review. [1] _______, it includes strict guidelines regarding data privacy and AI transparency. [2] _______, the enforcement mechanisms remain vaguely defined. [3] _______, we must strengthen the oversight protocols before presenting it to the board. A flawed charter could [4] _______ our credibility.",
+    "subQuestions": [
+      { "id": "p6-152-q1", "questionText": "[1]", "options": ["Nevertheless", "For instance", "In summary", "Conversely"], "correctIndex": 2 },
+      { "id": "p6-152-q2", "questionText": "[2]", "options": ["Moreover", "Therefore", "Nevertheless", "In addition"], "correctIndex": 2 },
+      { "id": "p6-152-q3", "questionText": "[3]", "options": ["Conversely", "Thus", "Similarly", "Otherwise"], "correctIndex": 1 },
+      { "id": "p6-152-q4", "questionText": "[4]", "options": ["undermine", "cement", "solidify", "fortify"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-153",
+    "part": 6,
+    "text": "Dear Residents, Please be advised that the parking lot will be resurfaced this weekend. [1] _______, all vehicles must be removed by Saturday at 6:00 AM. [2] _______, cars left in the lot will be towed at the owner's expense. [3] _______ the alternative street parking is limited, we encourage you to make arrangements in advance. We regret this necessity and seek your [4] _______.",
+    "subQuestions": [
+      { "id": "p6-153-q1", "questionText": "[1]", "options": ["Otherwise", "Though", "Hence", "Furthermore"], "correctIndex": 2 },
+      { "id": "p6-153-q2", "questionText": "[2]", "options": ["Conversely", "Subsequently", "Nevertheless", "Otherwise"], "correctIndex": 3 },
+      { "id": "p6-153-q3", "questionText": "[3]", "options": ["Despite", "Whereas", "As", "Because of"], "correctIndex": 2 },
+      { "id": "p6-153-q4", "questionText": "[4]", "options": ["cooperation", "rebellion", "defiance", "indifference"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-154",
+    "part": 6,
+    "text": "Dear Account Holder, A court order has been issued to garnish a portion of your wages. [1] _______, a legal judgment requires your employer to withhold a specific sum from your paycheck. [2] _______, this action is taken to satisfy an outstanding debt obligation. [3] _______, you have previously ignored multiple notices regarding this matter. We advise you to seek legal counsel to understand how to [4] _______ this order.",
+    "subQuestions": [
+      { "id": "p6-154-q1", "questionText": "[1]", "options": ["Conversely", "In essence", "Nevertheless", "On the contrary"], "correctIndex": 1 },
+      { "id": "p6-154-q2", "questionText": "[2]", "options": ["Similarly", "Specifically", "In contrast", "Moreover"], "correctIndex": 1 },
+      { "id": "p6-154-q3", "questionText": "[3]", "options": ["Consequently", "Nevertheless", "Furthermore", "Notably"], "correctIndex": 3 },
+      { "id": "p6-154-q4", "questionText": "[4]", "options": ["contest", "accept", "ignore", "facilitate"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-155",
+    "part": 6,
+    "text": "Dear Team, The client has just thrown a curveball into the negotiation. [1] _______, they are demanding exclusive intellectual property rights retroactively. [2] _______, this was never on the table and contradicts our initial agreement. [3] _______, we cannot concede this point without board approval. [4] _______, we must project strength without burning the bridge. Prepare a firm but measured rebuttal.",
+    "subQuestions": [
+      { "id": "p6-155-q1", "questionText": "[1]", "options": ["For instance", "Namely", "Conversely", "In contrast"], "correctIndex": 1 },
+      { "id": "p6-155-q2", "questionText": "[2]", "options": ["Consequently", "Admittedly", "As you know", "Nevertheless"], "correctIndex": 2 },
+      { "id": "p6-155-q3", "questionText": "[3]", "options": ["Clearly", "Vaguely", "Reluctantly", "Emotionally"], "correctIndex": 0 },
+      { "id": "p6-155-q4", "questionText": "[4]", "options": ["Meanwhile", "Otherwise", "Subsequently", "Similarly"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-156",
+    "part": 6,
+    "text": "Dear Grads, Commencement is a milestone, not a finish line. [1] _______, it marks the end of your formal education, but the beginning of real-world learning. [2] _______, you must remain adaptable; the career you will have in ten years may not even exist today. [3] _______, do not let the fear of the unknown paralyze you. Embrace the ambiguity and forge your own path. Congratulations on this [4] _______ achievement.",
+    "subQuestions": [
+      { "id": "p6-156-q1", "questionText": "[1]", "options": ["Undeniably", "Conversely", "On the contrary", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-156-q2", "questionText": "[2]", "options": ["Similarly", "Otherwise", "Moreover", "Subsequently"], "correctIndex": 2 },
+      { "id": "p6-156-q3", "questionText": "[3]", "options": ["Nevertheless", "For instance", "As a result", "Consequently"], "correctIndex": 0 },
+      { "id": "p6-156-q4", "questionText": "[4]", "options": ["monumental", "minuscule", "ephemeral", "trivial"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-157",
+    "part": 6,
+    "text": "To the Sales Team, The quarterly targets have been raised. [1] _______, management believes the previous goals were set too conservatively. [2] _______, the new quotas are non-negotiable and will directly impact commission tiers. [3] _______, we have secured a substantial marketing budget to generate higher quality leads for you. Let's leverage these resources to [4] _______ expectations.",
+    "subQuestions": [
+      { "id": "p6-157-q1", "questionText": "[1]", "options": ["Apparently", "Conversely", "On the contrary", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-157-q2", "questionText": "[2]", "options": ["Furthermore", "Otherwise", "Similarly", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-157-q3", "questionText": "[3]", "options": ["Conversely", "On the bright side", "Nevertheless", "As a result"], "correctIndex": 1 },
+      { "id": "p6-157-q4", "questionText": "[4]", "options": ["exceed", "lower", "disregard", "bypass"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-158",
+    "part": 6,
+    "text": "Dear Faculty, The academic integrity code has been updated. [1] _______, the use of generative AI tools for assignments is now strictly prohibited without explicit instructor consent. [2] _______, students found in violation will face suspension. [3] _______, we are not Luddites; a seminar on ethical AI usage is mandatory for all incoming freshmen. We need a culture of high-tech integrity, not high-tech [4] _______.",
+    "subQuestions": [
+      { "id": "p6-158-q1", "questionText": "[1]", "options": ["Nevertheless", "Specifically", "Conversely", "On the contrary"], "correctIndex": 1 },
+      { "id": "p6-158-q2", "questionText": "[2]", "options": ["Furthermore", "Otherwise", "Nevertheless", "On the contrary"], "correctIndex": 0 },
+      { "id": "p6-158-q3", "questionText": "[3]", "options": ["However", "Consequently", "Likewise", "Moreover"], "correctIndex": 0 },
+      { "id": "p6-158-q4", "questionText": "[4]", "options": ["deception", "innovation", "progress", "integrity"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-159",
+    "part": 6,
+    "text": "Dear Supporters, The political rally scheduled for Saturday has been canceled. [1] _______, the venue withdrew their permit at the last minute due to safety concerns. [2] _______, we suspect this was a politically motivated move to silence our message. [3] _______, we will not be silenced. A virtual town hall will be held at the same time. Your passion must be channeled from the square to the screen. We will [4] _______ this event online.",
+    "subQuestions": [
+      { "id": "p6-159-q1", "questionText": "[1]", "options": ["Nevertheless", "Subsequently", "Officially", "Surprisingly"], "correctIndex": 2 },
+      { "id": "p6-159-q2", "questionText": "[2]", "options": ["Unofficially", "Consequently", "Similarly", "Officially"], "correctIndex": 0 },
+      { "id": "p6-159-q3", "questionText": "[3]", "options": ["Nevertheless", "Therefore", "Otherwise", "Similarly"], "correctIndex": 0 },
+      { "id": "p6-159-q4", "questionText": "[4]", "options": ["broadcast", "censor", "suppress", "cancel"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-160",
+    "part": 6,
+    "text": "To the Event Staff, The gala is a black-tie affair. [1] _______, tuxedos and evening gowns are required for all guests. [2] _______, the dress code for staff is strictly formal business attire. [3] _______ a guest arrives underdressed, discreetly offer them a complimentary accessory from the boutique. Do not refuse entry; preserve the dignity of the evening. We expect you to handle these situations with [4] _______.",
+    "subQuestions": [
+      { "id": "p6-160-q1", "questionText": "[1]", "options": ["In other words", "Nevertheless", "On the contrary", "Similarly"], "correctIndex": 0 },
+      { "id": "p6-160-q2", "questionText": "[2]", "options": ["Conversely", "Furthermore", "Consequently", "Nevertheless"], "correctIndex": 1 },
+      { "id": "p6-160-q3", "questionText": "[3]", "options": ["Because", "While", "Should", "Despite"], "correctIndex": 2 },
+      { "id": "p6-160-q4", "questionText": "[4]", "options": ["finesse", "force", "negligence", "indifference"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-161",
+    "part": 6,
+    "text": "Dear Esteemed Shareholders, It is with cautious optimism that we address you today. The fiscal year has presented a series of unprecedented headwinds; [1] _______, our core business segments have demonstrated remarkable resilience. [2] _______, the strategic diversification initiated three years ago has begun to yield tangible returns, insulating us from sector-specific volatility. [3] _______, we must not succumb to complacency. The board strongly urges management to maintain a conservative liquidity ratio to [4] _______ against future market contractions.",
+    "subQuestions": [
+      { "id": "p6-161-q1", "questionText": "[1]", "options": ["nonetheless", "consequently", "moreover", "thereafter"], "correctIndex": 0 },
+      { "id": "p6-161-q2", "questionText": "[2]", "options": ["Conversely", "However", "Furthermore", "For instance"], "correctIndex": 2 },
+      { "id": "p6-161-q3", "questionText": "[3]", "options": ["That being said", "In contrast", "As a result", "Similarly"], "correctIndex": 0 },
+      { "id": "p6-161-q4", "questionText": "[4]", "options": ["hedge", "speculate", "leverage", "stimulate"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-162",
+    "part": 6,
+    "text": "Memo to Department Heads: As we approach the fourth quarter, the necessity for stringent budgetary adherence cannot be overstated. [1] _______, all discretionary spending is hereby frozen effective immediately. This mandate applies to travel, consultancy fees, and non-essential software subscriptions. [2] _______, capital expenditures already approved by the finance committee may proceed as planned. Department heads will be held personally accountable for any [3] _______ from these directives. We rely on your fiscal prudence to [4] _______ our year-end targets.",
+    "subQuestions": [
+      { "id": "p6-162-q1", "questionText": "[1]", "options": ["To that end", "In retrospect", "On the contrary", "Be that as it may"], "correctIndex": 0 },
+      { "id": "p6-162-q2", "questionText": "[2]", "options": ["Furthermore", "Nevertheless", "In other words", "Consequently"], "correctIndex": 1 },
+      { "id": "p6-162-q3", "questionText": "[3]", "options": ["deviation", "extension", "obedience", "adherence"], "correctIndex": 0 },
+      { "id": "p6-162-q4", "questionText": "[4]", "options": ["attain", "relinquish", "suspend", "modify"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-163",
+    "part": 6,
+    "text": "Dear Subscriber, We have repeatedly attempted to process your renewal payment without success. [1] _______, your account status has been changed to \"inactive.\" [2] _______, your digital assets and purchase history have been archived for a grace period of 60 days. [3] _______ this period, your data will be permanently purged from our servers. To [4] _______ this outcome, please update your payment method via the secure portal immediately.",
+    "subQuestions": [
+      { "id": "p6-163-q1", "questionText": "[1]", "options": ["Otherwise", "Meanwhile", "Subsequently", "Similarly"], "correctIndex": 2 },
+      { "id": "p6-163-q2", "questionText": "[2]", "options": ["Therefore", "Specifically", "Nonetheless", "Incidentally"], "correctIndex": 2 },
+      { "id": "p6-163-q3", "questionText": "[3]", "options": ["Until", "Beyond", "Within", "Throughout"], "correctIndex": 1 },
+      { "id": "p6-163-q4", "questionText": "[4]", "options": ["expedite", "avert", "facilitate", "initiate"], "correctIndex": 1 }
+    ]
+  },
+  {
+    "id": "p6-164",
+    "part": 6,
+    "text": "To Our Valued Patrons, The renovation of the Grand Ballroom has finally reached completion. [1] _______, we are delighted to announce the reopening gala scheduled for the 15th of next month. [2] _______, the event will feature a live orchestra and a curated five-course dinner. [3] _______ the limited capacity, we highly recommend securing your reservations early. We have implemented an online booking system to [4] _______ the registration process.",
+    "subQuestions": [
+      { "id": "p6-164-q1", "questionText": "[1]", "options": ["As a result", "Nevertheless", "In light of", "On the contrary"], "correctIndex": 2 },
+      { "id": "p6-164-q2", "questionText": "[2]", "options": ["Conversely", "In addition to the venue", "On the other hand", "Otherwise"], "correctIndex": 1 },
+      { "id": "p6-164-q3", "questionText": "[3]", "options": ["In spite of", "Given", "Besides", "Regardless of"], "correctIndex": 1 },
+      { "id": "p6-164-q4", "questionText": "[4]", "options": ["streamline", "complicate", "elongate", "initiate"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-165",
+    "part": 6,
+    "text": "Dear Candidates, The recruitment panel has completed its initial screening. [1] _______, your qualifications are impressive and align well with the core competencies we seek. [2] _______, we found your narrative on experience with legacy system migration particularly compelling. [3] _______, we must note a significant gap in your familiarity with our proprietary CMS. We are prepared to offer a conditional role provided you complete the required technical [4] _______ within the first month.",
+    "subQuestions": [
+      { "id": "p6-165-q1", "questionText": "[1]", "options": ["By contrast", "On the whole", "Nevertheless", "In other words"], "correctIndex": 1 },
+      { "id": "p6-165-q2", "questionText": "[2]", "options": ["Furthermore", "Conversely", "However", "In a similar vein"], "correctIndex": 3 },
+      { "id": "p6-165-q3", "questionText": "[3]", "options": ["Moreover", "That is", "That said", "Subsequently"], "correctIndex": 2 },
+      { "id": "p6-165-q4", "questionText": "[4]", "options": ["certification", "orientation", "remediation", "evaluation"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-166",
+    "part": 6,
+    "text": "Dear Residents, The HOA board has voted to implement mandatory waste segregation. [1] _______, recyclables must be separated from general waste and food scraps placed in biodegradable bags. [2] _______, violators will be subject to a graduated fine system starting at $50. [3] _______ these measures may seem draconian, they are essential to meet the city's new sustainability mandates. Your cooperation will [4] _______ us to avoid even stricter municipal penalties.",
+    "subQuestions": [
+      { "id": "p6-166-q1", "questionText": "[1]", "options": ["Effectively", "Conversely", "Nevertheless", "For example"], "correctIndex": 0 },
+      { "id": "p6-166-q2", "questionText": "[2]", "options": ["Otherwise", "Furthermore", "In contrast", "Accordingly"], "correctIndex": 1 },
+      { "id": "p6-166-q3", "questionText": "[3]", "options": ["Because", "Unless", "Even though", "Provided that"], "correctIndex": 2 },
+      { "id": "p6-166-q4", "questionText": "[4]", "options": ["enable", "inhibit", "constrain", "obligate"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-167",
+    "part": 6,
+    "text": "To the Project Team, The beta testers have returned overwhelmingly negative feedback regarding the user interface. [1] _______, they described the navigation as labyrinthine and the color contrast as illegible. [2] _______, we must postpone the public launch date indefinitely. [3] _______, we cannot risk irreparable brand damage by releasing a substandard product. A complete UX overhaul is required; I expect a revised storyboard to be [4] _______ by the end of the sprint.",
+    "subQuestions": [
+      { "id": "p6-167-q1", "questionText": "[1]", "options": ["Specifically", "Conversely", "Ironically", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-167-q2", "questionText": "[2]", "options": ["In light of this", "On the contrary", "As a result", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-167-q3", "questionText": "[3]", "options": ["Clearly", "Vaguely", "Interestingly", "Rarely"], "correctIndex": 0 },
+      { "id": "p6-167-q4", "questionText": "[4]", "options": ["tabled", "shelved", "conceived", "aborted"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-168",
+    "part": 6,
+    "text": "Dear Conference Registrant, The itinerary for the breakout sessions has been updated. [1] _______, the workshop on \"Blockchain in Logistics\" has been moved to Hall D. [2] _______, the keynote speaker's session remains in the main auditorium. [3] _______ you have prepaid for the networking lunch, please note that dietary restrictions can only be accommodated if registered 48 hours in advance. Please check the mobile app for real-time updates to [4] _______ confusion.",
+    "subQuestions": [
+      { "id": "p6-168-q1", "questionText": "[1]", "options": ["Nevertheless", "Notably", "On the contrary", "Conversely"], "correctIndex": 1 },
+      { "id": "p6-168-q2", "questionText": "[2]", "options": ["Consequently", "In the meantime", "Furthermore", "Therefore"], "correctIndex": 1 },
+      { "id": "p6-168-q3", "questionText": "[3]", "options": ["Even if", "Whereas", "Because", "Unless"], "correctIndex": 0 },
+      { "id": "p6-168-q4", "questionText": "[4]", "options": ["mitigate", "escalate", "generate", "complicate"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-169",
+    "part": 6,
+    "text": "Dear Valued Client, In response to your inquiry, we have conducted an internal audit of our billing records. [1] _______, we did identify a minor discrepancy in the service charge for the month of January. [2] _______, a credit has been applied to your account to rectify this overcharge. [3] _______, we have also waived the transaction fee for your next three invoices. We appreciate your diligence in bringing this to our attention and remain committed to [4] _______ the highest standards of integrity.",
+    "subQuestions": [
+      { "id": "p6-169-q1", "questionText": "[1]", "options": ["Subsequently", "Indeed", "Nevertheless", "Likewise"], "correctIndex": 1 },
+      { "id": "p6-169-q2", "questionText": "[2]", "options": ["Otherwise", "Conversely", "Accordingly", "Similarly"], "correctIndex": 2 },
+      { "id": "p6-169-q3", "questionText": "[3]", "options": ["In addition", "On the contrary", "As a result", "In retrospect"], "correctIndex": 0 },
+      { "id": "p6-169-q4", "questionText": "[4]", "options": ["upholding", "relaxing", "exploiting", "circumventing"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-170",
+    "part": 6,
+    "text": "Dear Employees, The annual performance review cycle is now open. [1] _______, self-assessments must be submitted via the HR portal by the 15th of this month. [2] _______ to company policy, peer reviews are mandatory for all senior associates. [3] _______, failure to complete the required evaluations will render you ineligible for the merit-based bonus pool. This process is designed to foster growth, so please provide transparent and [4] _______ feedback.",
+    "subQuestions": [
+      { "id": "p6-170-q1", "questionText": "[1]", "options": ["As such", "Nevertheless", "On the contrary", "In other words"], "correctIndex": 0 },
+      { "id": "p6-170-q2", "questionText": "[2]", "options": ["Pursuant", "Contrary", "Irrespective", "Subject"], "correctIndex": 0 },
+      { "id": "p6-170-q3", "questionText": "[3]", "options": ["Furthermore", "Conversely", "Be advised that", "Unless"], "correctIndex": 2 },
+      { "id": "p6-170-q4", "questionText": "[4]", "options": ["constructive", "destructive", "ambiguous", "negligent"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-171",
+    "part": 6,
+    "text": "To the IT Department, The network intrusion detection system flagged a sophisticated phishing attack at 03:00 AM. [1] _______, the threat was automatically quarantined before any data could be exfiltrated. [2] _______, we must remain cognizant that the attackers are continuously refining their methods. [3] _______, I am mandating a mandatory cyber-security refresher course for all staff. Complacency is the enemy; we must be [4] _______ in our defense.",
+    "subQuestions": [
+      { "id": "p6-171-q1", "questionText": "[1]", "options": ["Unfortunately", "Nonetheless", "Fortunately", "Conversely"], "correctIndex": 2 },
+      { "id": "p6-171-q2", "questionText": "[2]", "options": ["Furthermore", "However", "Consequently", "For instance"], "correctIndex": 1 },
+      { "id": "p6-171-q3", "questionText": "[3]", "options": ["Therefore", "Otherwise", "Similarly", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-171-q4", "questionText": "[4]", "options": ["relentless", "passive", "sporadic", "dormant"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-172",
+    "part": 6,
+    "text": "Dear Credit Card Applicant, Your application for the Platinum Rewards card has been reviewed. [1] _______, your credit score falls just below the threshold for automatic approval. [2] _______, we are able to offer you the Gold Advantage card with a reduced APR and no annual fee. [3] _______ you wish to build your credit further, this card serves as an excellent vehicle to do so. Please sign the enclosed agreement to [4] _______ the offer before it expires.",
+    "subQuestions": [
+      { "id": "p6-172-q1", "questionText": "[1]", "options": ["Specifically", "Regrettably", "Similarly", "Subsequently"], "correctIndex": 1 },
+      { "id": "p6-172-q2", "questionText": "[2]", "options": ["Nevertheless", "Therefore", "Conversely", "In other words"], "correctIndex": 0 },
+      { "id": "p6-172-q3", "questionText": "[3]", "options": ["Provided that", "Unless", "In contrast to", "Whereas"], "correctIndex": 0 },
+      { "id": "p6-172-q4", "questionText": "[4]", "options": ["activate", "nullify", "revoke", "suspend"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-173",
+    "part": 6,
+    "text": "Dear Residents, The City Council has issued a notice of zoning violation for the unauthorized structure in your backyard. [1] _______, you have 30 days from the date of this letter to dismantle the gazebo. [2] _______, you may apply for a retroactive building permit, though there is no guarantee of approval. [3] _______, failure to comply will result in a daily fine accruing against your property tax. We urge you to address this matter promptly to [4] _______ escalating legal costs.",
+    "subQuestions": [
+      { "id": "p6-173-q1", "questionText": "[1]", "options": ["Consequently", "Conversely", "Alternatively", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-173-q2", "questionText": "[2]", "options": ["Otherwise", "In addition", "Specifically", "Likewise"], "correctIndex": 0 },
+      { "id": "p6-173-q3", "questionText": "[3]", "options": ["Be advised that", "Moreover", "Despite this", "Unless"], "correctIndex": 0 },
+      { "id": "p6-173-q4", "questionText": "[4]", "options": ["forestall", "incur", "expedite", "provoke"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-174",
+    "part": 6,
+    "text": "To the Marketing Team, The analytics report indicates that our current campaign is failing to engage the 18-25 demographic. [1] _______, our click-through rates on traditional banner ads have plummeted 20%. [2] _______, engagement on short-form video content has spiked 40% in the same period. [3] _______, we need to pivot our budget toward influencer partnerships rather than static display ads. I need a proposal to [4] _______ these findings on my desk by Friday.",
+    "subQuestions": [
+      { "id": "p6-174-q1", "questionText": "[1]", "options": ["Specifically", "Conversely", "Nevertheless", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-174-q2", "questionText": "[2]", "options": ["In the meantime", "Nevertheless", "In addition", "Similarly"], "correctIndex": 1 },
+      { "id": "p6-174-q3", "questionText": "[3]", "options": ["Consequently", "Otherwise", "On the contrary", "For instance"], "correctIndex": 0 },
+      { "id": "p6-174-q4", "questionText": "[4]", "options": ["leverage", "dismiss", "refute", "disregard"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-175",
+    "part": 6,
+    "text": "Dear Policyholder, We have reviewed your claim regarding the water damage incident. [1] _______, the structural damage is covered under your comprehensive plan. [2] _______, the damage to personal contents exceeds your coverage limits. [3] _______, we are issuing a partial settlement for the structural repairs, along with a detailed explanation of benefits. Please review the enclosed documents carefully before you [4] _______ the settlement check.",
+    "subQuestions": [
+      { "id": "p6-175-q1", "questionText": "[1]", "options": ["Consequently", "By comparison", "On the one hand", "Subsequently"], "correctIndex": 2 },
+      { "id": "p6-175-q2", "questionText": "[2]", "options": ["Conversely", "Furthermore", "Similarly", "In other words"], "correctIndex": 0 },
+      { "id": "p6-175-q3", "questionText": "[3]", "options": ["Therefore", "Otherwise", "Besides", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-175-q4", "questionText": "[4]", "options": ["endorse", "contest", "decline", "ignore"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-176",
+    "part": 6,
+    "text": "Dear Tenants, Please be advised that the lease agreement for Unit 4B has been amended. [1] _______, the clause regarding pet ownership has been relaxed to allow small dogs under 20 lbs. [2] _______, a non-refundable pet deposit of $300 is now mandatory. [3] _______, the noise disturbance policy remains strictly enforced. We appreciate your cooperation in [4] _______ to these updated terms.",
+    "subQuestions": [
+      { "id": "p6-176-q1", "questionText": "[1]", "options": ["Specifically", "Overall", "Conversely", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-176-q2", "questionText": "[2]", "options": ["In return", "For instance", "On the contrary", "As a result"], "correctIndex": 0 },
+      { "id": "p6-176-q3", "questionText": "[3]", "options": ["Moreover", "Nevertheless", "Therefore", "Otherwise"], "correctIndex": 1 },
+      { "id": "p6-176-q4", "questionText": "[4]", "options": ["adhering", "objecting", "opting", "rivaling"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-177",
+    "part": 6,
+    "text": "To the Operations Team, The recent facility inspection revealed several critical non-conformities. [1] _______, the fire suppression system in the server room is overdue for its annual certification. [2] _______, the ergonomic assessments for the assembly line staff have not been completed. [3] _______, these issues must be rectified within fourteen days to avoid regulatory sanctions. Please submit a corrective action plan [4] _______ the specific steps and timeline.",
+    "subQuestions": [
+      { "id": "p6-177-q1", "questionText": "[1]", "options": ["To illustrate", "Contrarily", "In summary", "Mortifyingly"], "correctIndex": 0 },
+      { "id": "p6-177-q2", "questionText": "[2]", "options": ["Furthermore", "Conversely", "As a result", "Meanwhile"], "correctIndex": 0 },
+      { "id": "p6-177-q3", "questionText": "[3]", "options": ["Collectively", "Individually", "Otherwise", "Notably"], "correctIndex": 0 },
+      { "id": "p6-177-q4", "questionText": "[4]", "options": ["outlining", "obscuring", "omitting", "overlooking"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-178",
+    "part": 6,
+    "text": "Dear Mr. Henderson, We have received your application for the commercial driver's license reinstatement. [1] _______, we must verify the expiration date of your medical certificate. Our records indicate it lapsed two months prior to your application. [2] _______, you are required to pass a new physical examination and submit a valid certificate. [3] _______, your driving test has been scheduled for the 20th of this month. Please complete the medical requirement to [4] _______ the test.",
+    "subQuestions": [
+      { "id": "p6-178-q1", "questionText": "[1]", "options": ["Nevertheless", "Prior to approval", "In contrast", "Subsequently"], "correctIndex": 1 },
+      { "id": "p6-178-q2", "questionText": "[2]", "options": ["Hence", "Otherwise", "For example", "Furthermore"], "correctIndex": 0 },
+      { "id": "p6-178-q3", "questionText": "[3]", "options": ["Regardless", "On the contrary", "In the meantime", "By contrast"], "correctIndex": 2 },
+      { "id": "p6-178-q4", "questionText": "[4]", "options": ["sit for", "waive", "postpone", "defer"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-179",
+    "part": 6,
+    "text": "Dear Faculty Members, The curriculum committee has proposed a radical shift to a pass/fail grading system for all freshman seminars. [1] _______, proponents argue this reduces anxiety and encourages intellectual exploration. [2] _______, critics point to a potential decline in academic rigor and motivation. [3] _______ the controversy, a pilot program will be implemented next semester. We seek your unbiased assessment to [4] _______ the efficacy of this initiative.",
+    "subQuestions": [
+      { "id": "p6-179-q1", "questionText": "[1]", "options": ["Specifically", "Conversely", "On the contrary", "Subsequently"], "correctIndex": 0 },
+      { "id": "p6-179-q2", "questionText": "[2]", "options": ["Moreover", "Nevertheless", "In addition", "Similarly"], "correctIndex": 1 },
+      { "id": "p6-179-q3", "questionText": "[3]", "options": ["Owing to", "In light of", "Regardless of", "Because of"], "correctIndex": 2 },
+      { "id": "p6-179-q4", "questionText": "[4]", "options": ["gauge", "contradict", "ignore", "negate"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-180",
+    "part": 6,
+    "text": "Dear Valued Customer, The new software patch released last week inadvertently introduced a bug affecting the auto-save feature. [1] _______, we have pulled the update from our servers. [2] _______, users currently running the corrupted patch should manually disable the auto-sync function. [3] _______ we sincerely apologize, rectifying this takes precedence over assigning fault. A hotfix will be deployed tomorrow to [4] _______ full functionality.",
+    "subQuestions": [
+      { "id": "p6-180-q1", "questionText": "[1]", "options": ["As a result", "For instance", "Similarly", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-180-q2", "questionText": "[2]", "options": ["In the interim", "On the contrary", "Thereafter", "Consequently"], "correctIndex": 0 },
+      { "id": "p6-180-q3", "questionText": "[3]", "options": ["Despite", "Since", "Although", "Because"], "correctIndex": 2 },
+      { "id": "p6-180-q4", "questionText": "[4]", "options": ["restore", "disrupt", "downgrade", "simulate"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-181",
+    "part": 6,
+    "text": "To the Advisory Board, The investment in the startup has yielded a tenfold return. [1] _______, the IPO was oversubscribed by 300%. [2] _______, we must exercise caution; the volatility of the tech sector could reverse these gains swiftly. [3] _______, I recommend we liquidate 50% of our position to [4] _______ our portfolio against a downturn.",
+    "subQuestions": [
+      { "id": "p6-181-q1", "questionText": "[1]", "options": ["Nevertheless", "Specifically", "Ironically", "In contrast"], "correctIndex": 1 },
+      { "id": "p6-181-q2", "questionText": "[2]", "options": ["Furthermore", "However", "Consequently", "Similarly"], "correctIndex": 1 },
+      { "id": "p6-181-q3", "questionText": "[3]", "options": ["Therefore", "Otherwise", "Conversely", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-181-q4", "questionText": "[4]", "options": ["hedge", "amplify", "saturate", "diversify"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-182",
+    "part": 6,
+    "text": "Dear Employees, The newly renovated cafeteria is now open. [1] _______, it features a salad bar and a gourmet coffee station. [2] _______, the seating capacity has been doubled to reduce congestion. [3] _______, we kindly remind you that meal breaks are limited to 45 minutes, and overcrowding does not justify tardiness. Please [4] _______ by these time constraints.",
+    "subQuestions": [
+      { "id": "p6-182-q1", "questionText": "[1]", "options": ["In addition to seating", "By way of illustration", "In contrast", "As a repercussion"], "correctIndex": 1 },
+      { "id": "p6-182-q2", "questionText": "[2]", "options": ["Nevertheless", "Otherwise", "Furthermore", "Subsequently"], "correctIndex": 2 },
+      { "id": "p6-182-q3", "questionText": "[3]", "options": ["Therefore", "However", "Additionally", "Consequently"], "correctIndex": 1 },
+      { "id": "p6-182-q4", "questionText": "[4]", "options": ["abide", "defy", "protest", "negotiate"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-183",
+    "part": 6,
+    "text": "Dear Fellow Investors, The real estate market is showing signs of a correction. [1] _______, property values in the metropolitan area have declined for two consecutive quarters. [2] _______, rental yields remain stable, offering a buffer against capital depreciation. [3] _______, we advise against panic selling. Holding your assets through the cycle remains the most prudent strategy to [4] _______ long-term wealth.",
+    "subQuestions": [
+      { "id": "p6-183-q1", "questionText": "[1]", "options": ["Conversely", "Specifically", "On the contrary", "Nevertheless"], "correctIndex": 1 },
+      { "id": "p6-183-q2", "questionText": "[2]", "options": ["Moreover", "Conversely", "Whereas", "Nevertheless"], "correctIndex": 1 },
+      { "id": "p6-183-q3", "questionText": "[3]", "options": ["Therefore", "Otherwise", "In addition", "For instance"], "correctIndex": 0 },
+      { "id": "p6-183-q4", "questionText": "[4]", "options": ["preserve", "liquidate", "fluctuate", "jeopardize"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-184",
+    "part": 6,
+    "text": "Dear Patient, Your lab results have come back normal. [1] _______, the anemia panel indicates your iron levels have significantly improved since your last visit. [2] _______, your vitamin D levels remain borderline low. [3] _______, I recommend you continue with the current supplement dosage and ensure regular exposure to sunlight. Please schedule a follow-up in six weeks to [4] _______ your progress.",
+    "subQuestions": [
+      { "id": "p6-184-q1", "questionText": "[1]", "options": ["Specifically", "Conversely", "Nevertheless", "In general"], "correctIndex": 0 },
+      { "id": "p6-184-q2", "questionText": "[2]", "options": ["However", "Consequently", "Furthermore", "Similarly"], "correctIndex": 0 },
+      { "id": "p6-184-q3", "questionText": "[3]", "options": ["Therefore", "Otherwise", "Nevertheless", "Unless"], "correctIndex": 0 },
+      { "id": "p6-184-q4", "questionText": "[4]", "options": ["monitor", "terminate", "ignore", "neglect"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-185",
+    "part": 6,
+    "text": "To the Grants Review Committee, The application from the environmental NGO is compelling. [1] _______, their proposal to use drone technology for reforestation is innovative and scalable. [2] _______, their financial forecasts appear overly optimistic given the current economic climate. [3] _______, I suggest we approve a partial grant conditioned upon a revised, more conservative budget. This will allow us to [4] _______ risk while still supporting the mission.",
+    "subQuestions": [
+      { "id": "p6-185-q1", "questionText": "[1]", "options": ["Undoubtedly", "Conversely", "On the contrary", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-185-q2", "questionText": "[2]", "options": ["Moreover", "Nevertheless", "Therefore", "Similarly"], "correctIndex": 1 },
+      { "id": "p6-185-q3", "questionText": "[3]", "options": ["Consequently", "Otherwise", "For instance", "In addition"], "correctIndex": 0 },
+      { "id": "p6-185-q4", "questionText": "[4]", "options": ["mitigate", "escalate", "embrace", "compound"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-186",
+    "part": 6,
+    "text": "Dear Registered Voter, Your polling station for the upcoming election has been relocated. [1] _______, you will now be casting your ballot at Lincoln Middle School rather than the community center. [2] _______, the date and hours of voting remain unchanged. [3] _______ this alteration, we have enclosed an updated map with transportation options. Ensure you bring a valid ID to [4] _______ your identity at the checkpoint.",
+    "subQuestions": [
+      { "id": "p6-186-q1", "questionText": "[1]", "options": ["Conversely", "Specifically", "Nevertheless", "Subsequently"], "correctIndex": 1 },
+      { "id": "p6-186-q2", "questionText": "[2]", "options": ["Furthermore", "Nevertheless", "Consequently", "Similarly"], "correctIndex": 1 },
+      { "id": "p6-186-q3", "questionText": "[3]", "options": ["In light of", "In contrast to", "Regardless of", "In lieu of"], "correctIndex": 0 },
+      { "id": "p6-186-q4", "questionText": "[4]", "options": ["authenticate", "conceal", "falsify", "contest"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-187",
+    "part": 6,
+    "text": "To the Client, The discrepancy in the audit report has been traced to a calculation error in the Q2 earnings spreadsheet. [1] _______, the revenue figure for the European division was overstated by 0.5%. [2] _______, this has no material impact on the overall financial health of the firm. [3] _______, we have issued a corrected addendum to reassure shareholders. We are reviewing our internal controls to [4] _______ a recurrence of this oversight.",
+    "subQuestions": [
+      { "id": "p6-187-q1", "questionText": "[1]", "options": ["Nevertheless", "Specifically", "Conversely", "On the contrary"], "correctIndex": 1 },
+      { "id": "p6-187-q2", "questionText": "[2]", "options": ["Consequently", "Furthermore", "Nevertheless", "Ironically"], "correctIndex": 2 },
+      { "id": "p6-187-q3", "questionText": "[3]", "options": ["Otherwise", "Therefore", "In addition", "Contrarily"], "correctIndex": 1 },
+      { "id": "p6-187-q4", "questionText": "[4]", "options": ["preclude", "provoke", "induce", "provoke"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-188",
+    "part": 6,
+    "text": "Dear Club Members, The maintenance of the tennis courts has been completed ahead of schedule. [1] _______, play will resume this Saturday. [2] _______, the lighting system on Court 3 is still undergoing electrical repairs. [3] _______, we ask that you refrain from booking that specific court for evening sessions. We expect the lights to be fully functional within a week at the [4] _______.",
+    "subQuestions": [
+      { "id": "p6-188-q1", "questionText": "[1]", "options": ["Consequently", "Conversely", "Nevertheless", "In addition"], "correctIndex": 0 },
+      { "id": "p6-188-q2", "questionText": "[2]", "options": ["Moreover", "Otherwise", "However", "Therefore"], "correctIndex": 2 },
+      { "id": "p6-188-q3", "questionText": "[3]", "options": ["Thus", "Despite this", "In contrast", "Unless"], "correctIndex": 0 },
+      { "id": "p6-188-q4", "questionText": "[4]", "options": ["latest", "soonest", "earliest", "foremost"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-189",
+    "part": 6,
+    "text": "Dear Valued Customer, We are writing to notify you of a class-action settlement that may affect your rights. [1] _______, our records indicate you purchased a qualifying vehicle between 2015 and 2018. [2] _______, you are eligible to file a claim for reimbursement of certain repair costs. [3] _______ you wish to opt out of the class and pursue individual litigation, you must do so in writing within 30 days. Failure to act will [4] _______ your right to sue independently.",
+    "subQuestions": [
+      { "id": "p6-189-q1", "questionText": "[1]", "options": ["Conversely", "Specifically", "Nevertheless", "In all likelihood"], "correctIndex": 1 },
+      { "id": "p6-189-q2", "questionText": "[2]", "options": ["Furthermore", "Similarly", "Consequently", "Nevertheless"], "correctIndex": 2 },
+      { "id": "p6-189-q3", "questionText": "[3]", "options": ["Unless", "Because", "Even if", "If"], "correctIndex": 3 },
+      { "id": "p6-189-q4", "questionText": "[4]", "options": ["waive", "assert", "grant", "reinstate"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-190",
+    "part": 6,
+    "text": "To the Sales Team, The new lead generation software is now live. [1] _______, it utilizes predictive analytics to score prospects based on their likelihood to convert. [2] _______, it integrates seamlessly with our existing CRM, eliminating the need for manual data entry. [3] _______, you must complete the online training module before accessing the system. This training is mandatory to ensure you fully [4] _______ the tool's capabilities.",
+    "subQuestions": [
+      { "id": "p6-190-q1", "questionText": "[1]", "options": ["Conversely", "In essence", "In contrast", "Nevertheless"], "correctIndex": 1 },
+      { "id": "p6-190-q2", "questionText": "[2]", "options": ["Furthermore", "Similarly", "Consequently", "However"], "correctIndex": 0 },
+      { "id": "p6-190-q3", "questionText": "[3]", "options": ["Therefore", "Otherwise", "Nevertheless", "Additionally"], "correctIndex": 2 },
+      { "id": "p6-190-q4", "questionText": "[4]", "options": ["exploit", "disregard", "bypass", "mismanage"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-191",
+    "part": 6,
+    "text": "Dear Executive Candidate, We were thoroughly impressed with your interview presentation. [1] _______, your strategic vision for the company aligns perfectly with our board's goals. [2] _______, we are prepared to offer you the position of Chief Operating Officer. [3] _______, the compensation package includes stock options that vest over a four-year period. We hope you will accept this offer and help us [4] _______ our future.",
+    "subQuestions": [
+      { "id": "p6-191-q1", "questionText": "[1]", "options": ["Indeed", "Nevertheless", "Conversely", "On the contrary"], "correctIndex": 0 },
+      { "id": "p6-191-q2", "questionText": "[2]", "options": ["Therefore", "Otherwise", "In contrast", "However"], "correctIndex": 0 },
+      { "id": "p6-191-q3", "questionText": "[3]", "options": ["Specifically", "Furthermore", "Conversely", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-191-q4", "questionText": "[4]", "options": ["shape", "abandon", "neglect", "dismantle"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-192",
+    "part": 6,
+    "text": "Dear Members of the Press, The press conference has been rescheduled due to a scheduling conflict with the keynote speaker. [1] _______, it will now take place at 3:00 PM in the atrium. [2] _______, media passes issued for the original time remain valid. [3] _______ the change, we cannot guarantee seating for late arrivals. We appreciate your flexibility in [4] _______ to these altered circumstances.",
+    "subQuestions": [
+      { "id": "p6-192-q1", "questionText": "[1]", "options": ["Consequently", "Conversely", "Furthermore", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-192-q2", "questionText": "[2]", "options": ["Moreover", "In other words", "Otherwise", "On the contrary"], "correctIndex": 0 },
+      { "id": "p6-192-q3", "questionText": "[3]", "options": ["Because of", "Despite", "In addition to", "Without"], "correctIndex": 1 },
+      { "id": "p6-192-q4", "questionText": "[4]", "options": ["adapting", "resisting", "objecting", "adhering"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-193",
+    "part": 6,
+    "text": "Dear Valued Tenant, The fire alarm inspection originally scheduled for the 5th has been postponed. [1] _______, the fire marshal has an unforeseen conflict. [2] _______, the inspection will now occur on the 12th between 9:00 AM and noon. [3] _______, please ensure that a representative is available to grant access to your unit. Failure to provide access will result in a costly [4] _______ fee.",
+    "subQuestions": [
+      { "id": "p6-193-q1", "questionText": "[1]", "options": ["Consequently", "Similarly", "Namely", "On the contrary"], "correctIndex": 0 },
+      { "id": "p6-193-q2", "questionText": "[2]", "options": ["Nevertheless", "In the interim", "Accordingly", "Furthermore"], "correctIndex": 1 },
+      { "id": "p6-193-q3", "questionText": "[3]", "options": ["Thus", "Otherwise", "However", "Additionally"], "correctIndex": 0 },
+      { "id": "p6-193-q4", "questionText": "[4]", "options": ["rescheduling", "waiver", "access", "inspection"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-194",
+    "part": 6,
+    "text": "To the IT Department Head, The server logs indicate an anomaly consistent with a brute-force attack. [1] _______, the intruder attempted to breach the admin panel 10,000 times within an hour. [2] _______, the automatic intrusion prevention system blocked the IP address. [3] _______, we must conduct a forensic audit to identify the source of the attack and patch the vulnerability. [4] _______ on this immediately is crucial to maintaining client trust.",
+    "subQuestions": [
+      { "id": "p6-194-q1", "questionText": "[1]", "options": ["Conversely", "Specifically", "Nevertheless", "Eventually"], "correctIndex": 1 },
+      { "id": "p6-194-q2", "questionText": "[2]", "options": ["Furthermore", "Consequently", "However", "Fortunately"], "correctIndex": 3 },
+      { "id": "p6-194-q3", "questionText": "[3]", "options": ["Nevertheless", "Conversely", "Therefore", "In addition"], "correctIndex": 0 },
+      { "id": "p6-194-q4", "questionText": "[4]", "options": ["Acting", "Delaying", "Reflecting", "Procrastinating"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-195",
+    "part": 6,
+    "text": "Dear Applicant, The selection committee has noted your extensive volunteer history. [1] _______, your 200 hours of community service demonstrate a strong commitment to social welfare. [2] _______, your academic transcript falls just below the scholarship's strict GPA cutoff. [3] _______, the committee has decided to place your application on a priority waiting list. Should enrollment numbers permit, we will be able to [4] _______ you a partial award.",
+    "subQuestions": [
+      { "id": "p6-195-q1", "questionText": "[1]", "options": ["In contrast", "Nevertheless", "By comparison", "Undoubtedly"], "correctIndex": 3 },
+      { "id": "p6-195-q2", "questionText": "[2]", "options": ["Furthermore", "Conversely", "Similarly", "Regardless"], "correctIndex": 1 },
+      { "id": "p6-195-q3", "questionText": "[3]", "options": ["Consequently", "Therefore", "However", "Besides"], "correctIndex": 0 },
+      { "id": "p6-195-q4", "questionText": "[4]", "options": ["extend", "revoke", "withhold", "rescind"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-196",
+    "part": 6,
+    "text": "Dear Subscribers, Starting next billing cycle, we are upgrading our network infrastructure. [1] _______, 5G connectivity will be available in all major cities nationwide. [2] _______, legacy 3G devices will no longer be supported. [3] _______ this inconvenience, we have partnered with a trade-in program to offer discounts on new devices. We are striving to [4] _______ the transition as painless as possible.",
+    "subQuestions": [
+      { "id": "p6-196-q1", "questionText": "[1]", "options": ["Conversely", "As a result", "For instance", "Nevertheless"], "correctIndex": 1 },
+      { "id": "p6-196-q2", "questionText": "[2]", "options": ["Nevertheless", "Similarly", "In contrast", "Moreover"], "correctIndex": 2 },
+      { "id": "p6-196-q3", "questionText": "[3]", "options": ["To mitigate", "Because of", "In addition to", "Regardless of"], "correctIndex": 0 },
+      { "id": "p6-196-q4", "questionText": "[4]", "options": ["render", "evade", "deem", "impede"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-197",
+    "part": 6,
+    "text": "To the Editorial Team, The op-ed submitted by the senator is libelous in its current form. [1] _______, it accuses a private citizen of corruption without providing any corroborating evidence. [2] _______, we have a legal obligation to refuse publication unless the claims are substantiated. [3] _______, I have requested the author provide documentation or accept a redacted version of the article. We must tread carefully to avoid [4] _______ ourselves to a defamation suit.",
+    "subQuestions": [
+      { "id": "p6-197-q1", "questionText": "[1]", "options": ["Conversely", "Specifically", "Nevertheless", "For instance"], "correctIndex": 1 },
+      { "id": "p6-197-q2", "questionText": "[2]", "options": ["Therefore", "Otherwise", "Conversely", "Furthermore"], "correctIndex": 0 },
+      { "id": "p6-197-q3", "questionText": "[3]", "options": ["Moreover", "Nevertheless", "Consequently", "In addition"], "correctIndex": 2 },
+      { "id": "p6-197-q4", "questionText": "[4]", "options": ["exposing", "insulating", "acquitting", "absolving"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-198",
+    "part": 6,
+    "text": "Dear Loyalty Member, We are refreshing our rewards catalog. [1] _______, points required for premium travel packages have been reduced by 20%. [2] _______, the expiration policy for dormant accounts has been tightened. [3] _______, any account with zero activity for 12 months will automatically forfeit its points. Please log in and make a qualifying transaction to [4] _______ your hard-earned rewards.",
+    "subQuestions": [
+      { "id": "p6-198-q1", "questionText": "[1]", "options": ["On the one hand", "Conversely", "However", "Subsequently"], "correctIndex": 0 },
+      { "id": "p6-198-q2", "questionText": "[2]", "options": ["Furthermore", "Nevertheless", "On the other hand", "For example"], "correctIndex": 2 },
+      { "id": "p6-198-q3", "questionText": "[3]", "options": ["Nevertheless", "Consequently", "In other words", "In contrast"], "correctIndex": 1 },
+      { "id": "p6-198-q4", "questionText": "[4]", "options": ["safeguard", "liquidate", "squander", "relinquish"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-199",
+    "part": 6,
+    "text": "Dear Residents, The city has issued a boil water advisory following a water main break. [1] _______, tap water must be brought to a rolling boil for at least one minute before consumption. [2] _______, this advisory is expected to remain in effect until water quality tests are confirmed safe. [3] _______ the inconvenience, please be assured that bottled water is available at the community center. Your usual water supply will be [4] _______ once the all-clear is given.",
+    "subQuestions": [
+      { "id": "p6-199-q1", "questionText": "[1]", "options": ["Consequently", "Conversely", "For instance", "Nevertheless"], "correctIndex": 0 },
+      { "id": "p6-199-q2", "questionText": "[2]", "options": ["Furthermore", "Nevertheless", "Subsequently", "In the meantime"], "correctIndex": 3 },
+      { "id": "p6-199-q3", "questionText": "[3]", "options": ["Regardless of", "Owing to", "In addition to", "Despite"], "correctIndex": 3 },
+      { "id": "p6-199-q4", "questionText": "[4]", "options": ["restored", "condemned", "polluted", "extracted"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-200",
+    "part": 6,
+    "text": "To the Finance Division, The external auditors have flagged an irregularity in the procurement ledger. [1] _______, a series of purchase orders appear to have bypassed the standard bidding process. [2] _______, we must prepare a justifiable explanation for this deviation. [3] _______ we fail to provide satisfactory documentation, the company may face a qualified audit opinion. Please gather the relevant contracts to [4] _______ that proper authorization was indeed obtained.",
+    "subQuestions": [
+      { "id": "p6-200-q1", "questionText": "[1]", "options": ["Conversely", "Nevertheless", "Specifically", "Therefore"], "correctIndex": 2 },
+      { "id": "p6-200-q2", "questionText": "[2]", "options": ["Consequently", "Otherwise", "Conversely", "For instance"], "correctIndex": 0 },
+      { "id": "p6-200-q3", "questionText": "[3]", "options": ["Should", "Because", "Although", "Unless"], "correctIndex": 0 },
+      { "id": "p6-200-q4", "questionText": "[4]", "options": ["substantiate", "fabricate", "refute", "conceal"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-201",
+    "part": 6,
+    "text": "Dear New Customer, Your direct debit mandate has been successfully set up. [1] _______, payments will be automatically deducted from your account on the 1st of each month. [2] _______, your first bill includes a proportionate charge for the partial month of service. [3] _______, this pro-rata amount will be visible on your online dashboard. Should you wish to dispute this charge, you must [4] _______ us in writing within 14 days.",
+    "subQuestions": [
+      { "id": "p6-201-q1", "questionText": "[1]", "options": ["Going forward", "Nevertheless", "On the contrary", "Retroactively"], "correctIndex": 0 },
+      { "id": "p6-201-q2", "questionText": "[2]", "options": ["Furthermore", "Please note that", "In contrast", "Alternatively"], "correctIndex": 1 },
+      { "id": "p6-201-q3", "questionText": "[3]", "options": ["Specifically", "Nevertheless", "Conversely", "Subsequently"], "correctIndex": 0 },
+      { "id": "p6-201-q4", "questionText": "[4]", "options": ["notify", "convince", "ignore", "sympathize"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-202",
+    "part": 6,
+    "text": "To the Retail Associates, The new inventory tracking system goes live tomorrow. [1] _______, you are required to attend a mandatory training session at 7:00 AM. [2] _______, the handheld scanners have been pre-loaded with the new software. [3] _______ to use the system correctly will result in stock discrepancies. Your precision in [4] _______ the barcodes is vital to our supply chain accuracy.",
+    "subQuestions": [
+      { "id": "p6-202-q1", "questionText": "[1]", "options": ["In preparation", "Nevertheless", "In contrast", "Subsequently"], "correctIndex": 0 },
+      { "id": "p6-202-q2", "questionText": "[2]", "options": ["Furthermore", "Conversely", "Therefore", "Otherwise"], "correctIndex": 0 },
+      { "id": "p6-202-q3", "questionText": "[3]", "options": ["Failing", "Striving", "Attempting", "Managing"], "correctIndex": 0 },
+      { "id": "p6-202-q4", "questionText": "[4]", "options": ["scanning", "ignoring", "tampering", "defacing"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-203",
+    "part": 6,
+    "text": "Dear Taxpayer, The audit of your tax return for the fiscal year 2023 has been finalized. [1] _______, there is an outstanding balance of $1,250 due to an underreported freelance income. [2] _______, interest on this amount has been compounding since the original filing deadline. [3] _______ remitted within 30 days, this matter will be escalated to a collection agency. To settle this debt and avoid further penalties, please use the [4] _______ payment stub.",
+    "subQuestions": [
+      { "id": "p6-203-q1", "questionText": "[1]", "options": ["Consequently", "Conversely", "Nevertheless", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-203-q2", "questionText": "[2]", "options": ["Furthermore", "In other words", "Similarly", "Regardless"], "correctIndex": 0 },
+      { "id": "p6-203-q3", "questionText": "[3]", "options": ["Unless", "Because", "Provided that", "If"], "correctIndex": 0 },
+      { "id": "p6-203-q4", "questionText": "[4]", "options": ["enclosed", "abandoned", "discarded", "invalid"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-204",
+    "part": 6,
+    "text": "Dear Members, The HOA meeting has been convened to discuss the proposed amendment to the bylaw regarding short-term rentals. [1] _______, the current proposal seeks to prohibit rentals of less than 30 days entirely. [2] _______, a counter-proposal suggests a licensing scheme with a cap on the number of days allowed. [3] _______ the community remains sharply divided, we require a 75% quorum to pass any measure. Your presence is essential to [4] _______ that the decision reflects the majority will.",
+    "subQuestions": [
+      { "id": "p6-204-q1", "questionText": "[1]", "options": ["To clarify", "Consequently", "Nevertheless", "Specifically"], "correctIndex": 0 },
+      { "id": "p6-204-q2", "questionText": "[2]", "options": ["Nevertheless", "Conversely", "Additionally", "Consequently"], "correctIndex": 1 },
+      { "id": "p6-204-q3", "questionText": "[3]", "options": ["Because", "Since", "Given that", "Although"], "correctIndex": 2 },
+      { "id": "p6-204-q4", "questionText": "[4]", "options": ["ensure", "speculate", "presume", "doubt"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-205",
+    "part": 6,
+    "text": "To the laboratory staff, The recent contamination of the sterile chamber has been traced back to improper gowning procedures. [1] _______, the lab will be shut down for deep cleaning for 48 hours. [2] _______, all personnel are required to undergo recertification on cleanroom protocols. [3] _______ the delay this causes to the ongoing trials, patient safety must remain our overriding priority. We appreciate your compliance in remedying this [4] _______.",
+    "subQuestions": [
+      { "id": "p6-205-q1", "questionText": "[1]", "options": ["Consequently", "Conversely", "Nevertheless", "For instance"], "correctIndex": 0 },
+      { "id": "p6-205-q2", "questionText": "[2]", "options": ["Furthermore", "Conversely", "Therefore", "Similarly"], "correctIndex": 0 },
+      { "id": "p6-205-q3", "questionText": "[3]", "options": ["Despite", "Owing to", "Because of", "In addition to"], "correctIndex": 0 },
+      { "id": "p6-205-q4", "questionText": "[4]", "options": ["lapse", "triumph", "shortage", "protocol"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-206",
+    "part": 6,
+    "text": "Dear Event Sponsors, The charity run has exceeded our wildest fundraising expectations. [1] _______, we have surpassed our initial goal of $100,000 by 25%. [2] _______, we still have outstanding pledges that could push us over the $150,000 mark. [3] _______, we are extending the donation portal for an additional week. Your generosity continues to [4] _______ our mission of providing clean water solutions abroad.",
+    "subQuestions": [
+      { "id": "p6-206-q1", "questionText": "[1]", "options": ["Nevertheless", "Specifically", "In particular", "For instance"], "correctIndex": 3 },
+      { "id": "p6-206-q2", "questionText": "[2]", "options": ["Moreover", "Nevertheless", "Conversely", "Consequently"], "correctIndex": 0 },
+      { "id": "p6-206-q3", "questionText": "[3]", "options": ["Therefore", "Otherwise", "Conversely", "In addition"], "correctIndex": 0 },
+      { "id": "p6-206-q4", "questionText": "[4]", "options": ["fuel", "hinder", "deplete", "drain"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-207",
+    "part": 6,
+    "text": "Dear Family Member, The patient's condition has been downgraded from critical to stable. [1] _______, this is an encouraging sign, but not yet a full recovery. [2] _______, the attending physician recommends limiting visitors to immediate family only. [3] _______ the patient's immune system is compromised, any minor infection could pose a serious risk. We ask for your understanding in [4] _______ these strict visiting hours.",
+    "subQuestions": [
+      { "id": "p6-207-q1", "questionText": "[1]", "options": ["Conversely", "Admittedly", "In contrast", "Furthermore"], "correctIndex": 1 },
+      { "id": "p6-207-q2", "questionText": "[2]", "options": ["Nevertheless", "Therefore", "Similarly", "In addition"], "correctIndex": 1 },
+      { "id": "p6-207-q3", "questionText": "[3]", "options": ["Because", "Unless", "Although", "Whereas"], "correctIndex": 0 },
+      { "id": "p6-207-q4", "questionText": "[4]", "options": ["abiding by", "violating", "extending", "ignoring"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-208",
+    "part": 6,
+    "text": "To the Portfolio Managers, The internal rate of return on the infrastructure fund has underperformed the benchmark. [1] _______, the lack of liquidity in the underlying assets makes a rapid exit strategy unfeasible. [2] _______, we must focus on improving the operational efficiency of the core holdings. [3] _______, we recommend bringing in specialized consultants for a performance audit. The objective is to [4] _______ value from non-performing assets.",
+    "subQuestions": [
+      { "id": "p6-208-q1", "questionText": "[1]", "options": ["Furthermore", "Conversely", "Nevertheless", "Specifically"], "correctIndex": 0 },
+      { "id": "p6-208-q2", "questionText": "[2]", "options": ["Consequently", "Otherwise", "Conversely", "Similarly"], "correctIndex": 0 },
+      { "id": "p6-208-q3", "questionText": "[3]", "options": ["Therefore", "Nevertheless", "In contrast", "Besides"], "correctIndex": 0 },
+      { "id": "p6-208-q4", "questionText": "[4]", "options": ["extract", "inject", "absorb", "infuse"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-209",
+    "part": 6,
+    "text": "Dear Residents, The waste disposal company has altered its pickup schedule. [1] _______, recycling will now be collected on Wednesdays instead of Tuesdays. [2] _______, general waste collection remains unchanged. [3] _______, please ensure your bins are placed curbside by 6:00 AM to avoid being missed. The new schedule will remain in effect until further notice to [4] _______ the logistical issues identified last month.",
+    "subQuestions": [
+      { "id": "p6-209-q1", "questionText": "[1]", "options": ["Consequently", "Conversely", "Notably", "Nevertheless"], "correctIndex": 2 },
+      { "id": "p6-209-q2", "questionText": "[2]", "options": ["Furthermore", "Nevertheless", "Similarly", "However"], "correctIndex": 3 },
+      { "id": "p6-209-q3", "questionText": "[3]", "options": ["Therefore", "Otherwise", "In addition", "In contrast"], "correctIndex": 0 },
+      { "id": "p6-209-q4", "questionText": "[4]", "options": ["rectify", "perpetuate", "escalate", "stage"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": "p6-210",
+    "part": 6,
+    "text": "Dear Esteemed Donor, Your endowment of the humanities chair has been formally accepted by the board. [1] _______, a search committee is being assembled to identify suitable candidates for the position. [2] _______, the official naming ceremony has been scheduled for the spring gala. [3] _______, we must finalize the wording on the commemorative plaque. We would be honored if you would [4] _______ the ceremony and say a few words.",
+    "subQuestions": [
+      { "id": "p6-210-q1", "questionText": "[1]", "options": ["Subsequently", "Conversely", "Nevertheless", "On the contrary"], "correctIndex": 0 },
+      { "id": "p6-210-q2", "questionText": "[2]", "options": ["Furthermore", "In contrast", "Meanwhile", "Similarly"], "correctIndex": 0 },
+      { "id": "p6-210-q3", "questionText": "[3]", "options": ["Prior to that", "Nevertheless", "In contrast", "As a result"], "correctIndex": 0 },
+      { "id": "p6-210-q4", "questionText": "[4]", "options": ["grace", "boycott", "disrupt", "observe"], "correctIndex": 0 }
+    ]
   }
 ]

@@ -34,6 +34,7 @@ export interface ReviewItem {
 
 export interface AppSettings {
   isAudioEnabled: boolean;
+  isDarkMode: boolean;
 }
 
 export interface DailyRecord {

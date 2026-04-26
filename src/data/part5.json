@@ -2398,5 +2398,1206 @@
         "correctIndex": 0
       }
     ]
+  },
+  {
+    "id": "p5-201",
+    "part": 5,
+    "text": "The committee's final decision is contingent _______ the findings of the external audit.",
+    "subQuestions": [
+      {
+        "id": "p5-201-q1",
+        "options": ["upon", "with", "for", "about"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-202",
+    "part": 5,
+    "text": "Not until the board reviews the quarterly report _______ whether the budget will be approved.",
+    "subQuestions": [
+      {
+        "id": "p5-202-q1",
+        "options": ["they will know", "will they know", "they know", "do they know"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-203",
+    "part": 5,
+    "text": "The new policy, _______ intended to boost morale, had the opposite effect on the sales team.",
+    "subQuestions": [
+      {
+        "id": "p5-203-q1",
+        "options": ["while", "despite", "though", "because"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-204",
+    "part": 5,
+    "text": "Had the IT department been notified in advance, the server outage _______ avoided.",
+    "subQuestions": [
+      {
+        "id": "p5-204-q1",
+        "options": ["could have been", "could be", "should be", "will have been"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-205",
+    "part": 5,
+    "text": "The merger talks stalled due to _______ disagreements over the valuation of intangible assets.",
+    "subQuestions": [
+      {
+        "id": "p5-205-q1",
+        "options": ["insoluble", "insolvent", "insolent", "insouciant"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-206",
+    "part": 5,
+    "text": "By the time the new CEO assumes office next June, the outgoing board _______ all outstanding legal matters.",
+    "subQuestions": [
+      {
+        "id": "p5-206-q1",
+        "options": ["will have resolved", "will be resolving", "has resolved", "had resolved"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-207",
+    "part": 5,
+    "text": "A thorough investigation into the accounting discrepancy revealed that a sum of $2 million _______. ",
+    "subQuestions": [
+      {
+        "id": "p5-207-q1",
+        "options": ["had been misappropriated", "was misappropriating", "has misappropriated", "had misappropriated"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-208",
+    "part": 5,
+    "text": "The legal team advised that the clause _______ amended to reflect the new regulatory framework.",
+    "subQuestions": [
+      {
+        "id": "p5-208-q1",
+        "options": ["be", "is", "will be", "was"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-209",
+    "part": 5,
+    "text": "The region's economic outlook remains _______ unstable, deterring potential foreign investors.",
+    "subQuestions": [
+      {
+        "id": "p5-209-q1",
+        "options": ["perilously", "imperiously", "gregariously", "ostentatiously"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-210",
+    "part": 5,
+    "text": "The lead researcher questioned whether the control group was sufficiently representative, _______ doubt on the entire study's methodology.",
+    "subQuestions": [
+      {
+        "id": "p5-210-q1",
+        "options": ["casting", "cast", "to cast", "having cast"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-211",
+    "part": 5,
+    "text": "Neither the project manager nor her subordinates _______ aware of the security breach until the following morning.",
+    "subQuestions": [
+      {
+        "id": "p5-211-q1",
+        "options": ["was", "were", "have been", "are"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-212",
+    "part": 5,
+    "text": "_______ the unforeseen spike in raw material costs, the construction project was completed under budget.",
+    "subQuestions": [
+      {
+        "id": "p5-212-q1",
+        "options": ["In spite", "Notwithstanding", "Regardless", "Albeit"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-213",
+    "part": 5,
+    "text": "The board members are _______ to the idea of a stock buyback, preferring instead to reinvest profits into R&D.",
+    "subQuestions": [
+      {
+        "id": "p5-213-q1",
+        "options": ["averse", "adverse", "advertent", "avid"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-214",
+    "part": 5,
+    "text": "It is imperative that the software patch _______ on all company devices before the end of the day.",
+    "subQuestions": [
+      {
+        "id": "p5-214-q1",
+        "options": ["be installed", "is installed", "will be installed", "installs"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-215",
+    "part": 5,
+    "text": "The keynote speaker's remarks, although _______, resonated deeply with the audience of struggling entrepreneurs.",
+    "subQuestions": [
+      {
+        "id": "p5-215-q1",
+        "options": ["unassuming", "unassured", "unassailable", "unassimilated"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-216",
+    "part": 5,
+    "text": "The arbitration panel is tasked with determining the _______ to which the plaintiff is entitled for lost wages.",
+    "subQuestions": [
+      {
+        "id": "p5-216-q1",
+        "options": ["quantum", "quorum", "quandary", "quota"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-217",
+    "part": 5,
+    "text": "A company's culture should be judged not by its mission statement, but by the behaviors it tacitly _______. ",
+    "subQuestions": [
+      {
+        "id": "p5-217-q1",
+        "options": ["condones", "condemns", "concedes", "condenses"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-218",
+    "part": 5,
+    "text": "Rarely _______ such a unanimous consensus among the different stakeholders on a matter of policy.",
+    "subQuestions": [
+      {
+        "id": "p5-218-q1",
+        "options": ["has there been", "there has been", "is there", "there is"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-219",
+    "part": 5,
+    "text": "The supplier agreement includes a _______ clause that allows for termination with 30 days' written notice.",
+    "subQuestions": [
+      {
+        "id": "p5-219-q1",
+        "options": ["unilateral", "bilateral", "multilateral", "equilateral"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-220",
+    "part": 5,
+    "text": "The data suggests that consumers are highly susceptible _______ targeted advertising on social media.",
+    "subQuestions": [
+      {
+        "id": "p5-220-q1",
+        "options": ["to", "for", "with", "in"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-221",
+    "part": 5,
+    "text": "The outgoing CFO, _______ we all owe a debt of gratitude, has accepted a position at a Fortune 500 company.",
+    "subQuestions": [
+      {
+        "id": "p5-221-q1",
+        "options": ["to whom", "whom", "which", "for which"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-222",
+    "part": 5,
+    "text": "The feasibility study concluded that the proposed site was _______ inadequate due to a lack of infrastructure.",
+    "subQuestions": [
+      {
+        "id": "p5-222-q1",
+        "options": ["logistically", "linguistically", "litigiously", "literally"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-223",
+    "part": 5,
+    "text": "Unless the workforce is willing to _______ new technologies, the plant's productivity will continue to decline.",
+    "subQuestions": [
+      {
+        "id": "p5-223-q1",
+        "options": ["embrace", "emulate", "embargo", "embellish"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-224",
+    "part": 5,
+    "text": "The two vice presidents have a tacit understanding: one handles domestic affairs, _______ the other manages international ventures.",
+    "subQuestions": [
+      {
+        "id": "p5-224-q1",
+        "options": ["while", "as", "thus", "so"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-225",
+    "part": 5,
+    "text": "_______ the complexity of the case, the jury reached a verdict in less than two hours.",
+    "subQuestions": [
+      {
+        "id": "p5-225-q1",
+        "options": ["Given", "Providing", "Assuming", "Owing"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-226",
+    "part": 5,
+    "text": "The new regulations aim to ________ the discrepancy between state and federal tax codes.",
+    "subQuestions": [
+      {
+        "id": "p5-226-q1",
+        "options": ["reconcile", "reciprocate", "recant", "recollect"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-227",
+    "part": 5,
+    "text": "The consultant recommended a complete ________ of the department's workflow to eliminate redundancies.",
+    "subQuestions": [
+      {
+        "id": "p5-227-q1",
+        "options": ["overhaul", "overflow", "overkill", "oversight"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-228",
+    "part": 5,
+    "text": "So ________ was the damage to the cargo hold that the vessel was declared a total loss.",
+    "subQuestions": [
+      {
+        "id": "p5-228-q1",
+        "options": ["extensive", "extensively", "extended", "extending"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-229",
+    "part": 5,
+    "text": "A panel of experts has been ________ to oversee the ethical implications of the AI research project.",
+    "subQuestions": [
+      {
+        "id": "p5-229-q1",
+        "options": ["convened", "conveyed", "contrived", "converted"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-230",
+    "part": 5,
+    "text": "The memo explicitly states that no employee, _______ of their seniority, is exempt from the new safety protocols.",
+    "subQuestions": [
+      {
+        "id": "p5-230-q1",
+        "options": ["irrespective", "regarding", "concerned", "considering"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-231",
+    "part": 5,
+    "text": "The budget report must be submitted to the finance department no later _______ Friday at 5 PM.",
+    "subQuestions": [
+      {
+        "id": "p5-231-q1",
+        "options": ["than", "then", "from", "by"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-232",
+    "part": 5,
+    "text": "The CEO's decision to step down was ________, as he had confided in no one prior to the announcement.",
+    "subQuestions": [
+      {
+        "id": "p5-232-q1",
+        "options": ["abrupt", "corrupt", "bankrupt", "erupt"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-233",
+    "part": 5,
+    "text": "The project's success was ________ on the ability of the various teams to communicate effectively.",
+    "subQuestions": [
+      {
+        "id": "p5-233-q1",
+        "options": ["predicated", "predicted", "predisposed", "precluded"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-234",
+    "part": 5,
+    "text": "The company is seeking damages, ________ that the contract was breached knowingly.",
+    "subQuestions": [
+      {
+        "id": "p5-234-q1",
+        "options": ["alleging", "accusing", "admitting", "assuming"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-235",
+    "part": 5,
+    "text": "Once the new software is fully ________ into the system, we can expect a 20% rise in efficiency.",
+    "subQuestions": [
+      {
+        "id": "p5-235-q1",
+        "options": ["integrated", "integral", "integrative", "integrity"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-236",
+    "part": 5,
+    "text": "By prioritizing short-term gains, the management has jeopardized the long-term ________ of the enterprise.",
+    "subQuestions": [
+      {
+        "id": "p5-236-q1",
+        "options": ["viability", "visibility", "volatility", "virtuosity"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-237",
+    "part": 5,
+    "text": "The conference agenda is ________ to change as keynote speakers confirm their availability.",
+    "subQuestions": [
+      {
+        "id": "p5-237-q1",
+        "options": ["subject", "subjective", "subjugated", "subservient"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-238",
+    "part": 5,
+    "text": "His ________ for the details of the merger was impressive; he had memorized every clause of the contract.",
+    "subQuestions": [
+      {
+        "id": "p5-238-q1",
+        "options": ["grasp", "grasping", "grip", "grope"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-239",
+    "part": 5,
+    "text": "The investors were rightfully ________ about the lack of transparency in the financial disclosures.",
+    "subQuestions": [
+      {
+        "id": "p5-239-q1",
+        "options": ["skeptical", "cynical", "pessimistic", "fanatical"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-240",
+    "part": 5,
+    "text": "The marketing campaign was designed to ________ to a younger demographic unfamiliar with the brand.",
+    "subQuestions": [
+      {
+        "id": "p5-240-q1",
+        "options": ["appeal", "appear", "append", "applaud"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-241",
+    "part": 5,
+    "text": "The laboratory mice were kept in a ________ environment to ensure the validity of the experiment.",
+    "subQuestions": [
+      {
+        "id": "p5-241-q1",
+        "options": ["controlled", "controlling", "controller", "control"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-242",
+    "part": 5,
+    "text": "The firm faces a serious ________ of lawsuits if the data breach is found to be due to negligence.",
+    "subQuestions": [
+      {
+        "id": "p5-242-q1",
+        "options": ["spate", "spar", "spat", "spate"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-243",
+    "part": 5,
+    "text": "Historically, the company's stock price has been inversely ________ to fluctuations in interest rates.",
+    "subQuestions": [
+      {
+        "id": "p5-243-q1",
+        "options": ["correlated", "coordinated", "cooperated", "coincided"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-244",
+    "part": 5,
+    "text": "The instructions clearly state that the equipment must be handled with the ________ care.",
+    "subQuestions": [
+      {
+        "id": "p5-244-q1",
+        "options": ["utmost", "utopian", "utter", "utile"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-245",
+    "part": 5,
+    "text": "The new CEO's first ________ was to streamline the decision-making process by removing layers of middle management.",
+    "subQuestions": [
+      {
+        "id": "p5-245-q1",
+        "options": ["initiative", "inquisition", "innuendo", "injunction"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-246",
+    "part": 5,
+    "text": "The negotiations reached an ________ when neither side would compromise on the issue of intellectual property rights.",
+    "subQuestions": [
+      {
+        "id": "p5-246-q1",
+        "options": ["impasse", "impetus", "impulse", "imperil"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-247",
+    "part": 5,
+    "text": "The finance team is working around the clock to ________ the accounts before the fiscal year ends.",
+    "subQuestions": [
+      {
+        "id": "p5-247-q1",
+        "options": ["reconcile", "recuperate", "recriminate", "refurbish"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-248",
+    "part": 5,
+    "text": "It was not the initial cost but the ________ maintenance fees that made the software so expensive in the long run.",
+    "subQuestions": [
+      {
+        "id": "p5-248-q1",
+        "options": ["exorbitant", "exonerated", "exacerbated", "exhaustive"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-249",
+    "part": 5,
+    "text": "The board decided to ________ the contract with the underperforming supplier, citing a breach of terms.",
+    "subQuestions": [
+      {
+        "id": "p5-249-q1",
+        "options": ["terminate", "exterminate", "illuminate", "contaminate"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-250",
+    "part": 5,
+    "text": "________ in the report are several recommendations for mitigating the risks of supply chain disruption.",
+    "subQuestions": [
+      {
+        "id": "p5-250-q1",
+        "options": ["Included", "Including", "To include", "Includes"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-251",
+    "part": 5,
+    "text": "The architect's new design ________ the building seamlessly into the surrounding landscape.",
+    "subQuestions": [
+      {
+        "id": "p5-251-q1",
+        "options": ["integrates", "alienates", "mitigates", "fluctuates"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-252",
+    "part": 5,
+    "text": "The principal investor demanded a personal ________ that his capital would not be used for speculative ventures.",
+    "subQuestions": [
+      {
+        "id": "p5-252-q1",
+        "options": ["assurance", "insurance", "endurance", "reassurance"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-253",
+    "part": 5,
+    "text": "The sheer volume of data was ________; the engineers knew they needed a more robust system.",
+    "subQuestions": [
+      {
+        "id": "p5-253-q1",
+        "options": ["overwhelming", "overreaching", "overbearing", "overcharging"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-254",
+    "part": 5,
+    "text": "The legal team is examining whether the clause is ________ under the current antitrust laws.",
+    "subQuestions": [
+      {
+        "id": "p5-254-q1",
+        "options": ["enforceable", "enforcive", "enforced", "enforcing"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-255",
+    "part": 5,
+    "text": "The seminar's primary objective is to ________ communication between the sales and marketing departments.",
+    "subQuestions": [
+      {
+        "id": "p5-255-q1",
+        "options": ["facilitate", "felicitate", "fluctuate", "fabricate"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-256",
+    "part": 5,
+    "text": "We are confident in the ________ of our new product line, which has outperformed all internal benchmarks.",
+    "subQuestions": [
+      {
+        "id": "p5-256-q1",
+        "options": ["efficacy", "efficiency", "effulgence", "effrontery"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-257",
+    "part": 5,
+    "text": "The discrepancy in the ledger was a clear ________ that a more detailed audit was necessary.",
+    "subQuestions": [
+      {
+        "id": "p5-257-q1",
+        "options": ["indicator", "indication", "indictment", "inducement"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-258",
+    "part": 5,
+    "text": "The author proceeds on the ________ that climate change is an incontrovertible fact, not a topic for debate.",
+    "subQuestions": [
+      {
+        "id": "p5-258-q1",
+        "options": ["premise", "promise", "surmise", "demise"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-259",
+    "part": 5,
+    "text": "The junior analyst was praised for his ________ work in compiling the complex risk assessment report.",
+    "subQuestions": [
+      {
+        "id": "p5-259-q1",
+        "options": ["meticulous", "meritorious", "mendacious", "mercurial"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-260",
+    "part": 5,
+    "text": "The partnership was dissolved by ________ consent when it became clear the vision for the project had diverged.",
+    "subQuestions": [
+      {
+        "id": "p5-260-q1",
+        "options": ["mutual", "mutable", "muted", "motive"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-261",
+    "part": 5,
+    "text": "To stay ahead of competitors, the company must foster a culture of continuous ________.",
+    "subQuestions": [
+      {
+        "id": "p5-261-q1",
+        "options": ["innovation", "innocence", "insistence", "insolence"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-262",
+    "part": 5,
+    "text": "The manager's remarks about the product launch were deliberately ________, leaving the team confused about the timeline.",
+    "subQuestions": [
+      {
+        "id": "p5-262-q1",
+        "options": ["ambiguous", "ambitious", "ambivalent", "ambient"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-263",
+    "part": 5,
+    "text": "The company's liability is limited to the amount ________ in the original sales agreement.",
+    "subQuestions": [
+      {
+        "id": "p5-263-q1",
+        "options": ["stipulated", "stigmatized", "stimulated", "stipended"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-264",
+    "part": 5,
+    "text": "The executive summary should ________ the salient points of the 200-page proposal for the board members.",
+    "subQuestions": [
+      {
+        "id": "p5-264-q1",
+        "options": ["encapsulate", "entrap", "entangle", "empathize"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-265",
+    "part": 5,
+    "text": "A good negotiator knows how to ________ concessions without appearing to have lost ground.",
+    "subQuestions": [
+      {
+        "id": "p5-265-q1",
+        "options": ["extract", "extricate", "extradite", "extrapolate"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-266",
+    "part": 5,
+    "text": "The firm's reputation for integrity is its most ________ asset, and it must be protected at all costs.",
+    "subQuestions": [
+      {
+        "id": "p5-266-q1",
+        "options": ["invaluable", "worthless", "valueless", "pricy"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-267",
+    "part": 5,
+    "text": "The project was temporarily ________ while the legal department vetted the potential patent issues.",
+    "subQuestions": [
+      {
+        "id": "p5-267-q1",
+        "options": ["halted", "heightened", "heeded", "hedged"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-268",
+    "part": 5,
+    "text": "The union representative argued that the new shift schedule was in ________ of the collective bargaining agreement.",
+    "subQuestions": [
+      {
+        "id": "p5-268-q1",
+        "options": ["violation", "vindication", "vacillation", "veneration"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-269",
+    "part": 5,
+    "text": "The company's expansion into the Asian market is ________ on finding a reliable local partner.",
+    "subQuestions": [
+      {
+        "id": "p5-269-q1",
+        "options": ["contingent", "contentious", "contiguous", "contagious"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-270",
+    "part": 5,
+    "text": "The new software can ________ generate a complete financial overview, saving analysts hours of work.",
+    "subQuestions": [
+      {
+        "id": "p5-270-q1",
+        "options": ["autonomously", "anonymously", "audaciously", "auspiciously"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-271",
+    "part": 5,
+    "text": "The CEO felt that the accusations were ________ and intended only to tarnish her successful career.",
+    "subQuestions": [
+      {
+        "id": "p5-271-q1",
+        "options": ["malicious", "benevolent", "generous", "amorous"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-272",
+    "part": 5,
+    "text": "The annual report highlighted the company's ________ performance, with profits up 15% across all sectors.",
+    "subQuestions": [
+      {
+        "id": "p5-272-q1",
+        "options": ["stellar", "interstellar", "sterling", "sterile"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-273",
+    "part": 5,
+    "text": "The team decided to ________ the original schedule, as the client requested an earlier delivery date.",
+    "subQuestions": [
+      {
+        "id": "p5-273-q1",
+        "options": ["expedite", "expunge", "expound", "expiate"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-274",
+    "part": 5,
+    "text": "The consultant's report was far too ________, failing to address the specific operational issues we are facing.",
+    "subQuestions": [
+      {
+        "id": "p5-274-q1",
+        "options": ["generic", "genuine", "genial", "genetic"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-275",
+    "part": 5,
+    "text": "As a ________ measure, the plant will be shut down for a week to conduct mandatory safety inspections.",
+    "subQuestions": [
+      {
+        "id": "p5-275-q1",
+        "options": ["precautionary", "precaution", "cautious", "precarious"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-276",
+    "part": 5,
+    "text": "The government bailout was ________ upon a complete restructuring of the bank's management.",
+    "subQuestions": [
+      {
+        "id": "p5-276-q1",
+        "options": ["conditional", "traditional", "additional", "functional"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-277",
+    "part": 5,
+    "text": "The manager asked the accountant to ________ the discrepancies in the travel expense reports.",
+    "subQuestions": [
+      {
+        "id": "p5-277-q1",
+        "options": ["account for", "account", "count on", "discount"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-278",
+    "part": 5,
+    "text": "The task force was ________ to develop a comprehensive strategy for entering the renewable energy sector.",
+    "subQuestions": [
+      {
+        "id": "p5-278-q1",
+        "options": ["constituted", "construed", "constructed", "constrained"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-279",
+    "part": 5,
+    "text": "The plaintiff's testimony was ________; it contained several inconsistencies that weakened the case.",
+    "subQuestions": [
+      {
+        "id": "p5-279-q1",
+        "options": ["unreliable", "irreverent", "irreproachable", "irredeemable"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-280",
+    "part": 5,
+    "text": "The new accounting standards will necessitate a fundamental ________ in how we report revenue.",
+    "subQuestions": [
+      {
+        "id": "p5-280-q1",
+        "options": ["shift", "shaft", "shrift", "sift"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-281",
+    "part": 5,
+    "text": "The candidate's ________ qualifications were impeccable, but his lack of leadership experience was a concern.",
+    "subQuestions": [
+      {
+        "id": "p5-281-q1",
+        "options": ["academic", "technical", "professional", "credential"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-282",
+    "part": 5,
+    "text": "The raw data had to be meticulously ________ to remove any errors before the final analysis could begin.",
+    "subQuestions": [
+      {
+        "id": "p5-282-q1",
+        "options": ["scrutinized", "scandalized", "scrubbed", "scrambled"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "p5-283",
+    "part": 5,
+    "text": "The board remains ________ that the restructuring plan will ultimately increase shareholder value, despite the short-term costs.",
+    "subQuestions": [
+      {
+        "id": "p5-283-q1",
+        "options": ["unconvinced", "steadfast", "equivocal", "adamant"],
+        "correctIndex": 3
+      }
+    ]
+  },
+  {
+    "id": "p5-284",
+    "part": 5,
+    "text": "A failure to address the systemic issues could ________ the entire industry into a deeper crisis.",
+    "subQuestions": [
+      {
+        "id": "p5-284-q1",
+        "options": ["precipitate", "elucidate", "corroborate", "ameliorate"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-285",
+    "part": 5,
+    "text": "The report heavily criticizes the government's ________ attitude towards regulating the tech sector.",
+    "subQuestions": [
+      {
+        "id": "p5-285-q1",
+        "options": ["laissez-faire", "cul-de-sac", "fait accompli", "carte blanche"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-286",
+    "part": 5,
+    "text": "The design team's creativity, with _______ the project would have been impossible, was the key to its success.",
+    "subQuestions": [
+      {
+        "id": "p5-286-q1",
+        "options": ["which", "without", "whom", "what"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "p5-287",
+    "part": 5,
+    "text": "The proposed legislation is so intricate that even legal experts are divided on its correct ________.",
+    "subQuestions": [
+      {
+        "id": "p5-287-q1",
+        "options": ["interpretation", "interrogation", "interruption", "interception"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-288",
+    "part": 5,
+    "text": "The new online portal is meant to be a(n) ________ for all employee-related inquiries and requests.",
+    "subQuestions": [
+      {
+        "id": "p5-288-q1",
+        "options": ["repository", "suppository", "depository", "inventory"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-289",
+    "part": 5,
+    "text": "The CEO's speech was intended to ________ the fears of investors following the poor quarterly earnings report.",
+    "subQuestions": [
+      {
+        "id": "p5-289-q1",
+        "options": ["allay", "ally", "alloy", "allege"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-290",
+    "part": 5,
+    "text": "The mediator skillfully guided the discussion, effectively ________ the tension between the two parties.",
+    "subQuestions": [
+      {
+        "id": "p5-290-q1",
+        "options": ["defusing", "diffusing", "deferring", "detracting"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-291",
+    "part": 5,
+    "text": "The company's diversified portfolio serves as a ________ against market volatility in any one sector.",
+    "subQuestions": [
+      {
+        "id": "p5-291-q1",
+        "options": ["hedge", "ledger", "hegemony", "pudge"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-292",
+    "part": 5,
+    "text": "The committee voted to ________ the mandatory retirement age for senior partners from 65 to 70.",
+    "subQuestions": [
+      {
+        "id": "p5-292-q1",
+        "options": ["abolish", "amend", "adopt", "adapt"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-293",
+    "part": 5,
+    "text": "Given the lack of concrete evidence, the accusation was dismissed as mere ________.",
+    "subQuestions": [
+      {
+        "id": "p5-293-q1",
+        "options": ["conjecture", "convergence", "congruence", "convalescence"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-294",
+    "part": 5,
+    "text": "The company's commitment to sustainability must be ________, not just a marketing ploy to attract eco-conscious consumers.",
+    "subQuestions": [
+      {
+        "id": "p5-294-q1",
+        "options": ["authentic", "authoritative", "autocratic", "automated"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-295",
+    "part": 5,
+    "text": "The complex financial instrument was so ________ that few investors fully understood the risks involved.",
+    "subQuestions": [
+      {
+        "id": "p5-295-q1",
+        "options": ["arcane", "archaic", "archetypal", "ardent"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-296",
+    "part": 5,
+    "text": "The manager's reluctance to delegate stemmed not from a lack of trust, but from a sense of ________ perfectionism.",
+    "subQuestions": [
+      {
+        "id": "p5-296-q1",
+        "options": ["innate", "inane", "inert", "inmate"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-297",
+    "part": 5,
+    "text": "To avoid a conflict of interest, the lawyer decided to ________ himself from the investigation entirely.",
+    "subQuestions": [
+      {
+        "id": "p5-297-q1",
+        "options": ["recuse", "accuse", "reuse", "misuse"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-298",
+    "part": 5,
+    "text": "The startup's valuation, while ________, is justified by its massive growth potential and proprietary technology.",
+    "subQuestions": [
+      {
+        "id": "p5-298-q1",
+        "options": ["steep", "sleek", "stark", "stale"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-299",
+    "part": 5,
+    "text": "The success of the merger will ultimately ________ on the seamless integration of the two corporate cultures.",
+    "subQuestions": [
+      {
+        "id": "p5-299-q1",
+        "options": ["hinge", "hinging", "hinged", "to hinge"],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "p5-300",
+    "part": 5,
+    "text": "After hours of deliberation, the jury could only reach a ________, resulting in a mistrial.",
+    "subQuestions": [
+      {
+        "id": "p5-300-q1",
+        "options": ["stalemate", "consensus", "verdict", "sentence"],
+        "correctIndex": 0
+      }
+    ]
   }
+
 ]
