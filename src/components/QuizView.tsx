@@ -43,9 +43,18 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
   const [isAudioFinished, setIsAudioFinished] = useState(![1, 2, 3, 4].includes(part) || !isAudioEnabled);
   const [isSaved, setIsSaved] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [prepTimeLeft, setPrepTimeLeft] = useState(5);
+  const [isPreReading, setIsPreReading] = useState(part === 1);
   
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const audioStarted = useRef(false);
+
+  useEffect(() => {
+    setIsPreReading(part === 1);
+    setPrepTimeLeft(5);
+    audioStarted.current = false;
+    setIsAudioFinished(![1, 2, 3, 4].includes(part) || !isAudioEnabled);
+  }, [part, question, isAudioEnabled]);
 
   // Countdown logic
   useEffect(() => {
@@ -66,7 +75,22 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
   useEffect(() => {
     let isCancelled = false;
     
-    if (phase === "quiz" && [1, 2, 3, 4].includes(part) && !audioStarted.current && isAudioEnabled) {
+    // Prep countdown for Part 1
+    if (phase === "quiz" && part === 1 && isPreReading) {
+      const prepTimer = setInterval(() => {
+        setPrepTimeLeft((prev) => {
+          if (prev <= 1) {
+            clearInterval(prepTimer);
+            setIsPreReading(false);
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+      return () => clearInterval(prepTimer);
+    }
+    
+    if (phase === "quiz" && [1, 2, 3, 4].includes(part) && !audioStarted.current && isAudioEnabled && !isPreReading) {
       audioStarted.current = true;
       const playAudio = async () => {
         try {
@@ -156,7 +180,7 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
       isCancelled = true;
       cancelAudio();
     };
-  }, [phase, part, question]);
+  }, [phase, part, question, isPreReading, isAudioEnabled]);
 
   // Timer logic
   useEffect(() => {
@@ -266,6 +290,29 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
         </div>
 
         <div className="flex-1 overflow-y-auto space-y-6">
+          {/* Preparation Countdown for Part 1 */}
+          {part === 1 && isPreReading && (
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className="p-6 bg-blue-500 text-white rounded-2xl shadow-xl flex flex-col items-center justify-center space-y-4 text-center"
+            >
+              <Volume2 className="w-12 h-12 animate-pulse" />
+              <div>
+                <p className="text-sm font-bold uppercase tracking-widest opacity-80 mb-1">Preparation</p>
+                <h3 className="text-2xl font-black">音声再生まで {prepTimeLeft}...</h3>
+              </div>
+              <div className="w-full bg-blue-400 h-2 rounded-full overflow-hidden">
+                <motion.div 
+                  initial={{ width: "100%" }}
+                  animate={{ width: "0%" }}
+                  transition={{ duration: 5, ease: "linear" }}
+                  className="h-full bg-white"
+                />
+              </div>
+            </motion.div>
+          )}
+
           {/* Audio Status Overlay during Quiz */}
           {[1, 2, 3, 4].includes(part) && (
             <div className={`flex items-center justify-center space-x-3 p-3 rounded-xl border ${!isAudioEnabled ? "bg-gray-50 border-gray-100" : "bg-blue-50 border-blue-100"}`}>
@@ -460,6 +507,8 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
                 setSelectedAnswers({});
                 setIsConfirmed(false);
                 audioStarted.current = false;
+                setPrepTimeLeft(5);
+                setIsPreReading(part === 1);
               }}
               className="w-full py-4 bg-orange-500 text-white rounded-2xl font-bold text-lg shadow-lg flex items-center justify-center space-x-2"
             >
@@ -486,7 +535,11 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
           )}
 
           <button
-            onClick={onRetry}
+            onClick={() => {
+              setPrepTimeLeft(5);
+              setIsPreReading(part === 1);
+              onRetry();
+            }}
             className="w-full py-4 bg-blue-50 text-blue-500 rounded-2xl font-bold text-lg shadow-sm border border-blue-100 flex items-center justify-center space-x-2"
           >
             <RotateCcw className="w-5 h-5" />
