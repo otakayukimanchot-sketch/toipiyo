@@ -72,17 +72,13 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
         try {
           if (isCancelled) return;
           
-          // Play chime before starting any speech
-          await playChime();
-          if (isCancelled) return;
-
           if (part === 1 && question.audioTexts) {
             // Speak options A, B, C, D
             for (let i = 0; i < question.audioTexts.length; i++) {
               if (isCancelled) break;
-              await speak(`${String.fromCharCode(65 + i)}`);
+              await speak(`${String.fromCharCode(65 + i)}`, true);
               if (isCancelled) break;
-              await new Promise(r => setTimeout(r, 800));
+              await new Promise(r => setTimeout(r, 2500));
               if (isCancelled) break;
               await speak(question.audioTexts[i]);
               if (i < question.audioTexts.length - 1 && !isCancelled) {
@@ -91,15 +87,15 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
             }
           } else if (part === 2 && question.audioTexts) {
             // Speak question, then options A, B, C
-            await speak(question.audioTexts[0]);
+            await speak(question.audioTexts[0], true);
             if (isCancelled) return;
-            await new Promise(r => setTimeout(r, 500));
+            await new Promise(r => setTimeout(r, 1000));
             
             for (let i = 1; i < question.audioTexts.length; i++) {
               if (isCancelled) break;
-              await speak(`${String.fromCharCode(64 + i)}`);
+              await speak(`${String.fromCharCode(64 + i)}`, true);
               if (isCancelled) break;
-              await new Promise(r => setTimeout(r, 800));
+              await new Promise(r => setTimeout(r, 2500));
               if (isCancelled) break;
               await speak(question.audioTexts[i]);
               if (i < question.audioTexts.length - 1 && !isCancelled) {
@@ -108,30 +104,29 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
             }
           } else if ((part === 3 || part === 4) && question.audioText) {
             // Speak conversation/talk
-            await speak(question.audioText);
+            await speak(question.audioText, true);
             
             // Speak questions and their options
             for (let i = 0; i < question.subQuestions.length; i++) {
               if (isCancelled) break;
               
               // Chime before each new question
-              await playChime();
-              if (isCancelled) break;
+              // (Removed duplicate call here as it's handled by speak withChime: true below)
               
               const sq = question.subQuestions[i];
               if (sq.questionText) {
-                await speak(`${i + 1}`);
+                await speak(`${i + 1}`, true);
                 if (isCancelled) break;
-                await new Promise(r => setTimeout(r, 800));
+                await new Promise(r => setTimeout(r, 2500));
                 if (isCancelled) break;
                 await speak(sq.questionText);
               }
               
               for (let j = 0; j < sq.options.length; j++) {
                 if (isCancelled) break;
-                await speak(`${String.fromCharCode(65 + j)}`);
+                await speak(`${String.fromCharCode(65 + j)}`, true);
                 if (isCancelled) break;
-                await new Promise(r => setTimeout(r, 800));
+                await new Promise(r => setTimeout(r, 2500));
                 if (isCancelled) break;
                 await speak(sq.options[j]);
                 if (j < sq.options.length - 1 && !isCancelled) {
