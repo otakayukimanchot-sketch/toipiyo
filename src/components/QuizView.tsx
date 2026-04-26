@@ -9,6 +9,7 @@ interface QuizViewProps {
   part: Part;
   question: Question;
   onComplete: (isCorrect: boolean) => void;
+  onRetry: () => void;
   onCancel: () => void;
   isAudioEnabled: boolean;
 }
@@ -33,7 +34,7 @@ const PART_LABELS: Record<Part, string> = {
   7: "読解問題",
 };
 
-const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCancel, isAudioEnabled }) => {
+const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry, onCancel, isAudioEnabled }) => {
   const [phase, setPhase] = useState<"countdown" | "quiz" | "result">("countdown");
   const [timeLeft, setTimeLeft] = useState(PART_TIMERS[part]);
   const [selectedAnswers, setSelectedAnswers] = useState<Record<string, number>>({});
@@ -472,6 +473,14 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onCance
               <ChevronRight />
             </button>
           )}
+
+          <button
+            onClick={onRetry}
+            className="w-full py-4 bg-blue-50 text-blue-500 rounded-2xl font-bold text-lg shadow-sm border border-blue-100 flex items-center justify-center space-x-2"
+          >
+            <RotateCcw className="w-5 h-5" />
+            <span>同じパートを練習する</span>
+          </button>
           
           <button
             onClick={() => {

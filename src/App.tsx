@@ -154,6 +154,12 @@ export default function App() {
     setCurrentQuestion(null);
   };
 
+  const handleRetry = () => {
+    if (activePart) {
+      handleStartQuiz(activePart);
+    }
+  };
+
   if (!progress || isLoading) {
     return (
       <div className="min-h-screen bg-white flex flex-col items-center justify-center space-y-6">
@@ -288,6 +294,7 @@ export default function App() {
                 part={activePart}
                 question={currentQuestion}
                 onComplete={handleQuizComplete}
+                onRetry={handleRetry}
                 onCancel={handleCancel}
                 isAudioEnabled={settings.isAudioEnabled}
               />
