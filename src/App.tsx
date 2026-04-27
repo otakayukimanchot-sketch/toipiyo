@@ -160,19 +160,40 @@ export default function App() {
     }
   };
 
+  useEffect(() => {
+    // Sync attributes for theming
+    const root = window.document.documentElement;
+    if (settings.isDarkMode) {
+      root.classList.add('dark');
+      root.style.backgroundColor = '#020617'; // bg-slate-950
+    } else {
+      root.classList.remove('dark');
+      root.style.backgroundColor = '#ffffff';
+    }
+
+    // Update theme-color meta tag
+    let metaThemeColor = document.querySelector('meta[name="theme-color"]');
+    if (!metaThemeColor) {
+      metaThemeColor = document.createElement('meta');
+      metaThemeColor.setAttribute('name', 'theme-color');
+      document.head.appendChild(metaThemeColor);
+    }
+    metaThemeColor.setAttribute('content', settings.isDarkMode ? '#020617' : '#ffffff');
+  }, [settings.isDarkMode]);
+
   if (!progress || isLoading) {
     return (
-      <div className="min-h-screen bg-white flex flex-col items-center justify-center space-y-6">
+      <div className={`min-h-[100dvh] transition-colors duration-300 ${settings.isDarkMode ? 'bg-slate-950 text-slate-100' : 'bg-white text-blue-600'} flex flex-col items-center justify-center space-y-6`}>
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5 }}
           className="flex flex-col items-center"
         >
-          <div className="w-20 h-20 bg-blue-500 rounded-3xl flex items-center justify-center shadow-2xl mb-4">
+          <div className={`w-20 h-20 ${settings.isDarkMode ? 'bg-blue-600' : 'bg-blue-500'} rounded-3xl flex items-center justify-center shadow-2xl mb-4`}>
             <Bird className="text-white w-12 h-12" />
           </div>
-          <h1 className="text-5xl font-black tracking-tight text-blue-600 font-cute drop-shadow-sm">
+          <h1 className={`text-5xl font-black tracking-tight ${settings.isDarkMode ? 'text-blue-400' : 'text-blue-600'} font-cute drop-shadow-sm`}>
             といぴよ
           </h1>
         </motion.div>
@@ -182,15 +203,15 @@ export default function App() {
           transition={{ delay: 0.5 }}
           className="flex flex-col items-center space-y-2"
         >
-          <Loader2 className="w-8 h-8 text-blue-400 animate-spin" />
-          <span className="text-xs font-bold tracking-[0.2em] text-blue-300 uppercase">Loading</span>
+          <Loader2 className={`w-8 h-8 ${settings.isDarkMode ? 'text-blue-500' : 'text-blue-400'} animate-spin`} />
+          <span className={`text-xs font-bold tracking-[0.2em] ${settings.isDarkMode ? 'text-blue-700' : 'text-blue-300'} uppercase`}>Loading</span>
         </motion.div>
       </div>
     );
   }
 
   return (
-    <div className={`min-h-screen font-sans selection:bg-blue-100 transition-colors duration-300 ${settings.isDarkMode ? 'bg-slate-900 text-slate-100 dark' : 'bg-white text-gray-900'}`}>
+    <div className={`min-h-[100dvh] font-sans selection:bg-blue-100 transition-colors duration-300 ${settings.isDarkMode ? 'bg-slate-950 text-slate-100 dark' : 'bg-white text-gray-900'}`}>
       <AnimatePresence mode="wait">
         {!activePart ? (
           <motion.div
@@ -198,7 +219,7 @@ export default function App() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="max-w-md mx-auto px-6 py-8 flex flex-col min-h-screen"
+            className="max-w-md mx-auto px-6 py-8 flex flex-col min-h-[100dvh]"
           >
             {/* Header */}
             <header className="flex justify-between items-start mb-8">
@@ -289,7 +310,7 @@ export default function App() {
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -100 }}
-            className="max-w-md mx-auto min-h-screen bg-white"
+            className={`max-w-md mx-auto min-h-[100dvh] ${settings.isDarkMode ? 'bg-slate-950' : 'bg-white'}`}
           >
             {currentQuestion && (
               <QuizView

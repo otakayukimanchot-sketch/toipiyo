@@ -74,6 +74,7 @@ export async function unlockAudio(): Promise<void> {
   const synth = window.speechSynthesis;
   if (synth) {
     synth.cancel(); 
+    synth.resume(); // Ensure it's not paused
   }
   
   const ctx = getAudioContext();
@@ -88,15 +89,14 @@ export async function unlockAudio(): Promise<void> {
   source.start(0);
 
   if (synth) {
-    const utterance = new SpeechSynthesisUtterance("a"); 
-    utterance.volume = 0.01; // Tiny volume instead of 0 for some browser compatibility
-    utterance.rate = 10.0; // Extremely fast
+    // Safari/iOS fix: Voice synthesis often needs a 'kickstart'
+    const utterance = new SpeechSynthesisUtterance(" "); 
+    utterance.volume = 0.001; 
+    utterance.rate = 10.0; 
     
-    setTimeout(() => {
-      synth.cancel();
-    }, 300);
-
     synth.speak(utterance);
+    
+    // Explicitly call getVoices to trigger internal loading
     synth.getVoices();
   }
 }
@@ -109,37 +109,17 @@ export async function speak(text: string, withChime: boolean = false): Promise<v
     await playChime();
   }
 
-  return new Promise((resolve, reject) => {
-    if (shouldStopAudio) {
-      resolve();
-      return;
-    }
+  if (shouldStopAudio) return;
 
-    const synth = window.speechSynthesis;
-    if (!synth) {
-      resolve(); // Don't hang if no synth
-      return;
-    }
+  const synth = window.speechSynthesis;
+  if (!synth) return;
 
+  return new Promise((resolve) => {
     const startSpeaking = () => {
-      // Final check for cancellation
-      if (shouldStopAudio) {
-        resolve();
-        return;
-      }
-
-      // Safari Fix: Resume if paused (sometimes gets stuck)
-      if (synth.paused) {
-        synth.resume();
-      }
-
       const voices = synth.getVoices();
-      // Use the text directly to avoid reading punctuation aloud
       const utterance = new SpeechSynthesisUtterance(text);
       
-      // Prevent GC on Safari
       utteranceCache.add(utterance);
-      
       utterance.lang = "en-US";
       
       const enVoices = voices.filter(v => v.lang.startsWith("en"));
@@ -153,76 +133,32 @@ export async function speak(text: string, withChime: boolean = false): Promise<v
       
       if (targetVoices.length > 0) {
         utterance.voice = targetVoices.find(v => v.name.includes("Samantha") || v.name.includes("Google") || v.name.includes("Enhanced")) || targetVoices[0];
-      } else if (enVoices.length > 0) {
-        utterance.voice = enVoices[0];
       }
 
       utterance.rate = 1.0; 
       utterance.pitch = 1.0;
       utterance.volume = 1.0;
       
-      const utteranceTimeout = setTimeout(() => {
-        console.warn("SpeechSynthesis timeout - forcing resolve");
+      const cleanup = () => {
         utteranceCache.delete(utterance);
         resolve();
-      }, 20000); // 20s absolute limit for any single utterance
+      };
 
-      utterance.onend = () => {
-        clearTimeout(utteranceTimeout);
-        utteranceCache.delete(utterance);
-        resolve();
-      };
-      
-      utterance.onerror = (e) => {
-        clearTimeout(utteranceTimeout);
-        console.error("SpeechSynthesis error:", e);
-        utteranceCache.delete(utterance);
-        resolve(); 
-      };
-      
-      // Reduced delay to keep user gesture context active
-      const delay = (navigator.userAgent.includes('Safari') && !navigator.userAgent.includes('Chrome')) ? 20 : 50;
-      
-      setTimeout(() => {
-        if (!shouldStopAudio) {
-          // If already speaking, it might be stuck or queued.
-          // For sequential speak(), we rely on browser queue or our manual await.
-          // In Safari, if we don't cancel, it might hang. But if we do cancel, we lose queue.
-          // Since we use manual async queue (awaiting each speak), we can call cancel once per speak
-          // to ensure it starts immediately.
-          if (navigator.userAgent.includes('Safari')) {
-             synth.cancel(); 
-          }
-          
-          synth.speak(utterance);
-          
-          // Safari hack: If it doesn't start speaking within 100ms, try a resume
-          setTimeout(() => {
-            if (!synth.speaking && !shouldStopAudio) {
-              synth.resume();
-            }
-          }, 100);
-        } else {
-          clearTimeout(utteranceTimeout);
-          utteranceCache.delete(utterance);
-          resolve();
-        }
-      }, delay);
+      utterance.onend = cleanup;
+      utterance.onerror = cleanup;
+      setTimeout(cleanup, 15000);
+
+      if (synth.paused) synth.resume();
+      synth.speak(utterance);
     };
 
-    // Wait for voices if needed (common in Chrome but also Safari)
     if (synth.getVoices().length === 0) {
-      const voiceHandler = () => {
-        if (synth.getVoices().length > 0) {
-          synth.removeEventListener('voiceschanged', voiceHandler);
-          startSpeaking();
-        }
-      };
-      synth.addEventListener('voiceschanged', voiceHandler);
-      setTimeout(() => {
-        synth.removeEventListener('voiceschanged', voiceHandler);
+      const handler = () => {
+        synth.removeEventListener('voiceschanged', handler);
         startSpeaking();
-      }, 500);
+      };
+      synth.addEventListener('voiceschanged', handler);
+      setTimeout(handler, 1000); // 1s fallback
     } else {
       startSpeaking();
     }

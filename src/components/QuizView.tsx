@@ -264,7 +264,7 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
 
   if (phase === "countdown") {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-slate-50 dark:bg-slate-900">
+      <div className="flex flex-col items-center justify-center min-h-[100dvh] bg-white dark:bg-slate-950">
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -292,7 +292,7 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
 
   if (phase === "quiz") {
     return (
-      <div className="flex flex-col min-h-full p-4 pb-24 bg-slate-50 dark:bg-slate-900">
+      <div className="flex flex-col min-h-[100dvh] p-4 pb-24 bg-white dark:bg-slate-950">
         <div className="flex justify-between items-center mb-4">
           <button 
             onClick={handleCancel} 
@@ -456,7 +456,7 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
 
   if (phase === "result") {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen p-6 text-center bg-slate-50 dark:bg-slate-900">
+      <div className="flex flex-col items-center justify-center min-h-[100dvh] p-6 text-center bg-white dark:bg-slate-950">
         <h2 className={`text-5xl font-black mb-2 font-cute ${isCorrect ? "text-green-600 dark:text-green-400" : "text-red-600 dark:text-red-400"}`}>
           {isCorrect ? "正解！" : "不正解..."}
         </h2>

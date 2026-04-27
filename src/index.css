@@ -7,7 +7,16 @@
 }
 
 @layer base {
+  html, body {
+    @apply antialiased;
+    min-height: 100dvh;
+  }
+  
+  html.dark, body.dark {
+    background-color: #020617; /* bg-slate-950 */
+  }
+
   body {
-    @apply antialiased bg-white;
+    @apply bg-white;
   }
 }
