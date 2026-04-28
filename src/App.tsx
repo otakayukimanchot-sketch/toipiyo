@@ -166,9 +166,11 @@ export default function App() {
     if (settings.isDarkMode) {
       root.classList.add('dark');
       root.style.backgroundColor = '#020617'; // bg-slate-950
+      root.style.colorScheme = 'dark';
     } else {
       root.classList.remove('dark');
       root.style.backgroundColor = '#ffffff';
+      root.style.colorScheme = 'light';
     }
 
     // Update theme-color meta tag
@@ -179,6 +181,15 @@ export default function App() {
       document.head.appendChild(metaThemeColor);
     }
     metaThemeColor.setAttribute('content', settings.isDarkMode ? '#020617' : '#ffffff');
+
+    // iOS Status Bar Style
+    let metaAppleStatus = document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]');
+    if (!metaAppleStatus) {
+      metaAppleStatus = document.createElement('meta');
+      metaAppleStatus.setAttribute('name', 'apple-mobile-web-app-status-bar-style');
+      document.head.appendChild(metaAppleStatus);
+    }
+    metaAppleStatus.setAttribute('content', settings.isDarkMode ? 'black-translucent' : 'default');
   }, [settings.isDarkMode]);
 
   if (!progress || isLoading) {
