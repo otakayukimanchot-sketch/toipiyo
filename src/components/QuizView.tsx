@@ -110,22 +110,28 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
                 await new Promise(r => setTimeout(r, 1000));
               }
             }
-          } else if (part === 2 && question.audioTexts) {
-            // Speak question, then options A, B, C
-            await speak(question.audioTexts[0], true);
-            if (isCancelled) return;
-            await new Promise(r => setTimeout(r, 1000));
+          } else if (part === 2) {
+            // Speak question (the first item assigned to audioTexts in App.tsx)
+            if (question.audioTexts && question.audioTexts.length > 0) {
+              await speak(question.audioTexts[0], true);
+              if (isCancelled) return;
+              await new Promise(r => setTimeout(r, 1000));
+            }
             
-            for (let i = 1; i < question.audioTexts.length; i++) {
-              if (isCancelled) break;
-              // No chime for every option B, C
-              await speak(`${String.fromCharCode(64 + i)}`, false);
-              if (isCancelled) break;
-              await new Promise(r => setTimeout(r, 200));
-              if (isCancelled) break;
-              await speak(question.audioTexts[i]);
-              if (i < question.audioTexts.length - 1 && !isCancelled) {
-                await new Promise(r => setTimeout(r, 1000));
+            // Speak options from subQuestions (they might have been shuffled)
+            const sq = question.subQuestions[0];
+            if (sq && sq.options) {
+              for (let i = 0; i < sq.options.length; i++) {
+                if (isCancelled) break;
+                // Speak A, B, C
+                await speak(`${String.fromCharCode(65 + i)}`, false);
+                if (isCancelled) break;
+                await new Promise(r => setTimeout(r, 200));
+                if (isCancelled) break;
+                await speak(sq.options[i]);
+                if (i < sq.options.length - 1 && !isCancelled) {
+                  await new Promise(r => setTimeout(r, 1000));
+                }
               }
             }
           } else if ((part === 3 || part === 4) && question.audioText) {
@@ -431,7 +437,7 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
                       }`}
                     >
                       <span className="inline-block w-8 font-bold">{String.fromCharCode(65 + optIdx)}.</span>
-                      {part === 1 ? "" : opt}
+                      {(part === 1 || part === 2) ? "" : opt}
                     </button>
                   );
                 })}
