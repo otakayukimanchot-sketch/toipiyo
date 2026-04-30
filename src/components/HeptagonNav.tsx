@@ -126,7 +126,7 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
                 dominantBaseline="middle"
                 className="fill-white font-bold text-sm pointer-events-none"
               >
-                {isCompleted ? "✓" : `P${part}`}
+                P{part}
               </text>
             </g>
           );
@@ -165,7 +165,7 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
                 dominantBaseline="middle"
                 className="fill-white font-bold text-base pointer-events-none"
               >
-                {isCompleted ? "✓" : "P7"}
+                P7
               </text>
             </g>
           );
