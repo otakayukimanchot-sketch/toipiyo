@@ -110,10 +110,12 @@ export default function App() {
 
     // Sync audioTexts if necessary (e.g., Part 1 and Part 2 where audioTexts are the options)
     if (part === 1) {
-      question.audioTexts = question.subQuestions[0].options;
+      question.audioTexts = [...question.subQuestions[0].options];
     } else if (part === 2) {
       // In Part 2, audioTexts[0] is the question, [1:] are the options
-      question.audioTexts = [rawQuestion.audioTexts[0], ...question.subQuestions[0].options];
+      // Explicitly ensure we have the question text from the raw data
+      const questionText = rawQuestion.audioTexts?.[0] || "";
+      question.audioTexts = [questionText, ...question.subQuestions[0].options];
     }
     
     setActivePart(part);
@@ -180,7 +182,7 @@ export default function App() {
       metaThemeColor.setAttribute('name', 'theme-color');
       document.head.appendChild(metaThemeColor);
     }
-    metaThemeColor.setAttribute('content', settings.isDarkMode ? '#020617' : '#ffffff');
+    metaThemeColor.setAttribute('content', settings.isDarkMode ? '#000000' : '#ffffff');
 
     // iOS Status Bar Style
     let metaAppleStatus = document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]');
@@ -189,7 +191,7 @@ export default function App() {
       metaAppleStatus.setAttribute('name', 'apple-mobile-web-app-status-bar-style');
       document.head.appendChild(metaAppleStatus);
     }
-    metaAppleStatus.setAttribute('content', settings.isDarkMode ? 'black-translucent' : 'default');
+    metaAppleStatus.setAttribute('content', settings.isDarkMode ? 'black' : 'default');
   }, [settings.isDarkMode]);
 
   if (!progress || isLoading) {
@@ -222,7 +224,7 @@ export default function App() {
   }
 
   return (
-    <div className={`min-h-[100dvh] font-sans selection:bg-blue-100 transition-colors duration-300 ${settings.isDarkMode ? 'bg-slate-950 text-slate-100 dark' : 'bg-white text-gray-900'}`}>
+    <div className={`min-h-[100dvh] font-sans selection:bg-blue-100 transition-colors duration-300 ${settings.isDarkMode ? 'bg-black text-white dark' : 'bg-white text-gray-900'}`}>
       <AnimatePresence mode="wait">
         {!activePart ? (
           <motion.div
@@ -242,7 +244,18 @@ export default function App() {
                   <h1 className={`text-2xl font-black tracking-tight font-cute ${settings.isDarkMode ? 'text-blue-400' : 'text-blue-600'}`}>といぴよ</h1>
                 </div>
               </div>
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-3">
+                <button 
+                  onClick={() => {
+                    const newSettings = { ...settings, isAudioEnabled: !settings.isAudioEnabled };
+                    setSettings(newSettings);
+                    saveSettings(newSettings);
+                  }}
+                  className={`p-2 transition-colors ${settings.isDarkMode ? 'text-slate-400 hover:text-blue-400' : 'text-gray-400 hover:text-blue-500'}`}
+                  aria-label="Toggle Audio"
+                >
+                  {settings.isAudioEnabled ? <Volume2 size={20} /> : <VolumeX size={20} />}
+                </button>
                 <div className="text-right">
                   <div className={`text-sm font-bold ${settings.isDarkMode ? 'text-slate-500' : 'text-gray-400'}`}>
                     {getJSTDate().replace(/-/g, "/")}

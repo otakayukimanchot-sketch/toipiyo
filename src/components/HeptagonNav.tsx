@@ -1,6 +1,6 @@
 import React from "react";
 import { Part } from "../types";
-import { Check, Play } from "lucide-react";
+import { Play } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { unlockAudio } from "../utils/audio";
 

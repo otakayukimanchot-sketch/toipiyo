@@ -111,25 +111,23 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
               }
             }
           } else if (part === 2) {
-            // Speak question (the first item assigned to audioTexts in App.tsx)
+            // Part 2: audioTexts[0] is the question, [1,2,3] are shuffled options
             if (question.audioTexts && question.audioTexts.length > 0) {
+              // 1. Speak the question statement
               await speak(question.audioTexts[0], true);
               if (isCancelled) return;
-              await new Promise(r => setTimeout(r, 1000));
-            }
-            
-            // Speak options from subQuestions (they might have been shuffled)
-            const sq = question.subQuestions[0];
-            if (sq && sq.options) {
-              for (let i = 0; i < sq.options.length; i++) {
+              await new Promise(r => setTimeout(r, 1200));
+              
+              // 2. Speak options
+              for (let i = 1; i < question.audioTexts.length; i++) {
                 if (isCancelled) break;
-                // Speak A, B, C
-                await speak(`${String.fromCharCode(65 + i)}`, false);
+                // Speak A, B, C (index 1 is A, index 2 is B, etc.)
+                await speak(`${String.fromCharCode(64 + i)}`, false);
                 if (isCancelled) break;
                 await new Promise(r => setTimeout(r, 200));
                 if (isCancelled) break;
-                await speak(sq.options[i]);
-                if (i < sq.options.length - 1 && !isCancelled) {
+                await speak(question.audioTexts[i]);
+                if (i < question.audioTexts.length - 1 && !isCancelled) {
                   await new Promise(r => setTimeout(r, 1000));
                 }
               }
@@ -205,9 +203,12 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
 
     return () => {
       isCancelled = true;
+      // We explicitly cancel audio only when switching questions or leaving/resetting
+      // To ensure a smooth experience during the question (even if re-renders occur)
+      // the dependencies now use question.id (stable) instead of the whole object.
       cancelAudio();
     };
-  }, [phase, part, question, isPreReading, isAudioEnabled]);
+  }, [phase, part, question.id, isPreReading, isAudioEnabled]);
 
   // Timer logic
   useEffect(() => {
@@ -471,10 +472,10 @@ const QuizView: React.FC<QuizViewProps> = ({ part, question, onComplete, onRetry
         </p>
 
         <div className="w-full max-w-sm mb-10 space-y-3 text-left">
-          {question.text && (
+          {(question.text || (part === 2 && question.audioTexts && question.audioTexts[0])) && (
             <div className="p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-gray-100 dark:border-slate-700 text-gray-800 dark:text-slate-200 mb-4 text-xs whitespace-pre-wrap leading-relaxed">
               <p className="text-[10px] font-bold text-gray-400 dark:text-slate-500 uppercase tracking-widest mb-1 pb-1 border-b dark:border-slate-700">Problem Text</p>
-              {question.text}
+              {question.text || (part === 2 && question.audioTexts && question.audioTexts[0])}
             </div>
           )}
           
