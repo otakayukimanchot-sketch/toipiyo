@@ -56,14 +56,12 @@ const QuizView: React.FC<QuizViewProps> = ({
   onCancel, 
   isAudioEnabled 
 }) => {
-  const isListening = [1, 2, 3, 4].includes(part);
-  const [phase, setPhase] = useState<"quiz" | "result">("quiz");
+  const [phase, setPhase] = useState<"countdown" | "quiz" | "result">("countdown");
   const [timeLeft, setTimeLeft] = useState(PART_TIMERS[part]);
   const [selectedAnswers, setSelectedAnswers] = useState<Record<string, number>>({});
   const [isConfirmed, setIsConfirmed] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
-  const [isAudioFinished, setIsAudioFinished] = useState(!isListening || !isAudioEnabled);
-  const [audioCountdown, setAudioCountdown] = useState<number>(isListening && isAudioEnabled ? 3 : 0);
+  const [isAudioFinished, setIsAudioFinished] = useState(![1, 2, 3, 4].includes(part) || !isAudioEnabled);
   const [isSaved, setIsSaved] = useState(false);
   const [replayCount, setReplayCount] = useState(0);
   const [activeSubIdx, setActiveSubIdx] = useState(0);
@@ -77,47 +75,26 @@ const QuizView: React.FC<QuizViewProps> = ({
     setSelectedAnswers({});
     setIsConfirmed(false);
     setIsCorrect(false);
-    const listening = [1, 2, 3, 4].includes(part);
-    setIsAudioFinished(!listening || !isAudioEnabled);
-    setAudioCountdown(listening && isAudioEnabled ? 3 : 0);
+    setIsAudioFinished(![1, 2, 3, 4].includes(part) || !isAudioEnabled);
     setIsSaved(false);
     setActiveSubIdx(0);
     setShowScriptModal(false);
-    setPhase("quiz");
-    cancelAudio();
-    unlockAudio();
   }, [part, question.id, isAudioEnabled]);
 
-  // 3-second silent countdown timer before starting audio playback
+  // Countdown logic
   useEffect(() => {
-    if (phase !== "quiz" || !isListening || !isAudioEnabled) {
-      setAudioCountdown(0);
-      return;
+    if (phase === "countdown") {
+      unlockAudio();
+      const timer = setTimeout(() => {
+        setPhase("quiz");
+      }, 900);
+      return () => clearTimeout(timer);
     }
+  }, [phase]);
 
-    if (audioCountdown > 0) {
-      const timer = setInterval(() => {
-        setAudioCountdown((prev) => {
-          if (prev <= 1) {
-            clearInterval(timer);
-            return 0;
-          }
-          return prev - 1;
-        });
-      }, 1000);
-
-      return () => clearInterval(timer);
-    }
-  }, [phase, isListening, isAudioEnabled, audioCountdown, replayCount]);
-
-  // Audio playback logic (automatically starts after 3-second countdown reaches 0)
+  // Audio playback logic
   useEffect(() => {
-    if (phase !== "quiz" || !isListening || !isAudioEnabled) {
-      return;
-    }
-
-    // Must wait for the 3-second silent interval to complete
-    if (audioCountdown > 0) {
+    if (phase !== "quiz" || ![1, 2, 3, 4].includes(part) || !isAudioEnabled) {
       return;
     }
 
@@ -131,7 +108,7 @@ const QuizView: React.FC<QuizViewProps> = ({
         if (part === 1 && question.audioTexts) {
           for (let i = 0; i < question.audioTexts.length; i++) {
             if (!isAudioSessionActive(sessionId)) return;
-            await speak(`(${String.fromCharCode(65 + i)})`, i === 0, sessionId);
+            await speak(`${String.fromCharCode(65 + i)}`, i === 0, sessionId);
             if (!isAudioSessionActive(sessionId)) return;
             await new Promise(r => setTimeout(r, 200));
             if (!isAudioSessionActive(sessionId)) return;
@@ -148,7 +125,7 @@ const QuizView: React.FC<QuizViewProps> = ({
 
             for (let i = 1; i < question.audioTexts.length; i++) {
               if (!isAudioSessionActive(sessionId)) return;
-              await speak(`(${String.fromCharCode(64 + i)})`, false, sessionId);
+              await speak(`${String.fromCharCode(64 + i)}`, false, sessionId);
               if (!isAudioSessionActive(sessionId)) return;
               await new Promise(r => setTimeout(r, 200));
               if (!isAudioSessionActive(sessionId)) return;
@@ -159,8 +136,6 @@ const QuizView: React.FC<QuizViewProps> = ({
             }
           }
         } else if ((part === 3 || part === 4) && question.audioText) {
-          // Play strictly the listening dialogue or monologue passage
-          // Answer choices (options) must NOT be included in audio playback
           let sentences: string[] = [];
           if (typeof Intl !== 'undefined' && 'Segmenter' in Intl) {
             const segmenter = new Intl.Segmenter('en', { granularity: 'sentence' });
@@ -171,10 +146,26 @@ const QuizView: React.FC<QuizViewProps> = ({
 
           for (let i = 0; i < sentences.length; i++) {
             if (!isAudioSessionActive(sessionId)) return;
-            const cleanSentence = sentences[i].replace(/^(?:Staff\s+[A-Z]|Speaker\s+\d+|Person\s+[A-Z]|Man|Woman|Narrator)\s*:\s*/i, '').trim();
-            await speak(cleanSentence, i === 0, sessionId);
+            await speak(sentences[i].trim(), i === 0, sessionId);
             if (i < sentences.length - 1 && isAudioSessionActive(sessionId)) {
               await new Promise(r => setTimeout(r, 400));
+            }
+          }
+
+          if (!isAudioSessionActive(sessionId)) return;
+          await new Promise(r => setTimeout(r, 1000));
+
+          for (let i = 0; i < question.subQuestions.length; i++) {
+            if (!isAudioSessionActive(sessionId)) return;
+            const sq = question.subQuestions[i];
+            if (sq.questionText) {
+              const questionPrompt = question.subQuestions.length > 1
+                ? `Number ${i + 1}. ${sq.questionText}`
+                : sq.questionText;
+              await speak(questionPrompt, false, sessionId);
+            }
+            if (i < question.subQuestions.length - 1 && isAudioSessionActive(sessionId)) {
+              await new Promise(r => setTimeout(r, 1200));
             }
           }
         }
@@ -195,13 +186,13 @@ const QuizView: React.FC<QuizViewProps> = ({
     return () => {
       cancelAudio();
     };
-  }, [phase, isListening, isAudioEnabled, audioCountdown, question.id, replayCount]);
+  }, [phase, part, question.id, isAudioEnabled, replayCount]);
 
   // Practice Timer logic
   useEffect(() => {
     if (phase !== "quiz" || isConfirmed) return;
 
-    const canCountDown = (isAudioFinished && audioCountdown === 0) || !isListening || !isAudioEnabled;
+    const canCountDown = isAudioFinished || ![1, 2, 3, 4].includes(part) || !isAudioEnabled;
 
     if (canCountDown) {
       if (timeLeft > 0) {
@@ -219,7 +210,7 @@ const QuizView: React.FC<QuizViewProps> = ({
         handleConfirm();
       }
     }
-  }, [phase, isAudioFinished, audioCountdown, timeLeft, isConfirmed, isListening, isAudioEnabled]);
+  }, [phase, isAudioFinished, timeLeft, isConfirmed, part, isAudioEnabled]);
 
   const handleSelect = (subQuestionId: string, index: number) => {
     if (isConfirmed) return;
@@ -257,7 +248,6 @@ const QuizView: React.FC<QuizViewProps> = ({
     cancelAudio();
     setIsAudioFinished(false);
     setTimeLeft(PART_TIMERS[part]);
-    setAudioCountdown(isListening && isAudioEnabled ? 3 : 0);
     setReplayCount((c) => c + 1);
   };
 
@@ -267,12 +257,35 @@ const QuizView: React.FC<QuizViewProps> = ({
     onCancel();
   };
 
-  const isTimerActive = (isAudioFinished && audioCountdown === 0) || !isListening || !isAudioEnabled;
+  const isTimerActive = isAudioFinished || ![1, 2, 3, 4].includes(part) || !isAudioEnabled;
   const isTimeCritical = timeLeft <= 5 && isTimerActive;
   const answeredCount = Object.keys(selectedAnswers).length;
   const isAllAnswered = answeredCount === question.subQuestions.length;
 
-  // QUIZ PHASE (Optimized for Mobile Viewport - NO VERTICAL SCROLL)
+  // 1. COUNTDOWN PHASE
+  if (phase === "countdown") {
+    return (
+      <div className="w-full h-[100dvh] max-h-[100dvh] flex flex-col items-center justify-center bg-white dark:bg-black p-6 text-center select-none overflow-hidden">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          className="space-y-3"
+        >
+          <span className="font-mono text-xs uppercase tracking-widest text-blue-600 dark:text-blue-400 font-bold block">
+            PART {part}
+          </span>
+          <h2 className="text-2xl sm:text-3xl font-light tracking-tight text-gray-950 dark:text-white">
+            {PART_LABELS[part]}
+          </h2>
+          <div className="pt-4 font-mono text-xs tracking-widest uppercase text-gray-400 dark:text-gray-500 animate-pulse">
+            STARTING PRACTICE...
+          </div>
+        </motion.div>
+      </div>
+    );
+  }
+
+  // 2. QUIZ PHASE (Optimized for Mobile Viewport - NO VERTICAL SCROLL)
   if (phase === "quiz") {
     const currentSub = question.subQuestions[activeSubIdx] || question.subQuestions[0];
 
@@ -315,69 +328,16 @@ const QuizView: React.FC<QuizViewProps> = ({
           </div>
         </header>
 
-        {/* Audio Status Banner - Ultra Compact & High Visibility */}
-        {isListening && (
-          <div className="w-full border-b border-gray-200 dark:border-slate-800 bg-slate-50/95 dark:bg-slate-950/95 shrink-0 select-none">
+        {/* Audio Status Banner - Ultra Compact (~28px) */}
+        {[1, 2, 3, 4].includes(part) && (
+          <div className="w-full px-3 py-1.5 border-b border-gray-200 dark:border-slate-800 bg-slate-50/90 dark:bg-slate-950/90 shrink-0 flex items-center justify-between text-xs">
             {!isAudioEnabled ? (
-              <div className="px-3 py-1.5 flex items-center space-x-1.5 text-gray-400 text-[11px] font-mono">
+              <div className="flex items-center space-x-1.5 text-gray-400 text-[11px] font-mono">
                 <VolumeX size={13} />
                 <span>音声OFF（タイマー作動中）</span>
               </div>
-            ) : audioCountdown > 0 ? (
-              /* 3-Second Silent Countdown Banner */
-              <div>
-                <div className="px-3 py-1.5 flex items-center justify-between text-xs">
-                  <div className="flex items-center space-x-2">
-                    <div className="flex items-center justify-center w-5 h-5 bg-blue-600 text-white rounded-full font-mono text-xs font-bold shadow-sm">
-                      <motion.span
-                        key={audioCountdown}
-                        initial={{ scale: 1.35, opacity: 0.6 }}
-                        animate={{ scale: 1, opacity: 1 }}
-                        transition={{ duration: 0.2 }}
-                      >
-                        {audioCountdown}
-                      </motion.span>
-                    </div>
-                    <div className="flex items-center space-x-1.5">
-                      <span className="font-bold text-blue-600 dark:text-blue-400">
-                        音声開始まであと {audioCountdown} 秒
-                      </span>
-                      <span className="text-[11px] text-gray-500 dark:text-gray-400 hidden xs:inline">
-                        （先読み時間）
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center space-x-1.5 font-mono text-[10px] text-gray-400">
-                    <span className="hidden sm:inline">COUNTDOWN</span>
-                    <div className="flex space-x-1">
-                      {[3, 2, 1].map((step) => (
-                        <div
-                          key={step}
-                          className={`w-2 h-2 rounded-full transition-colors ${
-                            audioCountdown >= step
-                              ? "bg-blue-600 dark:bg-blue-400"
-                              : "bg-gray-200 dark:bg-slate-700"
-                          }`}
-                        />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-
-                {/* Smooth 3-second animated countdown bar */}
-                <div className="w-full h-0.5 bg-gray-200 dark:bg-slate-800 overflow-hidden">
-                  <motion.div
-                    key={`pbar-${question.id}-${replayCount}`}
-                    initial={{ width: "100%" }}
-                    animate={{ width: "0%" }}
-                    transition={{ duration: 3, ease: "linear" }}
-                    className="h-full bg-blue-600 dark:bg-blue-400"
-                  />
-                </div>
-              </div>
             ) : !isAudioFinished ? (
-              <div className="px-3 py-1.5 flex items-center justify-between w-full text-xs">
+              <div className="flex items-center justify-between w-full">
                 <div className="flex items-center space-x-2">
                   <div className="flex items-end space-x-0.5 h-3">
                     <motion.div animate={{ height: [2, 10, 2] }} transition={{ repeat: Infinity, duration: 0.5 }} className="w-0.5 bg-blue-600 rounded-full" />
@@ -385,7 +345,7 @@ const QuizView: React.FC<QuizViewProps> = ({
                     <motion.div animate={{ height: [3, 8, 2] }} transition={{ repeat: Infinity, duration: 0.5, delay: 0.25 }} className="w-0.5 bg-blue-600 rounded-full" />
                   </div>
                   <span className="text-[11px] font-medium text-gray-800 dark:text-gray-200">
-                    音声再生中 <span className="text-gray-400 hidden sm:inline">（終了後に{timeLeft}秒開始）</span>
+                    音声再生中 <span className="text-gray-400 hidden sm:inline">（再生後に{timeLeft}秒開始）</span>
                   </span>
                 </div>
                 <button
@@ -397,7 +357,7 @@ const QuizView: React.FC<QuizViewProps> = ({
                 </button>
               </div>
             ) : (
-              <div className="px-3 py-1.5 flex items-center justify-between w-full text-xs">
+              <div className="flex items-center justify-between w-full">
                 <div className="flex items-center space-x-1.5 text-emerald-600 dark:text-emerald-400 font-medium text-[11px]">
                   <Volume2 size={13} />
                   <span>再生完了 · 回答タイマー作動中</span>
@@ -441,15 +401,6 @@ const QuizView: React.FC<QuizViewProps> = ({
                 <div className="text-[11px] font-mono text-gray-400 text-center">
                   最も的確に描写している選択肢を1つ選んでください
                 </div>
-                {audioCountdown > 0 && (
-                  <div className="px-2.5 py-1.5 bg-blue-50/80 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-900/60 flex items-center justify-between text-xs text-blue-900 dark:text-blue-200 font-medium">
-                    <span className="flex items-center space-x-1.5">
-                      <Clock size={12} className="text-blue-600 dark:text-blue-400" />
-                      <span>音声開始まであと <strong>{audioCountdown}</strong> 秒（写真を確認）</span>
-                    </span>
-                    <span className="font-mono font-bold text-blue-600 dark:text-blue-400">{audioCountdown}s</span>
-                  </div>
-                )}
               </div>
 
               {/* 2x2 Compact Choice Matrix */}
@@ -486,15 +437,6 @@ const QuizView: React.FC<QuizViewProps> = ({
                   QUESTION & RESPONSE
                 </span>
                 <p>放送される質問または発話に対して、最も適切な応答を選んでください。</p>
-                {audioCountdown > 0 && (
-                  <div className="mt-2 py-1 px-2.5 bg-blue-50/80 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-900/60 flex items-center justify-between text-xs text-blue-900 dark:text-blue-200 font-medium">
-                    <span className="flex items-center space-x-1.5">
-                      <Clock size={12} className="text-blue-600 dark:text-blue-400" />
-                      <span>放送開始まであと <strong>{audioCountdown}</strong> 秒</span>
-                    </span>
-                    <span className="font-mono font-bold text-blue-600 dark:text-blue-400">{audioCountdown}s</span>
-                  </div>
-                )}
               </div>
 
               {/* 3 Large Tap Targets in a row */}
@@ -591,15 +533,6 @@ const QuizView: React.FC<QuizViewProps> = ({
 
               {/* Subquestion text */}
               <div className="pt-2 shrink-0">
-                {audioCountdown > 0 && (
-                  <div className="mb-1.5 py-1 px-2.5 bg-blue-50/80 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-900/60 flex items-center justify-between text-xs text-blue-900 dark:text-blue-200 font-medium">
-                    <span className="flex items-center space-x-1.5">
-                      <Clock size={12} className="text-blue-600 dark:text-blue-400" />
-                      <span>音声開始まであと <strong>{audioCountdown}</strong> 秒（設問を先読み）</span>
-                    </span>
-                    <span className="font-mono font-bold text-blue-600 dark:text-blue-400">{audioCountdown}s</span>
-                  </div>
-                )}
                 <h3 className="text-xs sm:text-sm font-semibold text-gray-950 dark:text-white leading-snug line-clamp-2">
                   {question.subQuestions.length > 1 ? `${activeSubIdx + 1}. ` : ""}{currentSub.questionText}
                 </h3>
@@ -863,13 +796,11 @@ const QuizView: React.FC<QuizViewProps> = ({
               <div className="grid grid-cols-2 gap-2">
                 <button
                   onClick={() => {
-                    setPhase("quiz");
+                    setPhase("countdown");
                     setTimeLeft(PART_TIMERS[part]);
                     setSelectedAnswers({});
                     setIsConfirmed(false);
                     setIsCorrect(false);
-                    setIsAudioFinished(!isListening || !isAudioEnabled);
-                    setAudioCountdown(isListening && isAudioEnabled ? 3 : 0);
                     setReplayCount((c) => c + 1);
                   }}
                   className="h-12 bg-amber-600 hover:bg-amber-700 text-white font-semibold text-xs tracking-wider uppercase flex items-center justify-center space-x-1 cursor-pointer transition-colors"

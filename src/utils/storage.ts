@@ -141,7 +141,8 @@ export function getSettings(): AppSettings {
   
   const defaultSettings: AppSettings = {
     isAudioEnabled: true,
-    isDarkMode: false
+    isDarkMode: false,
+    isBatterySaverEnabled: false
   };
   saveSettings(defaultSettings);
   return defaultSettings;
