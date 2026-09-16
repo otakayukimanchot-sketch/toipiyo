@@ -7,18 +7,37 @@
 }
 
 @layer base {
+  :root {
+    --sat: env(safe-area-inset-top, 0px);
+    --sab: env(safe-area-inset-bottom, 0px);
+    --sal: env(safe-area-inset-left, 0px);
+    --sar: env(safe-area-inset-right, 0px);
+  }
+
   html, body {
     @apply antialiased;
     min-height: 100dvh;
+    min-height: 100vh;
     color-scheme: light; /* Default to light */
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: none;
   }
   
   html.dark, body.dark {
-    background-color: #020617; /* bg-slate-950 */
-    color-scheme: dark; /* Switch to dark mode for browser UI */
+    background-color: #000000;
+    color-scheme: dark;
   }
 
   body {
-    @apply bg-white;
+    @apply bg-white dark:bg-black;
   }
+}
+
+/* Custom compact scrollbar for reading passages */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

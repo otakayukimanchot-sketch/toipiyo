@@ -1,7 +1,6 @@
 import React from "react";
 import { ReviewItem } from "../types";
-import { motion } from "motion/react";
-import { Newspaper, ChevronRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 interface ReviewNewsProps {
   items: ReviewItem[];
@@ -12,54 +11,42 @@ const ReviewNews: React.FC<ReviewNewsProps> = ({ items, onItemClick }) => {
   if (items.length === 0) return null;
 
   return (
-    <div className="mt-8 w-full max-w-md mx-auto">
-      <div className="flex items-center space-x-2 mb-3 px-2">
-        <div className="bg-red-500 text-white text-[10px] font-black px-2 py-0.5 rounded flex items-center space-x-1">
-          <span className="relative flex h-2 w-2 mr-1">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
+    <div className="w-full">
+      <div className="flex items-center justify-between pb-3 border-b border-gray-200 dark:border-slate-800">
+        <div className="flex items-center space-x-2">
+          <span className="w-1.5 h-1.5 bg-rose-500 rounded-full" />
+          <span className="text-xs font-mono font-semibold tracking-widest uppercase text-gray-500 dark:text-gray-400">
+            Review Queue ({items.length})
           </span>
-          NEWS
         </div>
-        <h3 className="text-xs font-black text-gray-400 uppercase tracking-widest flex items-center">
-          <Newspaper size={12} className="mr-1" />
-          弱点補強セクション
-        </h3>
+        <span className="text-xs text-gray-400 dark:text-gray-500 font-mono">
+          RECENT MISTAKES
+        </span>
       </div>
 
-      <div className="bg-gray-50 dark:bg-slate-800 rounded-3xl border border-gray-100 dark:border-slate-700 overflow-hidden divide-y divide-gray-100 dark:divide-slate-700">
-        {items.slice(0, 3).map((item, index) => (
-          <motion.button
+      <div className="divide-y divide-gray-100 dark:divide-slate-800/80">
+        {items.slice(0, 5).map((item) => (
+          <button
             key={item.id}
-            initial={{ opacity: 0, x: -10 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: index * 0.1 }}
             onClick={() => onItemClick(item)}
-            className="w-full p-4 flex items-start text-left hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors group"
+            className="w-full py-4 flex items-baseline justify-between text-left hover:bg-black/[0.02] dark:hover:bg-white/[0.02] transition-colors group cursor-pointer"
           >
-            <div className={`shrink-0 w-8 h-8 rounded-xl flex items-center justify-center text-[10px] font-black mr-3 ${
-              item.question.part <= 4 ? "bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400" : "bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400"
-            }`}>
-              P{item.question.part}
-            </div>
-            <div className="flex-1 min-w-0">
-              <p className="text-xs font-bold text-gray-800 dark:text-slate-200 line-clamp-1 group-hover:text-blue-600 dark:group-hover:text-blue-400">
+            <div className="flex items-baseline space-x-4 min-w-0 pr-4">
+              <span className="font-mono text-xs font-semibold text-blue-600 dark:text-blue-400 shrink-0">
+                PART {item.question.part}
+              </span>
+              <p className="text-sm font-normal text-gray-800 dark:text-gray-200 truncate group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                 {item.question.text || item.question.imageDescriptionJa || "リスニング問題の復習"}
               </p>
-              <p className="text-[10px] text-gray-400 dark:text-slate-500 mt-0.5">
-                {new Date(item.timestamp).toLocaleDateString("ja-JP")} にミス
-              </p>
             </div>
-            <ChevronRight size={16} className="text-gray-300 dark:text-slate-600 group-hover:text-blue-500 dark:group-hover:text-blue-400 transition-colors self-center ml-2" />
-          </motion.button>
+            <div className="flex items-center space-x-2 shrink-0">
+              <span className="text-xs font-mono text-gray-400 dark:text-gray-500 hidden sm:inline">
+                {new Date(item.timestamp).toLocaleDateString("ja-JP")}
+              </span>
+              <ArrowUpRight size={14} className="text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors" />
+            </div>
+          </button>
         ))}
-        {items.length > 3 && (
-          <div className="p-3 bg-gray-100/50 dark:bg-slate-800/50 text-center">
-            <p className="text-[10px] font-bold text-gray-400 dark:text-slate-500">
-              他にも {items.length - 3} 件の復習項目があります
-            </p>
-          </div>
-        )}
       </div>
     </div>
   );

@@ -70,13 +70,13 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
 
       <svg
         viewBox={`0 0 ${size} ${size}`}
-        className="w-full h-full drop-shadow-lg overflow-visible"
+        className="w-full h-full overflow-visible"
       >
         {/* The Hexagon Path (P1 to P6) */}
         <polyline
           points={polylinePoints}
           fill="none"
-          className="stroke-blue-500 stroke-2"
+          className="stroke-gray-300 dark:stroke-slate-700 stroke-[1.5]"
           strokeLinejoin="round"
           strokeLinecap="round"
         />
@@ -87,7 +87,7 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
           y1={points[5].y}
           x2={center}
           y2={center}
-          className="stroke-blue-500 stroke-2"
+          className="stroke-gray-300 dark:stroke-slate-700 stroke-[1.5]"
           strokeLinecap="round"
         />
 
@@ -109,22 +109,21 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
               <circle
                 cx={p.x}
                 cy={p.y}
-                r={24}
-                className={`transition-all duration-300 ${
+                r={22}
+                className={`transition-colors duration-200 ${
                   isCompleted
-                    ? "fill-green-500 stroke-green-600"
+                    ? "fill-emerald-600 stroke-emerald-700"
                     : isSelected
-                      ? "fill-blue-600 stroke-blue-700 scale-110"
-                      : "fill-blue-500 stroke-blue-600 group-hover:fill-blue-400"
-                } stroke-2 origin-center`}
-                style={{ transformBox: 'fill-box' }}
+                      ? "fill-blue-600 stroke-blue-700"
+                      : "fill-gray-900 dark:fill-slate-800 stroke-gray-700 dark:stroke-slate-600 group-hover:fill-blue-600 group-hover:stroke-blue-700"
+                } stroke-1 origin-center`}
               />
               <text
                 x={p.x}
                 y={p.y}
                 textAnchor="middle"
                 dominantBaseline="middle"
-                className="fill-white font-bold text-sm pointer-events-none"
+                className="fill-white font-mono font-medium text-xs pointer-events-none"
               >
                 P{part}
               </text>
@@ -148,22 +147,21 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
               <circle
                 cx={center}
                 cy={center}
-                r={28}
-                className={`transition-all duration-300 ${
+                r={26}
+                className={`transition-colors duration-200 ${
                   isCompleted
-                    ? "fill-green-600 stroke-green-700"
+                    ? "fill-emerald-600 stroke-emerald-700"
                     : isSelected
-                      ? "fill-orange-600 stroke-orange-700 scale-110"
-                      : "fill-orange-500 stroke-orange-600 group-hover:fill-orange-400"
-                } stroke-2 origin-center`}
-                style={{ transformBox: 'fill-box' }}
+                      ? "fill-blue-600 stroke-blue-700"
+                      : "fill-gray-900 dark:fill-slate-800 stroke-gray-700 dark:stroke-slate-600 group-hover:fill-blue-600 group-hover:stroke-blue-700"
+                } stroke-1 origin-center`}
               />
               <text
                 x={center}
                 y={center}
                 textAnchor="middle"
                 dominantBaseline="middle"
-                className="fill-white font-bold text-base pointer-events-none"
+                className="fill-white font-mono font-medium text-xs pointer-events-none"
               >
                 P7
               </text>
@@ -172,29 +170,23 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
         })()}
       </svg>
 
-      {/* Popup */}
+      {/* Flat Status & Start Strip (No cards, no shadows) */}
       <AnimatePresence>
         {selectedPart && (
           <motion.div
-            initial={{ opacity: 0, y: 10, scale: 0.9, x: "-50%" }}
-            animate={{ opacity: 1, y: 0, scale: 1, x: "-50%" }}
-            exit={{ opacity: 0, y: 10, scale: 0.9, x: "-50%" }}
-            className="absolute z-20 bg-white dark:bg-slate-800 border-2 border-gray-100 dark:border-slate-700 rounded-2xl shadow-2xl p-4 w-48 text-center"
-            style={{
-              left: `${(getPopupPosition(selectedPart).x / size) * 100}%`,
-              top: `${(getPopupPosition(selectedPart).y / size) * 100 - 45}%`,
-              transform: "translateX(-50%)",
-            }}
+            initial={{ opacity: 0, y: 6 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 6 }}
+            className="mt-4 pt-4 border-t border-gray-200 dark:border-slate-800 text-center"
           >
-            {/* Arrow */}
-            <div className="absolute bottom-[-10px] left-1/2 -translate-x-1/2 w-4 h-4 bg-white dark:bg-slate-800 border-r-2 border-b-2 border-gray-100 dark:border-slate-700 rotate-45 shadow-sm" />
-            
-            <div className="relative z-10">
-              <div className="text-xs font-black text-blue-500 dark:text-blue-400 uppercase tracking-tighter mb-1">
-                Part {selectedPart}
-              </div>
-              <div className="text-sm font-bold text-gray-800 dark:text-slate-100 mb-3 leading-tight">
-                {PART_NAMES[selectedPart]}
+            <div className="flex items-center justify-between">
+              <div className="text-left">
+                <span className="font-mono text-xs text-blue-600 dark:text-blue-400 font-semibold block">
+                  PART {selectedPart}
+                </span>
+                <span className="text-sm font-medium text-gray-900 dark:text-white">
+                  {PART_NAMES[selectedPart]}
+                </span>
               </div>
               <button
                 onClick={(e) => {
@@ -202,10 +194,10 @@ const HeptagonNav: React.FC<HeptagonNavProps> = ({
                   unlockAudio();
                   onStartQuiz(selectedPart);
                 }}
-                className="w-full py-2 bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-500 text-white rounded-xl font-black text-sm shadow-lg shadow-blue-200 dark:shadow-none transition-all active:scale-95 flex items-center justify-center space-x-2"
+                className="px-5 py-2 bg-gray-950 dark:bg-white text-white dark:text-black text-xs font-semibold tracking-wider uppercase hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors flex items-center space-x-1.5"
               >
-                <Play size={14} fill="currentColor" />
-                <span>始める</span>
+                <span>開始</span>
+                <Play size={10} fill="currentColor" />
               </button>
             </div>
           </motion.div>

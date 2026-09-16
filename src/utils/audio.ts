@@ -1,176 +1,226 @@
-let shouldStopAudio = false;
 let audioCtx: AudioContext | null = null;
+let currentAudioSession = 0;
 
 function getAudioContext() {
   if (!audioCtx) {
-    audioCtx = new (window.AudioContext || (window as any).webkitAudioContext)();
+    const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+    if (AudioContextClass) {
+      audioCtx = new AudioContextClass();
+    }
   }
   return audioCtx;
 }
 
-export async function playChime(): Promise<void> {
+export function startAudioSession(): number {
+  currentAudioSession++;
+  return currentAudioSession;
+}
+
+export function isAudioSessionActive(sessionId: number): boolean {
+  return sessionId === currentAudioSession;
+}
+
+export async function playChime(sessionId?: number): Promise<void> {
+  if (sessionId !== undefined && !isAudioSessionActive(sessionId)) return;
+
   const ctx = getAudioContext();
-  
-  if (ctx.state === 'suspended') {
-    await ctx.resume();
+  if (!ctx) return;
+
+  try {
+    if (ctx.state === 'suspended') {
+      await ctx.resume();
+    }
+  } catch (e) {
+    console.warn("AudioContext resume error:", e);
   }
 
+  if (sessionId !== undefined && !isAudioSessionActive(sessionId)) return;
+
   const playChimeTone = (freq: number, startTime: number, duration: number) => {
-    const oscillator = ctx.createOscillator();
-    const overtone = ctx.createOscillator();
-    const gainNode = ctx.createGain();
+    try {
+      const oscillator = ctx.createOscillator();
+      const overtone = ctx.createOscillator();
+      const gainNode = ctx.createGain();
 
-    // Use triangle for a softer, more musical body
-    oscillator.type = 'triangle';
-    oscillator.frequency.setValueAtTime(freq, startTime);
+      // Soft musical body
+      oscillator.type = 'triangle';
+      oscillator.frequency.setValueAtTime(freq, startTime);
 
-    // Add a sine overtone for that 'chime' clarity
-    overtone.type = 'sine';
-    overtone.frequency.setValueAtTime(freq * 2.01, startTime); // Slightly off for thickness
+      // Chime clarity overtone
+      overtone.type = 'sine';
+      overtone.frequency.setValueAtTime(freq * 2.01, startTime);
 
-    gainNode.gain.setValueAtTime(0, startTime);
-    gainNode.gain.linearRampToValueAtTime(0.2, startTime + 0.02);
-    gainNode.gain.exponentialRampToValueAtTime(0.001, startTime + duration);
+      gainNode.gain.setValueAtTime(0, startTime);
+      gainNode.gain.linearRampToValueAtTime(0.18, startTime + 0.02);
+      gainNode.gain.exponentialRampToValueAtTime(0.001, startTime + duration);
 
-    oscillator.connect(gainNode);
-    overtone.connect(gainNode);
-    gainNode.connect(ctx.destination);
+      oscillator.connect(gainNode);
+      overtone.connect(gainNode);
+      gainNode.connect(ctx.destination);
 
-    oscillator.start(startTime);
-    overtone.start(startTime);
-    oscillator.stop(startTime + duration);
-    overtone.stop(startTime + duration);
+      oscillator.start(startTime);
+      overtone.start(startTime);
+      oscillator.stop(startTime + duration);
+      overtone.stop(startTime + duration);
+    } catch (e) {
+      console.warn("Chime tone error:", e);
+    }
   };
 
   const now = ctx.currentTime;
   const start = now + 0.05;
-  
-  // A simple pleasant chime sequence (Arpeggio)
-  playChimeTone(523.25, start, 0.6);        // C5
-  playChimeTone(659.25, start + 0.12, 0.6); // E5
-  playChimeTone(783.99, start + 0.24, 0.8); // G5 
 
-  return new Promise(resolve => setTimeout(resolve, 1000));
+  playChimeTone(523.25, start, 0.5);        // C5
+  playChimeTone(659.25, start + 0.12, 0.5); // E5
+  playChimeTone(783.99, start + 0.24, 0.7); // G5 
+
+  return new Promise(resolve => setTimeout(resolve, 800));
 }
 
+// Keep a reference to utterances to prevent garbage collection in Safari / WebKit
+const utteranceCache = new Set<SpeechSynthesisUtterance>();
+
 export function cancelAudio() {
-  const synth = window.speechSynthesis;
+  // Invalidate any active session immediately so ongoing loops exit
+  currentAudioSession++;
+
+  const synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
   if (synth) {
-    synth.cancel();
+    try {
+      synth.cancel();
+    } catch (e) {
+      console.warn("SpeechSynthesis cancel error:", e);
+    }
   }
-  
-  // Clear the cache to allow GC
+
+  // Clear cache to allow GC
   utteranceCache.clear();
-  
-  // Set flag to stop current loops
-  shouldStopAudio = true;
-  // Reset flag after delay
-  setTimeout(() => {
-    shouldStopAudio = false;
-  }, 1000);
 }
 
 export async function unlockAudio(): Promise<void> {
-  const synth = window.speechSynthesis;
+  const synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
   if (synth) {
-    synth.cancel(); 
-    synth.resume(); // Ensure it's not paused
+    try {
+      if (synth.paused) {
+        synth.resume();
+      }
+      // Populate voices cache early
+      synth.getVoices();
+    } catch (e) {
+      console.warn("SpeechSynthesis unlock error:", e);
+    }
   }
-  
-  const ctx = getAudioContext();
-  if (ctx.state === 'suspended') {
-    ctx.resume().catch(err => console.error("AudioContext resume failed:", err));
-  }
-  
-  const buffer = ctx.createBuffer(1, 1, 22050);
-  const source = ctx.createBufferSource();
-  source.buffer = buffer;
-  source.connect(ctx.destination);
-  source.start(0);
 
-  if (synth) {
-    // Safari/iOS fix: Voice synthesis often needs a 'kickstart'
-    const utterance = new SpeechSynthesisUtterance(" "); 
-    utterance.volume = 0.001; 
-    utterance.rate = 10.0; 
-    
-    synth.speak(utterance);
-    
-    // Explicitly call getVoices to trigger internal loading
-    synth.getVoices();
+  const ctx = getAudioContext();
+  if (ctx && ctx.state === 'suspended') {
+    ctx.resume().catch(err => console.warn("AudioContext unlock resume failed:", err));
   }
 }
 
-// Keep a reference to utterances to prevent garbage collection in Safari
-const utteranceCache = new Set<SpeechSynthesisUtterance>();
+export async function speak(
+  text: string, 
+  withChime: boolean = false, 
+  sessionId?: number
+): Promise<void> {
+  if (sessionId !== undefined && !isAudioSessionActive(sessionId)) return;
 
-export async function speak(text: string, withChime: boolean = false): Promise<void> {
-  if (withChime && !shouldStopAudio) {
-    await playChime();
+  if (withChime) {
+    await playChime(sessionId);
+    if (sessionId !== undefined && !isAudioSessionActive(sessionId)) return;
   }
 
-  if (shouldStopAudio) return;
-
-  const synth = window.speechSynthesis;
+  const synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
   if (!synth) return;
 
   return new Promise((resolve) => {
+    if (sessionId !== undefined && !isAudioSessionActive(sessionId)) {
+      resolve();
+      return;
+    }
+
     const startSpeaking = () => {
-      const voices = synth.getVoices();
-      const utterance = new SpeechSynthesisUtterance(text);
-      
-      utteranceCache.add(utterance);
-      utterance.lang = "en-US";
-      
-      const enVoices = voices.filter(v => v.lang.startsWith("en"));
-      const targetVoices = enVoices.filter(v => 
-        (v.lang.toLowerCase().includes("en-us") || 
-         v.lang.toLowerCase().includes("en-gb") || 
-         v.lang.toLowerCase().includes("en-au")) &&
-        !v.name.toLowerCase().includes("compact") &&
-        !v.name.toLowerCase().includes("low quality")
-      );
-      
-      if (targetVoices.length > 0) {
-        utterance.voice = targetVoices.find(v => v.name.includes("Samantha") || v.name.includes("Google") || v.name.includes("Enhanced")) || targetVoices[0];
+      if (sessionId !== undefined && !isAudioSessionActive(sessionId)) {
+        resolve();
+        return;
       }
 
-      utterance.rate = 1.0; 
-      utterance.pitch = 1.0;
-      utterance.volume = 1.0;
-      
-      const cleanup = () => {
-        utteranceCache.delete(utterance);
+      try {
+        if (synth.paused) {
+          synth.resume();
+        }
+
+        const voices = synth.getVoices();
+        const utterance = new SpeechSynthesisUtterance(text);
+
+        utteranceCache.add(utterance);
+        utterance.lang = "en-US";
+
+        const enVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith("en"));
+        const targetVoices = enVoices.filter(v =>
+          (v.lang.toLowerCase().includes("en-us") ||
+           v.lang.toLowerCase().includes("en-gb") ||
+           v.lang.toLowerCase().includes("en-au")) &&
+          !v.name.toLowerCase().includes("compact") &&
+          !v.name.toLowerCase().includes("low quality")
+        );
+
+        if (targetVoices.length > 0) {
+          utterance.voice = targetVoices.find(v =>
+            v.name.includes("Samantha") ||
+            v.name.includes("Google") ||
+            v.name.includes("Natural") ||
+            v.name.includes("Enhanced")
+          ) || targetVoices[0];
+        }
+
+        utterance.rate = 1.0;
+        utterance.pitch = 1.0;
+        utterance.volume = 1.0;
+
+        let hasEnded = false;
+        const finish = () => {
+          if (hasEnded) return;
+          hasEnded = true;
+          utteranceCache.delete(utterance);
+          resolve();
+        };
+
+        utterance.onend = finish;
+        utterance.onerror = (e) => {
+          console.warn("Utterance error or cancelled:", e);
+          finish();
+        };
+
+        // Safety fallback timeout based on utterance length
+        const wordCount = text.trim().split(/\s+/).length;
+        const safetyTimeout = Math.max(5000, wordCount * 1200 + 3000);
+        setTimeout(finish, safetyTimeout);
+
+        synth.speak(utterance);
+      } catch (err) {
+        console.error("Failed to speak utterance:", err);
         resolve();
-      };
-
-      utterance.onend = cleanup;
-      utterance.onerror = cleanup;
-      setTimeout(cleanup, 15000);
-
-      if (synth.paused) synth.resume();
-      synth.speak(utterance);
+      }
     };
 
     if (synth.getVoices().length === 0) {
-      const handler = () => {
-        synth.removeEventListener('voiceschanged', handler);
+      const onVoicesChanged = () => {
+        synth.removeEventListener('voiceschanged', onVoicesChanged);
         startSpeaking();
       };
-      synth.addEventListener('voiceschanged', handler);
-      setTimeout(handler, 1000); // 1s fallback
+      synth.addEventListener('voiceschanged', onVoicesChanged);
+      setTimeout(onVoicesChanged, 250);
     } else {
       startSpeaking();
     }
   });
 }
 
-export async function speakMultiple(texts: string[]): Promise<void> {
+export async function speakMultiple(texts: string[], sessionId?: number): Promise<void> {
   for (const text of texts) {
-    if (shouldStopAudio) break;
-    await speak(text);
-    if (shouldStopAudio) break;
-    // Small pause between options (1 second)
-    await new Promise(r => setTimeout(r, 1000));
+    if (sessionId !== undefined && !isAudioSessionActive(sessionId)) break;
+    await speak(text, false, sessionId);
+    if (sessionId !== undefined && !isAudioSessionActive(sessionId)) break;
+    await new Promise(r => setTimeout(r, 800));
   }
 }
