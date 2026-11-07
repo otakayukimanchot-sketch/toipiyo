@@ -178,10 +178,16 @@ export async function speak(
         utterance.volume = 1.0;
 
         let hasEnded = false;
+        let boundaryTimer: any = null;
+
         const finish = () => {
           if (hasEnded) return;
           hasEnded = true;
+          if (boundaryTimer) clearTimeout(boundaryTimer);
           utteranceCache.delete(utterance);
+          utterance.onend = null;
+          utterance.onerror = null;
+          utterance.onboundary = null;
           resolve();
         };
 
@@ -191,11 +197,22 @@ export async function speak(
           finish();
         };
 
-        // Safety fallback timeout based on utterance length
-        const wordCount = text.trim().split(/\s+/).length;
-        const safetyTimeout = Math.max(5000, wordCount * 1200 + 3000);
-        setTimeout(finish, safetyTimeout);
+        // Some browsers pause background utterances longer than 15s; onboundary keeps it alive
+        utterance.onboundary = () => {
+          if (synth.paused) {
+            synth.resume();
+          }
+        };
 
+        // Safety fallback timeout based on utterance length
+        const wordCount = Math.max(1, text.trim().split(/\s+/).length);
+        const safetyTimeout = Math.max(4000, wordCount * 1000 + 3500);
+        boundaryTimer = setTimeout(finish, safetyTimeout);
+
+        // Resume if paused
+        if (synth.paused) {
+          synth.resume();
+        }
         synth.speak(utterance);
       } catch (err) {
         console.error("Failed to speak utterance:", err);
@@ -204,12 +221,15 @@ export async function speak(
     };
 
     if (synth.getVoices().length === 0) {
+      let isStarted = false;
       const onVoicesChanged = () => {
+        if (isStarted) return;
+        isStarted = true;
         synth.removeEventListener('voiceschanged', onVoicesChanged);
         startSpeaking();
       };
       synth.addEventListener('voiceschanged', onVoicesChanged);
-      setTimeout(onVoicesChanged, 250);
+      setTimeout(onVoicesChanged, 150);
     } else {
       startSpeaking();
     }

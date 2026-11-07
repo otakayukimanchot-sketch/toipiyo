@@ -479,7 +479,7 @@ export default function App() {
             </main>
 
             {/* Ultra-Compact Footer */}
-            <footer className="w-full py-2 px-4 border-t border-gray-100 dark:border-slate-850 bg-white/90 dark:bg-black/90 text-gray-400 dark:text-gray-600 text-[10px] font-mono shrink-0 pb-[max(0.5rem,env(safe-area-inset-bottom))]">
+            <footer className="w-full py-2 px-4 border-t border-gray-100 dark:border-slate-800 bg-white/90 dark:bg-black/90 text-gray-400 dark:text-gray-500 text-[10px] font-mono shrink-0 pb-[max(0.5rem,env(safe-area-inset-bottom))]">
               <div className="max-w-xl mx-auto flex items-center justify-between">
                 <span>といぴよ / DAILY TOEIC</span>
                 <span>{getJSTDate().replace(/-/g, ".")}</span>

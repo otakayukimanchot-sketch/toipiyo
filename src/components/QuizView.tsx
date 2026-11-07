@@ -138,25 +138,14 @@ const QuizView: React.FC<QuizViewProps> = ({
             }
           }
         } else if ((part === 3 || part === 4) && question.audioText) {
-          let sentences: string[] = [];
-          if (typeof Intl !== 'undefined' && 'Segmenter' in Intl) {
-            const segmenter = new Intl.Segmenter('en', { granularity: 'sentence' });
-            sentences = Array.from(segmenter.segment(question.audioText), s => s.segment.trim());
-          } else {
-            sentences = question.audioText.match(/[^.!?]+[.!?]+(?:\s|$)/g)?.map(s => s.trim()) || [question.audioText];
-          }
-
-          for (let i = 0; i < sentences.length; i++) {
-            if (!isAudioSessionActive(sessionId)) return;
-            await speak(sentences[i].trim(), i === 0, sessionId);
-            if (i < sentences.length - 1 && isAudioSessionActive(sessionId)) {
-              await new Promise(r => setTimeout(r, 400));
-            }
-          }
+          // Play the chime and the entire listening passage cleanly as one coherent audio passage
+          if (!isAudioSessionActive(sessionId)) return;
+          await speak(question.audioText.trim(), true, sessionId);
 
           if (!isAudioSessionActive(sessionId)) return;
-          await new Promise(r => setTimeout(r, 1000));
+          await new Promise(r => setTimeout(r, 1200));
 
+          // Speak the follow-up question prompts
           for (let i = 0; i < question.subQuestions.length; i++) {
             if (!isAudioSessionActive(sessionId)) return;
             const sq = question.subQuestions[i];
@@ -194,25 +183,34 @@ const QuizView: React.FC<QuizViewProps> = ({
   useEffect(() => {
     if (phase !== "quiz" || isConfirmed) return;
 
+    const isReadingPart = part >= 5;
     const canCountDown = isAudioFinished || ![1, 2, 3, 4].includes(part) || !isAudioEnabled;
 
     if (canCountDown) {
-      if (timeLeft > 0) {
-        timerRef.current = setInterval(() => {
-          setTimeLeft((prev) => {
-            if (prev <= 1) return 0;
+      timerRef.current = setInterval(() => {
+        setTimeLeft((prev) => {
+          if (prev > 0) {
             return prev - 1;
-          });
-        }, 1000);
+          } else {
+            // Timer is at 0 or below (overtime)
+            if (isReadingPart) {
+              // In reading parts (5, 6, 7), countdown continues into negative as overtime
+              return prev - 1;
+            } else {
+              // In listening parts (1, 2, 3, 4), auto-confirm when timer reaches 0
+              if (timerRef.current) clearInterval(timerRef.current);
+              handleConfirm();
+              return 0;
+            }
+          }
+        });
+      }, 1000);
 
-        return () => {
-          if (timerRef.current) clearInterval(timerRef.current);
-        };
-      } else {
-        handleConfirm();
-      }
+      return () => {
+        if (timerRef.current) clearInterval(timerRef.current);
+      };
     }
-  }, [phase, isAudioFinished, timeLeft, isConfirmed, part, isAudioEnabled]);
+  }, [phase, isAudioFinished, isConfirmed, part, isAudioEnabled]);
 
   const handleSelect = (subQuestionId: string, index: number) => {
     if (isConfirmed) return;
@@ -262,7 +260,19 @@ const QuizView: React.FC<QuizViewProps> = ({
   };
 
   const isTimerActive = isAudioFinished || ![1, 2, 3, 4].includes(part) || !isAudioEnabled;
-  const isTimeCritical = timeLeft <= 5 && isTimerActive;
+  const isOvertime = timeLeft < 0;
+  const isTimeCritical = (timeLeft <= 5 || isOvertime) && isTimerActive;
+
+  // Format overtime as +MM:SS (e.g. +00:15)
+  const formatTimeDisplay = () => {
+    if (timeLeft < 0) {
+      const overtimeSec = Math.abs(timeLeft);
+      const mins = Math.floor(overtimeSec / 60);
+      const secs = overtimeSec % 60;
+      return `+${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+    }
+    return `${timeLeft}s`;
+  };
   const answeredCount = Object.keys(selectedAnswers).length;
   const isAllAnswered = answeredCount === question.subQuestions.length;
 
@@ -321,14 +331,21 @@ const QuizView: React.FC<QuizViewProps> = ({
           </div>
 
           <div className="flex items-center space-x-1.5 font-mono">
-            <Clock size={14} className={isTimeCritical ? "text-rose-500 animate-bounce" : "text-gray-400 dark:text-gray-500"} />
+            <Clock size={14} className={isOvertime ? "text-rose-600 animate-pulse" : isTimeCritical ? "text-rose-500 animate-bounce" : "text-gray-400 dark:text-gray-500"} />
             <span className={`text-xs font-bold ${
-              isTimeCritical
+              isOvertime
+                ? "text-rose-600 dark:text-rose-400 font-mono"
+                : isTimeCritical
                 ? "text-rose-500 animate-pulse font-mono"
                 : "text-gray-900 dark:text-white"
             }`}>
-              {timeLeft}s
+              {formatTimeDisplay()}
             </span>
+            {isOvertime && (
+              <span className="text-[10px] px-1 py-0.2 bg-rose-500/10 text-rose-600 dark:text-rose-400 border border-rose-500/30 font-bold uppercase tracking-wider hidden sm:inline">
+                OVERTIME
+              </span>
+            )}
           </div>
         </header>
 
