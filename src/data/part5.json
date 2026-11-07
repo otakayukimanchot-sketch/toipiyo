@@ -6,10 +6,16 @@
     "subQuestions": [
       {
         "id": "p5-1-q1",
-        "options": ["warm", "warmly", "warmth", "warming"],
+        "options": [
+          "warm",
+          "warmly",
+          "warmth",
+          "warming"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-2",
@@ -18,10 +24,16 @@
     "subQuestions": [
       {
         "id": "p5-2-q1",
-        "options": ["Because", "Although", "Despite", "Due to"],
+        "options": [
+          "Because",
+          "Although",
+          "Despite",
+          "Due to"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-3",
@@ -30,10 +42,16 @@
     "subQuestions": [
       {
         "id": "p5-3-q1",
-        "options": ["they", "them", "their", "theirs"],
+        "options": [
+          "they",
+          "them",
+          "their",
+          "theirs"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pronoun"
   },
   {
     "id": "p5-4",
@@ -42,10 +60,16 @@
     "subQuestions": [
       {
         "id": "p5-4-q1",
-        "options": ["many", "much", "more", "most"],
+        "options": [
+          "many",
+          "much",
+          "more",
+          "most"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-5",
@@ -54,10 +78,16 @@
     "subQuestions": [
       {
         "id": "p5-5-q1",
-        "options": ["I", "me", "my", "mine"],
+        "options": [
+          "I",
+          "me",
+          "my",
+          "mine"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pronoun"
   },
   {
     "id": "p5-6",
@@ -66,10 +96,16 @@
     "subQuestions": [
       {
         "id": "p5-6-q1",
-        "options": ["organize", "organized", "organizing", "to organize"],
+        "options": [
+          "organize",
+          "organized",
+          "organizing",
+          "to organize"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-7",
@@ -78,10 +114,16 @@
     "subQuestions": [
       {
         "id": "p5-7-q1",
-        "options": ["has", "have", "is", "are"],
+        "options": [
+          "has",
+          "have",
+          "is",
+          "are"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-8",
@@ -90,10 +132,16 @@
     "subQuestions": [
       {
         "id": "p5-8-q1",
-        "options": ["dramatic", "dramatically", "dramatize", "drama"],
+        "options": [
+          "dramatic",
+          "dramatically",
+          "dramatize",
+          "drama"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-9",
@@ -102,10 +150,16 @@
     "subQuestions": [
       {
         "id": "p5-9-q1",
-        "options": ["in", "at", "on", "by"],
+        "options": [
+          "in",
+          "at",
+          "on",
+          "by"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-10",
@@ -114,10 +168,16 @@
     "subQuestions": [
       {
         "id": "p5-10-q1",
-        "options": ["Should", "Would", "Could", "Might"],
+        "options": [
+          "Should",
+          "Would",
+          "Could",
+          "Might"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-11",
@@ -126,10 +186,16 @@
     "subQuestions": [
       {
         "id": "p5-11-q1",
-        "options": ["implement", "implementation", "implementing", "implemented"],
+        "options": [
+          "implement",
+          "implementation",
+          "implementing",
+          "implemented"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-12",
@@ -138,10 +204,16 @@
     "subQuestions": [
       {
         "id": "p5-12-q1",
-        "options": ["who", "whom", "whose", "which"],
+        "options": [
+          "who",
+          "whom",
+          "whose",
+          "which"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "relative"
   },
   {
     "id": "p5-13",
@@ -150,10 +222,16 @@
     "subQuestions": [
       {
         "id": "p5-13-q1",
-        "options": ["ultimate", "ultimately", "ultimatum", "ultimacy"],
+        "options": [
+          "ultimate",
+          "ultimately",
+          "ultimatum",
+          "ultimacy"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-14",
@@ -162,10 +240,16 @@
     "subQuestions": [
       {
         "id": "p5-14-q1",
-        "options": ["to", "for", "with", "by"],
+        "options": [
+          "to",
+          "for",
+          "with",
+          "by"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-15",
@@ -174,10 +258,16 @@
     "subQuestions": [
       {
         "id": "p5-15-q1",
-        "options": ["has", "have", "will have", "had"],
+        "options": [
+          "has",
+          "have",
+          "will have",
+          "had"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-16",
@@ -186,10 +276,16 @@
     "subQuestions": [
       {
         "id": "p5-16-q1",
-        "options": ["unsatisfy", "unsatisfied", "unsatisfactory", "unsatisfyingly"],
+        "options": [
+          "unsatisfy",
+          "unsatisfied",
+          "unsatisfactory",
+          "unsatisfyingly"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-17",
@@ -198,10 +294,16 @@
     "subQuestions": [
       {
         "id": "p5-17-q1",
-        "options": ["notify", "notified", "notification", "notifying"],
+        "options": [
+          "notify",
+          "notified",
+          "notification",
+          "notifying"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-18",
@@ -210,10 +312,16 @@
     "subQuestions": [
       {
         "id": "p5-18-q1",
-        "options": ["hard", "harder", "hardest", "hardly"],
+        "options": [
+          "hard",
+          "harder",
+          "hardest",
+          "hardly"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-19",
@@ -222,10 +330,16 @@
     "subQuestions": [
       {
         "id": "p5-19-q1",
-        "options": ["Despite", "Although", "Because", "Due to"],
+        "options": [
+          "Despite",
+          "Although",
+          "Because",
+          "Due to"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-20",
@@ -234,10 +348,16 @@
     "subQuestions": [
       {
         "id": "p5-20-q1",
-        "options": ["he", "him", "his", "himself"],
+        "options": [
+          "he",
+          "him",
+          "his",
+          "himself"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pronoun"
   },
   {
     "id": "p5-21",
@@ -246,10 +366,16 @@
     "subQuestions": [
       {
         "id": "p5-21-q1",
-        "options": ["achieve", "achieved", "has achieved", "was achieving"],
+        "options": [
+          "achieve",
+          "achieved",
+          "has achieved",
+          "was achieving"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-22",
@@ -258,10 +384,16 @@
     "subQuestions": [
       {
         "id": "p5-22-q1",
-        "options": ["late", "later", "latter", "latest"],
+        "options": [
+          "late",
+          "later",
+          "latter",
+          "latest"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-23",
@@ -270,10 +402,16 @@
     "subQuestions": [
       {
         "id": "p5-23-q1",
-        "options": ["they", "them", "their", "theirs"],
+        "options": [
+          "they",
+          "them",
+          "their",
+          "theirs"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pronoun"
   },
   {
     "id": "p5-24",
@@ -282,10 +420,16 @@
     "subQuestions": [
       {
         "id": "p5-24-q1",
-        "options": ["affect", "effect", "effective", "affection"],
+        "options": [
+          "affect",
+          "effect",
+          "effective",
+          "affection"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-25",
@@ -294,10 +438,16 @@
     "subQuestions": [
       {
         "id": "p5-25-q1",
-        "options": ["because of", "due to", "since", "despite"],
+        "options": [
+          "because of",
+          "due to",
+          "since",
+          "despite"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-26",
@@ -306,10 +456,16 @@
     "subQuestions": [
       {
         "id": "p5-26-q1",
-        "options": ["install", "installed", "installing", "installation"],
+        "options": [
+          "install",
+          "installed",
+          "installing",
+          "installation"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-27",
@@ -318,10 +474,16 @@
     "subQuestions": [
       {
         "id": "p5-27-q1",
-        "options": ["has", "have", "is", "are"],
+        "options": [
+          "has",
+          "have",
+          "is",
+          "are"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-28",
@@ -330,10 +492,16 @@
     "subQuestions": [
       {
         "id": "p5-28-q1",
-        "options": ["which", "whose", "who", "whom"],
+        "options": [
+          "which",
+          "whose",
+          "who",
+          "whom"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "relative"
   },
   {
     "id": "p5-29",
@@ -342,10 +510,16 @@
     "subQuestions": [
       {
         "id": "p5-29-q1",
-        "options": ["long", "longer", "longest", "more long"],
+        "options": [
+          "long",
+          "longer",
+          "longest",
+          "more long"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-30",
@@ -354,10 +528,16 @@
     "subQuestions": [
       {
         "id": "p5-30-q1",
-        "options": ["to", "for", "at", "on"],
+        "options": [
+          "to",
+          "for",
+          "at",
+          "on"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-31",
@@ -366,10 +546,16 @@
     "subQuestions": [
       {
         "id": "p5-31-q1",
-        "options": ["compete", "competition", "competitive", "competitively"],
+        "options": [
+          "compete",
+          "competition",
+          "competitive",
+          "competitively"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-32",
@@ -378,10 +564,16 @@
     "subQuestions": [
       {
         "id": "p5-32-q1",
-        "options": ["am", "was", "were", "had been"],
+        "options": [
+          "am",
+          "was",
+          "were",
+          "had been"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-33",
@@ -390,10 +582,16 @@
     "subQuestions": [
       {
         "id": "p5-33-q1",
-        "options": ["because", "due to", "although", "whereas"],
+        "options": [
+          "because",
+          "due to",
+          "although",
+          "whereas"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-34",
@@ -402,10 +600,16 @@
     "subQuestions": [
       {
         "id": "p5-34-q1",
-        "options": ["impress", "impressed", "impression", "impressive"],
+        "options": [
+          "impress",
+          "impressed",
+          "impression",
+          "impressive"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-35",
@@ -414,10 +618,16 @@
     "subQuestions": [
       {
         "id": "p5-35-q1",
-        "options": ["present", "presented", "presenting", "presentation"],
+        "options": [
+          "present",
+          "presented",
+          "presenting",
+          "presentation"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-36",
@@ -426,10 +636,16 @@
     "subQuestions": [
       {
         "id": "p5-36-q1",
-        "options": ["confirm", "confirmed", "to confirm", "confirming"],
+        "options": [
+          "confirm",
+          "confirmed",
+          "to confirm",
+          "confirming"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-37",
@@ -438,10 +654,16 @@
     "subQuestions": [
       {
         "id": "p5-37-q1",
-        "options": ["near", "nearly", "close", "closely"],
+        "options": [
+          "near",
+          "nearly",
+          "close",
+          "closely"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-38",
@@ -450,10 +672,16 @@
     "subQuestions": [
       {
         "id": "p5-38-q1",
-        "options": ["that", "which", "where", "when"],
+        "options": [
+          "that",
+          "which",
+          "where",
+          "when"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "relative"
   },
   {
     "id": "p5-39",
@@ -462,10 +690,16 @@
     "subQuestions": [
       {
         "id": "p5-39-q1",
-        "options": ["compete", "competed", "competitive", "competitively"],
+        "options": [
+          "compete",
+          "competed",
+          "competitive",
+          "competitively"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-40",
@@ -474,10 +708,16 @@
     "subQuestions": [
       {
         "id": "p5-40-q1",
-        "options": ["was", "were", "is", "are"],
+        "options": [
+          "was",
+          "were",
+          "is",
+          "are"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-41",
@@ -486,10 +726,16 @@
     "subQuestions": [
       {
         "id": "p5-41-q1",
-        "options": ["in", "on", "at", "for"],
+        "options": [
+          "in",
+          "on",
+          "at",
+          "for"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-42",
@@ -498,10 +744,16 @@
     "subQuestions": [
       {
         "id": "p5-42-q1",
-        "options": ["regardless of", "according to", "in spite", "due to"],
+        "options": [
+          "regardless of",
+          "according to",
+          "in spite",
+          "due to"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-43",
@@ -510,10 +762,16 @@
     "subQuestions": [
       {
         "id": "p5-43-q1",
-        "options": ["recognize", "recognized", "recognizing", "recognition"],
+        "options": [
+          "recognize",
+          "recognized",
+          "recognizing",
+          "recognition"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-44",
@@ -522,10 +780,16 @@
     "subQuestions": [
       {
         "id": "p5-44-q1",
-        "options": ["better", "the better", "best", "the best"],
+        "options": [
+          "better",
+          "the better",
+          "best",
+          "the best"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-45",
@@ -534,10 +798,16 @@
     "subQuestions": [
       {
         "id": "p5-45-q1",
-        "options": ["until", "by", "since", "for"],
+        "options": [
+          "until",
+          "by",
+          "since",
+          "for"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-46",
@@ -546,10 +816,16 @@
     "subQuestions": [
       {
         "id": "p5-46-q1",
-        "options": ["who", "which", "whom", "whose"],
+        "options": [
+          "who",
+          "which",
+          "whom",
+          "whose"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "relative"
   },
   {
     "id": "p5-47",
@@ -558,10 +834,16 @@
     "subQuestions": [
       {
         "id": "p5-47-q1",
-        "options": ["perform", "performer", "performance", "performing"],
+        "options": [
+          "perform",
+          "performer",
+          "performance",
+          "performing"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-48",
@@ -570,10 +852,16 @@
     "subQuestions": [
       {
         "id": "p5-48-q1",
-        "options": ["because", "due to", "so", "therefore"],
+        "options": [
+          "because",
+          "due to",
+          "so",
+          "therefore"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-49",
@@ -582,10 +870,16 @@
     "subQuestions": [
       {
         "id": "p5-49-q1",
-        "options": ["submits", "submit", "submitted", "submitting"],
+        "options": [
+          "submits",
+          "submit",
+          "submitted",
+          "submitting"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-50",
@@ -594,10 +888,16 @@
     "subQuestions": [
       {
         "id": "p5-50-q1",
-        "options": ["so", "too", "very", "such"],
+        "options": [
+          "so",
+          "too",
+          "very",
+          "such"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-51",
@@ -606,10 +906,16 @@
     "subQuestions": [
       {
         "id": "p5-51-q1",
-        "options": ["decide", "decided", "decision", "decisive"],
+        "options": [
+          "decide",
+          "decided",
+          "decision",
+          "decisive"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-52",
@@ -618,10 +924,16 @@
     "subQuestions": [
       {
         "id": "p5-52-q1",
-        "options": ["double-check", "double-checked", "double-checking", "double-checks"],
+        "options": [
+          "double-check",
+          "double-checked",
+          "double-checking",
+          "double-checks"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-53",
@@ -630,10 +942,16 @@
     "subQuestions": [
       {
         "id": "p5-53-q1",
-        "options": ["consider", "considerable", "considerably", "consideration"],
+        "options": [
+          "consider",
+          "considerable",
+          "considerably",
+          "consideration"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-54",
@@ -642,10 +960,16 @@
     "subQuestions": [
       {
         "id": "p5-54-q1",
-        "options": ["by", "until", "on", "in"],
+        "options": [
+          "by",
+          "until",
+          "on",
+          "in"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-55",
@@ -654,10 +978,16 @@
     "subQuestions": [
       {
         "id": "p5-55-q1",
-        "options": ["Although", "Even though", "Despite", "Because of"],
+        "options": [
+          "Although",
+          "Even though",
+          "Despite",
+          "Because of"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-56",
@@ -666,10 +996,16 @@
     "subQuestions": [
       {
         "id": "p5-56-q1",
-        "options": ["they", "them", "their", "themselves"],
+        "options": [
+          "they",
+          "them",
+          "their",
+          "themselves"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pronoun"
   },
   {
     "id": "p5-57",
@@ -678,10 +1014,16 @@
     "subQuestions": [
       {
         "id": "p5-57-q1",
-        "options": ["adopt", "adopted", "adopting", "adoption"],
+        "options": [
+          "adopt",
+          "adopted",
+          "adopting",
+          "adoption"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-58",
@@ -690,10 +1032,16 @@
     "subQuestions": [
       {
         "id": "p5-58-q1",
-        "options": ["practice", "practical", "practically", "practiced"],
+        "options": [
+          "practice",
+          "practical",
+          "practically",
+          "practiced"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-59",
@@ -702,10 +1050,16 @@
     "subQuestions": [
       {
         "id": "p5-59-q1",
-        "options": ["late", "lately", "latent", "lateral"],
+        "options": [
+          "late",
+          "lately",
+          "latent",
+          "lateral"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-60",
@@ -714,10 +1068,16 @@
     "subQuestions": [
       {
         "id": "p5-60-q1",
-        "options": ["are", "is", "were", "be"],
+        "options": [
+          "are",
+          "is",
+          "were",
+          "be"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-61",
@@ -726,10 +1086,16 @@
     "subQuestions": [
       {
         "id": "p5-61-q1",
-        "options": ["who", "whom", "which", "where"],
+        "options": [
+          "who",
+          "whom",
+          "which",
+          "where"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "relative"
   },
   {
     "id": "p5-62",
@@ -738,10 +1104,16 @@
     "subQuestions": [
       {
         "id": "p5-62-q1",
-        "options": ["risen", "raised", "rose", "arisen"],
+        "options": [
+          "risen",
+          "raised",
+          "rose",
+          "arisen"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-63",
@@ -750,10 +1122,16 @@
     "subQuestions": [
       {
         "id": "p5-63-q1",
-        "options": ["on", "in", "under", "for"],
+        "options": [
+          "on",
+          "in",
+          "under",
+          "for"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-64",
@@ -762,10 +1140,16 @@
     "subQuestions": [
       {
         "id": "p5-64-q1",
-        "options": ["among", "between", "during", "from"],
+        "options": [
+          "among",
+          "between",
+          "during",
+          "from"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-65",
@@ -774,10 +1158,16 @@
     "subQuestions": [
       {
         "id": "p5-65-q1",
-        "options": ["throughout", "through", "although", "thought"],
+        "options": [
+          "throughout",
+          "through",
+          "although",
+          "thought"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-66",
@@ -786,10 +1176,16 @@
     "subQuestions": [
       {
         "id": "p5-66-q1",
-        "options": ["current", "currently", "currency", "currence"],
+        "options": [
+          "current",
+          "currently",
+          "currency",
+          "currence"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-67",
@@ -798,10 +1194,16 @@
     "subQuestions": [
       {
         "id": "p5-67-q1",
-        "options": ["so that", "in order to", "so as", "such that"],
+        "options": [
+          "so that",
+          "in order to",
+          "so as",
+          "such that"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-68",
@@ -810,10 +1212,16 @@
     "subQuestions": [
       {
         "id": "p5-68-q1",
-        "options": ["to", "for", "with", "by"],
+        "options": [
+          "to",
+          "for",
+          "with",
+          "by"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-69",
@@ -822,10 +1230,16 @@
     "subQuestions": [
       {
         "id": "p5-69-q1",
-        "options": ["Despite", "Although", "Because", "Due to"],
+        "options": [
+          "Despite",
+          "Although",
+          "Because",
+          "Due to"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-70",
@@ -834,10 +1248,16 @@
     "subQuestions": [
       {
         "id": "p5-70-q1",
-        "options": ["affect", "effect", "effective", "affective"],
+        "options": [
+          "affect",
+          "effect",
+          "effective",
+          "affective"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-71",
@@ -846,10 +1266,16 @@
     "subQuestions": [
       {
         "id": "p5-71-q1",
-        "options": ["postpone", "postpones", "postponed", "postponing"],
+        "options": [
+          "postpone",
+          "postpones",
+          "postponed",
+          "postponing"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-72",
@@ -858,10 +1284,16 @@
     "subQuestions": [
       {
         "id": "p5-72-q1",
-        "options": ["enthusiast", "enthusiastic", "enthusiasm", "enthusiastically"],
+        "options": [
+          "enthusiast",
+          "enthusiastic",
+          "enthusiasm",
+          "enthusiastically"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-73",
@@ -870,10 +1302,16 @@
     "subQuestions": [
       {
         "id": "p5-73-q1",
-        "options": ["before", "ahead of", "in front of", "prior"],
+        "options": [
+          "before",
+          "ahead of",
+          "in front of",
+          "prior"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-74",
@@ -882,10 +1320,16 @@
     "subQuestions": [
       {
         "id": "p5-74-q1",
-        "options": ["has", "have", "is", "are"],
+        "options": [
+          "has",
+          "have",
+          "is",
+          "are"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-75",
@@ -894,10 +1338,16 @@
     "subQuestions": [
       {
         "id": "p5-75-q1",
-        "options": ["intelligence", "intelligent", "intelligently", "intellect"],
+        "options": [
+          "intelligence",
+          "intelligent",
+          "intelligently",
+          "intellect"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-76",
@@ -906,10 +1356,16 @@
     "subQuestions": [
       {
         "id": "p5-76-q1",
-        "options": ["who", "whom", "whomever", "whoever"],
+        "options": [
+          "who",
+          "whom",
+          "whomever",
+          "whoever"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "relative"
   },
   {
     "id": "p5-77",
@@ -918,10 +1374,16 @@
     "subQuestions": [
       {
         "id": "p5-77-q1",
-        "options": ["reduce", "reduced", "reducing", "reduction"],
+        "options": [
+          "reduce",
+          "reduced",
+          "reducing",
+          "reduction"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-78",
@@ -930,10 +1392,16 @@
     "subQuestions": [
       {
         "id": "p5-78-q1",
-        "options": ["than", "to", "from", "with"],
+        "options": [
+          "than",
+          "to",
+          "from",
+          "with"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-79",
@@ -942,10 +1410,16 @@
     "subQuestions": [
       {
         "id": "p5-79-q1",
-        "options": ["efficient", "efficiently", "efficiency", "efficacious"],
+        "options": [
+          "efficient",
+          "efficiently",
+          "efficiency",
+          "efficacious"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-80",
@@ -954,10 +1428,16 @@
     "subQuestions": [
       {
         "id": "p5-80-q1",
-        "options": ["to", "for", "that", "so"],
+        "options": [
+          "to",
+          "for",
+          "that",
+          "so"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-81",
@@ -966,10 +1446,16 @@
     "subQuestions": [
       {
         "id": "p5-81-q1",
-        "options": ["impact", "impaction", "impactive", "impacted"],
+        "options": [
+          "impact",
+          "impaction",
+          "impactive",
+          "impacted"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-82",
@@ -978,10 +1464,16 @@
     "subQuestions": [
       {
         "id": "p5-82-q1",
-        "options": ["far", "more", "most", "many"],
+        "options": [
+          "far",
+          "more",
+          "most",
+          "many"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-83",
@@ -990,10 +1482,16 @@
     "subQuestions": [
       {
         "id": "p5-83-q1",
-        "options": ["be", "is", "was", "being"],
+        "options": [
+          "be",
+          "is",
+          "was",
+          "being"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-84",
@@ -1002,10 +1500,16 @@
     "subQuestions": [
       {
         "id": "p5-84-q1",
-        "options": ["range", "ranged", "ranging", "ranges"],
+        "options": [
+          "range",
+          "ranged",
+          "ranging",
+          "ranges"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-85",
@@ -1014,10 +1518,16 @@
     "subQuestions": [
       {
         "id": "p5-85-q1",
-        "options": ["abide", "adhere", "comply", "follow"],
+        "options": [
+          "abide",
+          "adhere",
+          "comply",
+          "follow"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-86",
@@ -1026,10 +1536,16 @@
     "subQuestions": [
       {
         "id": "p5-86-q1",
-        "options": ["extend", "extended", "extensive", "extension"],
+        "options": [
+          "extend",
+          "extended",
+          "extensive",
+          "extension"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-87",
@@ -1038,10 +1554,16 @@
     "subQuestions": [
       {
         "id": "p5-87-q1",
-        "options": ["because", "due to", "so", "therefore"],
+        "options": [
+          "because",
+          "due to",
+          "so",
+          "therefore"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-88",
@@ -1050,10 +1572,16 @@
     "subQuestions": [
       {
         "id": "p5-88-q1",
-        "options": ["I", "me", "my", "myself"],
+        "options": [
+          "I",
+          "me",
+          "my",
+          "myself"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pronoun"
   },
   {
     "id": "p5-89",
@@ -1062,10 +1590,16 @@
     "subQuestions": [
       {
         "id": "p5-89-q1",
-        "options": ["revenue", "revenu", "revenues", "revenue's"],
+        "options": [
+          "revenue",
+          "revenu",
+          "revenues",
+          "revenue's"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-90",
@@ -1074,10 +1608,16 @@
     "subQuestions": [
       {
         "id": "p5-90-q1",
-        "options": ["patient", "patience", "impatient", "patiently"],
+        "options": [
+          "patient",
+          "patience",
+          "impatient",
+          "patiently"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-91",
@@ -1086,10 +1626,16 @@
     "subQuestions": [
       {
         "id": "p5-91-q1",
-        "options": ["organize", "organized", "organizing", "organization"],
+        "options": [
+          "organize",
+          "organized",
+          "organizing",
+          "organization"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-92",
@@ -1098,10 +1644,16 @@
     "subQuestions": [
       {
         "id": "p5-92-q1",
-        "options": ["that", "which", "what", "whom"],
+        "options": [
+          "that",
+          "which",
+          "what",
+          "whom"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "relative"
   },
   {
     "id": "p5-93",
@@ -1110,10 +1662,16 @@
     "subQuestions": [
       {
         "id": "p5-93-q1",
-        "options": ["vary", "variety", "various", "variation"],
+        "options": [
+          "vary",
+          "variety",
+          "various",
+          "variation"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-94",
@@ -1122,10 +1680,16 @@
     "subQuestions": [
       {
         "id": "p5-94-q1",
-        "options": ["meticulous", "meticulously", "meticulousness", "meticulosity"],
+        "options": [
+          "meticulous",
+          "meticulously",
+          "meticulousness",
+          "meticulosity"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-95",
@@ -1134,10 +1698,16 @@
     "subQuestions": [
       {
         "id": "p5-95-q1",
-        "options": ["in", "on", "at", "by"],
+        "options": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-96",
@@ -1146,10 +1716,16 @@
     "subQuestions": [
       {
         "id": "p5-96-q1",
-        "options": ["has", "have", "is", "are"],
+        "options": [
+          "has",
+          "have",
+          "is",
+          "are"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-97",
@@ -1158,10 +1734,16 @@
     "subQuestions": [
       {
         "id": "p5-97-q1",
-        "options": ["apply", "applied", "applicable", "application"],
+        "options": [
+          "apply",
+          "applied",
+          "applicable",
+          "application"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-98",
@@ -1170,10 +1752,16 @@
     "subQuestions": [
       {
         "id": "p5-98-q1",
-        "options": ["because", "due to", "since", "for"],
+        "options": [
+          "because",
+          "due to",
+          "since",
+          "for"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-99",
@@ -1182,10 +1770,16 @@
     "subQuestions": [
       {
         "id": "p5-99-q1",
-        "options": ["exclude", "excluded", "excluding", "exclusive"],
+        "options": [
+          "exclude",
+          "excluded",
+          "excluding",
+          "exclusive"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-100",
@@ -1194,10 +1788,16 @@
     "subQuestions": [
       {
         "id": "p5-100-q1",
-        "options": ["final", "finalize", "finalized", "finalizing"],
+        "options": [
+          "final",
+          "finalize",
+          "finalized",
+          "finalizing"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-101",
@@ -1206,10 +1806,16 @@
     "subQuestions": [
       {
         "id": "p5-101-q1",
-        "options": ["many", "much", "more", "most"],
+        "options": [
+          "many",
+          "much",
+          "more",
+          "most"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-102",
@@ -1218,10 +1824,16 @@
     "subQuestions": [
       {
         "id": "p5-102-q1",
-        "options": ["that", "which", "who", "whom"],
+        "options": [
+          "that",
+          "which",
+          "who",
+          "whom"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "relative"
   },
   {
     "id": "p5-103",
@@ -1230,10 +1842,16 @@
     "subQuestions": [
       {
         "id": "p5-103-q1",
-        "options": ["hold", "held", "holding", "holds"],
+        "options": [
+          "hold",
+          "held",
+          "holding",
+          "holds"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-104",
@@ -1242,10 +1860,16 @@
     "subQuestions": [
       {
         "id": "p5-104-q1",
-        "options": ["similar", "similarly", "similarity", "simulate"],
+        "options": [
+          "similar",
+          "similarly",
+          "similarity",
+          "simulate"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-105",
@@ -1254,10 +1878,16 @@
     "subQuestions": [
       {
         "id": "p5-105-q1",
-        "options": ["chair", "chaired", "chairing", "to chair"],
+        "options": [
+          "chair",
+          "chaired",
+          "chairing",
+          "to chair"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-106",
@@ -1266,10 +1896,16 @@
     "subQuestions": [
       {
         "id": "p5-106-q1",
-        "options": ["fund", "funds", "funding", "fundamental"],
+        "options": [
+          "fund",
+          "funds",
+          "funding",
+          "fundamental"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-107",
@@ -1278,10 +1914,16 @@
     "subQuestions": [
       {
         "id": "p5-107-q1",
-        "options": ["so", "such", "very", "too"],
+        "options": [
+          "so",
+          "such",
+          "very",
+          "too"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-108",
@@ -1290,10 +1932,16 @@
     "subQuestions": [
       {
         "id": "p5-108-q1",
-        "options": ["attend", "attentive", "attention", "attending"],
+        "options": [
+          "attend",
+          "attentive",
+          "attention",
+          "attending"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-109",
@@ -1302,10 +1950,16 @@
     "subQuestions": [
       {
         "id": "p5-109-q1",
-        "options": ["finance", "financial", "financially", "financier"],
+        "options": [
+          "finance",
+          "financial",
+          "financially",
+          "financier"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-110",
@@ -1314,10 +1968,16 @@
     "subQuestions": [
       {
         "id": "p5-110-q1",
-        "options": ["is", "are", "were", "be"],
+        "options": [
+          "is",
+          "are",
+          "were",
+          "be"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-111",
@@ -1326,10 +1986,16 @@
     "subQuestions": [
       {
         "id": "p5-111-q1",
-        "options": ["overwhelm", "overwhelmed", "overwhelming", "overwhelmingly"],
+        "options": [
+          "overwhelm",
+          "overwhelmed",
+          "overwhelming",
+          "overwhelmingly"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-112",
@@ -1338,10 +2004,16 @@
     "subQuestions": [
       {
         "id": "p5-112-q1",
-        "options": ["less", "fewer", "little", "much"],
+        "options": [
+          "less",
+          "fewer",
+          "little",
+          "much"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-113",
@@ -1350,10 +2022,16 @@
     "subQuestions": [
       {
         "id": "p5-113-q1",
-        "options": ["misuse", "misusing", "misused", "misuses"],
+        "options": [
+          "misuse",
+          "misusing",
+          "misused",
+          "misuses"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-114",
@@ -1362,10 +2040,16 @@
     "subQuestions": [
       {
         "id": "p5-114-q1",
-        "options": ["do", "make", "give", "take"],
+        "options": [
+          "do",
+          "make",
+          "give",
+          "take"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-115",
@@ -1374,10 +2058,16 @@
     "subQuestions": [
       {
         "id": "p5-115-q1",
-        "options": ["effect", "effective", "effectively", "effectiveness"],
+        "options": [
+          "effect",
+          "effective",
+          "effectively",
+          "effectiveness"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-116",
@@ -1386,10 +2076,16 @@
     "subQuestions": [
       {
         "id": "p5-116-q1",
-        "options": ["which", "whom", "who", "whose"],
+        "options": [
+          "which",
+          "whom",
+          "who",
+          "whose"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "relative"
   },
   {
     "id": "p5-117",
@@ -1398,10 +2094,16 @@
     "subQuestions": [
       {
         "id": "p5-117-q1",
-        "options": ["by", "with", "through", "via"],
+        "options": [
+          "by",
+          "with",
+          "through",
+          "via"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-118",
@@ -1410,10 +2112,16 @@
     "subQuestions": [
       {
         "id": "p5-118-q1",
-        "options": ["dedicate", "dedicated", "dedication", "dedicating"],
+        "options": [
+          "dedicate",
+          "dedicated",
+          "dedication",
+          "dedicating"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-119",
@@ -1422,10 +2130,16 @@
     "subQuestions": [
       {
         "id": "p5-119-q1",
-        "options": ["easy", "easier", "easiest", "easily"],
+        "options": [
+          "easy",
+          "easier",
+          "easiest",
+          "easily"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-120",
@@ -1434,10 +2148,16 @@
     "subQuestions": [
       {
         "id": "p5-120-q1",
-        "options": ["no", "not", "never", "none"],
+        "options": [
+          "no",
+          "not",
+          "never",
+          "none"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-121",
@@ -1446,10 +2166,16 @@
     "subQuestions": [
       {
         "id": "p5-121-q1",
-        "options": ["by", "with", "for", "at"],
+        "options": [
+          "by",
+          "with",
+          "for",
+          "at"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-122",
@@ -1458,10 +2184,16 @@
     "subQuestions": [
       {
         "id": "p5-122-q1",
-        "options": ["present", "presence", "presentation", "presenting"],
+        "options": [
+          "present",
+          "presence",
+          "presentation",
+          "presenting"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-123",
@@ -1470,10 +2202,16 @@
     "subQuestions": [
       {
         "id": "p5-123-q1",
-        "options": ["accuse", "accused", "accusing", "accusation"],
+        "options": [
+          "accuse",
+          "accused",
+          "accusing",
+          "accusation"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-124",
@@ -1482,10 +2220,16 @@
     "subQuestions": [
       {
         "id": "p5-124-q1",
-        "options": ["each", "every", "all", "both"],
+        "options": [
+          "each",
+          "every",
+          "all",
+          "both"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-125",
@@ -1494,10 +2238,16 @@
     "subQuestions": [
       {
         "id": "p5-125-q1",
-        "options": ["because", "because of", "due to", "thanks to"],
+        "options": [
+          "because",
+          "because of",
+          "due to",
+          "thanks to"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-126",
@@ -1506,10 +2256,16 @@
     "subQuestions": [
       {
         "id": "p5-126-q1",
-        "options": ["quick", "quickly", "quicken", "quickness"],
+        "options": [
+          "quick",
+          "quickly",
+          "quicken",
+          "quickness"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-127",
@@ -1518,10 +2274,16 @@
     "subQuestions": [
       {
         "id": "p5-127-q1",
-        "options": ["open", "opened", "opening", "opens"],
+        "options": [
+          "open",
+          "opened",
+          "opening",
+          "opens"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-128",
@@ -1530,10 +2292,16 @@
     "subQuestions": [
       {
         "id": "p5-128-q1",
-        "options": ["prepare", "prepared", "preparing", "preparation"],
+        "options": [
+          "prepare",
+          "prepared",
+          "preparing",
+          "preparation"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-129",
@@ -1542,10 +2310,16 @@
     "subQuestions": [
       {
         "id": "p5-129-q1",
-        "options": ["collaborate", "collaborated", "collaborative", "collaboration"],
+        "options": [
+          "collaborate",
+          "collaborated",
+          "collaborative",
+          "collaboration"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-130",
@@ -1554,10 +2328,16 @@
     "subQuestions": [
       {
         "id": "p5-130-q1",
-        "options": ["but", "so", "for", "or"],
+        "options": [
+          "but",
+          "so",
+          "for",
+          "or"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-131",
@@ -1566,10 +2346,16 @@
     "subQuestions": [
       {
         "id": "p5-131-q1",
-        "options": ["sell", "sold", "sales", "selling"],
+        "options": [
+          "sell",
+          "sold",
+          "sales",
+          "selling"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-132",
@@ -1578,10 +2364,16 @@
     "subQuestions": [
       {
         "id": "p5-132-q1",
-        "options": ["increase", "increased", "increasing", "increases"],
+        "options": [
+          "increase",
+          "increased",
+          "increasing",
+          "increases"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-133",
@@ -1590,10 +2382,16 @@
     "subQuestions": [
       {
         "id": "p5-133-q1",
-        "options": ["reward", "rewarded", "rewarding", "rewards"],
+        "options": [
+          "reward",
+          "rewarded",
+          "rewarding",
+          "rewards"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-134",
@@ -1602,10 +2400,16 @@
     "subQuestions": [
       {
         "id": "p5-134-q1",
-        "options": ["bore", "bored", "boring", "boredom"],
+        "options": [
+          "bore",
+          "bored",
+          "boring",
+          "boredom"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-135",
@@ -1614,10 +2418,16 @@
     "subQuestions": [
       {
         "id": "p5-135-q1",
-        "options": ["positive", "positively", "positivity", "positiveness"],
+        "options": [
+          "positive",
+          "positively",
+          "positivity",
+          "positiveness"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-136",
@@ -1626,10 +2436,16 @@
     "subQuestions": [
       {
         "id": "p5-136-q1",
-        "options": ["current", "currently", "currency", "curriculum"],
+        "options": [
+          "current",
+          "currently",
+          "currency",
+          "curriculum"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-137",
@@ -1638,10 +2454,16 @@
     "subQuestions": [
       {
         "id": "p5-137-q1",
-        "options": ["because", "due to", "so", "therefore"],
+        "options": [
+          "because",
+          "due to",
+          "so",
+          "therefore"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-138",
@@ -1650,10 +2472,16 @@
     "subQuestions": [
       {
         "id": "p5-138-q1",
-        "options": ["compatible", "compatibility", "compatibly", "incompatible"],
+        "options": [
+          "compatible",
+          "compatibility",
+          "compatibly",
+          "incompatible"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-139",
@@ -1662,10 +2490,16 @@
     "subQuestions": [
       {
         "id": "p5-139-q1",
-        "options": ["has", "have", "are", "were"],
+        "options": [
+          "has",
+          "have",
+          "are",
+          "were"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-140",
@@ -1674,10 +2508,16 @@
     "subQuestions": [
       {
         "id": "p5-140-q1",
-        "options": ["which", "whom", "who", "whose"],
+        "options": [
+          "which",
+          "whom",
+          "who",
+          "whose"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "relative"
   },
   {
     "id": "p5-141",
@@ -1686,10 +2526,16 @@
     "subQuestions": [
       {
         "id": "p5-141-q1",
-        "options": ["in", "on", "at", "for"],
+        "options": [
+          "in",
+          "on",
+          "at",
+          "for"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-142",
@@ -1698,10 +2544,16 @@
     "subQuestions": [
       {
         "id": "p5-142-q1",
-        "options": ["able", "ability", "enable", "unable"],
+        "options": [
+          "able",
+          "ability",
+          "enable",
+          "unable"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-143",
@@ -1710,10 +2562,16 @@
     "subQuestions": [
       {
         "id": "p5-143-q1",
-        "options": ["light", "lighter", "lightest", "lightly"],
+        "options": [
+          "light",
+          "lighter",
+          "lightest",
+          "lightly"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-144",
@@ -1722,10 +2580,16 @@
     "subQuestions": [
       {
         "id": "p5-144-q1",
-        "options": ["include", "included", "including", "includes"],
+        "options": [
+          "include",
+          "included",
+          "including",
+          "includes"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-145",
@@ -1734,10 +2598,16 @@
     "subQuestions": [
       {
         "id": "p5-145-q1",
-        "options": ["visible", "visibility", "visibly", "vision"],
+        "options": [
+          "visible",
+          "visibility",
+          "visibly",
+          "vision"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-146",
@@ -1746,10 +2616,16 @@
     "subQuestions": [
       {
         "id": "p5-146-q1",
-        "options": ["satisfy", "satisfied", "satisfying", "satisfaction"],
+        "options": [
+          "satisfy",
+          "satisfied",
+          "satisfying",
+          "satisfaction"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-147",
@@ -1758,10 +2634,16 @@
     "subQuestions": [
       {
         "id": "p5-147-q1",
-        "options": ["in", "on", "at", "under"],
+        "options": [
+          "in",
+          "on",
+          "at",
+          "under"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-148",
@@ -1770,10 +2652,16 @@
     "subQuestions": [
       {
         "id": "p5-148-q1",
-        "options": ["at", "on", "in", "for"],
+        "options": [
+          "at",
+          "on",
+          "in",
+          "for"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-149",
@@ -1782,10 +2670,16 @@
     "subQuestions": [
       {
         "id": "p5-149-q1",
-        "options": ["shock", "shocked", "shocking", "shockingly"],
+        "options": [
+          "shock",
+          "shocked",
+          "shocking",
+          "shockingly"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-150",
@@ -1794,10 +2688,16 @@
     "subQuestions": [
       {
         "id": "p5-150-q1",
-        "options": ["provide", "provided", "providing", "provides"],
+        "options": [
+          "provide",
+          "provided",
+          "providing",
+          "provides"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-151",
@@ -1806,10 +2706,16 @@
     "subQuestions": [
       {
         "id": "p5-151-q1",
-        "options": ["consider", "considerable", "considerably", "consideration"],
+        "options": [
+          "consider",
+          "considerable",
+          "considerably",
+          "consideration"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-152",
@@ -1818,10 +2724,16 @@
     "subQuestions": [
       {
         "id": "p5-152-q1",
-        "options": ["address", "addressed", "addressing", "addresses"],
+        "options": [
+          "address",
+          "addressed",
+          "addressing",
+          "addresses"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-153",
@@ -1830,10 +2742,16 @@
     "subQuestions": [
       {
         "id": "p5-153-q1",
-        "options": ["earn", "earned", "earnings", "earning"],
+        "options": [
+          "earn",
+          "earned",
+          "earnings",
+          "earning"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-154",
@@ -1842,10 +2760,16 @@
     "subQuestions": [
       {
         "id": "p5-154-q1",
-        "options": ["resist", "resisted", "resistance", "resistant"],
+        "options": [
+          "resist",
+          "resisted",
+          "resistance",
+          "resistant"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-155",
@@ -1854,10 +2778,16 @@
     "subQuestions": [
       {
         "id": "p5-155-q1",
-        "options": ["postpone", "postponed", "postponing", "to postpone"],
+        "options": [
+          "postpone",
+          "postponed",
+          "postponing",
+          "to postpone"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-156",
@@ -1866,10 +2796,16 @@
     "subQuestions": [
       {
         "id": "p5-156-q1",
-        "options": ["finish", "finished", "finishing", "finishes"],
+        "options": [
+          "finish",
+          "finished",
+          "finishing",
+          "finishes"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-157",
@@ -1878,10 +2814,16 @@
     "subQuestions": [
       {
         "id": "p5-157-q1",
-        "options": ["expect", "expected", "expecting", "expectation"],
+        "options": [
+          "expect",
+          "expected",
+          "expecting",
+          "expectation"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-158",
@@ -1890,10 +2832,16 @@
     "subQuestions": [
       {
         "id": "p5-158-q1",
-        "options": ["look", "looked", "looking", "looks"],
+        "options": [
+          "look",
+          "looked",
+          "looking",
+          "looks"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-159",
@@ -1902,10 +2850,16 @@
     "subQuestions": [
       {
         "id": "p5-159-q1",
-        "options": ["allow", "allowed", "allowing", "allows"],
+        "options": [
+          "allow",
+          "allowed",
+          "allowing",
+          "allows"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-160",
@@ -1914,10 +2868,16 @@
     "subQuestions": [
       {
         "id": "p5-160-q1",
-        "options": ["compatible", "compatibility", "compatibly", "incompatible"],
+        "options": [
+          "compatible",
+          "compatibility",
+          "compatibly",
+          "incompatible"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-161",
@@ -1926,10 +2886,16 @@
     "subQuestions": [
       {
         "id": "p5-161-q1",
-        "options": ["at", "in", "on", "by"],
+        "options": [
+          "at",
+          "in",
+          "on",
+          "by"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-162",
@@ -1938,10 +2904,16 @@
     "subQuestions": [
       {
         "id": "p5-162-q1",
-        "options": ["absent", "absence", "absentee", "absently"],
+        "options": [
+          "absent",
+          "absence",
+          "absentee",
+          "absently"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-163",
@@ -1950,10 +2922,16 @@
     "subQuestions": [
       {
         "id": "p5-163-q1",
-        "options": ["maximize", "maximized", "maximizing", "maximization"],
+        "options": [
+          "maximize",
+          "maximized",
+          "maximizing",
+          "maximization"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-164",
@@ -1962,10 +2940,16 @@
     "subQuestions": [
       {
         "id": "p5-164-q1",
-        "options": ["cancel", "canceled", "canceling", "cancellation"],
+        "options": [
+          "cancel",
+          "canceled",
+          "canceling",
+          "cancellation"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-165",
@@ -1974,10 +2958,16 @@
     "subQuestions": [
       {
         "id": "p5-165-q1",
-        "options": ["adapt", "adapted", "adapting", "adaptation"],
+        "options": [
+          "adapt",
+          "adapted",
+          "adapting",
+          "adaptation"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-166",
@@ -1986,10 +2976,16 @@
     "subQuestions": [
       {
         "id": "p5-166-q1",
-        "options": ["true", "truly", "truth", "trueness"],
+        "options": [
+          "true",
+          "truly",
+          "truth",
+          "trueness"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-167",
@@ -1998,10 +2994,16 @@
     "subQuestions": [
       {
         "id": "p5-167-q1",
-        "options": ["launch", "launched", "launching", "launches"],
+        "options": [
+          "launch",
+          "launched",
+          "launching",
+          "launches"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-168",
@@ -2010,10 +3012,16 @@
     "subQuestions": [
       {
         "id": "p5-168-q1",
-        "options": ["respect", "respected", "respecting", "respectful"],
+        "options": [
+          "respect",
+          "respected",
+          "respecting",
+          "respectful"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-169",
@@ -2022,10 +3030,16 @@
     "subQuestions": [
       {
         "id": "p5-169-q1",
-        "options": ["apply", "applied", "applicable", "application"],
+        "options": [
+          "apply",
+          "applied",
+          "applicable",
+          "application"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-170",
@@ -2034,10 +3048,16 @@
     "subQuestions": [
       {
         "id": "p5-170-q1",
-        "options": ["that", "if", "whether", "what"],
+        "options": [
+          "that",
+          "if",
+          "whether",
+          "what"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-171",
@@ -2046,10 +3066,16 @@
     "subQuestions": [
       {
         "id": "p5-171-q1",
-        "options": ["expand", "expanded", "expanding", "expansion"],
+        "options": [
+          "expand",
+          "expanded",
+          "expanding",
+          "expansion"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-172",
@@ -2058,10 +3084,16 @@
     "subQuestions": [
       {
         "id": "p5-172-q1",
-        "options": ["dedicate", "dedicated", "dedication", "dedicating"],
+        "options": [
+          "dedicate",
+          "dedicated",
+          "dedication",
+          "dedicating"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-173",
@@ -2070,10 +3102,16 @@
     "subQuestions": [
       {
         "id": "p5-173-q1",
-        "options": ["easy", "easily", "ease", "easiness"],
+        "options": [
+          "easy",
+          "easily",
+          "ease",
+          "easiness"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-174",
@@ -2082,10 +3120,16 @@
     "subQuestions": [
       {
         "id": "p5-174-q1",
-        "options": ["attend", "attended", "attending", "attends"],
+        "options": [
+          "attend",
+          "attended",
+          "attending",
+          "attends"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-175",
@@ -2094,10 +3138,16 @@
     "subQuestions": [
       {
         "id": "p5-175-q1",
-        "options": ["product", "products", "produce", "production"],
+        "options": [
+          "product",
+          "products",
+          "produce",
+          "production"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-176",
@@ -2106,10 +3156,16 @@
     "subQuestions": [
       {
         "id": "p5-176-q1",
-        "options": ["consider", "considered", "considering", "consideration"],
+        "options": [
+          "consider",
+          "considered",
+          "considering",
+          "consideration"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-177",
@@ -2118,10 +3174,16 @@
     "subQuestions": [
       {
         "id": "p5-177-q1",
-        "options": ["take", "make", "do", "have"],
+        "options": [
+          "take",
+          "make",
+          "do",
+          "have"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-178",
@@ -2130,10 +3192,16 @@
     "subQuestions": [
       {
         "id": "p5-178-q1",
-        "options": ["optimism", "optimist", "optimistic", "optimistically"],
+        "options": [
+          "optimism",
+          "optimist",
+          "optimistic",
+          "optimistically"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-179",
@@ -2142,10 +3210,16 @@
     "subQuestions": [
       {
         "id": "p5-179-q1",
-        "options": ["open", "opened", "opening", "opens"],
+        "options": [
+          "open",
+          "opened",
+          "opening",
+          "opens"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-180",
@@ -2154,10 +3228,16 @@
     "subQuestions": [
       {
         "id": "p5-180-q1",
-        "options": ["behave", "behaved", "behavior", "behaving"],
+        "options": [
+          "behave",
+          "behaved",
+          "behavior",
+          "behaving"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-181",
@@ -2166,10 +3246,16 @@
     "subQuestions": [
       {
         "id": "p5-181-q1",
-        "options": ["reliable", "more reliable", "most reliable", "reliably"],
+        "options": [
+          "reliable",
+          "more reliable",
+          "most reliable",
+          "reliably"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-182",
@@ -2178,10 +3264,16 @@
     "subQuestions": [
       {
         "id": "p5-182-q1",
-        "options": ["make", "do", "take", "have"],
+        "options": [
+          "make",
+          "do",
+          "take",
+          "have"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-183",
@@ -2190,10 +3282,16 @@
     "subQuestions": [
       {
         "id": "p5-183-q1",
-        "options": ["require", "required", "requiring", "requires"],
+        "options": [
+          "require",
+          "required",
+          "requiring",
+          "requires"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-184",
@@ -2202,10 +3300,16 @@
     "subQuestions": [
       {
         "id": "p5-184-q1",
-        "options": ["success", "successful", "successfully", "succeed"],
+        "options": [
+          "success",
+          "successful",
+          "successfully",
+          "succeed"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-185",
@@ -2214,10 +3318,16 @@
     "subQuestions": [
       {
         "id": "p5-185-q1",
-        "options": ["profit", "profits", "profitable", "profitability"],
+        "options": [
+          "profit",
+          "profits",
+          "profitable",
+          "profitability"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-186",
@@ -2226,10 +3336,16 @@
     "subQuestions": [
       {
         "id": "p5-186-q1",
-        "options": ["disappoint", "disappointed", "disappointing", "disappointment"],
+        "options": [
+          "disappoint",
+          "disappointed",
+          "disappointing",
+          "disappointment"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-187",
@@ -2238,10 +3354,16 @@
     "subQuestions": [
       {
         "id": "p5-187-q1",
-        "options": ["ability", "able", "enable", "unable"],
+        "options": [
+          "ability",
+          "able",
+          "enable",
+          "unable"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-188",
@@ -2250,10 +3372,16 @@
     "subQuestions": [
       {
         "id": "p5-188-q1",
-        "options": ["hold", "held", "holding", "holds"],
+        "options": [
+          "hold",
+          "held",
+          "holding",
+          "holds"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-189",
@@ -2262,10 +3390,16 @@
     "subQuestions": [
       {
         "id": "p5-189-q1",
-        "options": ["enter", "entered", "entering", "enters"],
+        "options": [
+          "enter",
+          "entered",
+          "entering",
+          "enters"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-190",
@@ -2274,10 +3408,16 @@
     "subQuestions": [
       {
         "id": "p5-190-q1",
-        "options": ["hard", "hardly", "hardness", "hard work"],
+        "options": [
+          "hard",
+          "hardly",
+          "hardness",
+          "hard work"
+        ],
         "correctIndex": 3
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-191",
@@ -2286,10 +3426,16 @@
     "subQuestions": [
       {
         "id": "p5-191-q1",
-        "options": ["compatible", "compatibility", "compatibly", "incompatible"],
+        "options": [
+          "compatible",
+          "compatibility",
+          "compatibly",
+          "incompatible"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-192",
@@ -2298,10 +3444,16 @@
     "subQuestions": [
       {
         "id": "p5-192-q1",
-        "options": ["complete", "completed", "to complete", "completing"],
+        "options": [
+          "complete",
+          "completed",
+          "to complete",
+          "completing"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-193",
@@ -2310,10 +3462,16 @@
     "subQuestions": [
       {
         "id": "p5-193-q1",
-        "options": ["moral", "morale", "mortal", "morsel"],
+        "options": [
+          "moral",
+          "morale",
+          "mortal",
+          "morsel"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-194",
@@ -2322,10 +3480,16 @@
     "subQuestions": [
       {
         "id": "p5-194-q1",
-        "options": ["qualify", "qualified", "qualifying", "qualification"],
+        "options": [
+          "qualify",
+          "qualified",
+          "qualifying",
+          "qualification"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-195",
@@ -2334,10 +3498,16 @@
     "subQuestions": [
       {
         "id": "p5-195-q1",
-        "options": ["introduce", "introduced", "introducing", "introduction"],
+        "options": [
+          "introduce",
+          "introduced",
+          "introducing",
+          "introduction"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-196",
@@ -2346,10 +3516,16 @@
     "subQuestions": [
       {
         "id": "p5-196-q1",
-        "options": ["present", "presented", "presentation", "presenting"],
+        "options": [
+          "present",
+          "presented",
+          "presentation",
+          "presenting"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-197",
@@ -2358,10 +3534,16 @@
     "subQuestions": [
       {
         "id": "p5-197-q1",
-        "options": ["commit", "committed", "committing", "commitment"],
+        "options": [
+          "commit",
+          "committed",
+          "committing",
+          "commitment"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-198",
@@ -2370,10 +3552,16 @@
     "subQuestions": [
       {
         "id": "p5-198-q1",
-        "options": ["ask", "asked", "asking", "asks"],
+        "options": [
+          "ask",
+          "asked",
+          "asking",
+          "asks"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-199",
@@ -2382,10 +3570,16 @@
     "subQuestions": [
       {
         "id": "p5-199-q1",
-        "options": ["good", "better", "best", "well"],
+        "options": [
+          "good",
+          "better",
+          "best",
+          "well"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-200",
@@ -2394,10 +3588,16 @@
     "subQuestions": [
       {
         "id": "p5-200-q1",
-        "options": ["release", "released", "releasing", "releases"],
+        "options": [
+          "release",
+          "released",
+          "releasing",
+          "releases"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-201",
@@ -2406,10 +3606,16 @@
     "subQuestions": [
       {
         "id": "p5-201-q1",
-        "options": ["upon", "with", "for", "about"],
+        "options": [
+          "upon",
+          "with",
+          "for",
+          "about"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-202",
@@ -2418,10 +3624,16 @@
     "subQuestions": [
       {
         "id": "p5-202-q1",
-        "options": ["they will know", "will they know", "they know", "do they know"],
+        "options": [
+          "they will know",
+          "will they know",
+          "they know",
+          "do they know"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-203",
@@ -2430,10 +3642,16 @@
     "subQuestions": [
       {
         "id": "p5-203-q1",
-        "options": ["while", "despite", "though", "because"],
+        "options": [
+          "while",
+          "despite",
+          "though",
+          "because"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-204",
@@ -2442,10 +3660,16 @@
     "subQuestions": [
       {
         "id": "p5-204-q1",
-        "options": ["could have been", "could be", "should be", "will have been"],
+        "options": [
+          "could have been",
+          "could be",
+          "should be",
+          "will have been"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-205",
@@ -2454,10 +3678,16 @@
     "subQuestions": [
       {
         "id": "p5-205-q1",
-        "options": ["insoluble", "insolvent", "insolent", "insouciant"],
+        "options": [
+          "insoluble",
+          "insolvent",
+          "insolent",
+          "insouciant"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-206",
@@ -2466,10 +3696,16 @@
     "subQuestions": [
       {
         "id": "p5-206-q1",
-        "options": ["will have resolved", "will be resolving", "has resolved", "had resolved"],
+        "options": [
+          "will have resolved",
+          "will be resolving",
+          "has resolved",
+          "had resolved"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-207",
@@ -2478,10 +3714,16 @@
     "subQuestions": [
       {
         "id": "p5-207-q1",
-        "options": ["had been misappropriated", "was misappropriating", "has misappropriated", "had misappropriated"],
+        "options": [
+          "had been misappropriated",
+          "was misappropriating",
+          "has misappropriated",
+          "had misappropriated"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-208",
@@ -2490,10 +3732,16 @@
     "subQuestions": [
       {
         "id": "p5-208-q1",
-        "options": ["be", "is", "will be", "was"],
+        "options": [
+          "be",
+          "is",
+          "will be",
+          "was"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-209",
@@ -2502,10 +3750,16 @@
     "subQuestions": [
       {
         "id": "p5-209-q1",
-        "options": ["perilously", "imperiously", "gregariously", "ostentatiously"],
+        "options": [
+          "perilously",
+          "imperiously",
+          "gregariously",
+          "ostentatiously"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-210",
@@ -2514,10 +3768,16 @@
     "subQuestions": [
       {
         "id": "p5-210-q1",
-        "options": ["casting", "cast", "to cast", "having cast"],
+        "options": [
+          "casting",
+          "cast",
+          "to cast",
+          "having cast"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-211",
@@ -2526,10 +3786,16 @@
     "subQuestions": [
       {
         "id": "p5-211-q1",
-        "options": ["was", "were", "have been", "are"],
+        "options": [
+          "was",
+          "were",
+          "have been",
+          "are"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-212",
@@ -2538,10 +3804,16 @@
     "subQuestions": [
       {
         "id": "p5-212-q1",
-        "options": ["In spite", "Notwithstanding", "Regardless", "Albeit"],
+        "options": [
+          "In spite",
+          "Notwithstanding",
+          "Regardless",
+          "Albeit"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-213",
@@ -2550,10 +3822,16 @@
     "subQuestions": [
       {
         "id": "p5-213-q1",
-        "options": ["averse", "adverse", "advertent", "avid"],
+        "options": [
+          "averse",
+          "adverse",
+          "advertent",
+          "avid"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-214",
@@ -2562,10 +3840,16 @@
     "subQuestions": [
       {
         "id": "p5-214-q1",
-        "options": ["be installed", "is installed", "will be installed", "installs"],
+        "options": [
+          "be installed",
+          "is installed",
+          "will be installed",
+          "installs"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-215",
@@ -2574,10 +3858,16 @@
     "subQuestions": [
       {
         "id": "p5-215-q1",
-        "options": ["unassuming", "unassured", "unassailable", "unassimilated"],
+        "options": [
+          "unassuming",
+          "unassured",
+          "unassailable",
+          "unassimilated"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-216",
@@ -2586,10 +3876,16 @@
     "subQuestions": [
       {
         "id": "p5-216-q1",
-        "options": ["quantum", "quorum", "quandary", "quota"],
+        "options": [
+          "quantum",
+          "quorum",
+          "quandary",
+          "quota"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-217",
@@ -2598,10 +3894,16 @@
     "subQuestions": [
       {
         "id": "p5-217-q1",
-        "options": ["condones", "condemns", "concedes", "condenses"],
+        "options": [
+          "condones",
+          "condemns",
+          "concedes",
+          "condenses"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-218",
@@ -2610,10 +3912,16 @@
     "subQuestions": [
       {
         "id": "p5-218-q1",
-        "options": ["has there been", "there has been", "is there", "there is"],
+        "options": [
+          "has there been",
+          "there has been",
+          "is there",
+          "there is"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verb_tense"
   },
   {
     "id": "p5-219",
@@ -2622,10 +3930,16 @@
     "subQuestions": [
       {
         "id": "p5-219-q1",
-        "options": ["unilateral", "bilateral", "multilateral", "equilateral"],
+        "options": [
+          "unilateral",
+          "bilateral",
+          "multilateral",
+          "equilateral"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-220",
@@ -2634,10 +3948,16 @@
     "subQuestions": [
       {
         "id": "p5-220-q1",
-        "options": ["to", "for", "with", "in"],
+        "options": [
+          "to",
+          "for",
+          "with",
+          "in"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "prep_idiom"
   },
   {
     "id": "p5-221",
@@ -2646,10 +3966,16 @@
     "subQuestions": [
       {
         "id": "p5-221-q1",
-        "options": ["to whom", "whom", "which", "for which"],
+        "options": [
+          "to whom",
+          "whom",
+          "which",
+          "for which"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "relative"
   },
   {
     "id": "p5-222",
@@ -2658,10 +3984,16 @@
     "subQuestions": [
       {
         "id": "p5-222-q1",
-        "options": ["logistically", "linguistically", "litigiously", "literally"],
+        "options": [
+          "logistically",
+          "linguistically",
+          "litigiously",
+          "literally"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-223",
@@ -2670,10 +4002,16 @@
     "subQuestions": [
       {
         "id": "p5-223-q1",
-        "options": ["embrace", "emulate", "embargo", "embellish"],
+        "options": [
+          "embrace",
+          "emulate",
+          "embargo",
+          "embellish"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-224",
@@ -2682,10 +4020,16 @@
     "subQuestions": [
       {
         "id": "p5-224-q1",
-        "options": ["while", "as", "thus", "so"],
+        "options": [
+          "while",
+          "as",
+          "thus",
+          "so"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "conjunction_prep"
   },
   {
     "id": "p5-225",
@@ -2694,10 +4038,16 @@
     "subQuestions": [
       {
         "id": "p5-225-q1",
-        "options": ["Given", "Providing", "Assuming", "Owing"],
+        "options": [
+          "Given",
+          "Providing",
+          "Assuming",
+          "Owing"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "comparison"
   },
   {
     "id": "p5-226",
@@ -2706,10 +4056,16 @@
     "subQuestions": [
       {
         "id": "p5-226-q1",
-        "options": ["reconcile", "reciprocate", "recant", "recollect"],
+        "options": [
+          "reconcile",
+          "reciprocate",
+          "recant",
+          "recollect"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-227",
@@ -2718,10 +4074,16 @@
     "subQuestions": [
       {
         "id": "p5-227-q1",
-        "options": ["overhaul", "overflow", "overkill", "oversight"],
+        "options": [
+          "overhaul",
+          "overflow",
+          "overkill",
+          "oversight"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-228",
@@ -2730,10 +4092,16 @@
     "subQuestions": [
       {
         "id": "p5-228-q1",
-        "options": ["extensive", "extensively", "extended", "extending"],
+        "options": [
+          "extensive",
+          "extensively",
+          "extended",
+          "extending"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-229",
@@ -2742,10 +4110,16 @@
     "subQuestions": [
       {
         "id": "p5-229-q1",
-        "options": ["convened", "conveyed", "contrived", "converted"],
+        "options": [
+          "convened",
+          "conveyed",
+          "contrived",
+          "converted"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-230",
@@ -2754,10 +4128,16 @@
     "subQuestions": [
       {
         "id": "p5-230-q1",
-        "options": ["irrespective", "regarding", "concerned", "considering"],
+        "options": [
+          "irrespective",
+          "regarding",
+          "concerned",
+          "considering"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-231",
@@ -2766,10 +4146,16 @@
     "subQuestions": [
       {
         "id": "p5-231-q1",
-        "options": ["than", "then", "from", "by"],
+        "options": [
+          "than",
+          "then",
+          "from",
+          "by"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-232",
@@ -2778,10 +4164,16 @@
     "subQuestions": [
       {
         "id": "p5-232-q1",
-        "options": ["abrupt", "corrupt", "bankrupt", "erupt"],
+        "options": [
+          "abrupt",
+          "corrupt",
+          "bankrupt",
+          "erupt"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-233",
@@ -2790,10 +4182,16 @@
     "subQuestions": [
       {
         "id": "p5-233-q1",
-        "options": ["predicated", "predicted", "predisposed", "precluded"],
+        "options": [
+          "predicated",
+          "predicted",
+          "predisposed",
+          "precluded"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-234",
@@ -2802,10 +4200,16 @@
     "subQuestions": [
       {
         "id": "p5-234-q1",
-        "options": ["alleging", "accusing", "admitting", "assuming"],
+        "options": [
+          "alleging",
+          "accusing",
+          "admitting",
+          "assuming"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-235",
@@ -2814,10 +4218,16 @@
     "subQuestions": [
       {
         "id": "p5-235-q1",
-        "options": ["integrated", "integral", "integrative", "integrity"],
+        "options": [
+          "integrated",
+          "integral",
+          "integrative",
+          "integrity"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-236",
@@ -2826,10 +4236,16 @@
     "subQuestions": [
       {
         "id": "p5-236-q1",
-        "options": ["viability", "visibility", "volatility", "virtuosity"],
+        "options": [
+          "viability",
+          "visibility",
+          "volatility",
+          "virtuosity"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-237",
@@ -2838,10 +4254,16 @@
     "subQuestions": [
       {
         "id": "p5-237-q1",
-        "options": ["subject", "subjective", "subjugated", "subservient"],
+        "options": [
+          "subject",
+          "subjective",
+          "subjugated",
+          "subservient"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-238",
@@ -2850,10 +4272,16 @@
     "subQuestions": [
       {
         "id": "p5-238-q1",
-        "options": ["grasp", "grasping", "grip", "grope"],
+        "options": [
+          "grasp",
+          "grasping",
+          "grip",
+          "grope"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-239",
@@ -2862,10 +4290,16 @@
     "subQuestions": [
       {
         "id": "p5-239-q1",
-        "options": ["skeptical", "cynical", "pessimistic", "fanatical"],
+        "options": [
+          "skeptical",
+          "cynical",
+          "pessimistic",
+          "fanatical"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-240",
@@ -2874,10 +4308,16 @@
     "subQuestions": [
       {
         "id": "p5-240-q1",
-        "options": ["appeal", "appear", "append", "applaud"],
+        "options": [
+          "appeal",
+          "appear",
+          "append",
+          "applaud"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-241",
@@ -2886,10 +4326,16 @@
     "subQuestions": [
       {
         "id": "p5-241-q1",
-        "options": ["controlled", "controlling", "controller", "control"],
+        "options": [
+          "controlled",
+          "controlling",
+          "controller",
+          "control"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-242",
@@ -2898,10 +4344,16 @@
     "subQuestions": [
       {
         "id": "p5-242-q1",
-        "options": ["spate", "spar", "spat", "spate"],
+        "options": [
+          "spate",
+          "spar",
+          "spat",
+          "spate"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-243",
@@ -2910,10 +4362,16 @@
     "subQuestions": [
       {
         "id": "p5-243-q1",
-        "options": ["correlated", "coordinated", "cooperated", "coincided"],
+        "options": [
+          "correlated",
+          "coordinated",
+          "cooperated",
+          "coincided"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-244",
@@ -2922,10 +4380,16 @@
     "subQuestions": [
       {
         "id": "p5-244-q1",
-        "options": ["utmost", "utopian", "utter", "utile"],
+        "options": [
+          "utmost",
+          "utopian",
+          "utter",
+          "utile"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-245",
@@ -2934,10 +4398,16 @@
     "subQuestions": [
       {
         "id": "p5-245-q1",
-        "options": ["initiative", "inquisition", "innuendo", "injunction"],
+        "options": [
+          "initiative",
+          "inquisition",
+          "innuendo",
+          "injunction"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-246",
@@ -2946,10 +4416,16 @@
     "subQuestions": [
       {
         "id": "p5-246-q1",
-        "options": ["impasse", "impetus", "impulse", "imperil"],
+        "options": [
+          "impasse",
+          "impetus",
+          "impulse",
+          "imperil"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-247",
@@ -2958,10 +4434,16 @@
     "subQuestions": [
       {
         "id": "p5-247-q1",
-        "options": ["reconcile", "recuperate", "recriminate", "refurbish"],
+        "options": [
+          "reconcile",
+          "recuperate",
+          "recriminate",
+          "refurbish"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-248",
@@ -2970,10 +4452,16 @@
     "subQuestions": [
       {
         "id": "p5-248-q1",
-        "options": ["exorbitant", "exonerated", "exacerbated", "exhaustive"],
+        "options": [
+          "exorbitant",
+          "exonerated",
+          "exacerbated",
+          "exhaustive"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-249",
@@ -2982,10 +4470,16 @@
     "subQuestions": [
       {
         "id": "p5-249-q1",
-        "options": ["terminate", "exterminate", "illuminate", "contaminate"],
+        "options": [
+          "terminate",
+          "exterminate",
+          "illuminate",
+          "contaminate"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-250",
@@ -2994,10 +4488,16 @@
     "subQuestions": [
       {
         "id": "p5-250-q1",
-        "options": ["Included", "Including", "To include", "Includes"],
+        "options": [
+          "Included",
+          "Including",
+          "To include",
+          "Includes"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-251",
@@ -3006,10 +4506,16 @@
     "subQuestions": [
       {
         "id": "p5-251-q1",
-        "options": ["integrates", "alienates", "mitigates", "fluctuates"],
+        "options": [
+          "integrates",
+          "alienates",
+          "mitigates",
+          "fluctuates"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-252",
@@ -3018,10 +4524,16 @@
     "subQuestions": [
       {
         "id": "p5-252-q1",
-        "options": ["assurance", "insurance", "endurance", "reassurance"],
+        "options": [
+          "assurance",
+          "insurance",
+          "endurance",
+          "reassurance"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-253",
@@ -3030,10 +4542,16 @@
     "subQuestions": [
       {
         "id": "p5-253-q1",
-        "options": ["overwhelming", "overreaching", "overbearing", "overcharging"],
+        "options": [
+          "overwhelming",
+          "overreaching",
+          "overbearing",
+          "overcharging"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-254",
@@ -3042,10 +4560,16 @@
     "subQuestions": [
       {
         "id": "p5-254-q1",
-        "options": ["enforceable", "enforcive", "enforced", "enforcing"],
+        "options": [
+          "enforceable",
+          "enforcive",
+          "enforced",
+          "enforcing"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-255",
@@ -3054,10 +4578,16 @@
     "subQuestions": [
       {
         "id": "p5-255-q1",
-        "options": ["facilitate", "felicitate", "fluctuate", "fabricate"],
+        "options": [
+          "facilitate",
+          "felicitate",
+          "fluctuate",
+          "fabricate"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-256",
@@ -3066,10 +4596,16 @@
     "subQuestions": [
       {
         "id": "p5-256-q1",
-        "options": ["efficacy", "efficiency", "effulgence", "effrontery"],
+        "options": [
+          "efficacy",
+          "efficiency",
+          "effulgence",
+          "effrontery"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-257",
@@ -3078,10 +4614,16 @@
     "subQuestions": [
       {
         "id": "p5-257-q1",
-        "options": ["indicator", "indication", "indictment", "inducement"],
+        "options": [
+          "indicator",
+          "indication",
+          "indictment",
+          "inducement"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-258",
@@ -3090,10 +4632,16 @@
     "subQuestions": [
       {
         "id": "p5-258-q1",
-        "options": ["premise", "promise", "surmise", "demise"],
+        "options": [
+          "premise",
+          "promise",
+          "surmise",
+          "demise"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-259",
@@ -3102,10 +4650,16 @@
     "subQuestions": [
       {
         "id": "p5-259-q1",
-        "options": ["meticulous", "meritorious", "mendacious", "mercurial"],
+        "options": [
+          "meticulous",
+          "meritorious",
+          "mendacious",
+          "mercurial"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-260",
@@ -3114,10 +4668,16 @@
     "subQuestions": [
       {
         "id": "p5-260-q1",
-        "options": ["mutual", "mutable", "muted", "motive"],
+        "options": [
+          "mutual",
+          "mutable",
+          "muted",
+          "motive"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-261",
@@ -3126,10 +4686,16 @@
     "subQuestions": [
       {
         "id": "p5-261-q1",
-        "options": ["innovation", "innocence", "insistence", "insolence"],
+        "options": [
+          "innovation",
+          "innocence",
+          "insistence",
+          "insolence"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-262",
@@ -3138,10 +4704,16 @@
     "subQuestions": [
       {
         "id": "p5-262-q1",
-        "options": ["ambiguous", "ambitious", "ambivalent", "ambient"],
+        "options": [
+          "ambiguous",
+          "ambitious",
+          "ambivalent",
+          "ambient"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-263",
@@ -3150,10 +4722,16 @@
     "subQuestions": [
       {
         "id": "p5-263-q1",
-        "options": ["stipulated", "stigmatized", "stimulated", "stipended"],
+        "options": [
+          "stipulated",
+          "stigmatized",
+          "stimulated",
+          "stipended"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-264",
@@ -3162,10 +4740,16 @@
     "subQuestions": [
       {
         "id": "p5-264-q1",
-        "options": ["encapsulate", "entrap", "entangle", "empathize"],
+        "options": [
+          "encapsulate",
+          "entrap",
+          "entangle",
+          "empathize"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-265",
@@ -3174,10 +4758,16 @@
     "subQuestions": [
       {
         "id": "p5-265-q1",
-        "options": ["extract", "extricate", "extradite", "extrapolate"],
+        "options": [
+          "extract",
+          "extricate",
+          "extradite",
+          "extrapolate"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-266",
@@ -3186,10 +4776,16 @@
     "subQuestions": [
       {
         "id": "p5-266-q1",
-        "options": ["invaluable", "worthless", "valueless", "pricy"],
+        "options": [
+          "invaluable",
+          "worthless",
+          "valueless",
+          "pricy"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-267",
@@ -3198,10 +4794,16 @@
     "subQuestions": [
       {
         "id": "p5-267-q1",
-        "options": ["halted", "heightened", "heeded", "hedged"],
+        "options": [
+          "halted",
+          "heightened",
+          "heeded",
+          "hedged"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-268",
@@ -3210,10 +4812,16 @@
     "subQuestions": [
       {
         "id": "p5-268-q1",
-        "options": ["violation", "vindication", "vacillation", "veneration"],
+        "options": [
+          "violation",
+          "vindication",
+          "vacillation",
+          "veneration"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-269",
@@ -3222,10 +4830,16 @@
     "subQuestions": [
       {
         "id": "p5-269-q1",
-        "options": ["contingent", "contentious", "contiguous", "contagious"],
+        "options": [
+          "contingent",
+          "contentious",
+          "contiguous",
+          "contagious"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-270",
@@ -3234,10 +4848,16 @@
     "subQuestions": [
       {
         "id": "p5-270-q1",
-        "options": ["autonomously", "anonymously", "audaciously", "auspiciously"],
+        "options": [
+          "autonomously",
+          "anonymously",
+          "audaciously",
+          "auspiciously"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-271",
@@ -3246,10 +4866,16 @@
     "subQuestions": [
       {
         "id": "p5-271-q1",
-        "options": ["malicious", "benevolent", "generous", "amorous"],
+        "options": [
+          "malicious",
+          "benevolent",
+          "generous",
+          "amorous"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-272",
@@ -3258,10 +4884,16 @@
     "subQuestions": [
       {
         "id": "p5-272-q1",
-        "options": ["stellar", "interstellar", "sterling", "sterile"],
+        "options": [
+          "stellar",
+          "interstellar",
+          "sterling",
+          "sterile"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-273",
@@ -3270,10 +4902,16 @@
     "subQuestions": [
       {
         "id": "p5-273-q1",
-        "options": ["expedite", "expunge", "expound", "expiate"],
+        "options": [
+          "expedite",
+          "expunge",
+          "expound",
+          "expiate"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-274",
@@ -3282,10 +4920,16 @@
     "subQuestions": [
       {
         "id": "p5-274-q1",
-        "options": ["generic", "genuine", "genial", "genetic"],
+        "options": [
+          "generic",
+          "genuine",
+          "genial",
+          "genetic"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-275",
@@ -3294,10 +4938,16 @@
     "subQuestions": [
       {
         "id": "p5-275-q1",
-        "options": ["precautionary", "precaution", "cautious", "precarious"],
+        "options": [
+          "precautionary",
+          "precaution",
+          "cautious",
+          "precarious"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-276",
@@ -3306,10 +4956,16 @@
     "subQuestions": [
       {
         "id": "p5-276-q1",
-        "options": ["conditional", "traditional", "additional", "functional"],
+        "options": [
+          "conditional",
+          "traditional",
+          "additional",
+          "functional"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-277",
@@ -3318,10 +4974,16 @@
     "subQuestions": [
       {
         "id": "p5-277-q1",
-        "options": ["account for", "account", "count on", "discount"],
+        "options": [
+          "account for",
+          "account",
+          "count on",
+          "discount"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-278",
@@ -3330,10 +4992,16 @@
     "subQuestions": [
       {
         "id": "p5-278-q1",
-        "options": ["constituted", "construed", "constructed", "constrained"],
+        "options": [
+          "constituted",
+          "construed",
+          "constructed",
+          "constrained"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-279",
@@ -3342,10 +5010,16 @@
     "subQuestions": [
       {
         "id": "p5-279-q1",
-        "options": ["unreliable", "irreverent", "irreproachable", "irredeemable"],
+        "options": [
+          "unreliable",
+          "irreverent",
+          "irreproachable",
+          "irredeemable"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-280",
@@ -3354,10 +5028,16 @@
     "subQuestions": [
       {
         "id": "p5-280-q1",
-        "options": ["shift", "shaft", "shrift", "sift"],
+        "options": [
+          "shift",
+          "shaft",
+          "shrift",
+          "sift"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-281",
@@ -3366,10 +5046,16 @@
     "subQuestions": [
       {
         "id": "p5-281-q1",
-        "options": ["academic", "technical", "professional", "credential"],
+        "options": [
+          "academic",
+          "technical",
+          "professional",
+          "credential"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-282",
@@ -3378,10 +5064,16 @@
     "subQuestions": [
       {
         "id": "p5-282-q1",
-        "options": ["scrutinized", "scandalized", "scrubbed", "scrambled"],
+        "options": [
+          "scrutinized",
+          "scandalized",
+          "scrubbed",
+          "scrambled"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-283",
@@ -3390,10 +5082,16 @@
     "subQuestions": [
       {
         "id": "p5-283-q1",
-        "options": ["unconvinced", "steadfast", "equivocal", "adamant"],
+        "options": [
+          "unconvinced",
+          "steadfast",
+          "equivocal",
+          "adamant"
+        ],
         "correctIndex": 3
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-284",
@@ -3402,10 +5100,16 @@
     "subQuestions": [
       {
         "id": "p5-284-q1",
-        "options": ["precipitate", "elucidate", "corroborate", "ameliorate"],
+        "options": [
+          "precipitate",
+          "elucidate",
+          "corroborate",
+          "ameliorate"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-285",
@@ -3414,10 +5118,16 @@
     "subQuestions": [
       {
         "id": "p5-285-q1",
-        "options": ["laissez-faire", "cul-de-sac", "fait accompli", "carte blanche"],
+        "options": [
+          "laissez-faire",
+          "cul-de-sac",
+          "fait accompli",
+          "carte blanche"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-286",
@@ -3426,10 +5136,16 @@
     "subQuestions": [
       {
         "id": "p5-286-q1",
-        "options": ["which", "without", "whom", "what"],
+        "options": [
+          "which",
+          "without",
+          "whom",
+          "what"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "grammarCategory": "relative"
   },
   {
     "id": "p5-287",
@@ -3438,10 +5154,16 @@
     "subQuestions": [
       {
         "id": "p5-287-q1",
-        "options": ["interpretation", "interrogation", "interruption", "interception"],
+        "options": [
+          "interpretation",
+          "interrogation",
+          "interruption",
+          "interception"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "pos"
   },
   {
     "id": "p5-288",
@@ -3450,10 +5172,16 @@
     "subQuestions": [
       {
         "id": "p5-288-q1",
-        "options": ["repository", "suppository", "depository", "inventory"],
+        "options": [
+          "repository",
+          "suppository",
+          "depository",
+          "inventory"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-289",
@@ -3462,10 +5190,16 @@
     "subQuestions": [
       {
         "id": "p5-289-q1",
-        "options": ["allay", "ally", "alloy", "allege"],
+        "options": [
+          "allay",
+          "ally",
+          "alloy",
+          "allege"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-290",
@@ -3474,10 +5208,16 @@
     "subQuestions": [
       {
         "id": "p5-290-q1",
-        "options": ["defusing", "diffusing", "deferring", "detracting"],
+        "options": [
+          "defusing",
+          "diffusing",
+          "deferring",
+          "detracting"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-291",
@@ -3486,10 +5226,16 @@
     "subQuestions": [
       {
         "id": "p5-291-q1",
-        "options": ["hedge", "ledger", "hegemony", "pudge"],
+        "options": [
+          "hedge",
+          "ledger",
+          "hegemony",
+          "pudge"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-292",
@@ -3498,10 +5244,16 @@
     "subQuestions": [
       {
         "id": "p5-292-q1",
-        "options": ["abolish", "amend", "adopt", "adapt"],
+        "options": [
+          "abolish",
+          "amend",
+          "adopt",
+          "adapt"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-293",
@@ -3510,10 +5262,16 @@
     "subQuestions": [
       {
         "id": "p5-293-q1",
-        "options": ["conjecture", "convergence", "congruence", "convalescence"],
+        "options": [
+          "conjecture",
+          "convergence",
+          "congruence",
+          "convalescence"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-294",
@@ -3522,10 +5280,16 @@
     "subQuestions": [
       {
         "id": "p5-294-q1",
-        "options": ["authentic", "authoritative", "autocratic", "automated"],
+        "options": [
+          "authentic",
+          "authoritative",
+          "autocratic",
+          "automated"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-295",
@@ -3534,10 +5298,16 @@
     "subQuestions": [
       {
         "id": "p5-295-q1",
-        "options": ["arcane", "archaic", "archetypal", "ardent"],
+        "options": [
+          "arcane",
+          "archaic",
+          "archetypal",
+          "ardent"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-296",
@@ -3546,10 +5316,16 @@
     "subQuestions": [
       {
         "id": "p5-296-q1",
-        "options": ["innate", "inane", "inert", "inmate"],
+        "options": [
+          "innate",
+          "inane",
+          "inert",
+          "inmate"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-297",
@@ -3558,10 +5334,16 @@
     "subQuestions": [
       {
         "id": "p5-297-q1",
-        "options": ["recuse", "accuse", "reuse", "misuse"],
+        "options": [
+          "recuse",
+          "accuse",
+          "reuse",
+          "misuse"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-298",
@@ -3570,10 +5352,16 @@
     "subQuestions": [
       {
         "id": "p5-298-q1",
-        "options": ["steep", "sleek", "stark", "stale"],
+        "options": [
+          "steep",
+          "sleek",
+          "stark",
+          "stale"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   },
   {
     "id": "p5-299",
@@ -3582,10 +5370,16 @@
     "subQuestions": [
       {
         "id": "p5-299-q1",
-        "options": ["hinge", "hinging", "hinged", "to hinge"],
+        "options": [
+          "hinge",
+          "hinging",
+          "hinged",
+          "to hinge"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "verbals"
   },
   {
     "id": "p5-300",
@@ -3594,10 +5388,15 @@
     "subQuestions": [
       {
         "id": "p5-300-q1",
-        "options": ["stalemate", "consensus", "verdict", "sentence"],
+        "options": [
+          "stalemate",
+          "consensus",
+          "verdict",
+          "sentence"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "grammarCategory": "vocab"
   }
-
 ]

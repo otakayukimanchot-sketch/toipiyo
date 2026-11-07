@@ -8,6 +8,7 @@ export interface Question {
   image?: string; // For Part 1, 3, 4 (charts)
   imageDescriptionJa?: string; // For Part 1 replacement of image
   text?: string; // For Part 5, 6, 7
+  grammarCategory?: string; // Grammatical category tag (e.g., 'pos', 'verb_tense', 'verbals', etc.)
   subQuestions: SubQuestion[];
 }
 
@@ -25,6 +26,14 @@ export interface UserProgress {
   streak: number;
   completedPartsToday: Part[];
 }
+
+export interface GrammarCategoryStat {
+  incorrectCount: number;
+  totalAttempts: number;
+  lastMistakeDate?: string;
+}
+
+export type GrammarStatsMap = Record<string, GrammarCategoryStat>;
 
 export interface ReviewItem {
   id: string;

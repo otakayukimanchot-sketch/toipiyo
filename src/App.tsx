@@ -9,10 +9,12 @@ import part5Data from "./data/part5.json";
 import part6Data from "./data/part6.json";
 import part7Data from "./data/part7.json";
 import { unlockAudio } from "./utils/audio";
+import { getQuestionGrammarCategory } from "./utils/grammarCategories";
 import HeptagonNav from "./components/HeptagonNav";
 import StreakDisplay from "./components/StreakDisplay";
 import QuizView from "./components/QuizView";
 import ReviewNews from "./components/ReviewNews";
+import ReviewPage from "./components/ReviewPage";
 import { motion, AnimatePresence, MotionConfig } from "motion/react";
 import { 
   Volume2, 
@@ -460,60 +462,19 @@ export default function App() {
                 </div>
               )}
 
-              {/* TAB 2: REVIEW QUEUE */}
+              {/* TAB 2: REVIEW QUEUE & GRAMMAR ANALYSIS */}
               {homeTab === "review" && (
-                <div className="flex-1 min-h-0 overflow-y-auto py-1">
-                  {reviewItems.length === 0 ? (
-                    <div className="py-12 text-center text-xs font-mono text-gray-400 space-y-2">
-                      <p>復習アイテムはありません</p>
-                      <p className="text-[11px]">ミスした問題は自動的にストックされます</p>
-                    </div>
-                  ) : (
-                    <div className="divide-y divide-gray-100 dark:divide-slate-800/80">
-                      {reviewItems.map((item) => (
-                        <div key={item.id} className="py-2.5 flex items-center justify-between gap-2">
-                          <button
-                            onClick={() => {
-                              unlockAudio();
-                              setActivePart(item.question.part);
-                              setCurrentQuestion(item.question);
-                            }}
-                            className="flex-1 text-left min-w-0 group cursor-pointer"
-                          >
-                            <span className="font-mono text-[10px] text-blue-600 dark:text-blue-400 font-bold block">
-                              PART {item.question.part} · {PART_INFO[item.question.part].name}
-                            </span>
-                            <p className="text-xs text-gray-800 dark:text-gray-200 truncate group-hover:text-blue-600">
-                              {item.question.text || item.question.imageDescriptionJa || "音声リスニング問題"}
-                            </p>
-                          </button>
-                          <div className="flex items-center space-x-2 shrink-0">
-                            <button
-                              onClick={() => {
-                                unlockAudio();
-                                setActivePart(item.question.part);
-                                setCurrentQuestion(item.question);
-                              }}
-                              className="text-xs font-mono text-blue-600 hover:underline cursor-pointer"
-                            >
-                              解く →
-                            </button>
-                            <button
-                              onClick={() => {
-                                removeReviewItem(item.id);
-                                setReviewItems(getReviewItems());
-                              }}
-                              className="p-1 text-gray-400 hover:text-rose-600 cursor-pointer"
-                              aria-label="削除"
-                            >
-                              <Trash2 size={13} />
-                            </button>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
+                <ReviewPage
+                  reviewItems={reviewItems}
+                  onStartQuiz={(question) => {
+                    setActivePart(question.part);
+                    setCurrentQuestion(question);
+                  }}
+                  onRefreshReviewItems={() => {
+                    setReviewItems(getReviewItems());
+                  }}
+                  onUnlockAudio={unlockAudio}
+                />
               )}
             </main>
 
@@ -772,38 +733,46 @@ export default function App() {
                       </p>
                     ) : (
                       <div className="border-t border-b border-gray-200 dark:border-slate-800 divide-y divide-gray-100 dark:divide-slate-800">
-                        {reviewItems.map((item) => (
-                          <div key={item.id} className="py-3 space-y-1.5">
-                            <span className="font-mono text-[10px] text-blue-600 dark:text-blue-400 block font-bold">
-                              PART {item.question.part}
-                            </span>
-                            <p className="text-xs text-gray-800 dark:text-gray-200 line-clamp-2">
-                              {item.question.text || item.question.imageDescriptionJa || "音声問題"}
-                            </p>
-                            <div className="flex items-center justify-between pt-1">
-                              <button 
-                                onClick={() => {
-                                  setIsMenuOpen(false);
-                                  setActivePart(item.question.part);
-                                  setCurrentQuestion(item.question);
-                                }}
-                                className="text-xs font-mono text-blue-600 dark:text-blue-400 hover:underline cursor-pointer"
-                              >
-                                解く →
-                              </button>
-                              <button 
-                                onClick={() => {
-                                  removeReviewItem(item.id);
-                                  setReviewItems(getReviewItems());
-                                }}
-                                className="text-xs text-gray-400 hover:text-rose-600 cursor-pointer"
-                                aria-label="削除"
-                              >
-                                <Trash2 size={13} />
-                              </button>
+                        {reviewItems.map((item) => {
+                          const cat = getQuestionGrammarCategory(item.question);
+                          return (
+                            <div key={item.id} className="py-3 space-y-1.5">
+                              <div className="flex items-center space-x-1.5">
+                                <span className="font-mono text-[10px] text-blue-600 dark:text-blue-400 font-bold">
+                                  PART {item.question.part}
+                                </span>
+                                <span className={`inline-flex items-center space-x-0.5 px-1.5 py-0.2 text-[9px] font-mono border ${cat.badgeColor.bg} ${cat.badgeColor.text} ${cat.badgeColor.border} ${cat.badgeColor.darkBg} ${cat.badgeColor.darkText} ${cat.badgeColor.darkBorder}`}>
+                                  <span>{cat.shortName}</span>
+                                </span>
+                              </div>
+                              <p className="text-xs text-gray-800 dark:text-gray-200 line-clamp-2">
+                                {item.question.text || item.question.imageDescriptionJa || "音声問題"}
+                              </p>
+                              <div className="flex items-center justify-between pt-1">
+                                <button 
+                                  onClick={() => {
+                                    setIsMenuOpen(false);
+                                    setActivePart(item.question.part);
+                                    setCurrentQuestion(item.question);
+                                  }}
+                                  className="text-xs font-mono text-blue-600 dark:text-blue-400 hover:underline cursor-pointer"
+                                >
+                                  解く →
+                                </button>
+                                <button 
+                                  onClick={() => {
+                                    removeReviewItem(item.id);
+                                    setReviewItems(getReviewItems());
+                                  }}
+                                  className="text-xs text-gray-400 hover:text-rose-600 cursor-pointer"
+                                  aria-label="削除"
+                                >
+                                  <Trash2 size={13} />
+                                </button>
+                              </div>
                             </div>
-                          </div>
-                        ))}
+                          );
+                        })}
                       </div>
                     )}
                   </div>

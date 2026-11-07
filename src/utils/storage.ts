@@ -1,8 +1,10 @@
-import { Part, UserProgress, ReviewItem, AppSettings } from "../types";
+import { Part, UserProgress, ReviewItem, AppSettings, GrammarStatsMap, Question } from "../types";
+import { getQuestionGrammarCategory } from "./grammarCategories";
 
 const STORAGE_KEY = "toipiyo_user_progress";
 const REVIEW_KEY = "toipiyo_review_items";
 const SETTINGS_KEY = "toipiyo_app_settings";
+const GRAMMAR_STATS_KEY = "toipiyo_grammar_stats";
 
 export function getJSTDate(): string {
   const now = new Date();
@@ -84,10 +86,55 @@ export function completePart(part: Part): UserProgress {
   return progress;
 }
 
+export function recordGrammarAttempt(question: Question, isCorrect: boolean) {
+  // We track stats for Part 5 grammar questions (and any with grammar category)
+  if (question.part !== 5 && !question.grammarCategory) return;
+
+  const category = getQuestionGrammarCategory(question);
+  const stats = getGrammarStats();
+
+  if (!stats[category.id]) {
+    stats[category.id] = {
+      incorrectCount: 0,
+      totalAttempts: 0,
+    };
+  }
+
+  stats[category.id].totalAttempts += 1;
+  if (!isCorrect) {
+    stats[category.id].incorrectCount += 1;
+    stats[category.id].lastMistakeDate = getJSTDate();
+  }
+
+  localStorage.setItem(GRAMMAR_STATS_KEY, JSON.stringify(stats));
+}
+
+export function getGrammarStats(): GrammarStatsMap {
+  const stored = localStorage.getItem(GRAMMAR_STATS_KEY);
+  if (!stored) return {};
+  try {
+    return JSON.parse(stored);
+  } catch (e) {
+    return {};
+  }
+}
+
+export function resetGrammarStats() {
+  localStorage.removeItem(GRAMMAR_STATS_KEY);
+}
+
 export function saveIncorrectQuestion(question: any) {
   const stored = localStorage.getItem(REVIEW_KEY);
   let reviews: ReviewItem[] = stored ? JSON.parse(stored) : [];
   
+  // Ensure question has grammarCategory tagged if missing
+  if (!question.grammarCategory) {
+    question.grammarCategory = getQuestionGrammarCategory(question).id;
+  }
+
+  // Also automatically count this towards grammar mistakes stats if it's Part 5
+  recordGrammarAttempt(question, false);
+
   // Check if already exists
   if (reviews.some(r => r.id === question.id)) return;
 
@@ -99,9 +146,9 @@ export function saveIncorrectQuestion(question: any) {
 
   reviews.unshift(newItem); // Add to beginning
   
-  // Keep only last 30 items
-  if (reviews.length > 30) {
-    reviews = reviews.slice(0, 30);
+  // Keep only last 50 items
+  if (reviews.length > 50) {
+    reviews = reviews.slice(0, 50);
   }
 
   localStorage.setItem(REVIEW_KEY, JSON.stringify(reviews));

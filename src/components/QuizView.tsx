@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Part, Question, SubQuestion } from "../types";
 import { speak, unlockAudio, cancelAudio, startAudioSession, isAudioSessionActive } from "../utils/audio";
-import { saveIncorrectQuestion } from "../utils/storage";
+import { saveIncorrectQuestion, recordGrammarAttempt } from "../utils/storage";
+import { getQuestionGrammarCategory } from "../utils/grammarCategories";
 import { motion, AnimatePresence } from "motion/react";
 import { 
   Clock, 
@@ -16,7 +17,8 @@ import {
   BookmarkPlus,
   FileText,
   ChevronDown,
-  ChevronUp
+  ChevronUp,
+  Tag
 } from "lucide-react";
 
 interface QuizViewProps {
@@ -241,6 +243,8 @@ const QuizView: React.FC<QuizViewProps> = ({
     );
     
     setIsCorrect(allCorrect);
+    // Record grammar statistics if it's Part 5 or has a grammar category
+    recordGrammarAttempt(question, allCorrect);
     setPhase("result");
   };
 
@@ -468,8 +472,26 @@ const QuizView: React.FC<QuizViewProps> = ({
           {/* PART 5: Incomplete Sentences (Sentence text + 4 Options) */}
           {part === 5 && (
             <div className="flex-1 min-h-0 flex flex-col justify-between">
-              <div className="p-3 sm:p-4 border border-gray-200 dark:border-slate-800 bg-gray-50/60 dark:bg-slate-950/60 text-sm sm:text-base leading-relaxed text-gray-900 dark:text-gray-100 font-normal shrink-0">
-                {question.text}
+              <div>
+                {/* Grammar Category Tag Badge */}
+                {(() => {
+                  const cat = getQuestionGrammarCategory(question);
+                  return (
+                    <div className="flex items-center space-x-1.5 mb-1.5">
+                      <span className={`inline-flex items-center space-x-1 px-2 py-0.5 text-[10px] font-mono border ${cat.badgeColor.bg} ${cat.badgeColor.text} ${cat.badgeColor.border} ${cat.badgeColor.darkBg} ${cat.badgeColor.darkText} ${cat.badgeColor.darkBorder}`}>
+                        <Tag size={10} />
+                        <span>単元: {cat.shortName}</span>
+                      </span>
+                      <span className="text-[10px] text-gray-400 font-mono hidden sm:inline truncate">
+                        {cat.description}
+                      </span>
+                    </div>
+                  );
+                })()}
+
+                <div className="p-3 sm:p-4 border border-gray-200 dark:border-slate-800 bg-gray-50/60 dark:bg-slate-950/60 text-sm sm:text-base leading-relaxed text-gray-900 dark:text-gray-100 font-normal shrink-0">
+                  {question.text}
+                </div>
               </div>
 
               {/* 4 Choices */}
@@ -706,6 +728,27 @@ const QuizView: React.FC<QuizViewProps> = ({
 
         {/* Middle Answer Key & Breakdown Container - Scrollable only if user wants extra reading */}
         <div className="flex-1 min-h-0 overflow-y-auto p-4 max-w-xl mx-auto w-full space-y-3">
+          {/* Grammar Unit Tag badge if Part 5 or grammar category available */}
+          {(() => {
+            const cat = getQuestionGrammarCategory(question);
+            return (
+              <div className="p-2.5 border border-gray-200 dark:border-slate-800 bg-gray-50/50 dark:bg-slate-900/50 flex items-center justify-between">
+                <div className="flex items-center space-x-2">
+                  <span className={`inline-flex items-center space-x-1 px-2 py-0.5 text-[10px] font-mono border ${cat.badgeColor.bg} ${cat.badgeColor.text} ${cat.badgeColor.border} ${cat.badgeColor.darkBg} ${cat.badgeColor.darkText} ${cat.badgeColor.darkBorder}`}>
+                    <Tag size={10} />
+                    <span>文法単元: {cat.shortName}</span>
+                  </span>
+                  <span className="text-xs text-gray-700 dark:text-gray-300 font-medium">
+                    {cat.name}
+                  </span>
+                </div>
+                <span className="text-[10px] font-mono text-gray-400 hidden sm:inline">
+                  Part {part}
+                </span>
+              </div>
+            );
+          })()}
+
           <div className="space-y-2">
             <span className="text-[11px] font-mono uppercase tracking-widest text-gray-400 font-bold block">
               ANSWER KEY & DETAILS
