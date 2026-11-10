@@ -3,6 +3,7 @@ import { Part, Question, SubQuestion } from "../types";
 import { speak, unlockAudio, cancelAudio, startAudioSession, isAudioSessionActive } from "../utils/audio";
 import { saveIncorrectQuestion, recordGrammarAttempt } from "../utils/storage";
 import { getQuestionGrammarCategory } from "../utils/grammarCategories";
+import DifficultyBadge from "./DifficultyBadge";
 import { motion, AnimatePresence } from "motion/react";
 import { 
   Clock, 
@@ -323,6 +324,7 @@ const QuizView: React.FC<QuizViewProps> = ({
             <span className="text-xs font-medium text-gray-700 dark:text-gray-300 hidden sm:inline">
               {PART_LABELS[part]}
             </span>
+            <DifficultyBadge difficulty={question.difficulty} compact={true} />
             {question.subQuestions.length > 1 && (
               <span className="text-[10px] font-mono px-1.5 py-0.5 bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-gray-300">
                 Q{activeSubIdx + 1}/{question.subQuestions.length}
@@ -724,8 +726,10 @@ const QuizView: React.FC<QuizViewProps> = ({
               <div className="text-base font-bold tracking-tight">
                 {isCorrect ? "正解！" : "不正解"}
               </div>
-              <div className="text-[10px] font-mono opacity-80 uppercase tracking-wider">
-                PART {part} · {PART_LABELS[part]}
+              <div className="text-[10px] font-mono opacity-80 uppercase tracking-wider flex items-center space-x-1.5">
+                <span>PART {part} · {PART_LABELS[part]}</span>
+                <span>·</span>
+                <DifficultyBadge difficulty={question.difficulty} compact={true} />
               </div>
             </div>
           </div>
@@ -835,47 +839,73 @@ const QuizView: React.FC<QuizViewProps> = ({
           <div className="max-w-xl mx-auto space-y-2">
             {/* Primary Action Button */}
             {isCorrect ? (
-              part < 7 ? (
-                <button
-                  onClick={() => onComplete(true)}
-                  className="w-full h-12 bg-gray-950 dark:bg-white text-white dark:text-black font-semibold text-xs tracking-wider uppercase flex items-center justify-center space-x-1.5 cursor-pointer hover:opacity-90 transition-opacity"
-                >
-                  <span>次のPartに進む (Part {part + 1})</span>
-                  <ChevronRight size={15} />
-                </button>
-              ) : (
-                <button
-                  onClick={() => onComplete(true)}
-                  className="w-full h-12 bg-emerald-600 text-white font-semibold text-xs tracking-wider uppercase flex items-center justify-center space-x-1.5 cursor-pointer hover:bg-emerald-700 transition-colors"
-                >
-                  <span>本日の全7パート達成！(ホームへ)</span>
-                  <ChevronRight size={15} />
-                </button>
-              )
-            ) : (
-              <div className="grid grid-cols-2 gap-2">
-                <button
-                  onClick={() => {
-                    setPhase("countdown");
-                    setTimeLeft(PART_TIMERS[part]);
-                    setSelectedAnswers({});
-                    setIsConfirmed(false);
-                    setIsCorrect(false);
-                    setReplayCount((c) => c + 1);
-                  }}
-                  className="h-12 bg-amber-600 hover:bg-amber-700 text-white font-semibold text-xs tracking-wider uppercase flex items-center justify-center space-x-1 cursor-pointer transition-colors"
-                >
-                  <RotateCcw size={14} />
-                  <span>もう一度解く</span>
-                </button>
+              <div className="space-y-2">
+                <div className="grid grid-cols-2 gap-2">
+                  <button
+                    onClick={() => {
+                      onRetry();
+                    }}
+                    className="h-12 border border-gray-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-gray-900 dark:text-white font-semibold text-xs tracking-wider uppercase flex items-center justify-center space-x-1.5 cursor-pointer hover:bg-gray-50 dark:hover:bg-slate-800 transition-colors"
+                  >
+                    <RotateCcw size={14} />
+                    <span>同じPartを勉強 (Part {part})</span>
+                  </button>
 
-                <button
-                  onClick={() => onComplete(false)}
-                  className="h-12 bg-gray-950 dark:bg-white text-white dark:text-black font-semibold text-xs tracking-wider uppercase flex items-center justify-center space-x-1 cursor-pointer hover:opacity-90 transition-opacity"
-                >
-                  <span>次のPartへ (Part {part < 7 ? part + 1 : 1})</span>
-                  <ChevronRight size={14} />
-                </button>
+                  {part < 7 ? (
+                    <button
+                      onClick={() => onComplete(true)}
+                      className="h-12 bg-gray-950 dark:bg-white text-white dark:text-black font-semibold text-xs tracking-wider uppercase flex items-center justify-center space-x-1.5 cursor-pointer hover:opacity-90 transition-opacity"
+                    >
+                      <span>次のPart (Part {part + 1})</span>
+                      <ChevronRight size={15} />
+                    </button>
+                  ) : (
+                    <button
+                      onClick={() => onComplete(true)}
+                      className="h-12 bg-emerald-600 text-white font-semibold text-xs tracking-wider uppercase flex items-center justify-center space-x-1.5 cursor-pointer hover:bg-emerald-700 transition-colors"
+                    >
+                      <span>全7Part達成！</span>
+                      <ChevronRight size={15} />
+                    </button>
+                  )}
+                </div>
+              </div>
+            ) : (
+              <div className="space-y-2">
+                <div className="grid grid-cols-3 gap-1.5">
+                  <button
+                    onClick={() => {
+                      setPhase("countdown");
+                      setTimeLeft(PART_TIMERS[part]);
+                      setSelectedAnswers({});
+                      setIsConfirmed(false);
+                      setIsCorrect(false);
+                      setReplayCount((c) => c + 1);
+                    }}
+                    className="h-12 bg-amber-600 hover:bg-amber-700 text-white font-semibold text-[11px] sm:text-xs tracking-tight flex items-center justify-center space-x-1 cursor-pointer transition-colors px-1"
+                  >
+                    <RotateCcw size={13} />
+                    <span>もう一度解く</span>
+                  </button>
+
+                  <button
+                    onClick={() => {
+                      onRetry();
+                    }}
+                    className="h-12 border border-gray-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-gray-900 dark:text-white font-semibold text-[11px] sm:text-xs tracking-tight flex items-center justify-center space-x-1 cursor-pointer hover:bg-gray-50 dark:hover:bg-slate-800 transition-colors px-1"
+                  >
+                    <RotateCcw size={13} />
+                    <span>同じPart別問</span>
+                  </button>
+
+                  <button
+                    onClick={() => onComplete(false)}
+                    className="h-12 bg-gray-950 dark:bg-white text-white dark:text-black font-semibold text-[11px] sm:text-xs tracking-tight flex items-center justify-center space-x-1 cursor-pointer hover:opacity-90 transition-opacity px-1"
+                  >
+                    <span>次Partへ</span>
+                    <ChevronRight size={13} />
+                  </button>
+                </div>
               </div>
             )}
 

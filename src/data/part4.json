@@ -7,22 +7,38 @@
       {
         "id": "p4-1-q1",
         "questionText": "Who is this announcement for?",
-        "options": ["Employees", "Visitors", "Drivers", "Students"],
+        "options": [
+          "Employees",
+          "Visitors",
+          "Drivers",
+          "Students"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-1-q2",
         "questionText": "What has changed?",
-        "options": ["Ticket price", "Opening time", "Location", "Guide schedule"],
+        "options": [
+          "Ticket price",
+          "Opening time",
+          "Location",
+          "Guide schedule"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-1-q3",
         "questionText": "Why is the change made?",
-        "options": ["Weather", "Maintenance", "Staff shortage", "Holiday"],
+        "options": [
+          "Weather",
+          "Maintenance",
+          "Staff shortage",
+          "Holiday"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-2",
@@ -32,22 +48,38 @@
       {
         "id": "p4-2-q1",
         "questionText": "What is the purpose of this announcement?",
-        "options": ["To announce a gate change", "To announce a flight delay", "To announce boarding", "To announce a cancellation"],
+        "options": [
+          "To announce a gate change",
+          "To announce a flight delay",
+          "To announce boarding",
+          "To announce a cancellation"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-2-q2",
         "questionText": "Why is the flight delayed?",
-        "options": ["Mechanical issue", "Weather", "Crew delay", "Overbooking"],
+        "options": [
+          "Mechanical issue",
+          "Weather",
+          "Crew delay",
+          "Overbooking"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-2-q3",
         "questionText": "What will be provided at the gate?",
-        "options": ["Blankets", "Meal vouchers", "Hotel rooms", "Headphones"],
+        "options": [
+          "Blankets",
+          "Meal vouchers",
+          "Hotel rooms",
+          "Headphones"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-3",
@@ -57,22 +89,38 @@
       {
         "id": "p4-3-q1",
         "questionText": "What type of message is this?",
-        "options": ["A voicemail greeting", "A radio ad", "A museum announcement", "A weather report"],
+        "options": [
+          "A voicemail greeting",
+          "A radio ad",
+          "A museum announcement",
+          "A weather report"
+        ],
         "correctIndex": 0
       },
       {
         "id": "p4-3-q2",
         "questionText": "What should callers do in an emergency?",
-        "options": ["Press 1", "Press 2", "Call 911", "Wait for a representative"],
+        "options": [
+          "Press 1",
+          "Press 2",
+          "Call 911",
+          "Wait for a representative"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-3-q3",
         "questionText": "Which option is for appointments?",
-        "options": ["Press 1", "Press 2", "Press 3", "Press 4"],
+        "options": [
+          "Press 1",
+          "Press 2",
+          "Press 3",
+          "Press 4"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-4",
@@ -82,22 +130,38 @@
       {
         "id": "p4-4-q1",
         "questionText": "Where would this talk most likely be heard?",
-        "options": ["At an airport", "On the radio", "In a museum", "At a train station"],
+        "options": [
+          "At an airport",
+          "On the radio",
+          "In a museum",
+          "At a train station"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-4-q2",
         "questionText": "What is the expected high temperature?",
-        "options": ["68 degrees", "70 degrees", "72 degrees", "75 degrees"],
+        "options": [
+          "68 degrees",
+          "70 degrees",
+          "72 degrees",
+          "75 degrees"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-4-q3",
         "questionText": "What does the speaker imply about the evening?",
-        "options": ["It will be sunny", "It will rain likely", "It will snow", "It will be windy"],
+        "options": [
+          "It will be sunny",
+          "It will rain likely",
+          "It will snow",
+          "It will be windy"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-5",
@@ -107,22 +171,38 @@
       {
         "id": "p4-5-q1",
         "questionText": "Who is the speaker?",
-        "options": ["A factory worker", "A tour guide", "A security guard", "A manager"],
+        "options": [
+          "A factory worker",
+          "A tour guide",
+          "A security guard",
+          "A manager"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-5-q2",
         "questionText": "What is required in the production area?",
-        "options": ["Hard hats", "Safety glasses", "Gloves", "Earplugs"],
+        "options": [
+          "Hard hats",
+          "Safety glasses",
+          "Gloves",
+          "Earplugs"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-5-q3",
         "questionText": "What is NOT allowed?",
-        "options": ["Talking", "Walking", "Photography", "Asking questions"],
+        "options": [
+          "Talking",
+          "Walking",
+          "Photography",
+          "Asking questions"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-6",
@@ -132,22 +212,38 @@
       {
         "id": "p4-6-q1",
         "questionText": "Why is Lisa calling?",
-        "options": ["To remind about a meeting", "To inform about dry cleaning", "To reschedule an appointment", "To confirm a reservation"],
+        "options": [
+          "To remind about a meeting",
+          "To inform about dry cleaning",
+          "To reschedule an appointment",
+          "To confirm a reservation"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-6-q2",
         "questionText": "What does the listener need to bring?",
-        "options": ["ID", "Claim ticket", "Payment", "Receipt"],
+        "options": [
+          "ID",
+          "Claim ticket",
+          "Payment",
+          "Receipt"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-6-q3",
         "questionText": "What should the listener do if Lisa is not at the desk?",
-        "options": ["Come back later", "Ring the bell", "Call her phone", "Leave a note"],
+        "options": [
+          "Come back later",
+          "Ring the bell",
+          "Call her phone",
+          "Leave a note"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-7",
@@ -157,22 +253,38 @@
       {
         "id": "p4-7-q1",
         "questionText": "Where is this announcement heard?",
-        "options": ["In a library", "In a store", "In a bank", "In a hospital"],
+        "options": [
+          "In a library",
+          "In a store",
+          "In a bank",
+          "In a hospital"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-7-q2",
         "questionText": "When does the store close?",
-        "options": ["8:30 PM", "8:45 PM", "9:00 PM", "9:30 PM"],
+        "options": [
+          "8:30 PM",
+          "8:45 PM",
+          "9:00 PM",
+          "9:30 PM"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-7-q3",
         "questionText": "What is stated about the pharmacy?",
-        "options": ["It closes at 9 PM", "It closes at 9:30 PM", "It is already closed", "It is open all night"],
+        "options": [
+          "It closes at 9 PM",
+          "It closes at 9:30 PM",
+          "It is already closed",
+          "It is open all night"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-8",
@@ -182,22 +294,38 @@
       {
         "id": "p4-8-q1",
         "questionText": "What is the purpose of this message?",
-        "options": ["To sell a car", "To inform that a car is ready", "To remind about an appointment", "To advertise a service"],
+        "options": [
+          "To sell a car",
+          "To inform that a car is ready",
+          "To remind about an appointment",
+          "To advertise a service"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-8-q2",
         "questionText": "How much does Mr. Johnson owe?",
-        "options": ["$320", "$370", "$420", "$470"],
+        "options": [
+          "$320",
+          "$370",
+          "$420",
+          "$470"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-8-q3",
         "questionText": "What is the deadline to pick up the car today?",
-        "options": ["4 PM", "5 PM", "6 PM", "7 PM"],
+        "options": [
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-9",
@@ -207,22 +335,38 @@
       {
         "id": "p4-9-q1",
         "questionText": "What is being reported?",
-        "options": ["Weather", "Traffic conditions", "Flight delays", "Train schedules"],
+        "options": [
+          "Weather",
+          "Traffic conditions",
+          "Flight delays",
+          "Train schedules"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-9-q2",
         "questionText": "What happened on I-95 northbound?",
-        "options": ["Construction", "A crash", "A power outage", "A parade"],
+        "options": [
+          "Construction",
+          "A crash",
+          "A power outage",
+          "A parade"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-9-q3",
         "questionText": "What alternate route is suggested?",
-        "options": ["Route 1", "Route 20", "Highway 101", "Local streets"],
+        "options": [
+          "Route 1",
+          "Route 20",
+          "Highway 101",
+          "Local streets"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-10",
@@ -232,22 +376,38 @@
       {
         "id": "p4-10-q1",
         "questionText": "What type of message is this?",
-        "options": ["A voicemail greeting", "An automated phone system", "A radio ad", "A safety announcement"],
+        "options": [
+          "A voicemail greeting",
+          "An automated phone system",
+          "A radio ad",
+          "A safety announcement"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-10-q2",
         "questionText": "How long is the estimated wait time?",
-        "options": ["5 minutes", "8 minutes", "10 minutes", "12 minutes"],
+        "options": [
+          "5 minutes",
+          "8 minutes",
+          "10 minutes",
+          "12 minutes"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-10-q3",
         "questionText": "What should callers have ready?",
-        "options": ["Driver's license", "Account number", "Social security number", "Credit card"],
+        "options": [
+          "Driver's license",
+          "Account number",
+          "Social security number",
+          "Credit card"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-11",
@@ -257,22 +417,38 @@
       {
         "id": "p4-11-q1",
         "questionText": "Who is the speaker?",
-        "options": ["The CEO", "The HR director", "A team leader", "An external consultant"],
+        "options": [
+          "The CEO",
+          "The HR director",
+          "A team leader",
+          "An external consultant"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-11-q2",
         "questionText": "What will be discussed first?",
-        "options": ["Vacation policy", "Safety update", "Quarterly results", "New hires"],
+        "options": [
+          "Vacation policy",
+          "Safety update",
+          "Quarterly results",
+          "New hires"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-11-q3",
         "questionText": "What are attendees asked to do?",
-        "options": ["Take notes", "Turn off phones", "Ask questions", "Sign attendance"],
+        "options": [
+          "Take notes",
+          "Turn off phones",
+          "Ask questions",
+          "Sign attendance"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-12",
@@ -282,22 +458,38 @@
       {
         "id": "p4-12-q1",
         "questionText": "Why is the library closed?",
-        "options": ["Holiday", "Water main break", "Staff training", "Power outage"],
+        "options": [
+          "Holiday",
+          "Water main break",
+          "Staff training",
+          "Power outage"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-12-q2",
         "questionText": "What happens to items due today?",
-        "options": ["They are overdue", "They are extended by 3 days", "They must be returned now", "They are free"],
+        "options": [
+          "They are overdue",
+          "They are extended by 3 days",
+          "They must be returned now",
+          "They are free"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-12-q3",
         "questionText": "When is the library expected to reopen?",
-        "options": ["Today at 5 PM", "Tomorrow at 9 AM", "Tomorrow at 10 AM", "In three days"],
+        "options": [
+          "Today at 5 PM",
+          "Tomorrow at 9 AM",
+          "Tomorrow at 10 AM",
+          "In three days"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-13",
@@ -307,22 +499,38 @@
       {
         "id": "p4-13-q1",
         "questionText": "What is the purpose of this message?",
-        "options": ["To ask for money", "To inform of safe arrival", "To cancel a trip", "To complain about a flight"],
+        "options": [
+          "To ask for money",
+          "To inform of safe arrival",
+          "To cancel a trip",
+          "To complain about a flight"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-13-q2",
         "questionText": "Who is the message for?",
-        "options": ["A friend", "A coworker", "The speaker's mother", "A hotel clerk"],
+        "options": [
+          "A friend",
+          "A coworker",
+          "The speaker's mother",
+          "A hotel clerk"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-13-q3",
         "questionText": "What will the speaker do tomorrow morning?",
-        "options": ["Take a flight", "Call back", "Check out of hotel", "Go sightseeing"],
+        "options": [
+          "Take a flight",
+          "Call back",
+          "Check out of hotel",
+          "Go sightseeing"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-14",
@@ -332,22 +540,38 @@
       {
         "id": "p4-14-q1",
         "questionText": "What is being advertised?",
-        "options": ["Electricity plans", "Solar panels", "Wind turbines", "Battery storage"],
+        "options": [
+          "Electricity plans",
+          "Solar panels",
+          "Wind turbines",
+          "Battery storage"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-14-q2",
         "questionText": "What is the special offer?",
-        "options": ["20% discount", "Free installation", "One month free", "No contract"],
+        "options": [
+          "20% discount",
+          "Free installation",
+          "One month free",
+          "No contract"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-14-q3",
         "questionText": "When does the offer end?",
-        "options": ["Monday", "Wednesday", "Friday", "Sunday"],
+        "options": [
+          "Monday",
+          "Wednesday",
+          "Friday",
+          "Sunday"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-15",
@@ -357,22 +581,38 @@
       {
         "id": "p4-15-q1",
         "questionText": "Who is the intended audience?",
-        "options": ["Teachers", "Students", "Parents", "Staff"],
+        "options": [
+          "Teachers",
+          "Students",
+          "Parents",
+          "Staff"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-15-q2",
         "questionText": "What must students bring?",
-        "options": ["Textbook", "Calculator and ID", "Laptop", "Notebook"],
+        "options": [
+          "Textbook",
+          "Calculator and ID",
+          "Laptop",
+          "Notebook"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-15-q3",
         "questionText": "What time should students arrive?",
-        "options": ["8:50 AM", "9:00 AM", "9:10 AM", "9:20 AM"],
+        "options": [
+          "8:50 AM",
+          "9:00 AM",
+          "9:10 AM",
+          "9:20 AM"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-16",
@@ -382,22 +622,38 @@
       {
         "id": "p4-16-q1",
         "questionText": "What is the problem?",
-        "options": ["Weather", "Engine trouble", "Crew shortage", "Overcrowding"],
+        "options": [
+          "Weather",
+          "Engine trouble",
+          "Crew shortage",
+          "Overcrowding"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-16-q2",
         "questionText": "What time is the next ferry?",
-        "options": ["6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM"],
+        "options": [
+          "6:00 PM",
+          "6:30 PM",
+          "7:00 PM",
+          "7:30 PM"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-16-q3",
         "questionText": "What can passengers get at the ticket office?",
-        "options": ["A meal voucher", "A refund", "A hotel room", "A discount"],
+        "options": [
+          "A meal voucher",
+          "A refund",
+          "A hotel room",
+          "A discount"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-17",
@@ -407,22 +663,38 @@
       {
         "id": "p4-17-q1",
         "questionText": "Where is this announcement made?",
-        "options": ["On a train", "On a plane", "On a bus", "On a ship"],
+        "options": [
+          "On a train",
+          "On a plane",
+          "On a bus",
+          "On a ship"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-17-q2",
         "questionText": "What is the weather in Los Angeles?",
-        "options": ["Rainy", "Sunny", "Cloudy", "Windy"],
+        "options": [
+          "Rainy",
+          "Sunny",
+          "Cloudy",
+          "Windy"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-17-q3",
         "questionText": "How long until landing?",
-        "options": ["One hour", "Two hours", "Three hours", "Four hours"],
+        "options": [
+          "One hour",
+          "Two hours",
+          "Three hours",
+          "Four hours"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-18",
@@ -432,22 +704,38 @@
       {
         "id": "p4-18-q1",
         "questionText": "What is the purpose of this call?",
-        "options": ["To confirm a sale", "To remind about an appointment", "To advertise a service", "To collect payment"],
+        "options": [
+          "To confirm a sale",
+          "To remind about an appointment",
+          "To advertise a service",
+          "To collect payment"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-18-q2",
         "questionText": "What time is the appointment?",
-        "options": ["1:30 PM", "2:00 PM", "2:30 PM", "3:00 PM"],
+        "options": [
+          "1:30 PM",
+          "2:00 PM",
+          "2:30 PM",
+          "3:00 PM"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-18-q3",
         "questionText": "What happens if the listener cancels late?",
-        "options": ["No penalty", "A cancellation fee", "Loss of appointment", "Higher copay"],
+        "options": [
+          "No penalty",
+          "A cancellation fee",
+          "Loss of appointment",
+          "Higher copay"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-19",
@@ -457,22 +745,38 @@
       {
         "id": "p4-19-q1",
         "questionText": "What is the topic of this announcement?",
-        "options": ["Weather warning", "Fire safety", "Power outage", "Medical emergency"],
+        "options": [
+          "Weather warning",
+          "Fire safety",
+          "Power outage",
+          "Medical emergency"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-19-q2",
         "questionText": "What should people NOT use?",
-        "options": ["Stairs", "Exits", "Elevators", "Doors"],
+        "options": [
+          "Stairs",
+          "Exits",
+          "Elevators",
+          "Doors"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-19-q3",
         "questionText": "Where is the assembly point?",
-        "options": ["South parking lot", "North parking lot", "East entrance", "West lobby"],
+        "options": [
+          "South parking lot",
+          "North parking lot",
+          "East entrance",
+          "West lobby"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-20",
@@ -482,22 +786,38 @@
       {
         "id": "p4-20-q1",
         "questionText": "What is being promoted?",
-        "options": ["A laptop", "A phone", "A tablet", "A camera"],
+        "options": [
+          "A laptop",
+          "A phone",
+          "A tablet",
+          "A camera"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-20-q2",
         "questionText": "How long does the battery last?",
-        "options": ["24 hours", "36 hours", "48 hours", "60 hours"],
+        "options": [
+          "24 hours",
+          "36 hours",
+          "48 hours",
+          "60 hours"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-20-q3",
         "questionText": "When can customers pre-order?",
-        "options": ["Today", "Next Monday", "Next Friday", "Already available"],
+        "options": [
+          "Today",
+          "Next Monday",
+          "Next Friday",
+          "Already available"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-21",
@@ -507,22 +827,38 @@
       {
         "id": "p4-21-q1",
         "questionText": "Who is the speaker?",
-        "options": ["A teacher", "The principal", "A parent", "The mayor"],
+        "options": [
+          "A teacher",
+          "The principal",
+          "A parent",
+          "The mayor"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-21-q2",
         "questionText": "Why are schools closed?",
-        "options": ["Holiday", "Snowstorm", "Power outage", "Strike"],
+        "options": [
+          "Holiday",
+          "Snowstorm",
+          "Power outage",
+          "Strike"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-21-q3",
         "questionText": "When will classes resume?",
-        "options": ["Tomorrow", "Friday", "Monday", "Next week"],
+        "options": [
+          "Tomorrow",
+          "Friday",
+          "Monday",
+          "Next week"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-22",
@@ -532,22 +868,38 @@
       {
         "id": "p4-22-q1",
         "questionText": "What is this talk?",
-        "options": ["A guided tour", "A welcome announcement", "A radio ad", "A lecture"],
+        "options": [
+          "A guided tour",
+          "A welcome announcement",
+          "A radio ad",
+          "A lecture"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-22-q2",
         "questionText": "How much is admission for seniors?",
-        "options": ["Free", "$5", "$10", "$15"],
+        "options": [
+          "Free",
+          "$5",
+          "$10",
+          "$15"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-22-q3",
         "questionText": "Where is the modern sculpture exhibition?",
-        "options": ["First floor", "Second floor", "Third floor", "Basement"],
+        "options": [
+          "First floor",
+          "Second floor",
+          "Third floor",
+          "Basement"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-23",
@@ -557,22 +909,38 @@
       {
         "id": "p4-23-q1",
         "questionText": "What does this message indicate?",
-        "options": ["The line is busy", "The business is closed", "The number is wrong", "The call is dropped"],
+        "options": [
+          "The line is busy",
+          "The business is closed",
+          "The number is wrong",
+          "The call is dropped"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-23-q2",
         "questionText": "When is the business open?",
-        "options": ["8 AM - 8 PM Mon-Sat", "9 AM - 5 PM Mon-Fri", "24/7", "10 AM - 6 PM Sun-Fri"],
+        "options": [
+          "8 AM - 8 PM Mon-Sat",
+          "9 AM - 5 PM Mon-Fri",
+          "24/7",
+          "10 AM - 6 PM Sun-Fri"
+        ],
         "correctIndex": 0
       },
       {
         "id": "p4-23-q3",
         "questionText": "What alternative does the message suggest?",
-        "options": ["Send an email", "Visit the website", "Call another number", "Leave a voicemail"],
+        "options": [
+          "Send an email",
+          "Visit the website",
+          "Call another number",
+          "Leave a voicemail"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-24",
@@ -582,22 +950,38 @@
       {
         "id": "p4-24-q1",
         "questionText": "Why is the train stopped?",
-        "options": ["Weather", "Signal issue", "Engine problem", "Police activity"],
+        "options": [
+          "Weather",
+          "Signal issue",
+          "Engine problem",
+          "Police activity"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-24-q2",
         "questionText": "How long is the expected delay?",
-        "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+        "options": [
+          "5 minutes",
+          "10 minutes",
+          "15 minutes",
+          "20 minutes"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-24-q3",
         "questionText": "What are passengers asked to do?",
-        "options": ["Get off the train", "Remain seated", "Move to another car", "Call customer service"],
+        "options": [
+          "Get off the train",
+          "Remain seated",
+          "Move to another car",
+          "Call customer service"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-25",
@@ -607,22 +991,38 @@
       {
         "id": "p4-25-q1",
         "questionText": "What is the purpose of this voicemail?",
-        "options": ["To request sales numbers", "To cancel a meeting", "To announce a holiday", "To schedule an interview"],
+        "options": [
+          "To request sales numbers",
+          "To cancel a meeting",
+          "To announce a holiday",
+          "To schedule an interview"
+        ],
         "correctIndex": 0
       },
       {
         "id": "p4-25-q2",
         "questionText": "What is the deadline?",
-        "options": ["12 PM", "1 PM", "3 PM", "5 PM"],
+        "options": [
+          "12 PM",
+          "1 PM",
+          "3 PM",
+          "5 PM"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-25-q3",
         "questionText": "What extension should be called?",
-        "options": ["4431", "4451", "4511", "4541"],
+        "options": [
+          "4431",
+          "4451",
+          "4511",
+          "4541"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-26",
@@ -632,22 +1032,38 @@
       {
         "id": "p4-26-q1",
         "questionText": "What is happening this weekend?",
-        "options": ["A car sale", "Parking lot repaving", "A security check", "An employee event"],
+        "options": [
+          "A car sale",
+          "Parking lot repaving",
+          "A security check",
+          "An employee event"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-26-q2",
         "questionText": "Where should employees park instead?",
-        "options": ["Street parking", "Overflow lot", "Nearby garage", "Visitor lot"],
+        "options": [
+          "Street parking",
+          "Overflow lot",
+          "Nearby garage",
+          "Visitor lot"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-26-q3",
         "questionText": "When will the main lot reopen?",
-        "options": ["Friday 6 PM", "Saturday morning", "Monday 7 AM", "Monday 5 PM"],
+        "options": [
+          "Friday 6 PM",
+          "Saturday morning",
+          "Monday 7 AM",
+          "Monday 5 PM"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-27",
@@ -657,22 +1073,38 @@
       {
         "id": "p4-27-q1",
         "questionText": "What is the speaker's job?",
-        "options": ["Tour guide", "Pilot", "Bus driver", "Park ranger"],
+        "options": [
+          "Tour guide",
+          "Pilot",
+          "Bus driver",
+          "Park ranger"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-27-q2",
         "questionText": "How long is the tour?",
-        "options": ["15 minutes", "20 minutes", "25 minutes", "30 minutes"],
+        "options": [
+          "15 minutes",
+          "20 minutes",
+          "25 minutes",
+          "30 minutes"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-27-q3",
         "questionText": "What is provided to passengers?",
-        "options": ["Snacks", "Headsets", "Blankets", "Cameras"],
+        "options": [
+          "Snacks",
+          "Headsets",
+          "Blankets",
+          "Cameras"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-28",
@@ -682,22 +1114,38 @@
       {
         "id": "p4-28-q1",
         "questionText": "Why was the cooling center opened?",
-        "options": ["Power outage", "Heatwave", "Flooding", "Snowstorm"],
+        "options": [
+          "Power outage",
+          "Heatwave",
+          "Flooding",
+          "Snowstorm"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-28-q2",
         "questionText": "Where is the cooling center?",
-        "options": ["City hall", "Community center", "Public library", "High school"],
+        "options": [
+          "City hall",
+          "Community center",
+          "Public library",
+          "High school"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-28-q3",
         "questionText": "What is available at the center?",
-        "options": ["Beds", "Water and snacks", "Medical care", "Entertainment"],
+        "options": [
+          "Beds",
+          "Water and snacks",
+          "Medical care",
+          "Entertainment"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-29",
@@ -707,22 +1155,38 @@
       {
         "id": "p4-29-q1",
         "questionText": "Why is the bank calling?",
-        "options": ["To sell a product", "To report unusual activity", "To confirm a deposit", "To announce a rate change"],
+        "options": [
+          "To sell a product",
+          "To report unusual activity",
+          "To confirm a deposit",
+          "To announce a rate change"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-29-q2",
         "questionText": "What should the listener NOT do?",
-        "options": ["Call the bank", "Share PIN", "Check account online", "Ignore the call"],
+        "options": [
+          "Call the bank",
+          "Share PIN",
+          "Check account online",
+          "Ignore the call"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-29-q3",
         "questionText": "What number should be called?",
-        "options": ["1-800-555-0199", "1-888-555-0199", "1-877-555-0199", "1-866-555-0199"],
+        "options": [
+          "1-800-555-0199",
+          "1-888-555-0199",
+          "1-877-555-0199",
+          "1-866-555-0199"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-30",
@@ -732,22 +1196,38 @@
       {
         "id": "p4-30-q1",
         "questionText": "What type of program is this?",
-        "options": ["Music show", "News radio", "Talk show", "Commercial"],
+        "options": [
+          "Music show",
+          "News radio",
+          "Talk show",
+          "Commercial"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-30-q2",
         "questionText": "What was the final score of the Tigers game?",
-        "options": ["5-2", "5-3", "4-2", "4-3"],
+        "options": [
+          "5-2",
+          "5-3",
+          "4-2",
+          "4-3"
+        ],
         "correctIndex": 0
       },
       {
         "id": "p4-30-q3",
         "questionText": "What will be announced next?",
-        "options": ["Weather", "Traffic", "Music", "Interviews"],
+        "options": [
+          "Weather",
+          "Traffic",
+          "Music",
+          "Interviews"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-31",
@@ -757,22 +1237,38 @@
       {
         "id": "p4-31-q1",
         "questionText": "What is being promoted?",
-        "options": ["Fresh produce", "Frozen foods", "Dairy products", "Bakery items"],
+        "options": [
+          "Fresh produce",
+          "Frozen foods",
+          "Dairy products",
+          "Bakery items"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-31-q2",
         "questionText": "What is the special offer?",
-        "options": ["20% off", "Buy one get one free", "Free delivery", "Double points only"],
+        "options": [
+          "20% off",
+          "Buy one get one free",
+          "Free delivery",
+          "Double points only"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-31-q3",
         "questionText": "Until what time is the offer valid?",
-        "options": ["6 PM", "7 PM", "8 PM", "9 PM"],
+        "options": [
+          "6 PM",
+          "7 PM",
+          "8 PM",
+          "9 PM"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-32",
@@ -782,22 +1278,38 @@
       {
         "id": "p4-32-q1",
         "questionText": "What is happening on the flight?",
-        "options": ["Engine trouble", "Turbulence", "Medical emergency", "Delay"],
+        "options": [
+          "Engine trouble",
+          "Turbulence",
+          "Medical emergency",
+          "Delay"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-32-q2",
         "questionText": "What are passengers asked to do?",
-        "options": ["Move to back", "Fasten seatbelts", "Open window shades", "Turn off phones"],
+        "options": [
+          "Move to back",
+          "Fasten seatbelts",
+          "Open window shades",
+          "Turn off phones"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-32-q3",
         "questionText": "How long until conditions improve?",
-        "options": ["10 minutes", "15 minutes", "20 minutes", "30 minutes"],
+        "options": [
+          "10 minutes",
+          "15 minutes",
+          "20 minutes",
+          "30 minutes"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-33",
@@ -807,22 +1319,38 @@
       {
         "id": "p4-33-q1",
         "questionText": "What is this message?",
-        "options": ["An automated system", "A voicemail greeting", "A company announcement", "A sales pitch"],
+        "options": [
+          "An automated system",
+          "A voicemail greeting",
+          "A company announcement",
+          "A sales pitch"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-33-q2",
         "questionText": "What should callers leave?",
-        "options": ["Email address", "Name and phone number", "Account number", "Call back time"],
+        "options": [
+          "Email address",
+          "Name and phone number",
+          "Account number",
+          "Call back time"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-33-q3",
         "questionText": "What should callers do for urgent matters?",
-        "options": ["Call his mobile", "Call the office", "Send an email", "Call back later"],
+        "options": [
+          "Call his mobile",
+          "Call the office",
+          "Send an email",
+          "Call back later"
+        ],
         "correctIndex": 0
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-34",
@@ -832,22 +1360,38 @@
       {
         "id": "p4-34-q1",
         "questionText": "Where is this announcement heard?",
-        "options": ["At a theater", "At a concert hall", "At a stadium", "At a museum"],
+        "options": [
+          "At a theater",
+          "At a concert hall",
+          "At a stadium",
+          "At a museum"
+        ],
         "correctIndex": 0
       },
       {
         "id": "p4-34-q2",
         "questionText": "Why was the showing canceled?",
-        "options": ["Weather", "Technical issues", "Low ticket sales", "Staff shortage"],
+        "options": [
+          "Weather",
+          "Technical issues",
+          "Low ticket sales",
+          "Staff shortage"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-34-q3",
         "questionText": "What option is available at the box office?",
-        "options": ["Free popcorn", "Full refund", "Discount on next show", "Free parking"],
+        "options": [
+          "Free popcorn",
+          "Full refund",
+          "Discount on next show",
+          "Free parking"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-35",
@@ -857,22 +1401,38 @@
       {
         "id": "p4-35-q1",
         "questionText": "Who is the speaker?",
-        "options": ["A client", "A project manager", "An intern", "A CEO"],
+        "options": [
+          "A client",
+          "A project manager",
+          "An intern",
+          "A CEO"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-35-q2",
         "questionText": "When is the client presentation?",
-        "options": ["Today at 10 AM", "Today at 3 PM", "Tomorrow at 10 AM", "Tomorrow at 4 PM"],
+        "options": [
+          "Today at 10 AM",
+          "Today at 3 PM",
+          "Tomorrow at 10 AM",
+          "Tomorrow at 4 PM"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-35-q3",
         "questionText": "What is the deadline for sending slides?",
-        "options": ["10 AM", "12 PM", "3 PM", "4 PM"],
+        "options": [
+          "10 AM",
+          "12 PM",
+          "3 PM",
+          "4 PM"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-36",
@@ -882,22 +1442,38 @@
       {
         "id": "p4-36-q1",
         "questionText": "What is being reported?",
-        "options": ["Sports", "Weather", "Traffic", "News"],
+        "options": [
+          "Sports",
+          "Weather",
+          "Traffic",
+          "News"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-36-q2",
         "questionText": "What is the weather on Saturday?",
-        "options": ["Sunny", "Rainy", "Partly cloudy", "Snowy"],
+        "options": [
+          "Sunny",
+          "Rainy",
+          "Partly cloudy",
+          "Snowy"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-36-q3",
         "questionText": "What does the speaker say about Sunday morning?",
-        "options": ["It will be sunny", "It will rain", "It will snow", "It will be windy"],
+        "options": [
+          "It will be sunny",
+          "It will rain",
+          "It will snow",
+          "It will be windy"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-37",
@@ -907,22 +1483,38 @@
       {
         "id": "p4-37-q1",
         "questionText": "What is the occasion?",
-        "options": ["Company meeting", "Annual picnic", "Product launch", "Holiday party"],
+        "options": [
+          "Company meeting",
+          "Annual picnic",
+          "Product launch",
+          "Holiday party"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-37-q2",
         "questionText": "When will the raffle drawing take place?",
-        "options": ["12:30 PM", "1:00 PM", "1:30 PM", "2:00 PM"],
+        "options": [
+          "12:30 PM",
+          "1:00 PM",
+          "1:30 PM",
+          "2:00 PM"
+        ],
         "correctIndex": 3
       },
       {
         "id": "p4-37-q3",
         "questionText": "What is mentioned as a prize?",
-        "options": ["Cash", "Weekend getaway", "New phone", "Free lunch"],
+        "options": [
+          "Cash",
+          "Weekend getaway",
+          "New phone",
+          "Free lunch"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-38",
@@ -932,22 +1524,38 @@
       {
         "id": "p4-38-q1",
         "questionText": "What is the purpose of this broadcast?",
-        "options": ["Weather warning", "Missing child alert", "Traffic update", "Event announcement"],
+        "options": [
+          "Weather warning",
+          "Missing child alert",
+          "Traffic update",
+          "Event announcement"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-38-q2",
         "questionText": "What is the child wearing?",
-        "options": ["Red jacket, blue jeans", "Blue jacket, red jeans", "Black jacket, brown pants", "Green jacket, khakis"],
+        "options": [
+          "Red jacket, blue jeans",
+          "Blue jacket, red jeans",
+          "Black jacket, brown pants",
+          "Green jacket, khakis"
+        ],
         "correctIndex": 0
       },
       {
         "id": "p4-38-q3",
         "questionText": "What should listeners NOT do?",
-        "options": ["Call 911", "Look for the child", "Approach the child", "Share information"],
+        "options": [
+          "Call 911",
+          "Look for the child",
+          "Approach the child",
+          "Share information"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-39",
@@ -957,22 +1565,38 @@
       {
         "id": "p4-39-q1",
         "questionText": "What is this message?",
-        "options": ["A voicemail", "An automated hold message", "A sales call", "A survey"],
+        "options": [
+          "A voicemail",
+          "An automated hold message",
+          "A sales call",
+          "A survey"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-39-q2",
         "questionText": "What is the estimated wait time?",
-        "options": ["7 minutes", "10 minutes", "12 minutes", "15 minutes"],
+        "options": [
+          "7 minutes",
+          "10 minutes",
+          "12 minutes",
+          "15 minutes"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-39-q3",
         "questionText": "What can callers do by pressing 1?",
-        "options": ["Leave a message", "Request a callback", "Speak to an agent", "Hear the menu again"],
+        "options": [
+          "Leave a message",
+          "Request a callback",
+          "Speak to an agent",
+          "Hear the menu again"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-40",
@@ -982,22 +1606,38 @@
       {
         "id": "p4-40-q1",
         "questionText": "Where is this announcement likely made?",
-        "options": ["At a school", "At a hotel", "At a bank", "At a restaurant"],
+        "options": [
+          "At a school",
+          "At a hotel",
+          "At a bank",
+          "At a restaurant"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-40-q2",
         "questionText": "What was found?",
-        "options": ["A phone", "A wallet", "A key", "A bag"],
+        "options": [
+          "A phone",
+          "A wallet",
+          "A key",
+          "A bag"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-40-q3",
         "questionText": "What is required to claim the item?",
-        "options": ["Receipt", "Another ID", "Room key", "Phone number"],
+        "options": [
+          "Receipt",
+          "Another ID",
+          "Room key",
+          "Phone number"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-41",
@@ -1007,22 +1647,38 @@
       {
         "id": "p4-41-q1",
         "questionText": "What type of call is this?",
-        "options": ["Sales call", "Appointment reminder", "Billing notice", "Survey request"],
+        "options": [
+          "Sales call",
+          "Appointment reminder",
+          "Billing notice",
+          "Survey request"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-41-q2",
         "questionText": "What day is the appointment?",
-        "options": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+        "options": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-41-q3",
         "questionText": "How early should the patient arrive?",
-        "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+        "options": [
+          "5 minutes",
+          "10 minutes",
+          "15 minutes",
+          "20 minutes"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-42",
@@ -1032,22 +1688,38 @@
       {
         "id": "p4-42-q1",
         "questionText": "What happened to the 8:45 train?",
-        "options": ["Delayed", "Canceled", "Changed platform", "Overbooked"],
+        "options": [
+          "Delayed",
+          "Canceled",
+          "Changed platform",
+          "Overbooked"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-42-q2",
         "questionText": "Why was it canceled?",
-        "options": ["Weather", "Mechanical failure", "Staff shortage", "Signal issue"],
+        "options": [
+          "Weather",
+          "Mechanical failure",
+          "Staff shortage",
+          "Signal issue"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-42-q3",
         "questionText": "What time is the alternative train?",
-        "options": ["8:45", "9:00", "9:15", "9:30"],
+        "options": [
+          "8:45",
+          "9:00",
+          "9:15",
+          "9:30"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-43",
@@ -1057,22 +1729,38 @@
       {
         "id": "p4-43-q1",
         "questionText": "Why is the travel agency calling?",
-        "options": ["To sell a package", "To reschedule a flight", "To confirm payment", "To offer an upgrade"],
+        "options": [
+          "To sell a package",
+          "To reschedule a flight",
+          "To confirm payment",
+          "To offer an upgrade"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-43-q2",
         "questionText": "What is the new departure time?",
-        "options": ["8:15 PM", "9:30 PM", "10:00 PM", "10:30 PM"],
+        "options": [
+          "8:15 PM",
+          "9:30 PM",
+          "10:00 PM",
+          "10:30 PM"
+        ],
         "correctIndex": 3
       },
       {
         "id": "p4-43-q3",
         "questionText": "When should the passenger arrive?",
-        "options": ["6:00 PM", "7:00 PM", "8:00 PM", "9:00 PM"],
+        "options": [
+          "6:00 PM",
+          "7:00 PM",
+          "8:00 PM",
+          "9:00 PM"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-44",
@@ -1082,22 +1770,38 @@
       {
         "id": "p4-44-q1",
         "questionText": "What is being announced?",
-        "options": ["A holiday", "An award win", "A new rule", "A schedule change"],
+        "options": [
+          "A holiday",
+          "An award win",
+          "A new rule",
+          "A schedule change"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-44-q2",
         "questionText": "Which group won the award?",
-        "options": ["Math club", "Science club", "Art club", "Drama club"],
+        "options": [
+          "Math club",
+          "Science club",
+          "Art club",
+          "Drama club"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-44-q3",
         "questionText": "When is the assembly?",
-        "options": ["10 AM", "12 PM", "1 PM", "2 PM"],
+        "options": [
+          "10 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM"
+        ],
         "correctIndex": 3
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-45",
@@ -1107,22 +1811,38 @@
       {
         "id": "p4-45-q1",
         "questionText": "Where is this announcement heard?",
-        "options": ["At a park", "At a store", "At a school", "At a hospital"],
+        "options": [
+          "At a park",
+          "At a store",
+          "At a school",
+          "At a hospital"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-45-q2",
         "questionText": "What is the child wearing?",
-        "options": ["Blue shirt", "Pink dress", "Yellow jacket", "Purple pants"],
+        "options": [
+          "Blue shirt",
+          "Pink dress",
+          "Yellow jacket",
+          "Purple pants"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-45-q3",
         "questionText": "Where should the parent go?",
-        "options": ["Security office", "Customer service desk", "Parking lot", "Entrance gate"],
+        "options": [
+          "Security office",
+          "Customer service desk",
+          "Parking lot",
+          "Entrance gate"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-46",
@@ -1132,22 +1852,38 @@
       {
         "id": "p4-46-q1",
         "questionText": "Why is the office closed?",
-        "options": ["Maintenance", "Holiday", "Power outage", "Staff training"],
+        "options": [
+          "Maintenance",
+          "Holiday",
+          "Power outage",
+          "Staff training"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-46-q2",
         "questionText": "When will the office reopen?",
-        "options": ["Monday", "Tuesday at 9 AM", "Tuesday at 10 AM", "Wednesday"],
+        "options": [
+          "Monday",
+          "Tuesday at 9 AM",
+          "Tuesday at 10 AM",
+          "Wednesday"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-46-q3",
         "questionText": "Who can be contacted for urgent matters?",
-        "options": ["The CEO", "The on-call manager", "The receptionist", "The IT department"],
+        "options": [
+          "The CEO",
+          "The on-call manager",
+          "The receptionist",
+          "The IT department"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-47",
@@ -1157,22 +1893,38 @@
       {
         "id": "p4-47-q1",
         "questionText": "Who is the speaker?",
-        "options": ["A taxi dispatcher", "A rideshare driver", "A bus driver", "A delivery person"],
+        "options": [
+          "A taxi dispatcher",
+          "A rideshare driver",
+          "A bus driver",
+          "A delivery person"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-47-q2",
         "questionText": "How long will the driver wait?",
-        "options": ["2 minutes", "5 minutes", "10 minutes", "15 minutes"],
+        "options": [
+          "2 minutes",
+          "5 minutes",
+          "10 minutes",
+          "15 minutes"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-47-q3",
         "questionText": "What is the color of the car?",
-        "options": ["White", "Black", "Gray", "Blue"],
+        "options": [
+          "White",
+          "Black",
+          "Gray",
+          "Blue"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-48",
@@ -1182,22 +1934,38 @@
       {
         "id": "p4-48-q1",
         "questionText": "What is this talk?",
-        "options": ["A safety announcement", "A welcome message", "A commercial", "A lecture"],
+        "options": [
+          "A safety announcement",
+          "A welcome message",
+          "A commercial",
+          "A lecture"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-48-q2",
         "questionText": "When is the lion feeding?",
-        "options": ["10 AM", "11 AM", "1 PM", "2 PM"],
+        "options": [
+          "10 AM",
+          "11 AM",
+          "1 PM",
+          "2 PM"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-48-q3",
         "questionText": "What is available for rent?",
-        "options": ["Wheelchairs", "Strollers", "Lockers", "Umbrellas"],
+        "options": [
+          "Wheelchairs",
+          "Strollers",
+          "Lockers",
+          "Umbrellas"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-49",
@@ -1207,22 +1975,38 @@
       {
         "id": "p4-49-q1",
         "questionText": "Why is the pool closing?",
-        "options": ["Weather", "Cleaning", "Staff shortage", "Maintenance"],
+        "options": [
+          "Weather",
+          "Cleaning",
+          "Staff shortage",
+          "Maintenance"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-49-q2",
         "questionText": "What time must swimmers exit?",
-        "options": ["7:30 PM", "7:45 PM", "8:00 PM", "8:15 PM"],
+        "options": [
+          "7:30 PM",
+          "7:45 PM",
+          "8:00 PM",
+          "8:15 PM"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-49-q3",
         "questionText": "How long are locker rooms open after the pool closes?",
-        "options": ["15 minutes", "30 minutes", "45 minutes", "60 minutes"],
+        "options": [
+          "15 minutes",
+          "30 minutes",
+          "45 minutes",
+          "60 minutes"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-50",
@@ -1232,22 +2016,38 @@
       {
         "id": "p4-50-q1",
         "questionText": "What is the purpose of this call?",
-        "options": ["To sell a package", "To confirm a booking", "To request payment", "To cancel an event"],
+        "options": [
+          "To sell a package",
+          "To confirm a booking",
+          "To request payment",
+          "To cancel an event"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-50-q2",
         "questionText": "How much is the remaining balance?",
-        "options": ["$500", "$1,000", "$2,000", "$2,500"],
+        "options": [
+          "$500",
+          "$1,000",
+          "$2,000",
+          "$2,500"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-50-q3",
         "questionText": "When is the event?",
-        "options": ["Friday", "Saturday", "Sunday", "Monday"],
+        "options": [
+          "Friday",
+          "Saturday",
+          "Sunday",
+          "Monday"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-51",
@@ -1257,22 +2057,38 @@
       {
         "id": "p4-51-q1",
         "questionText": "What is being reported?",
-        "options": ["Weather", "Traffic", "News", "Sports"],
+        "options": [
+          "Weather",
+          "Traffic",
+          "News",
+          "Sports"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-51-q2",
         "questionText": "What lane is closed?",
-        "options": ["Right lane", "Left lane", "Middle lane", "Shoulder"],
+        "options": [
+          "Right lane",
+          "Left lane",
+          "Middle lane",
+          "Shoulder"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-51-q3",
         "questionText": "How long are the expected delays?",
-        "options": ["15 minutes", "20 minutes", "30 minutes", "45 minutes"],
+        "options": [
+          "15 minutes",
+          "20 minutes",
+          "30 minutes",
+          "45 minutes"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-52",
@@ -1282,22 +2098,38 @@
       {
         "id": "p4-52-q1",
         "questionText": "What service is being scheduled?",
-        "options": ["Roof repair", "Solar panel installation", "Electrical inspection", "Window replacement"],
+        "options": [
+          "Roof repair",
+          "Solar panel installation",
+          "Electrical inspection",
+          "Window replacement"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-52-q2",
         "questionText": "How long will the installation take?",
-        "options": ["2 hours", "3 hours", "4 hours", "5 hours"],
+        "options": [
+          "2 hours",
+          "3 hours",
+          "4 hours",
+          "5 hours"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-52-q3",
         "questionText": "What is required at the home?",
-        "options": ["A pet", "Someone over 18", "Parking space", "A phone"],
+        "options": [
+          "A pet",
+          "Someone over 18",
+          "Parking space",
+          "A phone"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-53",
@@ -1307,22 +2139,38 @@
       {
         "id": "p4-53-q1",
         "questionText": "Why is the post office calling?",
-        "options": ["To sell stamps", "To notify about a letter", "To confirm address", "To request payment"],
+        "options": [
+          "To sell stamps",
+          "To notify about a letter",
+          "To confirm address",
+          "To request payment"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-53-q2",
         "questionText": "What is required to pick up the letter?",
-        "options": ["A receipt", "Government ID", "A key", "A phone number"],
+        "options": [
+          "A receipt",
+          "Government ID",
+          "A key",
+          "A phone number"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-53-q3",
         "questionText": "What are the Saturday hours?",
-        "options": ["9 AM - 5 PM", "9 AM - 2 PM", "10 AM - 2 PM", "10 AM - 4 PM"],
+        "options": [
+          "9 AM - 5 PM",
+          "9 AM - 2 PM",
+          "10 AM - 2 PM",
+          "10 AM - 4 PM"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-54",
@@ -1332,22 +2180,38 @@
       {
         "id": "p4-54-q1",
         "questionText": "What will happen at 3 PM?",
-        "options": ["A meeting", "A fire drill", "A training session", "A break"],
+        "options": [
+          "A meeting",
+          "A fire drill",
+          "A training session",
+          "A break"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-54-q2",
         "questionText": "Where should employees gather?",
-        "options": ["West parking lot", "East parking lot", "Main lobby", "Conference room"],
+        "options": [
+          "West parking lot",
+          "East parking lot",
+          "Main lobby",
+          "Conference room"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-54-q3",
         "questionText": "What is prohibited during the drill?",
-        "options": ["Talking", "Using stairs", "Using elevators", "Running"],
+        "options": [
+          "Talking",
+          "Using stairs",
+          "Using elevators",
+          "Running"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-55",
@@ -1357,22 +2221,38 @@
       {
         "id": "p4-55-q1",
         "questionText": "What is the purpose of this voicemail?",
-        "options": ["To cancel lunch", "To say she is late", "To change the restaurant", "To ask for directions"],
+        "options": [
+          "To cancel lunch",
+          "To say she is late",
+          "To change the restaurant",
+          "To ask for directions"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-55-q2",
         "questionText": "What time was the original meeting?",
-        "options": ["12:00", "12:15", "12:30", "12:50"],
+        "options": [
+          "12:00",
+          "12:15",
+          "12:30",
+          "12:50"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-55-q3",
         "questionText": "What is the new meeting time?",
-        "options": ["12:20", "12:30", "12:40", "12:50"],
+        "options": [
+          "12:20",
+          "12:30",
+          "12:40",
+          "12:50"
+        ],
         "correctIndex": 3
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-56",
@@ -1382,22 +2262,38 @@
       {
         "id": "p4-56-q1",
         "questionText": "Who is this message for?",
-        "options": ["Business owners", "Residents", "Visitors", "Construction workers"],
+        "options": [
+          "Business owners",
+          "Residents",
+          "Visitors",
+          "Construction workers"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-56-q2",
         "questionText": "Why will the water be shut off?",
-        "options": ["Leak repair", "Maintenance", "Pipe replacement", "Emergency"],
+        "options": [
+          "Leak repair",
+          "Maintenance",
+          "Pipe replacement",
+          "Emergency"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-56-q3",
         "questionText": "How long will the water be off?",
-        "options": ["2 hours", "3 hours", "4 hours", "5 hours"],
+        "options": [
+          "2 hours",
+          "3 hours",
+          "4 hours",
+          "5 hours"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-57",
@@ -1407,22 +2303,38 @@
       {
         "id": "p4-57-q1",
         "questionText": "What is the first topic?",
-        "options": ["School renovation", "New budget", "Public safety", "Park improvements"],
+        "options": [
+          "School renovation",
+          "New budget",
+          "Public safety",
+          "Park improvements"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-57-q2",
         "questionText": "When can the public speak?",
-        "options": ["7:00 PM", "7:30 PM", "8:00 PM", "8:30 PM"],
+        "options": [
+          "7:00 PM",
+          "7:30 PM",
+          "8:00 PM",
+          "8:30 PM"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-57-q3",
         "questionText": "How long is each public comment?",
-        "options": ["1 minute", "2 minutes", "3 minutes", "5 minutes"],
+        "options": [
+          "1 minute",
+          "2 minutes",
+          "3 minutes",
+          "5 minutes"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-58",
@@ -1432,22 +2344,38 @@
       {
         "id": "p4-58-q1",
         "questionText": "What is the purpose of this call?",
-        "options": ["To request refill", "To notify prescription is ready", "To confirm insurance", "To change dosage"],
+        "options": [
+          "To request refill",
+          "To notify prescription is ready",
+          "To confirm insurance",
+          "To change dosage"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-58-q2",
         "questionText": "How much does the prescription cost?",
-        "options": ["$5", "$10", "$15", "$20"],
+        "options": [
+          "$5",
+          "$10",
+          "$15",
+          "$20"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-58-q3",
         "questionText": "What happens if not picked up by Friday?",
-        "options": ["Price increases", "It is returned to stock", "It is mailed", "It is discarded"],
+        "options": [
+          "Price increases",
+          "It is returned to stock",
+          "It is mailed",
+          "It is discarded"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-59",
@@ -1457,22 +2385,38 @@
       {
         "id": "p4-59-q1",
         "questionText": "What is the problem?",
-        "options": ["No power", "Elevator out of service", "Stairs blocked", "Door stuck"],
+        "options": [
+          "No power",
+          "Elevator out of service",
+          "Stairs blocked",
+          "Door stuck"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-59-q2",
         "questionText": "Which elevator is still working?",
-        "options": ["North tower", "South tower", "East tower", "West tower"],
+        "options": [
+          "North tower",
+          "South tower",
+          "East tower",
+          "West tower"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-59-q3",
         "questionText": "When will repairs be done?",
-        "options": ["Today", "Tomorrow morning", "Tomorrow afternoon", "Next week"],
+        "options": [
+          "Today",
+          "Tomorrow morning",
+          "Tomorrow afternoon",
+          "Next week"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-60",
@@ -1482,22 +2426,38 @@
       {
         "id": "p4-60-q1",
         "questionText": "What is confirmed?",
-        "options": ["A class", "A personal training session", "A massage", "A yoga session"],
+        "options": [
+          "A class",
+          "A personal training session",
+          "A massage",
+          "A yoga session"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-60-q2",
         "questionText": "What time is the session?",
-        "options": ["5 AM", "6 AM", "7 AM", "8 AM"],
+        "options": [
+          "5 AM",
+          "6 AM",
+          "7 AM",
+          "8 AM"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-60-q3",
         "questionText": "What is the cancellation fee?",
-        "options": ["$15", "$20", "$25", "$30"],
+        "options": [
+          "$15",
+          "$20",
+          "$25",
+          "$30"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-61",
@@ -1507,22 +2467,38 @@
       {
         "id": "p4-61-q1",
         "questionText": "What is being announced?",
-        "options": ["Weather warning", "Small craft advisory", "Marine forecast", "Port closure"],
+        "options": [
+          "Weather warning",
+          "Small craft advisory",
+          "Marine forecast",
+          "Port closure"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-61-q2",
         "questionText": "What should recreational boaters do?",
-        "options": ["Use extra caution", "Stay in port", "Check equipment", "File a float plan"],
+        "options": [
+          "Use extra caution",
+          "Stay in port",
+          "Check equipment",
+          "File a float plan"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-61-q3",
         "questionText": "Until when is the advisory in effect?",
-        "options": ["Tonight", "Tomorrow morning", "Tomorrow 6 PM", "Next day"],
+        "options": [
+          "Tonight",
+          "Tomorrow morning",
+          "Tomorrow 6 PM",
+          "Next day"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-62",
@@ -1532,22 +2508,38 @@
       {
         "id": "p4-62-q1",
         "questionText": "Why is the company calling?",
-        "options": ["To sell faster internet", "To report an outage", "To help with an offline modem", "To collect payment"],
+        "options": [
+          "To sell faster internet",
+          "To report an outage",
+          "To help with an offline modem",
+          "To collect payment"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-62-q2",
         "questionText": "What does the caller suggest first?",
-        "options": ["Call support", "Restart the modem", "Check cables", "Wait for technician"],
+        "options": [
+          "Call support",
+          "Restart the modem",
+          "Check cables",
+          "Wait for technician"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-62-q3",
         "questionText": "What is stated about the call?",
-        "options": ["There is a fee", "No charge", "It is recorded", "It is a sales call"],
+        "options": [
+          "There is a fee",
+          "No charge",
+          "It is recorded",
+          "It is a sales call"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 3
   },
   {
     "id": "p4-63",
@@ -1557,22 +2549,38 @@
       {
         "id": "p4-63-q1",
         "questionText": "What is the arrival time?",
-        "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+        "options": [
+          "5 minutes",
+          "10 minutes",
+          "15 minutes",
+          "20 minutes"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-63-q2",
         "questionText": "Which doors should passengers use?",
-        "options": ["Front doors", "Rear doors", "All doors", "Middle doors"],
+        "options": [
+          "Front doors",
+          "Rear doors",
+          "All doors",
+          "Middle doors"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-63-q3",
         "questionText": "What is the outside temperature?",
-        "options": ["35 degrees", "40 degrees", "45 degrees", "50 degrees"],
+        "options": [
+          "35 degrees",
+          "40 degrees",
+          "45 degrees",
+          "50 degrees"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-64",
@@ -1582,22 +2590,38 @@
       {
         "id": "p4-64-q1",
         "questionText": "Why is the daycare calling?",
-        "options": ["To report an accident", "To say the child has a fever", "To confirm pickup time", "To discuss behavior"],
+        "options": [
+          "To report an accident",
+          "To say the child has a fever",
+          "To confirm pickup time",
+          "To discuss behavior"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-64-q2",
         "questionText": "What is the child's temperature?",
-        "options": ["99.5", "100.5", "101.5", "102.5"],
+        "options": [
+          "99.5",
+          "100.5",
+          "101.5",
+          "102.5"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-64-q3",
         "questionText": "Where is the child?",
-        "options": ["Classroom", "Nurse's office", "Playground", "Lunchroom"],
+        "options": [
+          "Classroom",
+          "Nurse's office",
+          "Playground",
+          "Lunchroom"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-65",
@@ -1607,22 +2631,38 @@
       {
         "id": "p4-65-q1",
         "questionText": "What service is affected?",
-        "options": ["Trash pickup", "Recycling pickup", "Mail delivery", "Bus service"],
+        "options": [
+          "Trash pickup",
+          "Recycling pickup",
+          "Mail delivery",
+          "Bus service"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-65-q2",
         "questionText": "What is the normal pickup day?",
-        "options": ["Monday", "Tuesday", "Thursday", "Friday"],
+        "options": [
+          "Monday",
+          "Tuesday",
+          "Thursday",
+          "Friday"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-65-q3",
         "questionText": "When should bins be put out this week?",
-        "options": ["Thursday", "Friday", "Saturday", "Sunday"],
+        "options": [
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-66",
@@ -1632,22 +2672,38 @@
       {
         "id": "p4-66-q1",
         "questionText": "What is the purpose of this call?",
-        "options": ["To sell a car", "To notify car has arrived", "To schedule a test drive", "To request payment"],
+        "options": [
+          "To sell a car",
+          "To notify car has arrived",
+          "To schedule a test drive",
+          "To request payment"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-66-q2",
         "questionText": "What is the down payment amount?",
-        "options": ["$1,000", "$2,000", "$3,000", "$4,000"],
+        "options": [
+          "$1,000",
+          "$2,000",
+          "$3,000",
+          "$4,000"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-66-q3",
         "questionText": "How long will paperwork take?",
-        "options": ["15 minutes", "30 minutes", "45 minutes", "1 hour"],
+        "options": [
+          "15 minutes",
+          "30 minutes",
+          "45 minutes",
+          "1 hour"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-67",
@@ -1657,73 +2713,121 @@
       {
         "id": "p4-67-q1",
         "questionText": "What is this recording?",
-        "options": ["A voicemail", "An automated bus info line", "A weather report", "A traffic update"],
+        "options": [
+          "A voicemail",
+          "An automated bus info line",
+          "A weather report",
+          "A traffic update"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-67-q2",
         "questionText": "Why are buses on a Sunday schedule?",
-        "options": ["Maintenance", "Holiday", "Staff shortage", "Weather"],
+        "options": [
+          "Maintenance",
+          "Holiday",
+          "Staff shortage",
+          "Weather"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-67-q3",
         "questionText": "What time is the last bus from downtown?",
-        "options": ["6 PM", "7 PM", "8 PM", "9 PM"],
+        "options": [
+          "6 PM",
+          "7 PM",
+          "8 PM",
+          "9 PM"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
-  "id": "p4-68",
-  "part": 4,
-  "audioText": "Hello, this is the dental clinic calling to remind you of your appointment tomorrow at 2 PM. Please arrive 10 minutes early to fill out a form if it's your first visit. If you need to reschedule, call us before noon today. We look forward to seeing you.",
-  "subQuestions": [
-    {
-      "id": "p4-68-q1",
-      "questionText": "What is the purpose of this call?",
-      "options": ["To confirm a payment", "To remind about an appointment", "To give medical advice", "To cancel a visit"],
-      "correctIndex": 1
-    },
-    {
-      "id": "p4-68-q2",
-      "questionText": "What should the listener do if it is their first visit?",
-      "options": ["Bring a friend", "Arrive early", "Call the clinic", "Pay in advance"],
-      "correctIndex": 1
-    },
-    {
-      "id": "p4-68-q3",
-      "questionText": "By when should the listener call to reschedule?",
-      "options": ["Before 10 AM", "Before noon today", "Tomorrow morning", "After 2 PM"],
-      "correctIndex": 1
-    }
-  ]
-},
-{
-  "id": "p4-69",
-  "part": 4,
-  "audioText": "Good evening. This is a message from the community center. Due to heavy rain, tonight's yoga class has been canceled. The class will be held at the same time next week. For more updates, please check our social media page. Thank you for your understanding.",
-  "subQuestions": [
-    {
-      "id": "p4-69-q1",
-      "questionText": "What is the main purpose of this message?",
-      "options": ["To promote a class", "To announce a cancellation", "To change a location", "To request feedback"],
-      "correctIndex": 1
-    },
-    {
-      "id": "p4-69-q2",
-      "questionText": "Why has the class been canceled?",
-      "options": ["Instructor illness", "Low attendance", "Heavy rain", "Equipment issues"],
-      "correctIndex": 2
-    },
-    {
-      "id": "p4-69-q3",
-      "questionText": "When will the class take place instead?",
-      "options": ["Tomorrow", "Next week", "Next month", "Later today"],
-      "correctIndex": 1
-    }
-  ]
-},
+    "id": "p4-68",
+    "part": 4,
+    "audioText": "Hello, this is the dental clinic calling to remind you of your appointment tomorrow at 2 PM. Please arrive 10 minutes early to fill out a form if it's your first visit. If you need to reschedule, call us before noon today. We look forward to seeing you.",
+    "subQuestions": [
+      {
+        "id": "p4-68-q1",
+        "questionText": "What is the purpose of this call?",
+        "options": [
+          "To confirm a payment",
+          "To remind about an appointment",
+          "To give medical advice",
+          "To cancel a visit"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-68-q2",
+        "questionText": "What should the listener do if it is their first visit?",
+        "options": [
+          "Bring a friend",
+          "Arrive early",
+          "Call the clinic",
+          "Pay in advance"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-68-q3",
+        "questionText": "By when should the listener call to reschedule?",
+        "options": [
+          "Before 10 AM",
+          "Before noon today",
+          "Tomorrow morning",
+          "After 2 PM"
+        ],
+        "correctIndex": 1
+      }
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "p4-69",
+    "part": 4,
+    "audioText": "Good evening. This is a message from the community center. Due to heavy rain, tonight's yoga class has been canceled. The class will be held at the same time next week. For more updates, please check our social media page. Thank you for your understanding.",
+    "subQuestions": [
+      {
+        "id": "p4-69-q1",
+        "questionText": "What is the main purpose of this message?",
+        "options": [
+          "To promote a class",
+          "To announce a cancellation",
+          "To change a location",
+          "To request feedback"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "p4-69-q2",
+        "questionText": "Why has the class been canceled?",
+        "options": [
+          "Instructor illness",
+          "Low attendance",
+          "Heavy rain",
+          "Equipment issues"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "p4-69-q3",
+        "questionText": "When will the class take place instead?",
+        "options": [
+          "Tomorrow",
+          "Next week",
+          "Next month",
+          "Later today"
+        ],
+        "correctIndex": 1
+      }
+    ],
+    "difficulty": 3
+  },
   {
     "id": "p4-70",
     "part": 4,
@@ -1732,22 +2836,38 @@
       {
         "id": "p4-70-q1",
         "questionText": "What is the purpose of this call?",
-        "options": ["To extend a loan", "To announce availability", "To collect a fine", "To close the library"],
+        "options": [
+          "To extend a loan",
+          "To announce availability",
+          "To collect a fine",
+          "To close the library"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-70-q2",
         "questionText": "How long will the book be held?",
-        "options": ["Two days", "Three days", "Five days", "One week"],
+        "options": [
+          "Two days",
+          "Three days",
+          "Five days",
+          "One week"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-70-q3",
         "questionText": "When is the library open on weekdays?",
-        "options": ["8 AM–5 PM", "9 AM–6 PM", "10 AM–7 PM", "9 AM–5 PM"],
+        "options": [
+          "8 AM–5 PM",
+          "9 AM–6 PM",
+          "10 AM–7 PM",
+          "9 AM–5 PM"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-71",
@@ -1757,22 +2877,38 @@
       {
         "id": "p4-71-q1",
         "questionText": "What is this message?",
-        "options": ["A complaint", "A service offer", "An automated message", "A personal call"],
+        "options": [
+          "A complaint",
+          "A service offer",
+          "An automated message",
+          "A personal call"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-71-q2",
         "questionText": "When are the offices open?",
-        "options": ["Every day", "Weekends only", "Weekdays 8–5", "Evenings"],
+        "options": [
+          "Every day",
+          "Weekends only",
+          "Weekdays 8–5",
+          "Evenings"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-71-q3",
         "questionText": "What can callers do for help?",
-        "options": ["Send a letter", "Visit the website", "Wait on hold", "Call another number"],
+        "options": [
+          "Send a letter",
+          "Visit the website",
+          "Wait on hold",
+          "Call another number"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-72",
@@ -1782,22 +2918,38 @@
       {
         "id": "p4-72-q1",
         "questionText": "What is the purpose of this message?",
-        "options": ["To cancel a membership", "To remind about expiration", "To promote a class", "To change hours"],
+        "options": [
+          "To cancel a membership",
+          "To remind about expiration",
+          "To promote a class",
+          "To change hours"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-72-q2",
         "questionText": "When will the membership expire?",
-        "options": ["Today", "Next week", "End of the month", "Next year"],
+        "options": [
+          "Today",
+          "Next week",
+          "End of the month",
+          "Next year"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-72-q3",
         "questionText": "Where can the listener renew?",
-        "options": ["By phone only", "At the front desk or online", "At another gym", "By mail"],
+        "options": [
+          "By phone only",
+          "At the front desk or online",
+          "At another gym",
+          "By mail"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-73",
@@ -1807,22 +2959,38 @@
       {
         "id": "p4-73-q1",
         "questionText": "What is the purpose of the call?",
-        "options": ["To cancel a flight", "To confirm a booking", "To announce a delay", "To change a seat"],
+        "options": [
+          "To cancel a flight",
+          "To confirm a booking",
+          "To announce a delay",
+          "To change a seat"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-73-q2",
         "questionText": "How long is the delay?",
-        "options": ["One hour", "Two hours", "Three hours", "Four hours"],
+        "options": [
+          "One hour",
+          "Two hours",
+          "Three hours",
+          "Four hours"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-73-q3",
         "questionText": "What is the new departure time?",
-        "options": ["9 AM", "10 AM", "11 AM", "12 PM"],
+        "options": [
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-74",
@@ -1832,22 +3000,38 @@
       {
         "id": "p4-74-q1",
         "questionText": "What is this message about?",
-        "options": ["Room service", "Check-out policy", "Reservation change", "Hotel location"],
+        "options": [
+          "Room service",
+          "Check-out policy",
+          "Reservation change",
+          "Hotel location"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-74-q2",
         "questionText": "What time is check-out?",
-        "options": ["10 AM", "11 AM", "12 PM", "1 PM"],
+        "options": [
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-74-q3",
         "questionText": "What is required for late check-out?",
-        "options": ["Approval only", "No fee", "Extra fee", "New reservation"],
+        "options": [
+          "Approval only",
+          "No fee",
+          "Extra fee",
+          "New reservation"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-75",
@@ -1857,22 +3041,38 @@
       {
         "id": "p4-75-q1",
         "questionText": "What is the purpose of the message?",
-        "options": ["To offer a loan", "To warn about account activity", "To advertise services", "To confirm a payment"],
+        "options": [
+          "To offer a loan",
+          "To warn about account activity",
+          "To advertise services",
+          "To confirm a payment"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-75-q2",
         "questionText": "What was detected?",
-        "options": ["A large deposit", "A closed account", "Unusual activity", "A new account"],
+        "options": [
+          "A large deposit",
+          "A closed account",
+          "Unusual activity",
+          "A new account"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-75-q3",
         "questionText": "What should the listener do?",
-        "options": ["Ignore it", "Visit a branch next week", "Contact the bank immediately", "Change address"],
+        "options": [
+          "Ignore it",
+          "Visit a branch next week",
+          "Contact the bank immediately",
+          "Change address"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 2
   },
   {
     "id": "p4-76",
@@ -1882,22 +3082,38 @@
       {
         "id": "p4-76-q1",
         "questionText": "What is being announced?",
-        "options": ["A cancellation", "A schedule change", "A lunch menu", "A new class"],
+        "options": [
+          "A cancellation",
+          "A schedule change",
+          "A lunch menu",
+          "A new class"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-76-q2",
         "questionText": "What time will the trip depart?",
-        "options": ["7:45", "8:00", "8:30", "9:00"],
+        "options": [
+          "7:45",
+          "8:00",
+          "8:30",
+          "9:00"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-76-q3",
         "questionText": "What is provided?",
-        "options": ["Transportation only", "Lunch", "Tickets", "Uniforms"],
+        "options": [
+          "Transportation only",
+          "Lunch",
+          "Tickets",
+          "Uniforms"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-77",
@@ -1907,22 +3123,38 @@
       {
         "id": "p4-77-q1",
         "questionText": "What is the purpose of the call?",
-        "options": ["To request repair", "To confirm damage", "To announce completion", "To cancel service"],
+        "options": [
+          "To request repair",
+          "To confirm damage",
+          "To announce completion",
+          "To cancel service"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-77-q2",
         "questionText": "What should the customer bring?",
-        "options": ["ID only", "Receipt", "Warranty card", "Nothing"],
+        "options": [
+          "ID only",
+          "Receipt",
+          "Warranty card",
+          "Nothing"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-77-q3",
         "questionText": "How long will the item be held?",
-        "options": ["3 days", "5 days", "7 days", "10 days"],
+        "options": [
+          "3 days",
+          "5 days",
+          "7 days",
+          "10 days"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-78",
@@ -1932,22 +3164,38 @@
       {
         "id": "p4-78-q1",
         "questionText": "What is the message about?",
-        "options": ["A movie review", "Ticket availability", "A new film", "A schedule change"],
+        "options": [
+          "A movie review",
+          "Ticket availability",
+          "A new film",
+          "A schedule change"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-78-q2",
         "questionText": "Which show is sold out?",
-        "options": ["5 PM", "7 PM", "8 PM", "9 PM"],
+        "options": [
+          "5 PM",
+          "7 PM",
+          "8 PM",
+          "9 PM"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-78-q3",
         "questionText": "What time still has tickets?",
-        "options": ["6 PM", "7 PM", "8 PM", "9 PM"],
+        "options": [
+          "6 PM",
+          "7 PM",
+          "8 PM",
+          "9 PM"
+        ],
         "correctIndex": 3
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-79",
@@ -1957,22 +3205,38 @@
       {
         "id": "p4-79-q1",
         "questionText": "What is being changed?",
-        "options": ["Location", "Participants", "Meeting schedule", "Agenda"],
+        "options": [
+          "Location",
+          "Participants",
+          "Meeting schedule",
+          "Agenda"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-79-q2",
         "questionText": "When was the meeting originally planned?",
-        "options": ["This morning", "This afternoon", "Tomorrow morning", "Next week"],
+        "options": [
+          "This morning",
+          "This afternoon",
+          "Tomorrow morning",
+          "Next week"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-79-q3",
         "questionText": "When is the new meeting time?",
-        "options": ["9 AM", "10 AM", "11 AM", "12 PM"],
+        "options": [
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-80",
@@ -1982,22 +3246,38 @@
       {
         "id": "p4-80-q1",
         "questionText": "What is the purpose of the call?",
-        "options": ["To confirm an order", "To announce delivery time", "To cancel shipment", "To request payment"],
+        "options": [
+          "To confirm an order",
+          "To announce delivery time",
+          "To cancel shipment",
+          "To request payment"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-80-q2",
         "questionText": "When will the package arrive?",
-        "options": ["Morning", "Noon", "1–3 PM", "Evening"],
+        "options": [
+          "Morning",
+          "Noon",
+          "1–3 PM",
+          "Evening"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-80-q3",
         "questionText": "What should the listener do?",
-        "options": ["Call back", "Be available", "Pay online", "Visit office"],
+        "options": [
+          "Call back",
+          "Be available",
+          "Pay online",
+          "Visit office"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
   {
     "id": "p4-81",
@@ -2007,24 +3287,39 @@
       {
         "id": "p4-81-q1",
         "questionText": "What is the message about?",
-        "options": ["Menu", "Reservation status", "Location", "Staff hiring"],
+        "options": [
+          "Menu",
+          "Reservation status",
+          "Location",
+          "Staff hiring"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-81-q2",
         "questionText": "What is true about tonight?",
-        "options": ["Open seats available", "Fully booked", "Closed early", "Discount offered"],
+        "options": [
+          "Open seats available",
+          "Fully booked",
+          "Closed early",
+          "Discount offered"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-81-q3",
         "questionText": "When are seats available?",
-        "options": ["Tonight", "Tomorrow after 7 PM", "Tomorrow morning", "Next week"],
+        "options": [
+          "Tonight",
+          "Tomorrow after 7 PM",
+          "Tomorrow morning",
+          "Next week"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
-
   {
     "id": "p4-82",
     "part": 4,
@@ -2033,24 +3328,39 @@
       {
         "id": "p4-82-q1",
         "questionText": "What is the purpose?",
-        "options": ["To offer a discount", "To remind about payment", "To cancel service", "To change billing address"],
+        "options": [
+          "To offer a discount",
+          "To remind about payment",
+          "To cancel service",
+          "To change billing address"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-82-q2",
         "questionText": "When is the bill due?",
-        "options": ["Today", "Tomorrow", "Friday", "Next week"],
+        "options": [
+          "Today",
+          "Tomorrow",
+          "Friday",
+          "Next week"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-82-q3",
         "questionText": "What happens if payment is late?",
-        "options": ["Service stops immediately", "Extra fee", "Account closed", "Nothing"],
+        "options": [
+          "Service stops immediately",
+          "Extra fee",
+          "Account closed",
+          "Nothing"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
-
   {
     "id": "p4-83",
     "part": 4,
@@ -2059,24 +3369,39 @@
       {
         "id": "p4-83-q1",
         "questionText": "What is being announced?",
-        "options": ["A cancellation", "A room change", "A speaker change", "A delay"],
+        "options": [
+          "A cancellation",
+          "A room change",
+          "A speaker change",
+          "A delay"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-83-q2",
         "questionText": "When does the speech begin?",
-        "options": ["9 AM", "10 AM", "11 AM", "12 PM"],
+        "options": [
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-83-q3",
         "questionText": "Where will it be held?",
-        "options": ["Room B", "Room A", "Main hall", "Lobby"],
+        "options": [
+          "Room B",
+          "Room A",
+          "Main hall",
+          "Lobby"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
-
   {
     "id": "p4-84",
     "part": 4,
@@ -2085,24 +3410,39 @@
       {
         "id": "p4-84-q1",
         "questionText": "What is closed?",
-        "options": ["Gym", "Pool", "Locker room", "Sauna"],
+        "options": [
+          "Gym",
+          "Pool",
+          "Locker room",
+          "Sauna"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-84-q2",
         "questionText": "When?",
-        "options": ["Today", "This weekend", "Next week", "Tonight"],
+        "options": [
+          "Today",
+          "This weekend",
+          "Next week",
+          "Tonight"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-84-q3",
         "questionText": "Why?",
-        "options": ["Holiday", "Maintenance", "Event", "Weather"],
+        "options": [
+          "Holiday",
+          "Maintenance",
+          "Event",
+          "Weather"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   },
-
   {
     "id": "p4-85",
     "part": 4,
@@ -2111,24 +3451,39 @@
       {
         "id": "p4-85-q1",
         "questionText": "What is the message about?",
-        "options": ["Appointment", "Test results", "Payment", "Prescription"],
+        "options": [
+          "Appointment",
+          "Test results",
+          "Payment",
+          "Prescription"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-85-q2",
         "questionText": "What should the listener do?",
-        "options": ["Visit office", "Call doctor", "Log in online", "Wait"],
+        "options": [
+          "Visit office",
+          "Call doctor",
+          "Log in online",
+          "Wait"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-85-q3",
         "questionText": "Where are the results?",
-        "options": ["By mail", "At clinic", "Online account", "Phone"],
+        "options": [
+          "By mail",
+          "At clinic",
+          "Online account",
+          "Phone"
+        ],
         "correctIndex": 2
       }
-    ]
+    ],
+    "difficulty": 1
   },
-
   {
     "id": "p4-86",
     "part": 4,
@@ -2137,21 +3492,37 @@
       {
         "id": "p4-86-q1",
         "questionText": "What is delayed?",
-        "options": ["Bus", "Flight", "Train", "Taxi"],
+        "options": [
+          "Bus",
+          "Flight",
+          "Train",
+          "Taxi"
+        ],
         "correctIndex": 2
       },
       {
         "id": "p4-86-q2",
         "questionText": "Which train?",
-        "options": ["2 PM", "3 PM", "4 PM", "5 PM"],
+        "options": [
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM"
+        ],
         "correctIndex": 1
       },
       {
         "id": "p4-86-q3",
         "questionText": "How long is the delay?",
-        "options": ["10 min", "20 min", "30 min", "40 min"],
+        "options": [
+          "10 min",
+          "20 min",
+          "30 min",
+          "40 min"
+        ],
         "correctIndex": 1
       }
-    ]
+    ],
+    "difficulty": 1
   }
 ]

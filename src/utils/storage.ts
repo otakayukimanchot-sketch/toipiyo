@@ -198,3 +198,38 @@ export function getSettings(): AppSettings {
 export function saveSettings(settings: AppSettings) {
   localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
 }
+
+const MOCK_TEST_KEY = "toipiyo_mock_test_latest";
+const MOCK_TEST_HISTORY_KEY = "toipiyo_mock_test_history";
+
+export function saveMockTestResult(result: any) {
+  try {
+    localStorage.setItem(MOCK_TEST_KEY, JSON.stringify(result));
+    const historyStr = localStorage.getItem(MOCK_TEST_HISTORY_KEY);
+    const history = historyStr ? JSON.parse(historyStr) : [];
+    history.unshift(result);
+    // Keep last 10 attempts
+    if (history.length > 10) history.length = 10;
+    localStorage.setItem(MOCK_TEST_HISTORY_KEY, JSON.stringify(history));
+  } catch (e) {
+    console.error("Failed to save mock test result", e);
+  }
+}
+
+export function getLatestMockTestResult(): any | null {
+  try {
+    const stored = localStorage.getItem(MOCK_TEST_KEY);
+    return stored ? JSON.parse(stored) : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+export function getMockTestHistory(): any[] {
+  try {
+    const stored = localStorage.getItem(MOCK_TEST_HISTORY_KEY);
+    return stored ? JSON.parse(stored) : [];
+  } catch (e) {
+    return [];
+  }
+}

@@ -1,18 +1,20 @@
 import React, { useState, useEffect } from "react";
-import { Part, Question, UserProgress, AppSettings, ReviewItem } from "./types";
-import { getInitialProgress, completePart, getJSTDate, saveIncorrectQuestion, getSettings, saveSettings, getReviewItems, removeReviewItem } from "./utils/storage";
-import part1Data from "./data/part1.json";
-import part2Data from "./data/part2.json";
-import part3Data from "./data/part3.json";
-import part4Data from "./data/part4.json";
-import part5Data from "./data/part5.json";
-import part6Data from "./data/part6.json";
-import part7Data from "./data/part7.json";
+import { Part, Question, UserProgress, AppSettings, ReviewItem, MockTestResult, DifficultyLevel } from "./types";
+import { getInitialProgress, completePart, getJSTDate, saveIncorrectQuestion, getSettings, saveSettings, getReviewItems, removeReviewItem, getLatestMockTestResult } from "./utils/storage";
 import { unlockAudio } from "./utils/audio";
 import { getQuestionGrammarCategory } from "./utils/grammarCategories";
+import { 
+  startBackgroundLoading, 
+  subscribeToLoadingProgress, 
+  getRandomQuestion, 
+  getQuestionsForMockTest,
+  isPartLoaded 
+} from "./utils/questionLoader";
 import HeptagonNav from "./components/HeptagonNav";
 import StreakDisplay from "./components/StreakDisplay";
 import QuizView from "./components/QuizView";
+import MockTestView from "./components/MockTestView";
+import DifficultyBadge from "./components/DifficultyBadge";
 import ReviewNews from "./components/ReviewNews";
 import ReviewPage from "./components/ReviewPage";
 import { motion, AnimatePresence, MotionConfig } from "motion/react";
@@ -28,7 +30,7 @@ import {
   Trash2, 
   Play,
   Layers,
-  RotateCcw,
+  RotateCcw, 
   Sparkles,
   BookOpen,
   Battery,
@@ -46,19 +48,26 @@ const PART_INFO: Record<Part, { name: string; type: "Listening" | "Reading"; tim
 };
 
 export default function App() {
-  const [progress, setProgress] = useState<UserProgress | null>(null);
+  const [progress, setProgress] = useState<UserProgress>(() => getInitialProgress());
   const [activePart, setActivePart] = useState<Part | null>(null);
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
-  const [isAllDone, setIsAllDone] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isAllDone, setIsAllDone] = useState(() => getInitialProgress().completedPartsToday.length === 7);
 
   const [selectedPart, setSelectedPart] = useState<Part | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [menuTab, setMenuTab] = useState<"main" | "howto" | "audio" | "review">("main");
-  const [settings, setSettings] = useState<AppSettings>(getSettings());
-  const [reviewItems, setReviewItems] = useState<ReviewItem[]>([]);
+  const [settings, setSettings] = useState<AppSettings>(() => getSettings());
+  const [reviewItems, setReviewItems] = useState<ReviewItem[]>(() => getReviewItems());
   const [showRadar, setShowRadar] = useState(false);
-  const [homeTab, setHomeTab] = useState<"matrix" | "review">("matrix");
+  const [homeTab, setHomeTab] = useState<"matrix" | "mock" | "review">("matrix");
+  const [activeMockQuestions, setActiveMockQuestions] = useState<Question[] | null>(null);
+  const [latestMockResult, setLatestMockResult] = useState<MockTestResult | null>(() => getLatestMockTestResult());
+  const [difficultyFilter, setDifficultyFilter] = useState<DifficultyLevel | "all">("all");
+  const [loadingStatus, setLoadingStatus] = useState<{ loadedParts: Part[]; totalParts: number; isComplete: boolean }>({
+    loadedParts: [],
+    totalParts: 7,
+    isComplete: false,
+  });
 
   const [batteryLevel, setBatteryLevel] = useState<number>(85);
   const [isCharging, setIsCharging] = useState<boolean>(false);
@@ -82,21 +91,21 @@ export default function App() {
 
   const currentBattery = simulatedBattery !== null ? simulatedBattery : batteryLevel;
 
+  // Progressive background loading without blocking UI
   useEffect(() => {
-    const initialProgress = getInitialProgress();
-    setProgress(initialProgress);
-    
-    if (initialProgress.completedPartsToday.length === 7) {
-      setIsAllDone(true);
-    }
-
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-      setReviewItems(getReviewItems());
-    }, 400);
-
-    return () => clearTimeout(timer);
+    startBackgroundLoading();
+    const unsub = subscribeToLoadingProgress((status) => {
+      setLoadingStatus(status);
+    });
+    return unsub;
   }, []);
+
+  const handleStartMockTest = async () => {
+    unlockAudio();
+    setSelectedPart(null);
+    const mockQuestions = await getQuestionsForMockTest();
+    setActiveMockQuestions(mockQuestions);
+  };
 
   useEffect(() => {
     if (isMenuOpen && menuTab === "review") {
@@ -108,66 +117,19 @@ export default function App() {
     setSelectedPart(part);
   };
 
-  const handleStartQuiz = (part: Part) => {
+  const handleStartQuiz = async (part: Part, diffOverride?: DifficultyLevel | "all") => {
     unlockAudio();
     setSelectedPart(null);
 
-    let partQuestions: Question[] = [];
-    switch (part) {
-      case 1: 
-        partQuestions = (part1Data.questions as any[]).map(q => ({
-          id: q.id,
-          part: 1 as Part,
-          audioTexts: q.audioTexts,
-          imageDescriptionJa: q.imageDescriptionJa,
-          subQuestions: [{
-            id: `${q.id}-q1`,
-            options: q.audioTexts,
-            correctIndex: q.correctIndex
-          }]
-        }));
-        break;
-      case 2: partQuestions = part2Data as Question[]; break;
-      case 3: partQuestions = part3Data as Question[]; break;
-      case 4: partQuestions = part4Data as Question[]; break;
-      case 5: partQuestions = part5Data as Question[]; break;
-      case 6: partQuestions = part6Data as Question[]; break;
-      case 7: partQuestions = (part7Data as any).questions as Question[]; break;
-    }
+    const diff = diffOverride !== undefined ? diffOverride : difficultyFilter;
+    const question = await getRandomQuestion(part, diff);
+    if (!question) return;
 
-    if (partQuestions.length === 0) return;
-
-    const randomIndex = Math.floor(Math.random() * partQuestions.length);
-    const rawQuestion = partQuestions[randomIndex];
-    const question = JSON.parse(JSON.stringify(rawQuestion));
-
-    // Shuffle options
-    question.subQuestions = question.subQuestions.map((sq: any) => {
-      const originalOptions = [...sq.options];
-      const correctOption = originalOptions[sq.correctIndex];
-      
-      for (let i = originalOptions.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [originalOptions[i], originalOptions[j]] = [originalOptions[j], originalOptions[i]];
-      }
-      
-      sq.options = originalOptions;
-      sq.correctIndex = originalOptions.indexOf(correctOption);
-      return sq;
-    });
-
-    if (part === 1) {
-      question.audioTexts = [...question.subQuestions[0].options];
-    } else if (part === 2) {
-      const questionText = rawQuestion.audioTexts?.[0] || "";
-      question.audioTexts = [questionText, ...question.subQuestions[0].options];
-    }
-    
     setActivePart(part);
     setCurrentQuestion(question);
   };
 
-  const handleQuizComplete = (isCorrect: boolean) => {
+  const handleQuizComplete = async (isCorrect: boolean) => {
     if (activePart) {
       let updatedProgress: UserProgress;
       if (isCorrect) {
@@ -189,7 +151,7 @@ export default function App() {
         setCurrentQuestion(null);
       } else {
         const nextPart = (activePart % 7 + 1) as Part;
-        handleStartQuiz(nextPart);
+        await handleStartQuiz(nextPart);
       }
     }
   };
@@ -199,9 +161,9 @@ export default function App() {
     setCurrentQuestion(null);
   };
 
-  const handleRetry = () => {
+  const handleRetry = async () => {
     if (activePart) {
-      handleStartQuiz(activePart);
+      await handleStartQuiz(activePart);
     }
   };
 
@@ -226,31 +188,35 @@ export default function App() {
     metaThemeColor.setAttribute('content', settings.isDarkMode ? '#000000' : '#ffffff');
   }, [settings.isDarkMode]);
 
-  if (!progress || isLoading) {
-    return (
-      <div className={`w-full h-[100dvh] flex flex-col items-center justify-center p-6 ${settings.isDarkMode ? 'bg-black text-white' : 'bg-white text-gray-900'}`}>
-        <div className="space-y-2 text-center">
-          <span className="font-mono text-xs uppercase tracking-widest text-blue-600 dark:text-blue-400 font-semibold block">
-            TOEIC 7-PART DAILY ENGINE
-          </span>
-          <h1 className="text-2xl font-light tracking-tight">
-            といぴよ
-          </h1>
-          <p className="text-[11px] font-mono tracking-wider text-gray-400 dark:text-gray-600 uppercase">
-            LOADING...
-          </p>
-        </div>
-      </div>
-    );
-  }
-
   const firstIncompletePart = ([1, 2, 3, 4, 5, 6, 7] as Part[]).find(p => !progress.completedPartsToday.includes(p)) || 1;
 
   return (
     <MotionConfig reducedMotion={settings.isBatterySaverEnabled ? "always" : "never"}>
       <div className={`w-full min-h-[100dvh] font-sans selection:bg-blue-100 transition-colors duration-200 ${settings.isDarkMode ? 'bg-black text-gray-100 dark' : 'bg-white text-gray-900'}`}>
         <AnimatePresence mode="wait">
-          {!activePart ? (
+          {activeMockQuestions ? (
+            <motion.div
+              key="mocktest"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="w-full h-[100dvh] bg-white dark:bg-black overflow-hidden"
+            >
+              <MockTestView
+                questions={activeMockQuestions}
+                onExit={() => {
+                  setActiveMockQuestions(null);
+                  setLatestMockResult(getLatestMockTestResult());
+                }}
+                onRestart={async () => {
+                  unlockAudio();
+                  const q = await getQuestionsForMockTest();
+                  setActiveMockQuestions(q);
+                }}
+                isAudioEnabled={settings.isAudioEnabled}
+              />
+            </motion.div>
+          ) : !activePart ? (
             <motion.div
               key="home"
               initial={{ opacity: 0 }}
@@ -382,8 +348,8 @@ export default function App() {
                 )}
               </div>
 
-              {/* Segmented Tab Switcher (Matrix vs Review) */}
-              <div className="grid grid-cols-2 border border-gray-200 dark:border-slate-800 text-xs font-mono shrink-0">
+              {/* Segmented Tab Switcher (Matrix vs Mock vs Review) */}
+              <div className="grid grid-cols-3 border border-gray-200 dark:border-slate-800 text-xs font-mono shrink-0">
                 <button
                   onClick={() => setHomeTab("matrix")}
                   className={`py-1.5 transition-colors cursor-pointer ${
@@ -393,6 +359,16 @@ export default function App() {
                   }`}
                 >
                   演習 (7Part)
+                </button>
+                <button
+                  onClick={() => setHomeTab("mock")}
+                  className={`py-1.5 transition-colors cursor-pointer flex items-center justify-center space-x-1 ${
+                    homeTab === "mock" 
+                      ? "bg-gray-950 dark:bg-white text-white dark:text-black font-bold" 
+                      : "text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                  }`}
+                >
+                  <span>模擬テスト</span>
                 </button>
                 <button
                   onClick={() => setHomeTab("review")}
@@ -413,8 +389,57 @@ export default function App() {
 
               {/* TAB 1: 7-PART PRACTICE MATRIX (Optimized for Mobile Viewport - Fits on Screen!) */}
               {homeTab === "matrix" && (
-                <div className="border-t border-b border-gray-200 dark:border-slate-800 divide-y divide-gray-100 dark:divide-slate-800/80 flex-1 flex flex-col justify-between">
-                  {([1, 2, 3, 4, 5, 6, 7] as Part[]).map((p) => {
+                <div className="flex-1 flex flex-col justify-between space-y-2">
+                  {/* Difficulty Selection Filter */}
+                  <div className="flex items-center justify-between text-xs font-mono px-0.5 pt-0.5 shrink-0">
+                    <span className="text-[10px] text-gray-400 font-sans">出題難度:</span>
+                    <div className="flex items-center space-x-1">
+                      <button
+                        onClick={() => setDifficultyFilter("all")}
+                        className={`px-2 py-0.5 border cursor-pointer transition-colors ${
+                          difficultyFilter === "all"
+                            ? "bg-gray-950 dark:bg-white text-white dark:text-black border-transparent font-bold"
+                            : "bg-white dark:bg-black border-gray-200 dark:border-slate-800 text-gray-600 dark:text-gray-400"
+                        }`}
+                      >
+                        全難度
+                      </button>
+                      <button
+                        onClick={() => setDifficultyFilter(1)}
+                        className={`px-2 py-0.5 border cursor-pointer transition-colors ${
+                          difficultyFilter === 1
+                            ? "bg-emerald-600 text-white border-emerald-600 font-bold"
+                            : "bg-white dark:bg-black border-gray-200 dark:border-slate-800 text-emerald-600 dark:text-emerald-400"
+                        }`}
+                      >
+                        ★☆☆ 基礎
+                      </button>
+                      <button
+                        onClick={() => setDifficultyFilter(2)}
+                        className={`px-2 py-0.5 border cursor-pointer transition-colors ${
+                          difficultyFilter === 2
+                            ? "bg-blue-600 text-white border-blue-600 font-bold"
+                            : "bg-white dark:bg-black border-gray-200 dark:border-slate-800 text-blue-600 dark:text-blue-400"
+                        }`}
+                      >
+                        ★★☆ 標準
+                      </button>
+                      <button
+                        onClick={() => setDifficultyFilter(3)}
+                        className={`px-2 py-0.5 border cursor-pointer transition-colors ${
+                          difficultyFilter === 3
+                            ? "bg-amber-600 text-white border-amber-600 font-bold"
+                            : "bg-white dark:bg-black border-gray-200 dark:border-slate-800 text-amber-600 dark:text-amber-400"
+                        }`}
+                      >
+                        ★★★ 難関
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* 7-PART LIST */}
+                  <div className="border-t border-b border-gray-200 dark:border-slate-800 divide-y divide-gray-100 dark:divide-slate-800/80 flex-1 flex flex-col justify-between">
+                    {([1, 2, 3, 4, 5, 6, 7] as Part[]).map((p) => {
                     const isCompleted = progress.completedPartsToday.includes(p);
                     const info = PART_INFO[p];
                     return (
@@ -459,10 +484,78 @@ export default function App() {
                       </button>
                     );
                   })}
+                  </div>
                 </div>
               )}
 
-              {/* TAB 2: REVIEW QUEUE & GRAMMAR ANALYSIS */}
+              {/* TAB 2: MOCK TEST MODE */}
+              {homeTab === "mock" && (
+                <div className="border border-gray-200 dark:border-slate-800 p-4 bg-slate-50/50 dark:bg-slate-950/40 flex-1 flex flex-col justify-between space-y-4">
+                  <div className="space-y-3">
+                    <div>
+                      <span className="text-[10px] font-mono font-bold tracking-widest text-blue-600 dark:text-blue-400 uppercase block">
+                        TOEIC MOCK TEST MODE
+                      </span>
+                      <h2 className="text-base font-bold text-gray-950 dark:text-white mt-0.5">
+                        ハーフ・模擬テスト (21問)
+                      </h2>
+                      <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed mt-1 font-sans">
+                        Part 1〜Part 7 の全7パートから各3問ずつランダムに出題。本番同様の通し解答により、TOEIC予想スコア（範囲・最低予想値）を判定します。
+                      </p>
+                    </div>
+
+                    {/* Test Specifications */}
+                    <div className="border border-gray-200 dark:border-slate-800 bg-white dark:bg-slate-900 divide-y divide-gray-100 dark:divide-slate-800/80 text-xs font-mono">
+                      <div className="p-2.5 flex items-center justify-between">
+                        <span className="text-gray-500 dark:text-gray-400">出題構成</span>
+                        <span className="font-semibold text-gray-900 dark:text-white">各Part 3問 (計21問)</span>
+                      </div>
+                      <div className="p-2.5 flex items-center justify-between">
+                        <span className="text-gray-500 dark:text-gray-400">リスニング</span>
+                        <span className="font-semibold text-gray-900 dark:text-white">Part 1〜4 (計12問)</span>
+                      </div>
+                      <div className="p-2.5 flex items-center justify-between">
+                        <span className="text-gray-500 dark:text-gray-400">リーディング</span>
+                        <span className="font-semibold text-gray-900 dark:text-white">Part 5〜7 (計9問)</span>
+                      </div>
+                      <div className="p-2.5 flex items-center justify-between">
+                        <span className="text-gray-500 dark:text-gray-400">スコア換算</span>
+                        <span className="font-semibold text-emerald-600 dark:text-emerald-400">最低値 & 範囲算出 (AI不使用)</span>
+                      </div>
+                    </div>
+
+                    {/* Latest Result Card (if any) */}
+                    {latestMockResult && (
+                      <div className="border border-gray-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-3 space-y-1.5 font-mono">
+                        <div className="flex items-center justify-between text-[11px] text-gray-500 dark:text-gray-400">
+                          <span>直近の判定結果</span>
+                          <span>{latestMockResult.date.replace(/-/g, ".")}</span>
+                        </div>
+                        <div className="flex items-baseline space-x-2">
+                          <span className="text-xs text-gray-500">最低予想:</span>
+                          <span className="text-xl font-bold text-gray-950 dark:text-white">
+                            {latestMockResult.scoreRange.min}点
+                          </span>
+                          <span className="text-xs text-gray-400">
+                            (範囲: {latestMockResult.scoreRange.min}〜{latestMockResult.scoreRange.max}点)
+                          </span>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Start Mock Test Button */}
+                  <button
+                    onClick={handleStartMockTest}
+                    className="w-full h-12 bg-gray-950 dark:bg-white text-white dark:text-black font-semibold text-xs tracking-wider uppercase flex items-center justify-center space-x-2 transition-opacity hover:opacity-90 cursor-pointer"
+                  >
+                    <Play size={14} className="fill-current" />
+                    <span>模擬テストを開始する (21問)</span>
+                  </button>
+                </div>
+              )}
+
+              {/* TAB 3: REVIEW QUEUE & GRAMMAR ANALYSIS */}
               {homeTab === "review" && (
                 <ReviewPage
                   reviewItems={reviewItems}
@@ -482,7 +575,11 @@ export default function App() {
             <footer className="w-full py-2 px-4 border-t border-gray-100 dark:border-slate-800 bg-white/90 dark:bg-black/90 text-gray-400 dark:text-gray-500 text-[10px] font-mono shrink-0 pb-[max(0.5rem,env(safe-area-inset-bottom))]">
               <div className="max-w-xl mx-auto flex items-center justify-between">
                 <span>といぴよ / DAILY TOEIC</span>
-                <span>{getJSTDate().replace(/-/g, ".")}</span>
+                <span>
+                  {!loadingStatus.isComplete
+                    ? `リソース準備中 (${loadingStatus.loadedParts.length}/7)`
+                    : getJSTDate().replace(/-/g, ".")}
+                </span>
               </div>
             </footer>
           </motion.div>
@@ -663,6 +760,16 @@ export default function App() {
 
                     {/* Navigation items */}
                     <div className="border-t border-b border-gray-200 dark:border-slate-800 divide-y divide-gray-100 dark:divide-slate-800">
+                      <button 
+                        onClick={() => {
+                          setHomeTab("mock");
+                          setIsMenuOpen(false);
+                        }}
+                        className="w-full py-3 flex items-center justify-between text-left hover:bg-black/[0.02] dark:hover:bg-white/[0.02] transition-colors cursor-pointer"
+                      >
+                        <span className="text-xs font-medium">模擬テスト (21問)</span>
+                        <ChevronRight size={14} className="text-gray-400" />
+                      </button>
                       <button 
                         onClick={() => setMenuTab("howto")}
                         className="w-full py-3 flex items-center justify-between text-left hover:bg-black/[0.02] dark:hover:bg-white/[0.02] transition-colors cursor-pointer"

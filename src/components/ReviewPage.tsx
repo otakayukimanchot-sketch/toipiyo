@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { ReviewItem, Question, Part } from "../types";
+import { ReviewItem, Question, Part, DifficultyLevel } from "../types";
 import { GRAMMAR_CATEGORIES, getQuestionGrammarCategory, GrammarCategoryInfo } from "../utils/grammarCategories";
 import { getGrammarStats, resetGrammarStats, removeReviewItem } from "../utils/storage";
+import DifficultyBadge from "./DifficultyBadge";
 import { 
   Tag, 
   AlertTriangle, 
@@ -30,6 +31,7 @@ export const ReviewPage: React.FC<ReviewPageProps> = ({
 }) => {
   const [subTab, setSubTab] = useState<"grammar_stats" | "review_list">("grammar_stats");
   const [selectedCategoryFilter, setSelectedCategoryFilter] = useState<string | "all">("all");
+  const [difficultyFilter, setDifficultyFilter] = useState<DifficultyLevel | "all">("all");
 
   const grammarStats = getGrammarStats();
 
@@ -73,10 +75,12 @@ export const ReviewPage: React.FC<ReviewPageProps> = ({
 
   const maxMistakes = Math.max(1, ...categoryStatsList.map(c => c.mistakes));
 
-  // Filter review items if user clicked a specific tag
-  const filteredReviewItems = selectedCategoryFilter === "all"
-    ? reviewItems
-    : reviewItems.filter(item => getQuestionGrammarCategory(item.question).id === selectedCategoryFilter);
+  // Filter review items if user clicked a specific tag or difficulty
+  const filteredReviewItems = reviewItems.filter(item => {
+    const matchCategory = selectedCategoryFilter === "all" || getQuestionGrammarCategory(item.question).id === selectedCategoryFilter;
+    const matchDiff = difficultyFilter === "all" || item.question.difficulty === difficultyFilter;
+    return matchCategory && matchDiff;
+  });
 
   return (
     <div className="flex-1 min-h-0 flex flex-col overflow-hidden">
@@ -262,12 +266,58 @@ export const ReviewPage: React.FC<ReviewPageProps> = ({
 
       {/* SUB-VIEW 2: REVIEW QUESTIONS LIST (復習問題一覧) */}
       {subTab === "review_list" && (
-        <div className="flex-1 min-h-0 flex flex-col p-3 space-y-3">
-          {/* Filter Pills */}
+        <div className="flex-1 min-h-0 flex flex-col p-3 space-y-2.5">
+          {/* Difficulty Filter Bar */}
           <div className="flex items-center space-x-1.5 overflow-x-auto pb-1 scrollbar-none shrink-0 text-xs font-mono">
+            <span className="text-[10px] text-gray-400 font-sans shrink-0">難度:</span>
+            <button
+              onClick={() => setDifficultyFilter("all")}
+              className={`px-2 py-0.5 shrink-0 border cursor-pointer transition-colors ${
+                difficultyFilter === "all"
+                  ? "bg-gray-950 dark:bg-white text-white dark:text-black border-transparent font-bold"
+                  : "bg-white dark:bg-black border-gray-200 dark:border-slate-800 text-gray-600 dark:text-gray-400"
+              }`}
+            >
+              全難度
+            </button>
+            <button
+              onClick={() => setDifficultyFilter(1)}
+              className={`px-2 py-0.5 shrink-0 border cursor-pointer transition-colors ${
+                difficultyFilter === 1
+                  ? "bg-emerald-600 text-white border-emerald-600 font-bold"
+                  : "bg-white dark:bg-black border-gray-200 dark:border-slate-800 text-emerald-600 dark:text-emerald-400"
+              }`}
+            >
+              ★☆☆ 基礎
+            </button>
+            <button
+              onClick={() => setDifficultyFilter(2)}
+              className={`px-2 py-0.5 shrink-0 border cursor-pointer transition-colors ${
+                difficultyFilter === 2
+                  ? "bg-blue-600 text-white border-blue-600 font-bold"
+                  : "bg-white dark:bg-black border-gray-200 dark:border-slate-800 text-blue-600 dark:text-blue-400"
+              }`}
+            >
+              ★★☆ 標準
+            </button>
+            <button
+              onClick={() => setDifficultyFilter(3)}
+              className={`px-2 py-0.5 shrink-0 border cursor-pointer transition-colors ${
+                difficultyFilter === 3
+                  ? "bg-amber-600 text-white border-amber-600 font-bold"
+                  : "bg-white dark:bg-black border-gray-200 dark:border-slate-800 text-amber-600 dark:text-amber-400"
+              }`}
+            >
+              ★★★ 難関
+            </button>
+          </div>
+
+          {/* Grammar Category Filter Pills */}
+          <div className="flex items-center space-x-1.5 overflow-x-auto pb-1 scrollbar-none shrink-0 text-xs font-mono">
+            <span className="text-[10px] text-gray-400 font-sans shrink-0">単元:</span>
             <button
               onClick={() => setSelectedCategoryFilter("all")}
-              className={`px-2.5 py-1 shrink-0 border cursor-pointer transition-colors ${
+              className={`px-2.5 py-0.5 shrink-0 border cursor-pointer transition-colors ${
                 selectedCategoryFilter === "all"
                   ? "bg-gray-950 dark:bg-white text-white dark:text-black border-transparent font-bold"
                   : "bg-white dark:bg-black border-gray-200 dark:border-slate-800 text-gray-600 dark:text-gray-400"
@@ -283,7 +333,7 @@ export const ReviewPage: React.FC<ReviewPageProps> = ({
                 <button
                   key={cat.id}
                   onClick={() => setSelectedCategoryFilter(cat.id)}
-                  className={`px-2 py-1 shrink-0 border cursor-pointer transition-colors flex items-center space-x-1 ${
+                  className={`px-2 py-0.5 shrink-0 border cursor-pointer transition-colors flex items-center space-x-1 ${
                     isSelected
                       ? "bg-blue-600 text-white border-blue-600 font-bold"
                       : "bg-white dark:bg-black border-gray-200 dark:border-slate-800 text-gray-600 dark:text-gray-400"
@@ -322,6 +372,7 @@ export const ReviewPage: React.FC<ReviewPageProps> = ({
                           <span className="font-mono text-[10px] text-blue-600 dark:text-blue-400 font-bold shrink-0">
                             PART {item.question.part}
                           </span>
+                          <DifficultyBadge difficulty={item.question.difficulty} compact={true} />
                           <span className={`inline-flex items-center space-x-1 px-1.5 py-0.2 text-[9px] font-mono border ${cat.badgeColor.bg} ${cat.badgeColor.text} ${cat.badgeColor.border} ${cat.badgeColor.darkBg} ${cat.badgeColor.darkText} ${cat.badgeColor.darkBorder}`}>
                             <Tag size={8} />
                             <span>{cat.shortName}</span>
